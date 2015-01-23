@@ -211,9 +211,7 @@ $(document).ready(function() {
 
     if ($content.length) {
       var scrolled = $content.offset().top;
-      console.log("scrolled = " + scrolled);
       var topper = scrolled + $(window).height();
-      console.log("topper = " + topper);
 
       $('.top-background').css('top', ((scrolled * 0.1) - 80) + 'px');
       
