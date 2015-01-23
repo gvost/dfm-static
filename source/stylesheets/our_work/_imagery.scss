@@ -1,0 +1,78 @@
+@import '_variables';
+
+body.imagery {
+  background-color: $white;
+  text-align: center;
+  .top-background {
+    background-image: image-url("page_imagery/top_background.png");
+  }
+  .content {
+  	.row {
+  		width: 100%;
+  		max-width: 100%;
+  		margin-bottom: 130px;
+      transition: all 200ms ease-in;
+  		@media only screen and (max-width: $five_hundreds) {
+  			margin-bottom: 0;
+  		}
+  		img {
+  			position: relative;
+  			max-width: 100%;
+  		}
+  		.ease {
+  			transition: all 300ms ease-in;
+  		}
+  		#twelve_pics {
+  			top: -60px;
+  			margin-right: 5%;
+        transition: all 200ms ease-in;
+  			@media only screen and (max-width: $five_hundreds) {
+  				display: none;
+  			}
+  		}
+  		#babies {
+  			margin-left: 10%;
+  			top: -210px;
+  			z-index: 0;
+        @media only screen and (max-width: $eight_hundreds) {
+          top: -20px;
+        }
+  		}
+  		#makeup {
+  			left: -10%;
+        transition: all 200ms ease-in;
+  			@media only screen and (max-width: $five_hundreds) {
+  				left: 0;
+				  top: -80px;
+  			}
+  		}
+  		#four_pics {
+  			top: -90px;
+  			right: -5%;
+  		}
+  		#three_pics {
+  			top: -100px;
+        transition: all 200ms ease-in;
+  			@media only screen and (max-width: $five_hundreds) {
+  				left: -110px;
+  			}
+  		}
+  		#flying {
+			  top: -310px;
+			  left: 29%;
+  		}
+  		#blue_shirt {
+  			top: 40px;
+  			margin-left: -420px;
+        transition: all 200ms ease-in;
+  			@media only screen and (max-width: $eight_hundreds) {
+  				top: -270px;
+  				margin-left: 20px;
+  			}
+  		}
+  		#nine_foods {
+			 margin-left: 90px;
+  		}
+  	}
+  }
+}

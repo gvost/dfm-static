@@ -1,0 +1,167 @@
+@import '_variables';
+
+body.kavaldon {
+  background-color: $white;
+  text-align: center;
+  .top-background {
+    background-image: image-url("page_kavaldon/top_background.jpg");
+  }
+  .parallax-background {
+    background-image: image-url("page_kavaldon/eyes.jpg");
+  } 
+  .content{
+    background-color: transparent;
+    .top-container {
+      transition: all 200ms ease-out;
+      @media only screen and (min-width: $first_break_width) {
+        height: 3200px;
+      }
+      @media only screen and (max-width: $first_break_width) {
+        /* padding: 490px; */
+      }      
+      @media only screen and (max-width: $nine_hundreds) {
+        padding: 0;
+      }  
+      @media only screen and (max-width: $four_hundreds) {
+        height: 1730px;
+      } 
+    }
+    .bottom-container {
+      @media only screen and (max-width: $four_hundreds) {
+        padding-top: 90px;
+      }
+    }
+    #candles {
+      display: block;
+      width: 50%;
+      margin: 100px auto 150px auto;
+      transition: all 200ms ease-out; 
+      @media only screen and (max-width: $nine_hundreds) {
+        width: 80%;
+      }
+    }
+    .image-container {
+      position: relative;
+      height: 1200px;
+      width: 80%;
+      margin: 0 auto;
+      margin-bottom: 40px;
+      #scent {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 155px;
+        font-size: 3.5em;
+        font-weight: 100;
+        text-align: left;
+        padding-top: 5%;
+        padding-left: 4%;
+        letter-spacing: 2px;
+        line-height: 1.4em;
+        font-family: 'DidotLTStd-Italic';
+        z-index: 2;
+        transition: all 200ms ease-out; 
+        @media only screen and (max-width: $nine_hundreds) {
+          top: 60%;
+        }  
+        @media only screen and (max-width: $fourth_break_width) {
+          top: 50%;
+        } 
+        @media only screen and (max-width: $five_hundreds) {
+          top: 60%;
+          width: 275px;
+        }  
+        @media only screen and (max-width: $four_hundreds) {
+          display: none;
+        }  
+      }
+      #right-container {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 80%;
+        transition: all 200ms ease-out; 
+        @media only screen and (max-width: $nine_hundreds) {
+          width: 90%;
+        } 
+        #sexy-couple {
+          width: 100%;
+          z-index: 2;    
+        }
+        #inspired-with-squares {
+          float: right;
+          width: 84%;
+          padding-right: 50px;
+          #inspired {
+            padding: 30px;
+            width: 330px;
+            margin: 0 auto;
+            font-size: 14px;
+            font-family: 'Georgia';
+            line-height: 22px;
+            transition: all 200ms ease-out; 
+            @media only screen and (max-width: $nine_hundreds) {
+              font-size: 18px;
+              width: 409px;
+              line-height: 29px;
+            }  
+            @media only screen and (max-width: $five_hundreds) {
+              position: absolute;
+              top: 150%;
+              left: -20%;
+            }  
+          }
+          #bw_squares {
+            width: 89%;
+            transition: all 200ms ease-out; 
+            @media only screen and (max-width: $nine_hundreds) {
+              display: none;
+            }  
+          }
+        }
+      }
+      #plant-apple {
+        position: absolute;
+        top: 500px;
+        left: -28%;
+        width: 44%;
+        transition: all 200ms ease-out; 
+        @media only screen and (max-width: $nine_hundreds) {
+          top: 60%;
+        } 
+        #plant {   
+          width: 90%;
+          float: right;
+          opacity: 0.775;
+        }
+        #apple {
+          width: 90%; 
+          margin-top: 80px;  
+          float: left;
+          transition: all 200ms ease-out; 
+          @media only screen and (max-width: $nine_hundreds) {
+            position: absolute;
+            margin-top: 112%;
+            left: 100%;
+          }  
+        }  
+      }
+    }
+    #user-journey {
+      margin: 40px auto 80px auto;     
+    }
+    #computer {
+      margin: 100px auto 0 auto;
+      width: 80%;   
+      img {
+        max-width: 100%;
+        max-height: 100%;
+      }
+    }
+    .site-page {
+      img {
+        border: 4px lightgray solid;
+      }
+    }
+  }
+}

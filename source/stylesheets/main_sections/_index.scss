@@ -1,0 +1,254 @@
+@import '_variables';
+
+body.index {
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0,0,0);
+  -webkit-font-smoothing: antialiased;
+  .hide-mobile {
+    @media only screen and (max-width: $layout_change_width) {
+    display: none;
+    }
+  }
+  .show-mobile {
+    @media only screen and (max-width: $layout_change_width) {
+    display: block;
+    }
+  }
+  #main {
+    position: relative;
+  }
+  #top {
+    height: 700px;
+    overflow: hidden;
+    transition: all 200ms ease-in;
+    #video {
+      float: left;
+      width: 66.6666666%;
+      height: 100%;
+      background-position: center;
+      video {
+        left: -260px;
+        bottom: 0px;
+        position: relative;
+        min-height: 100%;
+        min-width: 100%;
+        width: auto;
+        height: auto;
+        z-index: -1;
+        background-image: image-url("page_home/single_frame.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        transition: all 200ms ease-in;
+        @media only screen and (min-width: $first_break_width) {
+          left: 0px;
+        }
+        @media only screen and (max-width: $second_break_width) and (min-width: $second_break_width) {
+          left: -150px;
+        }
+        @media only screen and (max-width: $third_break_width) {
+          left: -220px;
+        }
+        @media only screen and (max-width: $fourth_break_width) {
+          left: -170px;
+        }
+        @media only screen and (max-width: $layout_change_width) {
+          left: -80px;
+        }
+      }
+    } 
+    @media only screen and (max-width: $second_break_width) {
+      height: 580px;
+    }
+    @media only screen and (max-width: $fourth_break_width) {
+      height: 480px;
+    }
+  }
+  .feature-image {
+    float: right;
+    width: 33.3333333%;
+    height: 100%;
+    background-image: image-url("page_home/feature_image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: rgb(255,255,255);
+    @media only screen and (max-width: $layout_change_width) {
+      width: 100%;
+      height: 400px;
+      background-size: contain;
+    }
+  }
+  #services .hover, #social .hover {
+    float: left;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    color: rgb(255,255,255);
+    .image {
+      width: 100%;
+      height: 100%;
+      background-repeat: no-repeat;
+      background-size: cover;  
+      background-position: center;
+      z-index: 1;  
+      position: absolute;
+      top: 0;
+    } 
+  }
+  #services {
+    .hover {
+      width: 33.3333333%; 
+      height: 640px;
+      @media only screen and (max-width: $layout_change_width)  {
+        width: 50%;
+        height: 390px;
+      }
+      a {
+        display: inline-block;
+        color: rgba(255,255,255,1);
+        border-bottom-width: 3px;
+        border-bottom-color: rgba(255,255,255, 1);
+        border-bottom-style: solid;
+        padding-bottom: 5px;
+        text-decoration: none;
+        margin: 50px 0px 15px 0px;
+        font-size: 1.2em;
+        text-transform: uppercase;
+        font-family: 'Gotham A', 'Gotham B';
+        @media only screen and (max-width: $layout_change_width) {
+          margin-top: 42px;
+        }
+      }
+      ol, ul {
+        list-style: none;
+        line-height: 1.7em;
+        font-family: 'Georgia';
+        font-style: italic;
+        @media only screen and (max-width: $layout_change_width)  {
+          line-height: 1.5em;
+          font-size: 0.8em;
+        }
+      }
+      .department {
+        text-align: center;
+        text-transform: uppercase;
+        color: rgb(255,255,255);
+        font-size: 4.5em;
+        margin: 30px 0;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        font-family: 'Knockout 48 A', 'Knockout 48 B';
+        font-weight: 400;
+        font-style: normal; 
+        z-index: 2;
+        transition: all 200ms ease-in-out;
+        @media only screen and (max-width: $text_change_width){
+          font-size: 3em;
+        }
+        @media only screen and (max-width: $layout_change_width){
+          font-size: 2.4em;
+        }
+      }
+    }
+    .hover:nth-of-type(1) .image {
+      background-image: image-url("page_home/hover_red.jpg");
+    }
+    .hover:nth-of-type(2) .image {
+      background-image: image-url("page_home/hover_green.jpg");
+    }
+    .hover:nth-of-type(3) .image {
+      background-image: image-url("page_home/hover_orange.jpg");
+    }
+    .hover:nth-of-type(4) .image {
+      background-image: image-url("page_home/hover_blue.jpg");
+    }
+    #about-blurb {
+      width: 66.66666666%;
+      height: 640px;
+      display: inline-block;
+      color: rgb(255,255,255);
+      font-size: 30px;
+      line-height: 80px;
+      overflow: hidden;
+      font-family: 'Georgia';
+      transition: all 200ms ease-in;
+      position: relative;
+      @media only screen and (max-width: $third_break_width)  {
+        line-height: 60px;
+      }   
+      @media only screen and (max-width: $layout_change_width)  {
+        width: 100%;
+        height: 300px;
+        font-size: 1.1em;
+        line-height: 1.6em;
+        font-weight: 100;
+      }
+      #slider-container {
+        position: absolute;
+        top: 0;
+        bottom: 12%;
+        width: 100%;
+        overflow: hidden;
+      }
+      .slider {
+        list-style: none;
+        .slide {
+          display: none;
+          position: absolute;
+          top: 0;
+          left: 0;
+          padding: 5%;
+        }
+      }
+      #slider-buttons {
+        position: absolute;
+        bottom: 0;
+        height: 12%;
+        width: 100%;
+        padding: 0 5%;
+      }
+      #left-button, #right-button {
+        display: inline-block;
+        cursor: pointer;
+        width: 30px;
+        height: 50px;
+        margin-top: -30px;
+      }
+      #left-button {
+        float: left;
+      }
+      #right-button {
+        float: right;
+      }
+    }
+  }
+  #social {
+    .hover {
+      height: 450px;
+      padding-top: 250px;
+      text-transform: uppercase;
+      font-size: 1.0em;
+      width: 33.3333333%; 
+      a {
+        text-decoration: none;
+        color: rgb(255,255,255);
+      }
+      @media only screen and (max-width: $layout_change_width) {
+        height: 130px;
+        padding-top: 65px;
+        font-size: 0.7em;
+      }
+    }
+    .hover:nth-of-type(1) .image {
+      background-image: image-url("page_home/social_chair.jpg");
+    }
+    .hover:nth-of-type(2) .image {
+      background-image: image-url("page_home/social_room.jpg");
+    }
+    .hover:nth-of-type(3) .image {
+      background-image: image-url("page_home/social_face.jpg");
+    }
+  }
+}

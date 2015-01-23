@@ -1,0 +1,62 @@
+@import '_variables';
+
+body.environment {
+  background-color: $white;
+  text-align: center;
+  .top-background {
+    background-image: image-url("page_environment/top_background.png");
+  }
+  .content{
+    .row {
+      width: 100%;
+      max-width: 100%;
+      margin-bottom: 130px;
+      @media only screen and (max-width: $five_hundreds) {
+        margin-bottom: 0;
+      }
+      img {
+        position: relative;
+        max-width: 100%;
+      }
+      .ease {
+        transition: all 300ms ease-in;
+      }
+
+      #makeup-station {
+        left: -5%;
+        top: 100px;
+      }
+      #books {
+        top: -132px;
+        @media only screen and (max-width: $eight_hundreds) {
+          display: none;
+        }
+      }
+      #spatz {
+        top: -100px;
+      }
+      #section-01 {
+        position: absolute;
+        top: 650px;
+        right: 0;
+        text-align: left;
+        width: 280px;
+        h1 {
+          padding-left: 30px; 
+        }
+      }
+      #three-pics {
+        top: -120px;
+        left: 50px;
+      }
+      #four-women {
+        top: -23px;
+        left: -5%;
+      }
+      #onsen-right {
+        top: 220px;
+        left: 17px;
+      }
+    }
+  }
+}

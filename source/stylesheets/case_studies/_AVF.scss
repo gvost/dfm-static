@@ -1,0 +1,155 @@
+@import '_variables';
+
+body.AVF {
+  background-color: $white;
+  text-align: center;
+  .top-background {
+    background-image: image-url("page_AVF/top_background.jpg");
+  }
+  .parallax-background {
+    background-image: image-url("page_AVF/pink_thing.jpg");
+  }
+  .content {
+    background-color: transparent;
+    .top-container {
+      transition: all 200ms ease-out;
+      @media only screen and (max-width: $nine_hundreds) {
+        height: 3230px;
+      }
+      @media only screen and (max-width: $fourth_break_width) {
+        height: 3080px;
+      }
+    }
+    .upper-image-container {
+      position: relative;
+      margin-top: 200px;
+      margin-bottom: 200px;
+      height: 2500px;
+      #white-bags {
+        position: absolute;
+        top: 0;
+        left: 52%;
+        width: 40%;
+      }
+      #white-boxes {
+        position: absolute;
+        top: 200px;
+        left: 7%;
+        width: 43%;
+      }
+      #colored-squares {
+        position: absolute;
+        top: 580px;
+        left: 50%;
+        width: 40%;
+        transition: all 200ms ease-out;
+        @media only screen and (max-width: $nine_hundreds) {
+          width: 60%;
+          left: 30%;
+          top: 17%;
+        }
+      }
+      #backgammon-closed {
+        position: absolute;
+        top: 780px;
+        left: 2%;
+        width: 31%;
+        transition: all 200ms ease-out;
+        @media only screen and (max-width: $nine_hundreds) {
+          width: 50%;
+        }
+        @media only screen and (max-width: $five_hundreds) {
+          top: 640px;
+        }
+      }
+      #backgammon-open {
+        position: absolute;
+        top: 1020px;
+        left: 24%;
+        width: 33%;
+        transition: all 200ms ease-out;
+        @media only screen and (max-width: $nine_hundreds) {
+          width: 50%;
+          top: 40%;
+        }
+        @media only screen and (max-width: $five_hundreds) {
+          top: 32%;
+        }
+      }
+      #blue-glass {
+        position: absolute;
+        top: 1170px;
+        left: 0%;
+        width: 35%;
+        transition: all 200ms ease-out;
+        @media only screen and (max-width: $five_hundreds) {
+          width: 55%;
+          top: 940px;
+        }
+      }
+      #green-glass {
+        position: absolute;
+        top: 1200px;
+        right: 0;
+        width: 40%;
+        transition: all 200ms ease-out;
+        @media only screen and (max-width: $five_hundreds) {
+          width: 70%;
+        }
+      }
+      #pink-table {
+        position: absolute;
+        top: 1720px;
+        left: 10%;
+        width: 24%;
+        transition: all 200ms ease-out;
+        @media only screen and (max-width: $nine_hundreds) {
+          top: 60%;
+        }
+        @media only screen and (max-width: $five_hundreds) {
+          top: 60%;
+          width: 40%;
+        }
+      }
+      #green-square {
+        position: absolute;
+        left: 40%; 
+        bottom: 55px;
+        width: 46%;
+        transition: all 200ms ease-out;
+        @media only screen and (max-width: $nine_hundreds) {
+          bottom: 415px;
+        }
+        @media only screen and (max-width: $fourth_break_width) {
+          bottom: 555px;
+        }
+      }
+      #flower {
+        position: absolute;
+        top: 2460px;
+        right: 61%;
+        width: 20%;
+        transition: all 200ms ease-out;
+        @media only screen and (max-width: $nine_hundreds) {
+          top: 2092px;
+        }
+        @media only screen and (max-width: $fourth_break_width) {
+          top: 1952px;
+        }
+      }
+      #brown-bowl {
+        position: absolute;
+        top: 2460px;
+        left: 40%;
+        width: 46%;
+        transition: all 200ms ease-out;
+        @media only screen and (max-width: $nine_hundreds) {
+          top: 2092px;
+        }
+        @media only screen and (max-width: $fourth_break_width) {
+          top: 1952px;
+        }
+      }
+    }
+  }
+}

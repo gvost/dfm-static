@@ -1,0 +1,35 @@
+/////////////////////// SCROLLER ////////////////////////
+
+.scroll-fast, .scroll-fast-left, .scroll-fast-right, .scroll-fast-down {
+  transition: all 200ms ease-in;
+}
+
+.scroll-medium, .scroll-medium-left, .scroll-medium-right, .scroll-medium-down {
+  transition: all 400ms ease-in;
+}
+
+.scroll-slow, .scroll-slow-left, .scroll-slow-right, .scroll-slow-down {
+  transition: transform 600ms !important;
+}
+
+.move-up {
+  opacity: 0;
+  transform: translate(0px, 200px);
+}
+
+.move-down {
+  opacity: 0;
+  transform: translate(0px, -200px);
+}
+
+.move-left {
+  opacity: 0;
+  transform: translate(1500px, 0px);  
+}
+
+.move-right {
+  opacity: 0;
+  transform: translate(-1500px, 0px);
+}
+
+/////////////////////////////////////////////////////////

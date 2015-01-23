@@ -1,0 +1,179 @@
+@import '_variables';
+
+body.contact {
+	background-color: $white;
+	.top-background {
+		background-image: image-url("page_contact/top_background.jpg");
+	}
+	.content{
+		min-height: 2200px;
+	}
+	.address-block, .parking-block {
+		position: absolute;
+		width: 312px;
+		left: 10%;
+		z-index: 2;
+		p {
+			color: $black;
+			font-size: 0.875em;
+			font-family: 'Gotham A', 'Gotham B';
+			text-transform: uppercase;
+			line-height: 17px;
+			font-weight: 500;
+			margin-bottom: 1em;
+		}
+		p:first-child {
+			font-weight: 900;
+		}
+	}
+	.parking-block {
+		top: 400px;
+		p {
+			color: lighten($black, 70%);
+		}
+	}
+	.map-graphic {
+			width: 764px;
+			height: 810px;
+			float: right;
+			top: -50px;
+			position: relative;
+			background-image: image-url("page_contact/map.png");
+			background-repeat: no-repeat;
+			background-size: contain;
+			background-position: right top;
+			transition: all 200ms ease-out;
+			@media only screen and (max-width: $first_break_width) {
+				width: 634px;
+				height: 630px;
+			}
+			@media only screen and (max-width: $fourth_break_width) {
+				width: 384px;
+				height: 420px;
+			}
+		}	
+	.f-graphic {
+			width: 564px;
+			height: 740px;
+			top: 1010px;
+			left: -80px;
+			position: relative;
+			background-image: image-url("page_contact/fancy_f.png");
+			background-repeat: no-repeat;
+			background-size: contain;
+			background-position: right top;
+			transition: all 200ms ease-out;			
+			@media only screen and (max-width: $nine_hundreds) {
+				width: 484px;
+				height: 640px;
+				opacity: 0.2;
+			}
+		}
+	.form {
+		width: 100%;
+		color: $black;
+		position: relative;
+		top: 370px;
+		float: right;
+		font-family: 'Gotham A', 'Gotham B';
+		text-transform: uppercase;
+		.form-div {
+			width: 500px;
+			float: right;
+			transition: all 200ms ease-out;	
+			@media only screen and (max-width: $eight_hundreds) {
+				max-width: 95%;
+			}
+		}
+		h1 {
+			margin-bottom: 60px;
+			color: lighten($black, 80%);
+		}
+		input, textarea {
+			display: block;
+			margin-bottom: 20px;
+			height: 36px;
+			width: 100%;
+			background-color: lighten($black, 90%);
+			border: none;
+			box-sizing: border-box;
+			-webkit-appearance: none;
+		}
+		input:focus, textarea:focus {
+			outline: 1px solid;
+			outline-color: rgb(255, 12, 219);
+			outline-offset: 0;
+			outline-style: dotted;
+		}
+		input[type="text"] {
+			padding-left: 10px;
+		}
+		textarea {
+			padding-top: 10px;
+			padding-left: 10px;
+			height: 200px;
+			resize: none;
+		}
+		input[type="submit"] {
+			width: 131px;
+			height: 33px;
+			background-color: $black;
+			color: $white;
+			margin-top: 160px;
+			text-transform: uppercase;
+			-webkit-appearance: none;
+		}
+		select {
+			width: 500px;
+			height: 36px;
+			-webkit-appearance: none;
+			background-image: url('');
+			border-radius: 0;
+			border: none;
+			background-color: lighten($black, 90%);
+			position: absolute;
+			@media only screen and (min-width: $second_break_width ) {
+				right: 0;
+				left: none;
+			}
+		}
+		select:focus {
+			outline: 1px solid;
+			outline-color: rgb(255, 12, 219);
+			outline-offset: 0;
+			outline-style: dotted;
+		}
+		label {
+			display: block;
+			margin-bottom: -12px;
+		}
+		fieldset {
+			position: absolute;
+			left: 0;
+			transition: all 200ms ease-out;	
+			@media only screen and (min-width: $second_break_width) {
+				right: 0;
+				left: none;
+			}
+			@media only screen and (max-width: $eight_hundreds) {
+				position: static;
+			}
+			label {
+				text-align: right;
+				margin-bottom: 5px;
+				transition: all 200ms ease-out;	
+				@media only screen and (max-width: $eight_hundreds) {
+					text-align: left;			
+				}
+			}
+		}
+		#server-response {
+			width: 300px;
+			height: 31px;
+			position: relative;
+			top: -52px;
+			left: 148px;
+			padding-top: 8px;
+		}
+	}
+}
