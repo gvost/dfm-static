@@ -21,12 +21,6 @@ $(window).load(function(){
 
 $(document).ready(function() {
 
-//  console.log("changing z-index");
-//  $(".top-background").css("z-index", "-1");
-//  $(".parallax-background").css("z-index", "-1");
-
-  $(window).trigger('resize');
-
   ///////////// ANIMATE LOADING BAR ///////////////
 
   // collect the background images
@@ -217,7 +211,9 @@ $(document).ready(function() {
 
     if ($content.length) {
       var scrolled = $content.offset().top;
+      console.log("scrolled = " + scrolled);
       var topper = scrolled + $(window).height();
+      console.log("topper = " + topper);
 
       $('.top-background').css('top', ((scrolled * 0.1) - 80) + 'px');
       
