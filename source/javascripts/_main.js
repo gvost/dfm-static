@@ -1,7 +1,8 @@
 
-////////// ANIMATE PAGE LOADS ///////////
 
-$(window).load(function(){
+$(window).load(function() {
+
+  ////////// ANIMATE PAGE LOADS ///////////
 
   // remove cover and temp images
   $("#cover").remove();
@@ -17,24 +18,19 @@ $(window).load(function(){
     $(this).remove();
   });
 
-  // load random candle image
-  var randImg = {
-    paths : [
-    'images/page_home/candle_light.gif',
-    'images/page_home/candle_smoke.gif'
-    ],
-    generate: function() {
-      var path = randImg.paths[Math.floor(Math.random()*randImg.paths.length)];
-      var img  = new Image();
-      img.src  = path;
-      $('.feature-image').css('background-image', 'url(' + path + ')');
-    }
-  }
-  randImg.generate();
-
 });
 
+
 $(document).ready(function() {
+
+  //////////// LOAD RANDOM CANDLE IMAGE ///////////
+
+  var img_classes = [
+    'candle-smoke',
+    'candle-flame'
+  ];
+  var img_class = img_classes[Math.floor(Math.random() * img_classes.length)];
+  $('.feature-image').addClass(img_class);
 
   ///////////// ANIMATE LOADING BAR ///////////////
 
@@ -247,12 +243,12 @@ $(document).ready(function() {
 
     $.ajax({
       type:   'post',
-      url:    '/contact_submit',
+      url:    'http://localhost/DFM/DFM_static/php/contact_submit.php',
       data:   info,
       success: function(response) {
         setTimeout(function() {
-          $("#server-response").text("Thanks, we\'ll be in touch.");         
-        }, 1000);
+          $("#server-response").text(response);         
+        }, 500);
       }
     });  
   });

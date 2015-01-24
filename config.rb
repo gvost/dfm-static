@@ -1,5 +1,3 @@
-# user directory paths rather than index file paths
-activate :directory_indexes
 
 ###
 # Compass
@@ -38,11 +36,6 @@ activate :directory_indexes
 # Automatic image dimensions on image_tag helper
 # activate :automatic_image_sizes
 
-# Reload the browser automatically whenever files change
-configure :development do
-  activate :livereload
-end
-
 # Methods defined in the helpers block are available in templates
 # helpers do
 #   def some_helper
@@ -50,13 +43,22 @@ end
 #   end
 # end
 
+# user directory paths rather than file paths
+activate :directory_indexes
+
+# tell server where to find stuff
 set :css_dir, 'stylesheets'
-
 set :js_dir, 'javascripts'
-
 set :images_dir, 'images'
+set :fonts_dir, 'fonts'
 
-# Build-specific configuration
+
+configure :development do
+  # Reload the browser automatically whenever files change
+  activate :livereload
+end
+
+
 configure :build do
 
   # make files smaller
@@ -70,7 +72,7 @@ configure :build do
   # activate :imageoptim 
 
   # Enable cache buster
-  # activate :asset_hash
+  activate :asset_hash
 
   # Use relative URLs
   # activate :relative_assets
