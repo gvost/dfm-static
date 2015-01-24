@@ -22,17 +22,27 @@ body.index {
     height: 700px;
     overflow: hidden;
     transition: all 200ms ease-in;
+    @media only screen and (max-width: $five_hundreds) {
+      height: 20%!important;
+      margin: -1%;
+    }
     #video {
       float: left;
       width: 66.6666666%;
+      //width: 100%;
       height: 100%;
       background-position: center;
+      @media only screen and (max-width: $five_hundreds) {
+        width: 100%!important;
+        height: initial;
+      }
       video {
         left: -260px;
         bottom: 0px;
         position: relative;
         min-height: 100%;
         min-width: 100%;
+        //width: 100%;
         width: auto;
         height: auto;
         z-index: -1;
@@ -55,6 +65,13 @@ body.index {
         @media only screen and (max-width: $layout_change_width) {
           left: -80px;
         }
+        @media only screen and (max-width: $five_hundreds) {
+          min-width: 100%;
+          min-height: initial;
+          width: 100%;
+          height: initial;
+          left: 0px;
+        }
       }
     } 
     @media only screen and (max-width: $second_break_width) {
@@ -68,7 +85,6 @@ body.index {
     float: right;
     width: 33.3333333%;
     height: 100%;
-    background-image: image-url("page_home/feature_image.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -116,9 +132,13 @@ body.index {
         font-size: 1.2em;
         text-transform: uppercase;
         font-family: 'Gotham A', 'Gotham B';
+        transition: all 300ms ease-out;
         @media only screen and (max-width: $layout_change_width) {
           margin-top: 42px;
         }
+      }
+      a:hover {
+        border-bottom-color: transparent;
       }
       ol, ul {
         list-style: none;

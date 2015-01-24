@@ -17,6 +17,21 @@ $(window).load(function(){
     $(this).remove();
   });
 
+  // load random candle image
+  var randImg = {
+    paths : [
+    'images/page_home/candle_light.gif',
+    'images/page_home/candle_smoke.gif'
+    ],
+    generate: function() {
+      var path = randImg.paths[Math.floor(Math.random()*randImg.paths.length)];
+      var img  = new Image();
+      img.src  = path;
+      $('.feature-image').css('background-image', 'url(' + path + ')');
+    }
+  }
+  randImg.generate();
+
 });
 
 $(document).ready(function() {
@@ -119,21 +134,6 @@ $(document).ready(function() {
     fading = false;
   });
 
-  ////////////// HOME PAGE LINKS //////////////
-
-  $('.main-links').hover(function(){
-    $(this).animate({
-      'border-bottom-color': 'rgba(255,255,255,0)',
-      'color': 'rgba(255,255,255,0)'
-    }).delay(10).animate({
-      'color': 'rgba(255,255,255,1)'
-    });
-  }, function(){
-    $(this).animate({
-      'border-bottom-color': 'rgba(255,255,255,1)',
-    });
-  });
-
   /////////// HOME PAGE ABOUT-BLURB SLIDER ///////////////
 
   var $slider = $('.slider');
@@ -176,15 +176,18 @@ $(document).ready(function() {
 
     var url = $(this).attr('href');
 
-    e.preventDefault();
-    $('body').animate({
-      'opacity': '0',
-      'left': '-100%'
-    }, 300, 'easeOutQuad');
+    if (!$(this).hasClass('no-prevent')) {
+      e.preventDefault();
+    
+      $('body').animate({
+        'opacity': '0',
+        'left': '-100%'
+      }, 300, 'easeOutQuad');
 
-    setTimeout(function() {
-      window.location = url;
-    }, 300);  
+      setTimeout(function() {
+        window.location = url;
+      }, 300);  
+    }
   });
 
   ////////// HOME ICON CLICK ON ALL PAGES /////////////
@@ -214,6 +217,7 @@ $(document).ready(function() {
       var topper = scrolled + $(window).height();
 
       $('.top-background').css('top', ((scrolled * 0.1) - 80) + 'px');
+      $('.top-insert-outline').css('top', ((scrolled * 0.3) - 350) + 'px');
       
       if (topper <= $(window).scrollTop()) {
         $('.top-background').css('display', 'none');

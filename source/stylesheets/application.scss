@@ -92,7 +92,6 @@ body {
   color: rgb(255,255,255);
   overflow-y: scroll;
   font-family: 'Gotham A', 'Gotham B';
-  transition: all 200ms ease-in;
   ul {
     list-style: none;
   }
@@ -179,6 +178,10 @@ body {
   left: 0;
   background-size: cover;
   z-index: -1;
+  @media only screen and (max-width: $five_hundreds) {
+    background-position: center -20px;
+    background-size: 160%;
+  }
 }
 .parallax-background {
   height: 100%;
@@ -198,6 +201,9 @@ body {
   width: 100%;
   top: 800px;
   left: 0;
+  @media only screen and (max-width: $five_hundreds) {
+    top: 460px;
+  }
   .top-container {
     background-color: $white;
     padding-bottom: 300px;
@@ -205,7 +211,7 @@ body {
   .top-insert-outline {
     width: 530px;
     max-width: 95%;
-    height: 200px;
+    height: 257px;
     position: relative;
     top: -100px;
     margin: 0 auto;
@@ -214,7 +220,7 @@ body {
   .top-insert {
     width: 510px;
     max-width: 95%;
-    height: 190px;
+    height: 233px;
     background-color: $white;
     position: relative;
     margin: 10px auto;
