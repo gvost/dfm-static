@@ -19,10 +19,10 @@
 define('DB_NAME', 'dfm_wp');
 
 /** MySQL database username */
-define('DB_USER', 'simstats_jacob');
+define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'jm112358');
+define('DB_PASSWORD', 'root');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
