@@ -7,12 +7,12 @@ body.index {
   -webkit-font-smoothing: antialiased;
   .hide-mobile {
     @media only screen and (max-width: $layout_change_width) {
-    display: none;
+      display: none;
     }
   }
   .show-mobile {
     @media only screen and (max-width: $layout_change_width) {
-    display: block;
+      display: block;
     }
   }
   #main {
@@ -41,7 +41,6 @@ body.index {
         position: relative;
         min-height: 100%;
         min-width: 100%;
-        //width: 100%;
         width: auto;
         height: auto;
         z-index: -1;
