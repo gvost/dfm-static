@@ -32,7 +32,7 @@ body.kavaldon {
         top: 0;
         left: 0;
         width: 155px;
-        font-size: 3.5em;
+        font-size: 3.5em; // IE8 fallback
         font-size: 7.2vw;
         font-weight: 100;
         text-align: left;
@@ -65,6 +65,7 @@ body.kavaldon {
         #inspired-with-squares {
           float: right;
           width: 84%;
+          transition: all 200ms ease-out;
           @media only screen and (max-width: $mobile_width) {
             margin-right: -12%;
             width: 98%;

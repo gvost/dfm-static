@@ -1,5 +1,7 @@
 @import '_variables';
 
+$narrow_screen: 585px;
+
 body.imagery {
   background-color: $white;
   text-align: center;
@@ -12,7 +14,7 @@ body.imagery {
   		max-width: 100%;
   		margin-bottom: 130px;
       transition: all 200ms ease-in;
-  		@media only screen and (max-width: $five_hundreds) {
+  		@media only screen and (max-width: $narrow_screen) {
   			margin-bottom: 0;
   		}
   		img {
@@ -26,7 +28,7 @@ body.imagery {
   			top: -60px;
   			margin-right: 5%;
         transition: all 200ms ease-in;
-  			@media only screen and (max-width: $five_hundreds) {
+  			@media only screen and (max-width: $narrow_screen) {
   				display: none;
   			}
   		}
@@ -34,14 +36,14 @@ body.imagery {
   			margin-left: 10%;
   			top: -210px;
   			z-index: 0;
-        @media only screen and (max-width: $eight_hundreds) {
+        @media only screen and (max-width: 860px) {
           top: -20px;
         }
   		}
   		#makeup {
   			left: -10%;
         transition: all 200ms ease-in;
-  			@media only screen and (max-width: $five_hundreds) {
+  			@media only screen and (max-width: $narrow_screen) {
   				left: 0;
 				  top: -80px;
   			}
@@ -53,7 +55,7 @@ body.imagery {
   		#three_pics {
   			top: -100px;
         transition: all 200ms ease-in;
-  			@media only screen and (max-width: $five_hundreds) {
+  			@media only screen and (max-width: $narrow_screen) {
   				left: -110px;
   			}
   		}
@@ -65,7 +67,7 @@ body.imagery {
   			top: 40px;
   			margin-left: -420px;
         transition: all 200ms ease-in;
-  			@media only screen and (max-width: $eight_hundreds) {
+  			@media only screen and (max-width: 860px) {
   				top: -270px;
   				margin-left: 20px;
   			}

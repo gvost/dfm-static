@@ -11,7 +11,7 @@ body.environment {
       width: 100%;
       max-width: 100%;
       margin-bottom: 130px;
-      @media only screen and (max-width: $five_hundreds) {
+      @media only screen and (max-width: 585px) {
         margin-bottom: 0;
       }
       img {
@@ -28,7 +28,7 @@ body.environment {
       }
       #books {
         top: -132px;
-        @media only screen and (max-width: $eight_hundreds) {
+        @media only screen and (max-width: 860px) {
           display: none;
         }
       }

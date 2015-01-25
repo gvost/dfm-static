@@ -1,5 +1,8 @@
 @import '_variables';
 
+$font_change_width: 1155px;
+$layout_change_width: 905px;
+
 body.strategy {
   background-color: $white;
   .work-with-us {
@@ -26,7 +29,7 @@ body.strategy {
       position: relative;
       margin-top: 20px;
       height: 1200px;
-      @media only screen and (max-width: $six_hundreds) {
+      @media only screen and (max-width: 685px) {
         height: 870px;
       }
       #stroke-blue {
@@ -45,7 +48,7 @@ body.strategy {
         left: 29%;
         width: 370px;
         height: 350px;
-        @media only screen and (max-width: $five_hundreds) {
+        @media only screen and (max-width: 585px) {
           top: 70px;
           left: -1%;
         }
@@ -88,7 +91,7 @@ body.strategy {
           top: 66px;
           left: 0;
           transition: all 200ms ease-out;
-          @media only screen and (max-width: $nine_hundreds) {
+          @media only screen and (max-width: $layout_change_width) {
             top: 400px;
             width: 27%;
           } 
@@ -99,7 +102,7 @@ body.strategy {
           top: 0;
           left: 23%;
           transition: all 200ms ease-out;
-          @media only screen and (max-width: $nine_hundreds) {
+          @media only screen and (max-width: $layout_change_width) {
             display: none;
           } 
         }
@@ -109,7 +112,7 @@ body.strategy {
           top: 146px;
           left: 33%;
           transition: all 200ms ease-out;
-          @media only screen and (max-width: $nine_hundreds) {
+          @media only screen and (max-width: $layout_change_width) {
             bottom: 390px;
             left: 0;
             width: 27%;
@@ -120,7 +123,7 @@ body.strategy {
           width: 46%;
           margin-top: 70px;
           transition: all 200ms ease-out;
-          @media only screen and (max-width: $nine_hundreds) {
+          @media only screen and (max-width: $layout_change_width) {
             margin-top: 4px;
             width: 71%;
           } 
@@ -142,7 +145,7 @@ body.strategy {
           background-repeat: no-repeat;
           background-position: 0 0;
           transition: all 200ms ease-out;
-          @media only screen and (max-width: $nine_hundreds) {
+          @media only screen and (max-width: $layout_change_width) {
             top: -90px;
           } 
         }
@@ -153,10 +156,10 @@ body.strategy {
       position: relative;
       height: 1300px;
       transition: all 200ms ease-out;
-      @media only screen and (max-width: $first_break_width) {
+      @media only screen and (max-width: 1475px) {
         margin-top: 200px;
       } 
-      @media only screen and (max-width: $nine_hundreds) {
+      @media only screen and (max-width: $layout_change_width) {
         margin-bottom: 200px;
       } 
       .section-heading {
@@ -174,7 +177,7 @@ body.strategy {
         left: 10%;
         z-index: 2;
         transition: all 200ms ease-out;
-        @media only screen and (max-width: $nine_hundreds) {
+        @media only screen and (max-width: $layout_change_width) {
           top: 255px;
         } 
       }
@@ -184,7 +187,7 @@ body.strategy {
         left: 10%;
         z-index: 2;
         transition: all 200ms ease-out;
-        @media only screen and (max-width: $nine_hundreds) {
+        @media only screen and (max-width: $layout_change_width) {
           top: 660px;
         } 
       }
@@ -194,7 +197,7 @@ body.strategy {
         left: 50%;
         z-index: 2;
         transition: all 200ms ease-out;
-        @media only screen and (max-width: $nine_hundreds) {
+        @media only screen and (max-width: $layout_change_width) {
           top: -610px;
           left: 30%;
         } 
@@ -205,7 +208,7 @@ body.strategy {
         left: 50%;
         z-index: 2;
         transition: all 200ms ease-out;
-        @media only screen and (max-width: $nine_hundreds) {
+        @media only screen and (max-width: $layout_change_width) {
           top: -190px;
           left: 30%;
         } 
@@ -216,7 +219,7 @@ body.strategy {
         font-size: 11px;
         text-transform: uppercase;
         font-family: 'Gotham A', 'Gotham B';
-        @media only screen and (min-width: $second_break_width) {
+        @media only screen and (min-width: $font_change_width) {
           font-size: 21px;
           margin-bottom: 20px;
         }
@@ -236,7 +239,7 @@ body.strategy {
         letter-spacing: 1px;
         font-family: 'Gotham A', 'Gotham B';
         width: 292px;
-        @media only screen and (min-width: $second_break_width) {
+        @media only screen and (min-width: $font_change_width) {
           font-size: 14px;
         }
       }
@@ -259,7 +262,7 @@ body.strategy {
         background-image: image-url("page_strategy/stroke_red.png");
         background-repeat: no-repeat;
         transition: all 200ms ease-out;
-        @media only screen and (max-width: $nine_hundreds) {
+        @media only screen and (max-width: $layout_change_width) {
           top: 0;
           left: 540px;
         } 

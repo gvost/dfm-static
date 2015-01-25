@@ -7,6 +7,8 @@
 
 @import '_variables';
 
+$top_background_shift: 585px;
+
 //////////////// GLOBAL CSS /////////////////
 
 * {
@@ -16,7 +18,6 @@
 }
 
 ::selection {
-  //background-color: $black;
   color: $pink;
 }
 
@@ -144,17 +145,13 @@ body {
           <h3></h3>
         </div>
       </div>
-
       ADD CONTENT HERE
-
     </div>
 
     <div class="parallax"></div>
 
     <div class="bottom-container">
-
       ADD CONTENT HERE
-    
     </div>
 
     <div class="work-with-us">
@@ -165,7 +162,6 @@ body {
   </div>
 </div>
 */
-
 
 .top-background {
   width: 100%;
@@ -178,7 +174,7 @@ body {
   left: 0;
   background-size: cover;
   z-index: -1;
-  @media only screen and (max-width: $five_hundreds) {
+  @media only screen and (max-width: $top_background_shift) {
     background-position: center -20px;
     background-size: 160%;
   }
@@ -201,7 +197,7 @@ body {
   width: 100%;
   top: 800px;
   left: 0;
-  @media only screen and (max-width: $five_hundreds) {
+  @media only screen and (max-width: $top_background_shift) {
     top: 460px;
   }
   .top-container {
@@ -339,7 +335,7 @@ body {
     margin-bottom: 4px;
     padding: 9px 5px 5px 30px;
     transition: all 200ms ease-in;
-    @media only screen and (max-width: $five_hundreds) {
+    @media only screen and (max-width: 585px) {
       padding-left: 0;
     }
   }
