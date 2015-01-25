@@ -44,10 +44,7 @@ body.velvet {
         left: 22%;
       }
     }
-    #computers {
-      margin: 100px auto;
-    }
-    .site-page {
+    .site-page:not(#computers) {
       img {
         border: 4px lightgray solid;
       }
