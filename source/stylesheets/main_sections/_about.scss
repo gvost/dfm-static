@@ -1,6 +1,6 @@
 @import '_variables';
 
-$mobile_width: 785px;
+$mobile-width: 785px;
 
 body.about {
 	background-color: $white;
@@ -11,8 +11,9 @@ body.about {
 	.content{
 		height: 2000px;
 		top: 750px;
-		@media only screen and (max-width: $mobile_width) {
+		@media only screen and (max-width: $mobile-width) {
 			height: 2500px;
+			top: 450px;
 		}	
 		#capabilities {
 			width: 255px;
@@ -21,10 +22,10 @@ body.about {
 			position: absolute;
 			top: -420px;
 			right: 20%;
-			color: black;
+			color:$black;
 			text-align: center;
 			font-family: 'Gotham A', 'Gotham B';
-			@media only screen and (max-width: $mobile_width) {
+			@media only screen and (max-width: $mobile-width) {
 				top: -100px;
 				left: 50%;
 				margin-left: -125px;
@@ -60,7 +61,7 @@ body.about {
 			right: 10%;
 			width: 55px;
 			height: 215px;	
-			@media only screen and (max-width: $mobile_width) {
+			@media only screen and (max-width: $mobile-width) {
 				left: 1%;
 			}	
 		}
@@ -78,8 +79,8 @@ body.about {
 			font-size: 1.1em;
 			padding: 30px;
 			line-height: 40px;
-			color: white;
-			@media only screen and (max-width: $mobile_width) {
+			color:$white;
+			@media only screen and (max-width: $mobile-width) {
 				top: 500px;
 				left: 50%;
 				margin-left: -204px;
@@ -95,7 +96,7 @@ body.about {
 			right: 15%;
 			width: 192px;
 			height: 666px;	
-			@media only screen and (max-width: $mobile_width) {
+			@media only screen and (max-width: $mobile-width) {
 				top: 1300px;
 				background-size: contain;
 				width: 150px;
@@ -112,7 +113,7 @@ body.about {
 			right: 25%;
 			width: 100px;
 			height: 215px;	
-			@media only screen and (max-width: $mobile_width) {
+			@media only screen and (max-width: $mobile-width) {
 				top: 1900px;
 				left: 12%;
 				-moz-transform: scaleX(-1);
@@ -129,8 +130,8 @@ body.about {
 			height: 750px;
 			font-family: 'Gotham A', 'Gotham B';
 			text-align: left;
-			color: black;
-			@media only screen and (max-width: $mobile_width) {
+			color:$black;
+			@media only screen and (max-width: $mobile-width) {
 				top: 1200px;
 				left: 23%;
 			}	
@@ -166,7 +167,7 @@ body.about {
 		.work-with-us {
 			position: absolute;
 			top: 1650px;
-			@media only screen and (max-width: $mobile_width) {
+			@media only screen and (max-width: $mobile-width) {
 				top: 2180px;
 			}	
 		}

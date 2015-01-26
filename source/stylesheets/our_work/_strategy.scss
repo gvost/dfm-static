@@ -1,7 +1,7 @@
 @import '_variables';
 
-$font_change_width: 1155px;
-$layout_change_width: 905px;
+$font-change-width: 1155px;
+$layout-change-width: 905px;
 
 body.strategy {
   background-color: $white;
@@ -91,7 +91,7 @@ body.strategy {
           top: 66px;
           left: 0;
           transition: all 200ms ease-out;
-          @media only screen and (max-width: $layout_change_width) {
+          @media only screen and (max-width: $layout-change-width) {
             top: 400px;
             width: 27%;
           } 
@@ -102,7 +102,7 @@ body.strategy {
           top: 0;
           left: 23%;
           transition: all 200ms ease-out;
-          @media only screen and (max-width: $layout_change_width) {
+          @media only screen and (max-width: $layout-change-width) {
             display: none;
           } 
         }
@@ -112,7 +112,7 @@ body.strategy {
           top: 146px;
           left: 33%;
           transition: all 200ms ease-out;
-          @media only screen and (max-width: $layout_change_width) {
+          @media only screen and (max-width: $layout-change-width) {
             bottom: 390px;
             left: 0;
             width: 27%;
@@ -123,7 +123,7 @@ body.strategy {
           width: 46%;
           margin-top: 70px;
           transition: all 200ms ease-out;
-          @media only screen and (max-width: $layout_change_width) {
+          @media only screen and (max-width: $layout-change-width) {
             margin-top: 4px;
             width: 71%;
           } 
@@ -145,7 +145,7 @@ body.strategy {
           background-repeat: no-repeat;
           background-position: 0 0;
           transition: all 200ms ease-out;
-          @media only screen and (max-width: $layout_change_width) {
+          @media only screen and (max-width: $layout-change-width) {
             top: -90px;
           } 
         }
@@ -159,7 +159,7 @@ body.strategy {
       @media only screen and (max-width: 1475px) {
         margin-top: 200px;
       } 
-      @media only screen and (max-width: $layout_change_width) {
+      @media only screen and (max-width: $layout-change-width) {
         margin-bottom: 200px;
       } 
       .section-heading {
@@ -177,7 +177,7 @@ body.strategy {
         left: 10%;
         z-index: 2;
         transition: all 200ms ease-out;
-        @media only screen and (max-width: $layout_change_width) {
+        @media only screen and (max-width: $layout-change-width) {
           top: 255px;
         } 
       }
@@ -187,7 +187,7 @@ body.strategy {
         left: 10%;
         z-index: 2;
         transition: all 200ms ease-out;
-        @media only screen and (max-width: $layout_change_width) {
+        @media only screen and (max-width: $layout-change-width) {
           top: 660px;
         } 
       }
@@ -197,7 +197,7 @@ body.strategy {
         left: 50%;
         z-index: 2;
         transition: all 200ms ease-out;
-        @media only screen and (max-width: $layout_change_width) {
+        @media only screen and (max-width: $layout-change-width) {
           top: -610px;
           left: 30%;
         } 
@@ -208,7 +208,7 @@ body.strategy {
         left: 50%;
         z-index: 2;
         transition: all 200ms ease-out;
-        @media only screen and (max-width: $layout_change_width) {
+        @media only screen and (max-width: $layout-change-width) {
           top: -190px;
           left: 30%;
         } 
@@ -219,7 +219,7 @@ body.strategy {
         font-size: 11px;
         text-transform: uppercase;
         font-family: 'Gotham A', 'Gotham B';
-        @media only screen and (min-width: $font_change_width) {
+        @media only screen and (min-width: $font-change-width) {
           font-size: 21px;
           margin-bottom: 20px;
         }
@@ -239,7 +239,7 @@ body.strategy {
         letter-spacing: 1px;
         font-family: 'Gotham A', 'Gotham B';
         width: 292px;
-        @media only screen and (min-width: $font_change_width) {
+        @media only screen and (min-width: $font-change-width) {
           font-size: 14px;
         }
       }
@@ -262,7 +262,7 @@ body.strategy {
         background-image: image-url("page_strategy/stroke_red.png");
         background-repeat: no-repeat;
         transition: all 200ms ease-out;
-        @media only screen and (max-width: $layout_change_width) {
+        @media only screen and (max-width: $layout-change-width) {
           top: 0;
           left: 540px;
         } 

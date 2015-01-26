@@ -7,7 +7,7 @@
 
 @import '_variables';
 
-$top_background_shift: 585px;
+$top-background-shift: 585px;
 
 //////////////// GLOBAL CSS /////////////////
 
@@ -106,7 +106,7 @@ body {
     text-transform: uppercase;
     text-decoration: none;
     display: inline-block;
-    border-bottom: 3px white solid;
+    border-bottom: 3px$white solid;
     padding-bottom: 5px;
   }
   li:not(.nav-heading) {
@@ -174,7 +174,7 @@ body {
   left: 0;
   background-size: cover;
   z-index: -1;
-  @media only screen and (max-width: $top_background_shift) {
+  @media only screen and (max-width: $top-background-shift) {
     background-position: center -20px;
     background-size: 160%;
   }
@@ -192,12 +192,10 @@ body {
 .content{
   position: relative;
   background-color: $white;
-  height: 100%;
-  max-height: 100%;
   width: 100%;
   top: 800px;
   left: 0;
-  @media only screen and (max-width: $top_background_shift) {
+  @media only screen and (max-width: $top-background-shift) {
     top: 460px;
   }
   .top-container {
@@ -205,23 +203,20 @@ body {
     padding-bottom: 200px;
   }
   .top-insert-outline {
-    width: 530px;
+    width: 580px;
     max-width: 95%;
-    height: 257px;
     position: relative;
+    margin: 0 auto -100px auto;
     top: -100px;
-    margin: 0 auto;
     border: 1px solid $white;
   }
   .top-insert {
-    width: 510px;
-    max-width: 95%;
-    height: 233px;
+    width: 97%;
     background-color: $white;
     position: relative;
-    margin: 10px auto;
+    margin: 1.5% auto;
     text-align: center;
-    padding-top: 66px;
+    padding: 66px 50px;
     box-sizing: border-box;
     h1 {
       color: $black;
@@ -232,15 +227,15 @@ body {
       letter-spacing: 8.4px;
       line-height: 40px;
       max-width: 400px;
-      margin: 0 auto 45px auto;
+      margin: 0 auto 25px auto;
     }
     h2 {
       font-weight: 100;
       font-family: 'Georgia';
       width: 100%;
-      padding: 11px;
       letter-spacing: 1px;
       font-size: 13px;
+      line-height: 18px;
     }
     h3 {
       font-style: italic;
@@ -300,6 +295,7 @@ body {
     font-size: 14px;
     font-family: 'Georgia';
     line-height: 18px;
+    letter-spacing: 1px;
   }
   div {
     display: inline-block;
@@ -321,7 +317,7 @@ body {
   }
 }
 
-// for the black multi-line headings on the
+// for the$black multi-line headings on the
 // environment, identity, interactive, 
 // and packaging pages
 .heading-section {
@@ -331,8 +327,8 @@ body {
   h1 {
     font-family: 'DidotLTStd-Italic';
     font-size: 30px;
-    background-color: black;
-    color: white;
+    background-color:$black;
+    color:$white;
     font-weight: lighter;
     text-align: left;
     margin-bottom: 4px;

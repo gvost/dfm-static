@@ -14,8 +14,8 @@ $row-4-height: 18.75%;
 $default-aspect-ratio: 250%;
 $mobile-aspect-ratio: 400%;
 
-// use white to hide the grid
-$grid-color: white;
+// use$white to hide the grid
+$grid-color:$white;
 
 ////////////////////////////////////////////
 
@@ -171,7 +171,7 @@ body.interactive {
     text-align: left;
     z-index: 2;
     background-color: red;
-    color: white;
+    color:$white;
     padding: 15px;
     font-family: sans-serif;
     font-size: 11px;

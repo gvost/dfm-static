@@ -1,8 +1,7 @@
 @import '_variables';
 
-$wide_form_width: 1155px;
-$narrow_form_width: 860px;
-
+$wide-form-width: 1155px;
+$narrow-form-width: 860px;
 
 body.contact {
 	background-color: $white;
@@ -85,7 +84,7 @@ body.contact {
 			width: 500px;
 			float: right;
 			transition: all 200ms ease-out;	
-			@media only screen and (max-width: $narrow_form_width) {
+			@media only screen and (max-width: $narrow-form-width) {
 				max-width: 95%;
 			}
 		}
@@ -136,7 +135,7 @@ body.contact {
 			border: none;
 			background-color: lighten($black, 90%);
 			position: absolute;
-			@media only screen and (min-width: $wide_form_width ) {
+			@media only screen and (min-width: $wide-form-width ) {
 				right: 0;
 				left: none;
 			}
@@ -155,18 +154,18 @@ body.contact {
 			position: absolute;
 			left: 0;
 			transition: all 200ms ease-out;	
-			@media only screen and (min-width: $wide_form_width) {
+			@media only screen and (min-width: $wide-form-width) {
 				right: 0;
 				left: none;
 			}
-			@media only screen and (max-width: $narrow_form_width) {
+			@media only screen and (max-width: $narrow-form-width) {
 				position: static;
 			}
 			label {
 				text-align: right;
 				margin-bottom: 5px;
 				transition: all 200ms ease-out;	
-				@media only screen and (max-width: $narrow_form_width) {
+				@media only screen and (max-width: $narrow-form-width) {
 					text-align: left;			
 				}
 			}

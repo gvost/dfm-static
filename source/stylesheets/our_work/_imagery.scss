@@ -1,6 +1,6 @@
 @import '_variables';
 
-$narrow_screen: 585px;
+$mobile-width: 585px;
 
 body.imagery {
   background-color: $white;
@@ -14,7 +14,7 @@ body.imagery {
   		max-width: 100%;
   		margin-bottom: 130px;
       transition: all 200ms ease-in;
-  		@media only screen and (max-width: $narrow_screen) {
+  		@media only screen and (max-width: $mobile-width) {
   			margin-bottom: 0;
   		}
   		img {
@@ -28,7 +28,7 @@ body.imagery {
   			top: -60px;
   			margin-right: 5%;
         transition: all 200ms ease-in;
-  			@media only screen and (max-width: $narrow_screen) {
+  			@media only screen and (max-width: $mobile-width) {
   				display: none;
   			}
   		}
@@ -43,7 +43,7 @@ body.imagery {
   		#makeup {
   			left: -10%;
         transition: all 200ms ease-in;
-  			@media only screen and (max-width: $narrow_screen) {
+  			@media only screen and (max-width: $mobile-width) {
   				left: 0;
 				  top: -80px;
   			}
@@ -55,7 +55,7 @@ body.imagery {
   		#three_pics {
   			top: -100px;
         transition: all 200ms ease-in;
-  			@media only screen and (max-width: $narrow_screen) {
+  			@media only screen and (max-width: $mobile-width) {
   				left: -110px;
   			}
   		}
@@ -76,5 +76,11 @@ body.imagery {
 			 margin-left: 90px;
   		}
   	}
+
   }
+    @media only screen and (max-width: $mobile-width) {
+      .row:nth-child(3) {
+        margin-bottom: 0;
+      }
+    }
 }
