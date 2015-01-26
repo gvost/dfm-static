@@ -53,7 +53,6 @@ body {
   z-index: 1;
 }
 
-
 ////////////// LOADING PAGE //////////////////
 
 #loading-page {
@@ -71,7 +70,7 @@ body {
   background-repeat: no-repeat;
 }
 
-///////////// HEADER / NAV PAGE //////////////
+//////////////// HEADER  ///////////////////
 
 #header {
   position: fixed;
@@ -96,6 +95,8 @@ body {
     -webkit-font-smoothing: antialiased;
   }
 }
+
+///////////// NAV PAGE /////////////////
 
 #nav-page {
   height: 100%;
@@ -150,6 +151,7 @@ body {
 }
 
 ////////////// CASE STUDIES TEMPLATE ///////////////
+// this is used on the kavaldon, selvarey, AVF, and velvet pages
 
 /*
 <div id="main">
@@ -295,8 +297,10 @@ body {
   }
 }
 
-///////////// PORTFOLIO PAGES ///////////////
+///////////// MULTI-PAGE STYLES ///////////////
 
+// for the "branding" and "user journey" sections of
+// many of the pages
 .portfolio-text-insert {
   margin: 0 auto;
   width: 500px;
@@ -325,7 +329,7 @@ body {
   }
 }
 
-// for the computers/site-page images on the bottom of
+// for the site-page images in the bottom sections of
 // kavaldon, selvarey, AVF, and velvet
 .site-page {
   margin: 40px auto;
@@ -336,7 +340,7 @@ body {
   }
 }
 
-// for the$black multi-line headings on the
+// for the black multi-line headings on the
 // environment, identity, interactive, 
 // and packaging pages
 .heading-section {

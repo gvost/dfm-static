@@ -65,14 +65,14 @@ configure :build do
   activate :minify_css
   activate :minify_javascript
   activate :minify_html
-  #activate :gzip
+  activate :gzip
 
   # optimize images
-  # takes a while, so commented out until final images are ready
+  # this takes a while, so it's commented out until final images are ready
   # activate :imageoptim 
 
   # Enable cache buster
-  #activate :asset_hash
+  # activate :asset_hash
 
   # Use relative URLs
   # activate :relative_assets
