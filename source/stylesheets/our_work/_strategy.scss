@@ -31,7 +31,7 @@ body.strategy {
     }
     #discovery {
       position: relative;
-      height: 400px;
+      height: 350px;
       margin-top: 100px;
       #stroke-blue {
         position: absolute;
@@ -50,24 +50,25 @@ body.strategy {
       }
       #spatz-text {
         position: absolute;
-        top: 30px;
-        left: 29%;
-        width: 370px;
-        height: 350px;
+        top: 18px;
+        left: 43%;
+        width: 288px;
+        height: 333px;
         @media only screen and (max-width: 585px) {
-          top: 18px;
-          right: 60%;
+          left: 29%;
         }
-        h2 {
+        #amp {
+          float: left;
+          line-height: 190px;
+          padding-top: 143px; 
+          width: 128px;
           font-size: 11em;
-          font-weight: 400;  
-          position: absolute;
-          bottom: 25px;  
-          left: 91px;
+          font-weight: 400; 
           font-family: 'DidotLTStd-Bold';  
         }
         #right-col {
           float: right;
+          width: 160px;
           font-family: 'Gotham A', 'Gotham B';
           font-size: 0.7em;
           letter-spacing: 1px;
@@ -154,7 +155,7 @@ body.strategy {
         width: 150px;
         height: 150px;
         top: 82%;
-        left: -3%;
+        left: -30px;
         background-image: image-url("page_strategy/stroke_orange.png");
         background-repeat: no-repeat;
         background-position: 0 0;
@@ -166,14 +167,11 @@ body.strategy {
     }
     #the-result {
       position: relative;
-      margin-top: 50px;
+      margin-top: 200px;
       height: 1300px;
       transition: all 200ms ease-out;
-      @media only screen and (max-width: 1475px) {
-        margin-top: 200px;
-      } 
-      @media only screen and (max-width: $layout-change-width) {
-        margin-bottom: 200px;
+      @media only screen and (min-width: $layout-change-width) and (max-width: $font-change-width) {
+        height: 1000px;
       } 
       .section-heading {
         position: absolute;
@@ -206,24 +204,30 @@ body.strategy {
       }
       #our-story {
         position: relative;
-        top: -680px;
+        top: -70%;
         left: 50%;
         z-index: 2;
         transition: all 200ms ease-out;
+        @media only screen and (max-width: $font-change-width) {
+          top: -660px;
+        } 
         @media only screen and (max-width: $layout-change-width) {
           top: -610px;
-          left: 30%;
+          left: 22%;
         } 
       }
       #what-we-do {
         position: relative;
-        top: -370px;
+        top: -50%;
         left: 50%;
         z-index: 2;
         transition: all 200ms ease-out;
+        @media only screen and (max-width: $font-change-width) {
+          top: -370px;
+        } 
         @media only screen and (max-width: $layout-change-width) {
           top: -190px;
-          left: 30%;
+          left: 22%;
         } 
       }
       h2 {
@@ -276,8 +280,8 @@ body.strategy {
         background-repeat: no-repeat;
         transition: all 200ms ease-out;
         @media only screen and (max-width: $layout-change-width) {
-          top: 0;
-          left: 540px;
+          top: -140px;
+          left: 83%;
         } 
       }
     }
