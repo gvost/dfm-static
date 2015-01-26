@@ -1,5 +1,6 @@
 GENERAL
   - Refactor sass variables
+  - Add to .htaccess robots nofollow
 
 
 CONTACT PAGE
@@ -10,4 +11,46 @@ CONTACT PAGE
 
 BLOG
   - put the right path in index.html and _nav_page.html when we go to production
+
+1. Separate white box from background and have different scroll speeds for box and rest of page. This would apply to any page with this similar design, 
+all portfolio pages and the Brand Strategy, Identity Design, Packaging Collateral, Imagery, Interactive and Environment pages.
+
+2. On the same pages referenced above, is it possible to have the fade in happen slower and start higher on the page? This is particularly an issue on 
+the Velvet page.
+
+
+
+3. Address Main Navigation Flicker. This is most noticeable in Safari, when you click on Close in the Main Nav, there is a flicker of white that flashes.
+
+
+
+4. Change Link Animation - For the links with a line underneath the word, please change it to be so that upon hover the line disappears, but the words 
+stays and you click the word. 
+
+
+
+5. Brand Strategy and Identify pages should be images instead of typeset - see jpgs. This is due to SEO. If they are typeset, then we will come up for 
+other brands' SEO. 
+
+
+
+
+
+
+6. Identity page logos should fade in individually.
+
+
+
+
+7. About Page content should be more centered.
+
+
+
+8. Swapping copy, adding image and adjusting positioning of assets in house - Jen wants to be able to do some fine tuning in house with our new front 
+end developer who is starting next week. How possible will it be for us to swap out copy, add images to a page if we feel there is a bit too much blank 
+space, and adjust the positioning of individual assets? I think this will be pretty easy, right? The only thing I was wondering about 
+is how easy it will be to adjust the positioning of assets with respect to the responsive design, and how much the page animation will be affected if 
+we add assets? 
+
+
 

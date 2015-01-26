@@ -204,9 +204,75 @@ body.identity {
   			}
 		  }
   	}
-  	img {
-  		margin-top: 250px;
-  	}
+    #logo-container {
+      max-width: 100%;
+      width: 730px;
+      margin: 590px auto 0px;
+      .row {
+        width: 100%;
+        .logo {
+          width: 240px;
+          height: 190px;
+          display: inline-block;
+          background-image: image-url('page_identity/logos.png');
+          background-repeat: no-repeat;
+        }
+        #logo-01 {
+          background-position: 54px 29px;
+        }
+        #logo-02 {
+          background-position: -204px 45px;
+        }
+        #logo-03 {
+          background-position: -480px 19px;
+        }
+        #logo-04 {
+          background-position: 53px -214px;
+        }
+        #logo-05 {
+          background-position: -204px -214px;
+        }
+        #logo-06 {
+          background-position: -477px -221px;
+        }
+        #logo-07 {
+          background-position: 53px -457px;
+        }
+        #logo-08 {
+          background-position: -207px -466px;
+        }
+        #logo-09 {
+          background-position: -483px -474px;
+        }
+        #logo-10 {
+          background-position: 63px -734px;
+        }
+        #logo-11 {
+          background-position: -208px -726px;
+        }
+        #logo-12 {
+          background-position: -473px -732px;
+        }
+        #logo-13 {
+          background-position: 63px -1006px;
+        }
+        #logo-14 {
+          background-position: -204px -999px;
+        }
+        #logo-15 {
+          background-position: -475px -1003px;
+        }
+        #logo-16 {
+          background-position: 62px -1255px;
+        }
+        #logo-17 {
+          background-position: -213px -1265px;
+        }
+        #logo-18 {
+          background-position: -473px -1250px;
+        }
+      }
+    }
   }
   .work-with-us {
   	clear: both;
