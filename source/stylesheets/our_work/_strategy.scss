@@ -24,23 +24,29 @@ body.strategy {
       font-weight: normal;
       font-size: 1.4em;
       padding: 15px 40px 15px 65px;
+      @media only screen and (max-width: 585px) {
+        font-size: 1.1em;
+        padding: 15px 20px 15px 20px;
+      }
     }
     #discovery {
       position: relative;
-      margin-top: 20px;
-      height: 1200px;
-      @media only screen and (max-width: 685px) {
-        height: 870px;
-      }
+      height: 400px;
+      margin-top: 100px;
       #stroke-blue {
         position: absolute;
-        right: 0px;
+        right: -1%;
         top: -150px;
-        width: 150px;
-        height: 150px;
+        width: 12%;
+        padding-top: 13%;
         background-image: image-url("page_strategy/stroke_blue.png");
         background-repeat: no-repeat;
         background-position: 60px 0;
+        background-size: contain;
+        @media only screen and (max-width: $layout-change-width) {
+          width: 25%;
+          padding-top: 16%;
+        }
       }
       #spatz-text {
         position: absolute;
@@ -49,8 +55,8 @@ body.strategy {
         width: 370px;
         height: 350px;
         @media only screen and (max-width: 585px) {
-          top: 70px;
-          left: -1%;
+          top: 18px;
+          right: 60%;
         }
         h2 {
           font-size: 11em;
@@ -78,82 +84,89 @@ body.strategy {
           }
         }
       }
-      #image-container {
-        img {
-          z-index: 1;
-        }
-        position: relative;
-        top: 300px;
-        width: 100%;
-        #lipstick {
-          position: absolute;
-          width: 21%;
-          top: 66px;
+    }
+    .image-container {
+      position: relative;
+      padding-top: 60%;
+      transition: all 200ms ease-out;
+      @media only screen and (max-width: $layout-change-width) {
+        padding-top: 97.22%;
+        margin-top: 100px;
+      }
+      img {
+        position: absolute;
+      }
+      #lipstick {
+        width: 21.46%;
+        top: 12.5%;
+        left: 0;
+        transition: all 200ms ease-out;
+        @media only screen and (max-width: $layout-change-width) {
+          width: 29.44%;
+          top: 56.14%;
           left: 0;
-          transition: all 200ms ease-out;
-          @media only screen and (max-width: $layout-change-width) {
-            top: 400px;
-            width: 27%;
-          } 
         }
-        #flower {
-          position: absolute;
-          width: 7%;
-          top: 0;
-          left: 23%;
-          transition: all 200ms ease-out;
-          @media only screen and (max-width: $layout-change-width) {
-            display: none;
-          } 
+      }
+      #flower {
+        width: 8.44%;
+        top: 0;
+        left: 23.125%;
+        transition: all 200ms ease-out;
+        @media only screen and (max-width: $layout-change-width) {
+          display: none;
         }
-        #colors {
-          position: absolute;
+      }
+      #colors {
+        width: 19.69%;
+        top: 31.42%;
+        left: 32.5%;
+        transition: all 200ms ease-out;
+        @media only screen and (max-width: $layout-change-width) {
+          width: 29.44%;          
+          top: 14.29%;
+          left: 0;
+        }
+      }
+      #student {
+        width: 12.81%;
+        top: 15.625%;
+        left: 53.5%;
+        transition: all 200ms ease-out;
+        @media only screen and (max-width: $layout-change-width) {
           width: 20%;
-          top: 146px;
-          left: 33%;
-          transition: all 200ms ease-out;
-          @media only screen and (max-width: $layout-change-width) {
-            bottom: 390px;
-            left: 0;
-            width: 27%;
-          } 
+          top: 0;
+          left: 31.25%;
         }
-        #student-spatz {
-          float: right;
-          width: 46%;
-          margin-top: 70px;
-          transition: all 200ms ease-out;
-          @media only screen and (max-width: $layout-change-width) {
-            margin-top: 4px;
-            width: 71%;
-          } 
-          #student {
-            width: 25%;
-            margin-bottom: 8px;
-          }
-          #spatz {
-            width: 100%;
-          }
-        }
-        #stroke-orange {
-          position: absolute;
-          width: 150px;
-          height: 150px;
-          top: 450px;
-          left: 10%;
-          background-image: image-url("page_strategy/stroke_orange.png");
-          background-repeat: no-repeat;
-          background-position: 0 0;
-          transition: all 200ms ease-out;
-          @media only screen and (max-width: $layout-change-width) {
-            top: -90px;
-          } 
+      }
+      #spatz {
+        width: 46.5%;
+        top: 40.45%;
+        left: 53.5%; 
+        transition: all 200ms ease-out;
+        @media only screen and (max-width: $layout-change-width) {
+          width: 68.75%;
+          top: 23%;
+          left: 31.25%;
+        }         
+      }
+      #stroke-orange {
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        top: 82%;
+        left: -3%;
+        background-image: image-url("page_strategy/stroke_orange.png");
+        background-repeat: no-repeat;
+        background-position: 0 0;
+        transition: all 200ms ease-out;
+        @media only screen and (max-width: $layout-change-width) {
+          top: -26%;
         }
       }
     }
     #the-result {
-      width: 100%;
       position: relative;
+      margin-top: 50px;
       height: 1300px;
       transition: all 200ms ease-out;
       @media only screen and (max-width: 1475px) {
