@@ -43,6 +43,9 @@ body.index {
         background-repeat: no-repeat;
         background-size: cover;
       }
+    /*  video::-webkit-media-controls {
+        display:none !important;
+      }*/
     } 
     .feature-image {
       position: absolute;

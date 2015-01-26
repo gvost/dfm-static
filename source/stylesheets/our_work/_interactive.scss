@@ -1,23 +1,6 @@
 @import '_variables';
 
-//////// BOX FRAMEWORK CONSTANTS /////////
-
 $mobile-width: 750px;
-
-// add up to 100%
-$row-1-height: 25%;
-$row-2-height: 37.5%;
-$row-3-height: 18.75%;
-$row-4-height: 18.75%;
-
-// aspect ratios
-$default-aspect-ratio: 250%;
-$mobile-aspect-ratio: 400%;
-
-// use$white to hide the grid
-$grid-color:$white;
-
-////////////////////////////////////////////
 
 body.interactive {
   background-color: $white;
@@ -27,221 +10,98 @@ body.interactive {
     background-image: image-url("page_interactive/top_background.png");
     background-size: contain;
   }
-  .container {
-    margin: 20px auto 300px auto;
-  }
-
-////////// BOX FRAMEWORK CSS (don't change) ////////////
-
-  .outer {
-    position: relative;
-    width: 100%;
-    padding-top: $default-aspect-ratio;  
-    @media only screen and (max-width: $mobile-width) {
-      padding-top: $mobile-aspect-ratio;
-    }
-  }
-
-  .inner {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-  }
-
-  .row-1 {
-    height: $row-1-height;
-    @media only screen and (max-width: $mobile-width) {
-      height: $row-1-height/2;
-    }
-  }
-
-  .row-2 {
-    height: $row-2-height;
-    @media only screen and (max-width: $mobile-width) {
-      height: $row-2-height/2;
-    }
-  }
-
-  .row-3 {
-    height: $row-3-height;
-    @media only screen and (max-width: $mobile-width) {
-      height: $row-3-height/2;
-    }
-  }
-
-  .row-4 {
-    height: $row-4-height;
-    @media only screen and (max-width: $mobile-width) {
-      height: $row-4-height/2;
-    }
-  }
-
-  .box {
-    outline: 1px solid $grid-color;
-    color: $grid-color;
-    width: 25%;
-    @media only screen and (max-width: $mobile-width) {
-      width: 50%;
-    }
-  }
-
-  .box:nth-child(4n - 3), .box:nth-child(4n - 1) {
-    float: left;
-  }
-
-  .box:nth-child(4n - 2), .box:nth-child(4n) {
-    float: right;
-  }
-
-  .box:nth-child(4n - 1) {
-    @media only screen and (max-width: $mobile-width) {
-      clear: left;
-    }
-  }
-
-  .box:nth-child(4n) {
-    @media only screen and (max-width: $mobile-width) {
-      clear: right;
-    }
-  }
-
-  .box * {
-    position: relative;
-  }
-
-  /////////// BOX CONTENTS -- DEFAULT WIDTH //////////////////
-
-  .heading-section h1 {
-    width: 225px;
-  }
-
-  #heading-section-1, #heading-section-4 {
-    float: left;
-  }
-
-  #heading-section-2, #heading-section-3 {
-    float: right;
-  }
-
-  #heading-section-1 {
-    top: 6%;
-  }
-
-  #chic-party {
-    width: 150%;
-    float: right;
-  }
-
-  #colored-squares {
-    top: 48%;
-    right: 85%;
-    width: 180%;
-  }
-
-  #computers {
-    top: 0%;
-    width: 180%;
-  }
-
-  #font {
-    width: 180%;
-    top: 30%;
-    right: 90%;
-  }
-
-  #colored-words {
-    top: 10%;
-    float: right;
-    margin-right: 20%;
-
-  }
-
-  #six-pics {
-    top: 15%;
-    width: 80%;
-  }
-
-  #red-text {
-    display: inline-block;
-    top: 5%;
-    left: 70%;
-    width: 220px;
-    text-align: left;
-    z-index: 2;
-    background-color: red;
-    color:$white;
-    padding: 15px;
-    font-family: sans-serif;
-    font-size: 11px;
-    line-height: 14px;
-    letter-spacing: 1px;
-  }
-
-  #computer-with-circles {
-    top: 30%;
-    left: 50%;
-    width: 300%;
-  }
-
-  #site-pages {
-    top: 10%;
-    left: -50%;
-    width: 300%;
-  }
-
-  /////////// BOX CONTENTS -- MOBILE WIDTH //////////////
-
-  @media only screen and (max-width: $mobile-width) {
-
-    #chic-party {
-      width: 100%;
-    }
-
-    #colored-squares {
-      top: 48%;
-      right: -10%;
-      width: 90%;
-    }
-
-    #computers {
-      top: 0%;
-      width: 90%;
-    }
-
-    #font {
-      width: 120%;
-      top: -33%;
-      left: 4%;
-    }
-
-    #colored-words {
-      top: 10%;
-      margin-right: 20%;
-    }
-
-    #six-pics {
-      top: 190%;
-      left: 11%;
-      width: 40%;
-    }
-
-    #red-text {
-      top: -63%;
-      left: -3%;
-    }
-
-    #computer-with-circles {
-      top: 82%;
-      left: 0%;
-      width: 200%;
-    }
-
-    #site-pages {
-      top: 30%;
-      left: 20%;
-      width: 150%;
+  .content {
+    .container {
+      position: relative;
+      padding-top: 273.96%;
+      @media only screen and (max-width: $mobile-width) {
+        padding-top: 400%;
+      }
+      img, .heading-section {
+        position: absolute;
+      }
+      #chic-party {
+        width: 46.875%;
+        top: 0;
+        right: 0;
+      }
+      #colored-squares {
+        width: 39.48%;
+        top: 12.05%;
+        left: 5.94%;
+      }
+      #computers {
+        width: 42.81%;
+        top: 19.77%;
+        left: 5.73%;
+      }
+      #colored-words {
+        width: 23.125%;
+        top: 29.66%;
+        right: 5.52%;
+      }
+      #font {
+        width: 40.31%;
+        top: 31.75%;
+        left: 1.98%;
+      }
+      #six-pics {
+        width: 14.375%;
+        top: 30.57%;
+        left: 52.08%;
+      }
+      #red-text {
+        position: absolute;
+        width: 214px;
+        top: 44.41%;
+        right: 17.92%;
+        z-index: 2;
+        display: inline-block;
+        text-align: left;
+        background-color: red;
+        color: $white;
+        padding: 15px;
+        font-family: sans-serif;
+        font-size: 11px;
+        line-height: 14px;
+        letter-spacing: 1px;
+      }
+      #computer-with-circles {
+        width: 80.83%;
+        top: 62.02%;
+        left: 7.8125%;
+      }
+      #site-pages {
+        width: 70.31%;
+        top: 78.21%;
+        left: 19.58%;
+      }
+      .heading-section h1 {
+        width: 275px;
+        @media only screen and (max-width: $mobile-width) {
+          font-size: 14pt;
+          width: 150px;
+          padding-left: 25px;
+        }
+      }
+      #heading-section-1 {
+        top: 1.67%;
+        left: 0;
+      }
+      #heading-section-2 {
+        top: 23.57%;
+        right: 0;
+      }
+      #heading-section-3 {
+        top: 53.95%;
+        right: 0;
+      }
+      #heading-section-4 {
+        top: 73.31%;
+        left: 0;
+      }
     }
   }
 }
+
+ 
