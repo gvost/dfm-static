@@ -1,4 +1,4 @@
-$mobile-width: 785px;
+$mobile-width: 640px;
 
 body.about {
 	background-color: white;
@@ -7,12 +7,6 @@ body.about {
 		background-image: image-url("page_about/top_background.jpg");
 	}
 	.content{
-		height: 2000px;
-		top: 750px;
-		@media only screen and (max-width: $mobile-width) {
-			height: 2500px;
-			top: 450px;
-		}	
 		#capabilities {
 			width: 255px;
 			height: 463px;
@@ -25,14 +19,20 @@ body.about {
 			font-family: 'Gotham A', 'Gotham B';
 			@media only screen and (max-width: $mobile-width) {
 				top: -100px;
+				width: 390px;
+				height: 730px;
 				left: 50%;
-				margin-left: -125px;
+				margin-left: -195px;
 			}	
 			h1 {
 				text-transform: uppercase;
 				font-weight: bold;
 				font-size: 0.6em;
 				margin-top: 50px;
+				@media only screen and (max-width: $mobile-width) {
+					margin-top: 75px;
+					font-size: 0.7em;
+				}	
 			}
 			ul {
 				list-style: none;
@@ -42,137 +42,151 @@ body.about {
 					font-size: 0.7em;
 					margin: 40px 0 20px 0;
 					letter-spacing: 1.0px;
+					@media only screen and (max-width: $mobile-width) {
+						margin: 70px 0 30px 0;
+						font-size: 0.9em;
+					}
 				}
 				p {
 					font-size: 0.4em;
 					letter-spacing: 0.2px;
+					@media only screen and (max-width: $mobile-width) {
+						font-size: 0.7em;
+						letter-spacing: 0.4px;
+						line-height: 14px;
+					}
 				}
 			}
 		}
-		.top-drops {
-			background-image: image-url("page_about/top_drops.png");
-			background-repeat: no-repeat;
-			background-position: left top;
-			background-size: contain;	
-			position: absolute;
-			top: 140px;
-			right: 10%;
-			width: 55px;
-			height: 215px;	
+		.middle-container {
+			position: relative;
+			height: 1620px;
 			@media only screen and (max-width: $mobile-width) {
-				left: 1%;
-			}	
-		}
-		.middle-insert {
-			position: absolute;
-			top: 140px;
-			left: 10%;
-			width: 408px;
-			height: 750px;
-			background-image: image-url("page_about/textbox_with_drops.png");
-			background-repeat: no-repeat;
-			background-position: left top;
-			background-size: contain;
-			font-family: 'Gotham A', 'Gotham B';
-			font-size: 1.1em;
-			padding: 30px;
-			line-height: 40px;
-			color:white;
-			@media only screen and (max-width: $mobile-width) {
-				top: 500px;
-				margin-left: -263px;
-				width: 320px;
-				left: 82.3%;
-				height: 573px;
-				background-size: cover;
-				font-size: 0.9em;
-				line-height: 30px;
-			}	
-		}
-		.fancy-text {
-			background-image: image-url("page_about/fancy_text.png");
-			background-repeat: no-repeat;
-			background-position: left top;	
-			position: absolute;
-			background-size: contain;
-			top: 500px;
-			right: 15%;
-			width: 192px;
-			height: 666px;	
-			@media only screen and (max-width: $mobile-width) {
-				top: 1300px;
+				height: 2520px;
+			}
+			div {
+				position: absolute;
+			}
+			.top-drops {
+				top: 140px;
+				right: 10%;
+				width: 55px;
+				height: 215px;	
+				background-image: image-url("page_about/top_drops.png");
+				background-repeat: no-repeat;
+				background-position: left top;
+				background-size: contain;	
+				@media only screen and (max-width: $mobile-width) {
+					top: 167px;
+					left: 2%;
+				}
+			}
+			.middle-insert {
+				top: 200px;
+				left: 8.33%;
+				width: 408px;
+				height: 750px;
+				background-image: image-url("page_about/textbox_with_drops.png");
+				background-repeat: no-repeat;
+				background-position: left top;
 				background-size: contain;
-				width: 150px;
-				opacity: 0.2;
-			}		
-		}
-		.lower-drops {
-			background-image: image-url("page_about/lower_drops.png");
-			background-repeat: no-repeat;
-			background-position: left top;
-			background-size: contain;	
-			position: absolute;
-			top: 1250px;
-			right: 25%;
-			width: 100px;
-			height: 215px;	
-			@media only screen and (max-width: $mobile-width) {
-				top: 1900px;
-				left: 12%;
-				-moz-transform: scaleX(-1);
-        -o-transform: scaleX(-1);
-        -webkit-transform: scaleX(-1);
-        transform: scaleX(-1);
-			}			
-		}
-		.lower-insert {
-			position: absolute;
-			top: 790px;
-			left: 15%;
-			width: 295px;
-			height: 750px;
-			font-family: 'Gotham A', 'Gotham B';
-			text-align: left;
-			color:black;
-			@media only screen and (max-width: $mobile-width) {
-				top: 1200px;
-				left: 23%;
-			}	
-			ul {
-				list-style: none;
+				font-family: 'Gotham A', 'Gotham B';
+				font-size: 1.1em;
+				padding: 30px;
+				line-height: 40px;
+				color: white;
+				@media only screen and (max-width: $mobile-width) {
+					top: 800px;
+					left: 50%;
+					margin-left: -204px;
+				}
+				@media only screen and (max-width: 450px) {
+					width: 320px;
+					height: 573px;
+					left: 50%;
+					margin-left: -160px;
+					background-size: cover;
+					font-size: 0.9em;
+					line-height: 30px;
+				}	
 			}
-			h1 {
-				font-weight: bold;
-				text-transform: uppercase;
-				font-size: 0.6em;
+			.fancy-text {
+				top: 500px;
+				right: 5%;
+				width: 22%;
+				height: 666px;	
+				background-image: image-url("page_about/fancy_text.png");
+				background-repeat: no-repeat;
+				background-position: left top;	
+				background-size: contain;
+				@media only screen and (max-width: $mobile-width) {
+					top: 1640px;
+					width: 150px;
+					opacity: 0.2;
+				}		
 			}
-			h2 {
-				font-weight: bold;
-				text-transform: uppercase;
-				font-size: 0.9em;
-				margin: 50px 0 5px 0;
-				letter-spacing: 1.2px;
+			.lower-insert {
+				top: 845px;
+				left: 15%;
+				width: 295px;
+				height: 750px;
+				font-family: 'Gotham A', 'Gotham B';
+				text-align: left;
+				color: black;
+				@media only screen and (max-width: $mobile-width) {
+					top: 1575px;
+					left: 23%;
+				}	
+				@media only screen and (max-width: 450px) {
+					left: 5%;
+				}	
+				ul {
+					list-style: none;
+				}
+				h1 {
+					font-weight: bold;
+					text-transform: uppercase;
+					font-size: 0.6em;
+				}
+				h2 {
+					font-weight: bold;
+					text-transform: uppercase;
+					font-size: 0.9em;
+					margin: 50px 0 5px 0;
+					letter-spacing: 1.2px;
+				}
+				h3 {
+					font-family: 'Georgia';
+					font-style: italic;
+					font-size: 0.8em;
+					font-weight: 100;
+					letter-spacing: 0.8px;
+				}
+				p {
+					font-size: 0.7em;
+					line-height: 15px;
+					margin: 30px 0;
+					letter-spacing: 0.3px;
+				}
 			}
-			h3 {
-				font-family: 'Georgia';
-				font-style: italic;
-				font-size: 0.8em;
-				font-weight: 100;
-				letter-spacing: 0.8px;
+			.lower-drops {
+				top: 1270px;
+				right: 28.4%;
+				width: 100px;
+				height: 215px;	
+				background-image: image-url("page_about/lower_drops.png");
+				background-repeat: no-repeat;
+				background-position: left top;
+				background-size: contain;	
+				@media only screen and (max-width: $mobile-width) {
+					top: 2130px;
+					left: 12%;
+					-moz-transform: scaleX(-1);
+	        -o-transform: scaleX(-1);
+	        -webkit-transform: scaleX(-1);
+	        transform: scaleX(-1);
+				}			
 			}
-			p {
-				font-size: 0.7em;
-				line-height: 15px;
-				margin: 30px 0;
-				letter-spacing: 0.3px;
-			}
-		}
-		.work-with-us {
-			position: absolute;
-			top: 1650px;
-			@media only screen and (max-width: $mobile-width) {
-				top: 2180px;
-			}	
 		}
 	}
 }
