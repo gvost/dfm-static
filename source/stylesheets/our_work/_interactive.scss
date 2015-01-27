@@ -1,4 +1,4 @@
-$mobile-width: 750px;
+$very-narrow: 500px;
 
 body.interactive {
   background-color: white;
@@ -12,10 +12,10 @@ body.interactive {
     .container {
       position: relative;
       padding-top: 273.96%;
-      @media only screen and (max-width: $mobile-width) {
-        padding-top: 400%;
+      @media only screen and (max-width: $very-narrow) {
+        padding-top: 450%;
       }
-      img, .heading-section {
+      img {
         position: absolute;
       }
       #chic-party {
@@ -68,18 +68,16 @@ body.interactive {
         width: 80.83%;
         top: 62.02%;
         left: 7.8125%;
+        @media only screen and (max-width: $very-narrow) {
+          top: 66%;
+        }
       }
       #site-pages {
         width: 70.31%;
         top: 78.21%;
         left: 19.58%;
-      }
-      .heading-section h1 {
-        width: 275px;
-        @media only screen and (max-width: $mobile-width) {
-          font-size: 14pt;
-          width: 150px;
-          padding-left: 25px;
+        @media only screen and (max-width: $very-narrow) {
+          top: 83%;
         }
       }
       #heading-section-1 {
@@ -93,6 +91,9 @@ body.interactive {
       #heading-section-3 {
         top: 53.95%;
         right: 0;
+        @media only screen and (max-width: $very-narrow) {
+          top: 57%;
+        }
       }
       #heading-section-4 {
         top: 73.31%;

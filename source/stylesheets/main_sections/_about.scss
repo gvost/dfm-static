@@ -80,8 +80,13 @@ body.about {
 			color:white;
 			@media only screen and (max-width: $mobile-width) {
 				top: 500px;
-				left: 50%;
-				margin-left: -204px;
+				margin-left: -263px;
+				width: 320px;
+				left: 82.3%;
+				height: 573px;
+				background-size: cover;
+				font-size: 0.9em;
+				line-height: 30px;
 			}	
 		}
 		.fancy-text {

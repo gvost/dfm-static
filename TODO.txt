@@ -1,3 +1,7 @@
+FIXES
+  - redo the about page on mobile
+  - maybe take out the scroll-down class
+
 GENERAL
   - Add to .htaccess robots nofollow
 
@@ -9,3 +13,4 @@ CONTACT PAGE
 
 BLOG
   - put the right path in index.html and _nav_page.html when we go to production
+

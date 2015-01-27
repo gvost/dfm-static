@@ -6,6 +6,7 @@
 copyright: 2015
 */
 
+
 $(window).load(function() {
 
   console.log('♥︎ upstartBureau');
@@ -211,14 +212,20 @@ $(document).ready(function() {
 
     var $content = $(".content");
 
+    // if the current page has a content section...
     if ($content.length) {
-      var scrolled = $content.offset().top;
-      var topper = scrolled + $(window).height();
 
-      $('.top-background').css('top', ((scrolled * 0.1) - 80) + 'px');
-      $('.top-insert-outline').css('top', ((scrolled * 0.3) - 350) + 'px');
+      // move the top-background and insert outline
+      // 0.1 and 0.3 control the relative speeds of the background and insert-outline
+      // -100 is the initial 'top' of the insert-outline
+      var scrolled = $content.offset().top;
+      var initHeight = $(".top-background").height();
+      $('.top-background').css('top', ((scrolled - initHeight) * 0.1) + 'px');
+      $('.top-insert-outline').css('top', (-100 + ((scrolled - initHeight) * 0.3)) + 'px');
       
-      if (topper <= $(window).scrollTop()) {
+      // display / hide the top-background image 
+      // depending on how far we've scrolled
+      if (scrolled < 0) {
         $('.top-background').css('display', 'none');
         $('.parallax-background').css('display', 'block');
       } else {
@@ -233,26 +240,26 @@ $(document).ready(function() {
 
   $("#contact-submit").click(function() {
 
-    var info = {
-      firstname:   $("#contact-first-name").val(),
-      lastname:    $("#contact-last-name").val(),
-      email:       $("#contact-email").val(), 
-      phone:       $("#contact-phone").val(),
-      project:     $("#contact-project").val(),
-      find:        $("#contact-find-us").val()
-    };
-
     $("#server-response").text("Sending message...");
 
     $.ajax({
-      type:   'post',
-      url:    'http://localhost/DFM/DFM_static/php/contact_submit.php',
-      data:   info,
+      type:  'post',
+      url:   '/php/contact_submit.php',
+      data:  {
+        firstname:   $("#contact-first-name").val(),
+        lastname:    $("#contact-last-name").val(),
+        email:       $("#contact-email").val(), 
+        phone:       $("#contact-phone").val(),
+        project:     $("#contact-project").val(),
+        find:        $("#contact-find-us").val()
+      },
       success: function(response) {
         setTimeout(function() {
           $("#server-response").text(response);         
         }, 500);
       }
-    });  
+    }); 
+
   });
+
 });

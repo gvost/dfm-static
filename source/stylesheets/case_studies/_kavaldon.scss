@@ -1,4 +1,4 @@
-$mobile-width: 670px;
+$mobile-width: 640px;
 
 body.kavaldon {
   background-color: white;
@@ -65,7 +65,7 @@ body.kavaldon {
         }
         #inspired-with-squares {
           float: right;
-          width: 84%;
+          width: 85%;
           transition: all 200ms ease-out;
           @media only screen and (max-width: $mobile-width) {
             margin-right: -12%;
@@ -81,6 +81,11 @@ body.kavaldon {
               padding: 12% 0;
               font-size: 14px;
               line-height: 22px;
+            }
+            @media only screen and (max-width: 450px) {
+              padding: 12% 0;
+              font-size: 11px;
+              line-height: 18px;
             }
           }
           #bw-squares {

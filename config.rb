@@ -1,4 +1,42 @@
 
+# use directory paths rather than file paths
+activate :directory_indexes
+
+# tell server where to find stuff
+set :css_dir, 'stylesheets'
+set :js_dir, 'javascripts'
+set :images_dir, 'images'
+set :fonts_dir, 'fonts'
+
+
+configure :development do
+  # auto-reload whenever files are saved
+  activate :livereload
+end
+
+
+configure :build do
+
+  # make files smaller
+  activate :minify_css
+  activate :minify_javascript
+  activate :minify_html
+  # activate :gzip
+
+  # optimize images
+  # activate :imageoptim 
+
+  # Enable cache buster
+  # activate :asset_hash
+
+  # Use relative URLs
+  # activate :relative_assets
+
+  # Or use a different image path
+  # set :http_prefix, "/Content/images/"
+end
+
+
 ###
 # Compass
 ###
@@ -42,41 +80,3 @@
 #     "Helping"
 #   end
 # end
-
-# user directory paths rather than file paths
-activate :directory_indexes
-
-# tell server where to find stuff
-set :css_dir, 'stylesheets'
-set :js_dir, 'javascripts'
-set :images_dir, 'images'
-set :fonts_dir, 'fonts'
-
-
-configure :development do
-  # Reload the browser automatically whenever files change
-  activate :livereload
-end
-
-
-configure :build do
-
-  # make files smaller
-  activate :minify_css
-  activate :minify_javascript
-  activate :minify_html
-  activate :gzip
-
-  # optimize images
-  # this takes a while, so it's commented out until final images are ready
-  # activate :imageoptim 
-
-  # Enable cache buster
-  # activate :asset_hash
-
-  # Use relative URLs
-  # activate :relative_assets
-
-  # Or use a different image path
-  # set :http_prefix, "/Content/images/"
-end
