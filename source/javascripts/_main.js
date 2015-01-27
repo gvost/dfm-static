@@ -102,9 +102,6 @@ $(document).ready(function() {
       setTimeout(function(){
         $("#nav-toggle").text("Close");
       }, 300);
-      
-      // prevent scrolling in the background when nav is open
-      $("body").css("overflow", "hidden");
 
     } else {
 
@@ -120,8 +117,6 @@ $(document).ready(function() {
         $("#nav-toggle").text("Explore");
       }, 600);
 
-      // restore scrolling
-      $("body").css("overflow", "auto"); 
     }
   });
 
