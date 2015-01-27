@@ -1,0 +1,15 @@
+Criteria
+  - SSH access
+  - a GUI (like cPanel)
+  - 
+
+
+bluehost.com and inmotionhosting.com both offer
+$3.49 per month
+free ssh access
+php and RoR
+mysql and postgres
+cPanel
+24 hours support
+runs on linux
+
