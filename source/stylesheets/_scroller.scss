@@ -1,35 +1,39 @@
-/////////////////////// SCROLLER ////////////////////////
 
-.scroll-fast, .scroll-fast-left, .scroll-fast-right, .scroll-fast-down {
-  transition: all 200ms ease-in;
+// these classes work with _scroller.js to animate elements as the page scrolls
+// see usage information in javascripts/_scroller.js
+
+
+
+.scroll-fast, .scroll-fast-left, .scroll-fast-right {
+  transition: transform 200ms !important;
 }
 
-.scroll-medium, .scroll-medium-left, .scroll-medium-right, .scroll-medium-down {
-  transition: all 400ms ease-in;
+.scroll-medium, .scroll-medium-left, .scroll-medium-right {
+  transition: transform 400ms !important;
 }
 
-.scroll-slow, .scroll-slow-left, .scroll-slow-right, .scroll-slow-down {
+.scroll-slow, .scroll-slow-left, .scroll-slow-right {
   transition: transform 600ms !important;
 }
 
-.move-up {
-  opacity: 0;
-  transform: translate(0px, 200px);
-}
 
-.move-down {
+
+.move-up {
   opacity: 0;
   transform: translate(0px, -200px);
 }
 
+.move-down {
+  opacity: 0;
+  transform: translate(0px, 200px);
+}
+
 .move-left {
   opacity: 0;
-  transform: translate(1500px, 0px);  
+  transform: translate(-1500px, 0px);  
 }
 
 .move-right {
   opacity: 0;
-  transform: translate(-1500px, 0px);
+  transform: translate(1500px, 0px);
 }
-
-/////////////////////////////////////////////////////////

@@ -1,7 +1,3 @@
-FIXES
-  - redo the about page on mobile
-  - maybe take out the scroll-down class
-
 GENERAL
   - Add to .htaccess robots nofollow
 
