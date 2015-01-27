@@ -62,10 +62,10 @@ end
 configure :build do
 
   # make files smaller
-  activate :minify_css
-  activate :minify_javascript
-  activate :minify_html
-  activate :gzip
+  # activate :minify_css
+  # activate :minify_javascript
+  # activate :minify_html
+  # activate :gzip
 
   # optimize images
   # this takes a while, so it's commented out until final images are ready
@@ -80,3 +80,6 @@ configure :build do
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
 end
+
+
+#ignore '/wordpress/*'
