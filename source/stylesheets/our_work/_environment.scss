@@ -1,7 +1,5 @@
-@import '_variables';
-
 body.environment {
-  background-color: $white;
+  background-color: white;
   text-align: center;
   .top-background {
     background-image: image-url("page_environment/top_background.png");

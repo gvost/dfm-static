@@ -23,8 +23,6 @@ copyright: 2015
  *= require_tree .
  */
 
-@import '_variables';
-
 $top-background-shift: 585px;
 
 //////////////// GLOBAL CSS /////////////////
@@ -36,7 +34,7 @@ $top-background-shift: 585px;
 }
 
 ::selection {
-  color: $pink;
+  color: #ff0cdb;
 }
 
 html, body {
@@ -62,7 +60,7 @@ body {
   bottom: 0;
   left: 0;
   opacity: 0.95;
-  background-color: $white;
+  background-color: white;
   z-index: 500;
   background-image: image-url('logo_loading.png');
   background-position: center;
@@ -78,7 +76,7 @@ body {
   height: 30px;
   width: 100%;
   z-index: 1000;
-  background-color: $white;
+  background-color: white;
   padding: 6px 40px 0px 40px;
   #logo {
     float: left;
@@ -126,7 +124,7 @@ body {
     text-transform: uppercase;
     text-decoration: none;
     display: inline-block;
-    border-bottom: 3px$white solid;
+    border-bottom: 3pxwhite solid;
     padding-bottom: 5px;
   }
   li:not(.nav-heading) {
@@ -187,7 +185,7 @@ body {
 .top-background {
   width: 100%;
   height: 800px;
-  background-color: $white;
+  background-color: white;
   background-repeat: no-repeat;
   background-position: center;
   position: fixed;
@@ -212,7 +210,7 @@ body {
 }
 .content{
   position: relative;
-  background-color: $white;
+  background-color: white;
   width: 100%;
   top: 800px;
   left: 0;
@@ -220,7 +218,7 @@ body {
     top: 460px;
   }
   .top-container {
-    background-color: $white;
+    background-color: white;
     padding-bottom: 200px;
   }
   .top-insert-outline {
@@ -229,18 +227,18 @@ body {
     position: relative;
     margin: 0 auto -100px auto;
     top: -100px;
-    border: 1px solid $white;
+    border: 1px solid white;
   }
   .top-insert {
     width: 97%;
-    background-color: $white;
+    background-color: white;
     position: relative;
     margin: 1.5% auto;
     text-align: center;
     padding: 66px 50px;
     box-sizing: border-box;
     h1 {
-      color: $black;
+      color: black;
       font-family: 'Gotham A', 'Gotham B';
       text-transform: uppercase;
       font-size: 1.6em;
@@ -269,7 +267,7 @@ body {
     background: none;
   }
   .bottom-container {
-    background-color: $white;
+    background-color: white;
     padding: 200px 0;
   }
   .work-with-us {
@@ -277,8 +275,8 @@ body {
     height: 300px;
     font-family: 'Georgia';
     text-align: center;
-    color: $black; 
-    background-color: $white;
+    color: black; 
+    background-color: white;
     h2 {
       width: 150px;
       margin: 0 auto;
@@ -325,7 +323,7 @@ body {
     margin: 45px auto 0 auto;
     width: 200px;
     height: 30px;
-    border-bottom: 2px lighten($black, 80%) solid;
+    border-bottom: 2px lighten(black, 80%) solid;
   }
 }
 
@@ -350,8 +348,8 @@ body {
   h1 {
     font-family: 'DidotLTStd-Italic';
     font-size: 30px;
-    background-color:$black;
-    color:$white;
+    background-color:black;
+    color:white;
     font-weight: lighter;
     text-align: left;
     margin-bottom: 4px;

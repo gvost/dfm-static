@@ -1,9 +1,7 @@
-@import '_variables';
-
 $mobile-width: 750px;
 
 body.packaging {
-  background-color: $white;
+  background-color: white;
   text-align: center;
   overflow-x: hidden;
   .top-background {

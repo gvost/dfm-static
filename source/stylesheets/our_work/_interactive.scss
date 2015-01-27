@@ -1,9 +1,7 @@
-@import '_variables';
-
 $mobile-width: 750px;
 
 body.interactive {
-  background-color: $white;
+  background-color: white;
   text-align: center;
   overflow-x: hidden;
   .top-background {
@@ -59,7 +57,7 @@ body.interactive {
         display: inline-block;
         text-align: left;
         background-color: red;
-        color: $white;
+        color: white;
         padding: 15px;
         font-family: sans-serif;
         font-size: 11px;

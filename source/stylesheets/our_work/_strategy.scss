@@ -1,10 +1,8 @@
-@import '_variables';
-
 $font-change-width: 1155px;
 $layout-change-width: 905px;
 
 body.strategy {
-  background-color: $white;
+  background-color: white;
   .work-with-us {
     padding-top: 200px;
     padding-bottom: 200px;
@@ -16,8 +14,8 @@ body.strategy {
   .content {
     .section-heading {
       display: inline-block;
-      background-color: $black;
-      color: $white;
+      background-color: black;
+      color: white;
       text-transform: uppercase;
       font-family: 'Gotham A', 'Gotham B';
       letter-spacing: 3px;
