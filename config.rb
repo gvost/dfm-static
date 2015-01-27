@@ -1,4 +1,42 @@
 
+# use directory paths rather than file paths
+activate :directory_indexes
+
+# tell server where to find stuff
+set :css_dir, 'stylesheets'
+set :js_dir, 'javascripts'
+set :images_dir, 'images'
+set :fonts_dir, 'fonts'
+
+
+configure :development do
+  # auto-reload whenever files are saved
+  activate :livereload
+end
+
+
+configure :build do
+
+  # make files smaller
+  activate :minify_css
+  activate :minify_javascript
+  activate :minify_html
+  # activate :gzip
+
+  # optimize images
+  # activate :imageoptim 
+
+  # Enable cache buster
+  # activate :asset_hash
+
+  # Use relative URLs
+  # activate :relative_assets
+
+  # Or use a different image path
+  # set :http_prefix, "/Content/images/"
+end
+
+
 ###
 # Compass
 ###
@@ -41,6 +79,7 @@
 #   def some_helper
 #     "Helping"
 #   end
+<<<<<<< HEAD
 # end
 
 # user directory paths rather than file paths
@@ -83,3 +122,6 @@ end
 
 
 #ignore '/wordpress/*'
+=======
+# end
+>>>>>>> e6e27e4126f0500da79155c798463fa55171d822

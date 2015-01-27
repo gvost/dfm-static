@@ -6,16 +6,31 @@
 copyright: 2015
 */
 
+
+
+/* 
+
+Note: this is the main css file, and the only one that 
+will be  served in a production environment. The remaining
+css files will be incorporated into this file via the 
+includes below. 
+
+*/
+
+////////////// INCLUDED FILES //////////////
+
 /*
  *= require _reset
  *= require _fonts
  *= require_self
- *= require_tree .
+ *= require_tree . 
  */
 
-$top-background-shift: 585px;
+/////////////// SASS VARIABLE //////////////
 
-//////////////// GLOBAL CSS /////////////////
+$mobile-width: 640px;
+
+//////////////// GLOBAL CSS ////////////////
 
 * {
   -webkit-box-sizing: border-box;
@@ -41,7 +56,7 @@ body {
   z-index: 1;
 }
 
-////////////// LOADING PAGE //////////////////
+////////////// LOADING PAGE ///////////////
 
 #loading-page {
   position: fixed;
@@ -58,7 +73,7 @@ body {
   background-repeat: no-repeat;
 }
 
-//////////////// HEADER  ///////////////////
+///////////////// HEADER ///////////////////
 
 #header {
   position: fixed;
@@ -84,11 +99,10 @@ body {
   }
 }
 
-///////////// NAV PAGE /////////////////
+//////////////// NAV PAGE /////////////////
 
 #nav-page {
   height: 100%;
-  min-height: 150%;
   z-index: 500;
   background-color: rgba(10,10,10,0.85);
   position: fixed;
@@ -139,12 +153,16 @@ body {
 }
 
 ////////////// CASE STUDIES TEMPLATE ///////////////
-// this is used on the kavaldon, selvarey, AVF, and velvet pages
+
+// This html template is used verbatim in the kavaldon, 
+// selvarey, AVF, and velvet pages, and slightly modified 
+// in all of the our-work pages (which don't use parallax). 
+// Styles follow the html.
 
 /*
 <div id="main">
   <div class="top-background"></div>
-  <div class="parallax-background"></div>
+  <div class="parallax-background"></div> // holds the parallax image
   <div class="content">
 
     <div class="top-container">
@@ -154,13 +172,13 @@ body {
           <h3></h3>
         </div>
       </div>
-      ADD CONTENT HERE
+      PAGE-SPECIFIC CONTENT
     </div>
 
-    <div class="parallax"></div>
+    <div class="parallax"></div>          // the parallax window
 
     <div class="bottom-container">
-      ADD CONTENT HERE
+      PAGE-SPECIFIC CONTENT
     </div>
 
     <div class="work-with-us">
@@ -183,9 +201,8 @@ body {
   left: 0;
   background-size: cover;
   z-index: -1;
-  @media only screen and (max-width: $top-background-shift) {
-    background-position: center -20px;
-    background-size: 160%;
+  @media only screen and (max-width: $mobile-width) {
+    height: 600px;
   }
 }
 .parallax-background {
@@ -195,7 +212,7 @@ body {
   display: none;
   top: 0;
   background-repeat: no-repeat;
-  background-position: left top;
+  background-position: center;
   background-size: cover;
 }
 .content{
@@ -204,8 +221,8 @@ body {
   width: 100%;
   top: 800px;
   left: 0;
-  @media only screen and (max-width: $top-background-shift) {
-    top: 460px;
+  @media only screen and (max-width: $mobile-width) {
+    top: 600px;
   }
   .top-container {
     background-color: white;
@@ -215,7 +232,7 @@ body {
     width: 580px;
     max-width: 95%;
     position: relative;
-    margin: 0 auto -100px auto;
+    margin: 0 auto -50px auto;
     top: -100px;
     border: 1px solid white;
   }
@@ -225,7 +242,7 @@ body {
     position: relative;
     margin: 1.5% auto;
     text-align: center;
-    padding: 66px 50px;
+    padding: 10% 15%;
     box-sizing: border-box;
     h1 {
       color: black;
@@ -237,6 +254,10 @@ body {
       line-height: 40px;
       max-width: 400px;
       margin: 0 auto 25px auto;
+      @media only screen and (max-width: $mobile-width) {
+        font-size: 1.2em;
+        letter-spacing: 1.7px;
+      }
     }
     h2 {
       font-weight: 100;
@@ -262,7 +283,7 @@ body {
   }
   .work-with-us {
     width: 100%;
-    height: 300px;
+    height: 250px;
     font-family: 'Georgia';
     text-align: center;
     color: black; 
@@ -285,10 +306,10 @@ body {
   }
 }
 
-///////////// MULTI-PAGE STYLES ///////////////
+///////////// MULTI-PAGE ELEMENTS ///////////////
 
 // for the "branding" and "user journey" sections of
-// many of the pages
+// many of the case studies and our-work pages
 .portfolio-text-insert {
   margin: 0 auto;
   width: 500px;
@@ -317,8 +338,8 @@ body {
   }
 }
 
-// for the site-page images in the bottom sections of
-// kavaldon, selvarey, AVF, and velvet
+// for the website samples/computer images in 
+// the bottom half of kavaldon, selvarey, AVF, and velvet
 .site-page {
   margin: 40px auto;
   width: 80%;
@@ -328,13 +349,11 @@ body {
   }
 }
 
-// for the black multi-line headings on the
-// environment, identity, interactive, 
-// and packaging pages
+// for the black multi-line headings in environment,
+// identity, interactive, and packaging
 .heading-section {
   z-index: 2;
-  position: relative;
-  clear: both;
+  position: absolute;
   h1 {
     font-family: 'DidotLTStd-Italic';
     font-size: 30px;
@@ -345,8 +364,11 @@ body {
     margin-bottom: 4px;
     padding: 9px 5px 5px 30px;
     transition: all 200ms ease-in;
-    @media only screen and (max-width: 585px) {
-      padding-left: 0;
+    width: 275px;
+    @media only screen and (max-width: $mobile-width) {
+      font-size: 20px;
+      width: 175px;
+      padding-left: 25px;
     }
   }
 }

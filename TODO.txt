@@ -9,3 +9,4 @@ CONTACT PAGE
 
 BLOG
   - put the right path in index.html and _nav_page.html when we go to production
+

@@ -27,16 +27,6 @@ body.environment {
         top: 17.28%;
         left: 14.06%;
       }
-      #section-01 {
-        position: absolute;
-        width: 300px;
-        top: 16.38%;
-        right: 0;
-        text-align: left;
-        h1 {
-          padding-left: 30px; 
-        }
-      }
       #three-pics {
         width: 70.21%;
         top: 45.56%;
@@ -63,6 +53,10 @@ body.environment {
         width: 32.08%;
         top: 76.75%;
         right: 1.46%;
+      }
+      .heading-section {
+        top: 16.38%;
+        right: 0;
       }
     }
   }

@@ -55,6 +55,10 @@ body.strategy {
         @media only screen and (max-width: 585px) {
           left: 29%;
         }
+        @media only screen and (max-width: 450px) {
+          left: 6%;
+          top: 50px;
+        }
         #amp {
           float: left;
           line-height: 190px;
@@ -213,6 +217,9 @@ body.strategy {
           top: -610px;
           left: 22%;
         } 
+        @media only screen and (max-width: 450px) {
+          left: 10%; 
+        }
       }
       #what-we-do {
         position: relative;
@@ -227,6 +234,9 @@ body.strategy {
           top: -190px;
           left: 22%;
         } 
+        @media only screen and (max-width: 450px) {
+          left: 10%; 
+        }
       }
       h2 {
         font-weight: 600;
