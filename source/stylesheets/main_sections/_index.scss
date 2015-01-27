@@ -1,5 +1,3 @@
-@import '_variables';
-
 $layout-change-width: 785px; 
 
 body.index {
@@ -43,6 +41,9 @@ body.index {
         background-repeat: no-repeat;
         background-size: cover;
       }
+    /*  video::-webkit-media-controls {
+        display:none !important;
+      }*/
     } 
     .feature-image {
       position: absolute;

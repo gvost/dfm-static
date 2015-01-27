@@ -1,9 +1,7 @@
-@import '_variables';
-
 $mobile-width: 585px;
 
 body.identity {
-  background-color: $white;
+  background-color: white;
   text-align: center;
   .top-background {
     background-image: image-url("page_identity/top_background.png");
@@ -123,8 +121,8 @@ body.identity {
   		#box {
   			width: 475px;
   			max-width: 100%;
-  			border: 7px solid$black;
-  			background-color: $white;
+  			border: 7px solidblack;
+  			background-color: white;
   			padding: 30px;
   		}
   		h1 {
@@ -151,12 +149,12 @@ body.identity {
   	#black-band {
   		width: 100%;
   		height: 500px;
-  		background-color: $black;
+  		background-color: black;
   		padding-top: 90px;
   		min-width: 1200px;
   		clear: both;
   		ul {
-  			color: $white;
+  			color: white;
   			display: block;
   			vertical-align: top;
   			display: inline-block;
@@ -190,8 +188,8 @@ body.identity {
   		.black-bar {
 	  		font-family: 'DidotLTStd-Italic';
   			font-size: 60px;
-  			background-color:$black;
-  			color:$white;
+  			background-color:black;
+  			color:white;
   			text-align: left;
   			font-weight: lighter;
   			padding: 9px 10px 5px 84px;

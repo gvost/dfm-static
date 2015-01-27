@@ -1,10 +1,8 @@
-@import '_variables';
-
 $wide-form-width: 1155px;
 $narrow-form-width: 860px;
 
 body.contact {
-	background-color: $white;
+	background-color: white;
 	.top-background {
 		background-image: image-url("page_contact/top_background.jpg");
 	}
@@ -17,7 +15,7 @@ body.contact {
 		left: 10%;
 		z-index: 2;
 		p {
-			color: $black;
+			color: black;
 			font-size: 0.875em;
 			font-family: 'Gotham A', 'Gotham B';
 			text-transform: uppercase;
@@ -32,7 +30,7 @@ body.contact {
 	.parking-block {
 		top: 400px;
 		p {
-			color: lighten($black, 70%);
+			color: lighten(black, 70%);
 		}
 	}
 	.map-graphic {
@@ -74,7 +72,7 @@ body.contact {
 		}
 	.form {
 		width: 100%;
-		color: $black;
+		color: black;
 		position: relative;
 		top: 370px;
 		float: right;
@@ -90,14 +88,14 @@ body.contact {
 		}
 		h1 {
 			margin-bottom: 60px;
-			color: lighten($black, 80%);
+			color: lighten(black, 80%);
 		}
 		input, textarea {
 			display: block;
 			margin-bottom: 20px;
 			height: 36px;
 			width: 100%;
-			background-color: lighten($black, 90%);
+			background-color: lighten(black, 90%);
 			border: none;
 			box-sizing: border-box;
 			-webkit-appearance: none;
@@ -120,8 +118,8 @@ body.contact {
 		input[type="submit"] {
 			width: 131px;
 			height: 33px;
-			background-color: $black;
-			color: $white;
+			background-color: black;
+			color: white;
 			margin-top: 160px;
 			text-transform: uppercase;
 			-webkit-appearance: none;
@@ -133,7 +131,7 @@ body.contact {
 			background-image: url('');
 			border-radius: 0;
 			border: none;
-			background-color: lighten($black, 90%);
+			background-color: lighten(black, 90%);
 			position: absolute;
 			@media only screen and (min-width: $wide-form-width ) {
 				right: 0;

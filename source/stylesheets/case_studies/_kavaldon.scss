@@ -1,9 +1,7 @@
-@import '_variables';
-
 $mobile-width: 670px;
 
 body.kavaldon {
-  background-color: $white;
+  background-color: white;
   text-align: center;
   .top-background {
     background-image: image-url("page_kavaldon/top_background.png");
