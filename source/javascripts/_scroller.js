@@ -121,4 +121,4 @@ $(document).ready(function() {
     }
   }
 
-})();
+});
