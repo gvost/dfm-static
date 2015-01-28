@@ -9,6 +9,7 @@
 
 # Ignore the build directory
 # /build
+# /wordpress
 
 # Ignore cache
 /.sass-cache
