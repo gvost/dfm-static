@@ -1,8 +1,12 @@
 <div id="header">
+
+  <!-- make the DFM logo a link to the index page, unless we're already on the index page -->
   <% if page_classes.split(" ").first == "index" %>
     <%= image_tag "logo.png", :id => "logo" %>
   <% else %>
     <a href="/" class="to-home"><%= image_tag "logo.png", :id => "logo" %></a>
   <% end %>
+
   <div id="nav-toggle">Explore</div>
+
 </div>
