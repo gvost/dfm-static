@@ -34,5 +34,11 @@ Start the middleman server by running "middleman server".  Then you can edit any
 
 Deployment
 
-Run "middleman build" from within the root folder of the repo.  This will create a new folder called "build" that contains all of the static production files for the site.  You can set the options for the build (e.g. minification, g-zipping, etc.) in the "configure :build" section of config.rb.  
+Run "middleman build --no-clean" from within the root folder of the repo.  
+
+The build command creates a new folder called "build" that contains all of the static production files for the site.  You can set the options for the build (e.g. minification, g-zipping, etc.) in the "configure :build" section of config.rb.  
+
+The "--no-clean" option will prevent middleman from overwriting any files that already exist in the build folder but aren't part of the build.  This is important because wordpress will live in the build folder (so that it has the same document root as the static files).  
+
+
 
