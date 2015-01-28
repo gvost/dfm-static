@@ -3,7 +3,7 @@
 <section id="content" role="main error404">
 
 
-<h1>Nothing to see here...</h1>
+<h1>Nothing to see here... 404!</h1>
 
 </section>
 
