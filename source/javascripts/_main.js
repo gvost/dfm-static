@@ -149,6 +149,8 @@ $(document).ready(function() {
 
     $slides.eq(i).removeClass('active').fadeOut(300);
     $slides.eq(i - 1).addClass('active').fadeIn(300);
+
+    initAutoClick();
   });
 
   // right clicks
@@ -158,17 +160,25 @@ $(document).ready(function() {
 
     $slides.eq(i).removeClass('active').fadeOut(300);
     $slides.eq(next_slide).addClass('active').fadeIn(300);
+
+    initAutoClick();
   });
 
-  // auto-switch slides every 6 seconds
-  blurbTimer = setInterval(function() {
-    $('#right-button').trigger('click');
-  }, 6000);
+  function initAutoClick() {
+    // auto-switch slides every 6 seconds
+    clearInterval(blurbTimer);
+    blurbTimer = setInterval(function() {
+      $('#right-button').trigger('click');
+    }, 6000);
+  }
 
   // stop the timer whenever a link is clicked
   $("a").click(function() {
     clearInterval(blurbTimer);
   });
+
+  // start the auto-switch
+  initAutoClick();
 
   /////////// NAV PAGE LINKS ///////////////
 
