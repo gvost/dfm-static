@@ -231,16 +231,15 @@ body {
   .top-insert-outline {
     width: 580px;
     max-width: 95%;
+    padding: 9px;
     position: relative;
     margin: 0 auto -50px auto;
     top: -100px;
     border: 1px solid white;
   }
   .top-insert {
-    width: 97%;
     background-color: white;
     position: relative;
-    margin: 1.5% auto;
     text-align: center;
     padding: 10% 15%;
     box-sizing: border-box;
