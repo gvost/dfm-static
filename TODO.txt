@@ -1,5 +1,6 @@
 GENERAL
   - Add to .htaccess robots nofollow
+  - delete the wordpress folder that's outside of the build directory, and move the php folder into the build directory
 
 CONTACT PAGE
   - get the email address where the contacts should be sent
