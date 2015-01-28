@@ -1,4 +1,4 @@
-# THE GIT REPO
+## Installing Sites Files
 
 Clone the repo by running "git clone https://github.com/upstartBureau/DFM_static.git".  The repo contains--
 
@@ -15,9 +15,11 @@ Clone the repo by running "git clone https://github.com/upstartBureau/DFM_static
 6.  A .gitignore file.
 
 
-# MIDDLEMAN
+## Middleman
 
-## Installation
+Middleman is a simple command-line development environment for static sites.  The major benefits are: (1) a sass compiler, (2) an embedded ruby compiler, and (3) automated builds with css/js/html minification, g-zipping, image optimization, and asset fingerprinting (for cache performance).  The documentation is concise and well-organized.  See middlemanapp.com.
+
+### Installation
 
 1.  Make sure ruby is installed by running `ruby -v`. 
 
@@ -25,15 +27,11 @@ Clone the repo by running "git clone https://github.com/upstartBureau/DFM_static
 
 3.  Run `bundle install` from within the root folder of the repo.  This will install all the gems in the Gemfile, including middleman. 
 
-
-## During Development
-
-Middleman is a simple command-line development environment for static sites.  The major benefits are: (1) a sass compiler, (2) an embedded ruby compiler, and (3) automated builds with css/js/html minification, g-zipping, image optimization, and asset fingerprinting (for cache performance).  The documentation is concise and well-organized.  See middlemanapp.com.
+### Developing with middleman
 
 Start the middleman server by running `middleman server`.  Then open your browser and go to localhost:4567.  Then you can edit any of the source files, and middleman will automatically compile the sass and embedded ruby.  Whenever you save a change to any of the source files, middleman will automatically refresh your browser (unless you disable livereload in the config.rb file).  
 
-
-## Deployment
+### Deploying with middleman
 
 Run `middleman build --no-clean` from within the root folder of the repo.  
 
@@ -41,10 +39,9 @@ The `build` command creates a new folder called "build" that contains all of the
 
 The `--no-clean` option will prevent middleman from overwriting any files that already exist in the build folder but aren't part of the build.  This is important because wordpress will live in the build folder (so that it has the same document root as the static files).  
 
+## Important Source Files
 
-# CRITICAL SOURCE FILES
 
-
-# BLOG
+## The Blog
 
 
