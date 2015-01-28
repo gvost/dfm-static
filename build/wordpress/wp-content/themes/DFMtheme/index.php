@@ -3,11 +3,6 @@
 		
 	<div class="top-background"></div>
 	<div class="content">
-	<!-- <div>
-		<?php
-				echo get_the_tag_list('<p>Tags: ',', ','</p>');
-			?>
-	</div> -->
 	<div class="top-container">
     <div class="top-insert-outline">
       <div class="top-insert">
