@@ -384,21 +384,21 @@ $(document).ready(function() {
 
     $("#server-response").text("Sending message...");
 
-    $.ajax({
-      type:  'post',
-      url:   '/php/contact_submit.php',
-      data:  {
+    var info = { 
         firstname:   $("#contact-first-name").val(),
         lastname:    $("#contact-last-name").val(),
         email:       $("#contact-email").val(), 
         phone:       $("#contact-phone").val(),
         project:     $("#contact-project").val(),
         find:        $("#contact-find-us").val()
-      },
+    };
+
+    $.ajax({
+      type:  'get',
+      url:   '/php/contact_submit.php',
+      data:  info,
       success: function(response) {
-        setTimeout(function() {
-          $("#server-response").text(response);         
-        }, 500);
+        $("#server-response").text(response);         
       }
     }); 
 
