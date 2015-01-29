@@ -4,15 +4,15 @@
   // this won't be necessary on the production server
   // header("Access-Control-Allow-Origin: *");
 
-  // get contents of the post array
-  $name = $_POST['firstname'] . " " . $_POST['lastname'];
-  $email = $_POST['email'];
-  $phone = $_POST['phone'];
-  $project = $_POST['project'];
-  $find = $_POST['find']; 
+  // get contents of the GET array
+  $name = $_GET['firstname'] . " " . $_GET['lastname'];
+  $email = $_GET['email'];
+  $phone = $_GET['phone'];
+  $project = $_GET['project'];
+  $find = $_GET['find']; 
 
   // construct email
-  $recipient = "jake.mensch@gmail.com";
+  $recipient = "anyone@anywhere.com";//change this to an actual email address
   $subject = "DFM site contact";
   $body = <<<MESSAGE
 
@@ -33,7 +33,7 @@ MESSAGE;
   );
 
   // for testing only
-  // file_put_contents("email.txt", $subject . "\n" . $body); 
+  file_put_contents("email.txt", $subject . "\n" . $body); 
 
   echo "Thanks, we'll be in touch.";
 ?>
