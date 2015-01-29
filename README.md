@@ -61,8 +61,8 @@ The main scss file, containing global styles.  These statements at the top of th
 
 ## The Blog
 
-See [source/blog/readme.txt] (source/blog/readme.txt) for information about admin changes.
-See [source/blog/wp-content/themes/DFMtheme/readme.txt] (source/blog/wp-content/themes/DFMtheme/readme.txt) for theme functionality changes.
+See [build/blog/readme.txt] (build/blog/readme.txt) for information about admin changes.
+See [build/blog/wp-content/themes/DFMtheme/readme.txt] (build/blog/wp-content/themes/DFMtheme/readme.txt) for theme functionality changes.
 
 ## The Mailing Script
 
