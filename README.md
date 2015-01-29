@@ -69,5 +69,7 @@ See [build/blog/wp-content/themes/DFMtheme/readme.txt] (build/blog/wp-content/th
 
 When the user submits a comment on the contact page, an ajax post request is sent to php/contact_submit.php.  That script invokes the php mail function to send an email to DFM.  
 
+When we go to production DFM'S EMAIL SHOULD BE ADDED to the php script in line 15.
+
 
 
