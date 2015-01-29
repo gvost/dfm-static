@@ -1,3 +1,4 @@
+
 @import url(forms.css);
 @import url(l10n.css);
 
@@ -9,11 +10,11 @@ body {
 }
 
 html {
-	background: #f1f1f1;
+	background: #000000;
 }
 
 body {
-	background: #f1f1f1;
+	background: #000000;
 	min-width: 0;
 	color: #444;
 	font-family: "Open Sans", sans-serif;
@@ -124,21 +125,22 @@ p {
 }
 
 .login h1 a {
-	background-image: url(../images/w-logo-blue.png?ver=20131202);
-	background-image: none, url(../images/wordpress-logo.svg?ver=20131107);
+	/*background-image: url(../images/w-logo-blue.png?ver=20131202);
+	background-image: none, url(../images/wordpress-logo.svg?ver=20131107);*/
+	background-image: url(/images/logo_loading.png);
 	-webkit-background-size: 84px;
-	background-size: 84px;
+	background-size: contain;
 	background-position: center top;
 	background-repeat: no-repeat;
 	color: #999;
-	height: 84px;
+	height: 74px;
 	font-size: 20px;
 	font-weight: normal;
 	line-height: 1.3em;
-	margin: 0 auto 25px;
+	margin: -40px auto 85px;
 	padding: 0;
 	text-decoration: none;
-	width: 84px;
+	width: 314px;
 	text-indent: -9999px;
 	outline: none;
 	overflow: hidden;

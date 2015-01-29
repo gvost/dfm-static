@@ -3,9 +3,12 @@
 	<head>
 		<meta charset="<?php bloginfo( 'charset' ); ?>" />
 		<meta name="viewport" content="width=device-width" />
+		<meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <meta name="author" content="upstartBureau -- Jake &amp; David">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
 		<title>DFM | <?php wp_title( ' | ', true, 'right' ); ?></title>
-		<link rel="icon" href="/images/favicon.png" type="image/x-icon" />
-		<link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+		<link href="http://50.87.248.116/~drawini3/favicon.png" rel="icon" />
 		<link rel="stylesheet" type="text/css" href="/stylesheets/application.css">
 		<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>" />
 		<?php wp_head(); ?>
