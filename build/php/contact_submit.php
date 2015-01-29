@@ -12,7 +12,7 @@
   $find = $_GET['find']; 
 
   // construct email
-  $recipient = "jake.mensch@gmail.com";
+  $recipient = "anyone@anywhere.com";//change this to an actual email address
   $subject = "DFM site contact";
   $body = <<<MESSAGE
 
