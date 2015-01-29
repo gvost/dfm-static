@@ -47,14 +47,12 @@ This is the main layout file that serves as a template for all of the pages on t
 2.  stylesheets/application.scss
 
 The main scss file, containing global styles.  These statements at the top of the file --
-
- `*= require _reset
-
+```
+ *= require _reset
  *= require _fonts
-
  *= require_self
- 
- *= require_tree .` 
+ *= require_tree .
+```
 
  -- will incorporate all of the other scss files in the stylesheets folder.
 
