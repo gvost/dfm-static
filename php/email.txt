@@ -1,8 +1,8 @@
 DFM site contact
 
-Name: hi dude bye
-Email: afd
-Phone: 1123
+Name:  
+Email: 
+Phone: 
 
-Project: fff
-Find:  1   
+Project: 
+Find:     

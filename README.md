@@ -14,7 +14,6 @@ Clone the repo by running "git clone https://github.com/upstartBureau/DFM_static
 
 6.  A .gitignore file.
 
-
 ## Middleman
 
 Middleman is a simple command-line development environment for static sites.  The major benefits are: (1) a sass compiler, (2) an embedded ruby compiler, and (3) automated builds with css/js/html minification, g-zipping, image optimization, and asset fingerprinting (for cache performance).  The documentation is concise and well-organized.  See middlemanapp.com.
@@ -41,7 +40,33 @@ The `--no-clean` option will prevent middleman from overwriting any files that a
 
 ## Important Source Files
 
+1.  layouts/layout.erb.  
+
+This is the main layout file that serves as a template for all of the pages on the site (except the blog, see below).  It incorporates the loading page, header, and nav-page through the three `partial` statements at the top of the body.  Then the contents of whatever page the user has navigated to are inserted at the `yield` statement.
+
+2.  stylesheets/application.scss
+
+The main scss file, containing global styles.  These statements at the top of the file --
+
+ `*= require _reset
+ *= require _fonts
+ *= require_self
+ *= require_tree .` 
+
+ -- will incorporate all of the other scss files in the stylesheets folder.
+
+ 3.  javascripts/application.js
+
+ The main js file, containing all of the js on the site except the scroller.  The scroller is incorporated through the `//= require _scroller` directive.
 
 ## The Blog
+
+See [build/blog/readme.txt] (build/blog/readme.txt) for information about admin changes.
+See [build/blog/wp-content/themes/DFMtheme/readme.txt] (build/blog/wp-content/themes/DFMtheme/readme.txt) for theme functionality changes.
+
+## The Mailing Script
+
+When the user submits a comment on the contact page, an ajax post request is sent to php/contact_submit.php.  That script invokes the php mail function to send an email to DFM.  
+
 
 
