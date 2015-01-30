@@ -5,7 +5,7 @@ Last Updated: 2010-09-17
 Author: Richard Clark - http://richclarkdesign.com 
 Twitter: @rich_clark
 */
-/* line 10, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/_reset.scss */
+/* line 10, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/_reset.scss */
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 abbr, address, cite, code,
@@ -26,30 +26,30 @@ time, mark, audio, video {
   vertical-align: baseline;
   background: transparent; }
 
-/* line 31, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/_reset.scss */
+/* line 31, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/_reset.scss */
 body {
   line-height: 1; }
 
-/* line 35, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/_reset.scss */
+/* line 35, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/_reset.scss */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block; }
 
-/* line 40, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/_reset.scss */
+/* line 40, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/_reset.scss */
 nav ul {
   list-style: none; }
 
-/* line 44, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/_reset.scss */
+/* line 44, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/_reset.scss */
 blockquote, q {
   quotes: none; }
 
-/* line 48, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/_reset.scss */
+/* line 48, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/_reset.scss */
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
   content: none; }
 
-/* line 54, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/_reset.scss */
+/* line 54, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/_reset.scss */
 a {
   margin: 0;
   padding: 0;
@@ -58,36 +58,36 @@ a {
   background: transparent; }
 
 /* change colours to suit your needs */
-/* line 63, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/_reset.scss */
+/* line 63, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/_reset.scss */
 ins {
   background-color: #ff9;
   color: #000;
   text-decoration: none; }
 
 /* change colours to suit your needs */
-/* line 70, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/_reset.scss */
+/* line 70, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/_reset.scss */
 mark {
   background-color: #ff9;
   color: #000;
   font-style: italic;
   font-weight: bold; }
 
-/* line 77, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/_reset.scss */
+/* line 77, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/_reset.scss */
 del {
   text-decoration: line-through; }
 
-/* line 81, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/_reset.scss */
+/* line 81, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/_reset.scss */
 abbr[title], dfn[title] {
   border-bottom: 1px dotted;
   cursor: help; }
 
-/* line 86, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/_reset.scss */
+/* line 86, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/_reset.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
 
 /* change border colour to suit your needs */
-/* line 92, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/_reset.scss */
+/* line 92, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/_reset.scss */
 hr {
   display: block;
   height: 1px;
@@ -96,7 +96,7 @@ hr {
   margin: 1em 0;
   padding: 0; }
 
-/* line 101, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/_reset.scss */
+/* line 101, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/_reset.scss */
 input, select {
   vertical-align: middle; }
 @font-face {
@@ -175,22 +175,22 @@ includes below.
 
 
  */
-/* line 35, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/application.scss */
+/* line 35, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-/* line 41, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/application.scss */
+/* line 41, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
 ::selection {
   color: #ff0cdb; }
 
-/* line 45, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/application.scss */
+/* line 45, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
 html, body {
   height: 100%;
   overflow: auto; }
 
-/* line 50, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/application.scss */
+/* line 50, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
 body {
   position: absolute;
   min-height: 100%;
@@ -199,7 +199,7 @@ body {
   overflow-x: hidden;
   z-index: 1; }
 
-/* line 61, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/application.scss */
+/* line 61, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
 #loading-page {
   position: fixed;
   top: 0;
@@ -214,7 +214,7 @@ body {
   background-size: 45%;
   background-repeat: no-repeat; }
 
-/* line 78, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/application.scss */
+/* line 78, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
 #header {
   position: fixed;
   top: 25px;
@@ -223,10 +223,10 @@ body {
   z-index: 1000;
   background-color: white;
   padding: 6px 40px 0px 40px; }
-  /* line 86, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/application.scss */
+  /* line 86, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
   #header #logo {
     float: left; }
-  /* line 89, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/application.scss */
+  /* line 89, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
   #header #nav-toggle {
     float: right;
     cursor: pointer;
@@ -238,7 +238,7 @@ body {
     margin-top: -3px;
     -webkit-font-smoothing: antialiased; }
 
-/* line 104, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/application.scss */
+/* line 104, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
 #nav-page {
   height: 100%;
   z-index: 500;
@@ -253,13 +253,13 @@ body {
   color: white;
   overflow-y: scroll;
   font-family: 'Gotham A', 'Gotham B'; }
-  /* line 118, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/application.scss */
+  /* line 118, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
   #nav-page ul {
     list-style: none; }
-  /* line 121, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/application.scss */
+  /* line 121, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
   #nav-page ul:first-child {
     margin-top: 40px; }
-  /* line 124, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/application.scss */
+  /* line 124, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
   #nav-page .nav-heading {
     font-size: 1.2em;
     margin-top: 1.6em;
@@ -269,22 +269,22 @@ body {
     display: inline-block;
     border-bottom: 3pxwhite solid;
     padding-bottom: 5px; }
-  /* line 134, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/application.scss */
+  /* line 134, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
   #nav-page li:not(.nav-heading) {
     line-height: 1.8em;
     font-size: 0.9em;
     font-family: 'Georgia';
     font-style: italic; }
-  /* line 140, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/application.scss */
+  /* line 140, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
   #nav-page a {
     text-decoration: none;
     color: white;
     font-size: 1.2em; }
-  /* line 145, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/application.scss */
+  /* line 145, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
   #nav-page .social-links {
     margin: 30px 0px;
     text-align: center; }
-  /* line 149, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/application.scss */
+  /* line 149, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
   #nav-page .social-links a {
     text-transform: uppercase;
     margin: 15px; }
@@ -319,7 +319,7 @@ body {
   </div>
 </div>
 */
-/* line 193, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/application.scss */
+/* line 193, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
 .top-background {
   width: 100%;
   height: 800px;
@@ -332,11 +332,11 @@ body {
   background-size: cover;
   z-index: -1; }
   @media only screen and (max-width: 640px) {
-    /* line 193, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/application.scss */
+    /* line 193, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
     .top-background {
       height: 600px; } }
 
-/* line 208, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/application.scss */
+/* line 208, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
 .parallax-background {
   height: 100%;
   width: 100%;
@@ -347,7 +347,7 @@ body {
   background-position: center;
   background-size: cover; }
 
-/* line 218, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/application.scss */
+/* line 218, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
 .content {
   position: relative;
   background-color: white;
@@ -355,14 +355,14 @@ body {
   top: 800px;
   left: 0; }
   @media only screen and (max-width: 640px) {
-    /* line 218, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/application.scss */
+    /* line 218, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
     .content {
       top: 600px; } }
-  /* line 227, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/application.scss */
+  /* line 227, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
   .content .top-container {
     background-color: white;
     padding-bottom: 200px; }
-  /* line 231, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/application.scss */
+  /* line 231, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
   .content .top-insert-outline {
     width: 580px;
     max-width: 95%;
@@ -371,14 +371,14 @@ body {
     margin: 0 auto -50px auto;
     top: -100px;
     border: 1px solid white; }
-  /* line 240, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/application.scss */
+  /* line 240, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
   .content .top-insert {
     background-color: white;
     position: relative;
     text-align: center;
     padding: 10% 15%;
     box-sizing: border-box; }
-    /* line 246, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/application.scss */
+    /* line 246, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
     .content .top-insert h1 {
       color: black;
       font-family: 'Gotham A', 'Gotham B';
@@ -390,11 +390,11 @@ body {
       max-width: 400px;
       margin: 0 auto 25px auto; }
       @media only screen and (max-width: 640px) {
-        /* line 246, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/application.scss */
+        /* line 246, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
         .content .top-insert h1 {
           font-size: 1.2em;
           letter-spacing: 1.7px; } }
-    /* line 261, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/application.scss */
+    /* line 261, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
     .content .top-insert h2 {
       font-weight: 100;
       font-family: 'Georgia';
@@ -402,20 +402,20 @@ body {
       letter-spacing: 1px;
       font-size: 13px;
       line-height: 18px; }
-    /* line 269, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/application.scss */
+    /* line 269, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
     .content .top-insert h3 {
       font-style: italic;
       font-weight: 100; }
-  /* line 274, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/application.scss */
+  /* line 274, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
   .content .parallax {
     width: 100%;
     height: 300px;
     background: none; }
-  /* line 279, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/application.scss */
+  /* line 279, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
   .content .bottom-container {
     background-color: white;
     padding: 200px 0; }
-  /* line 283, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/application.scss */
+  /* line 283, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
   .content .work-with-us {
     width: 100%;
     height: 250px;
@@ -423,29 +423,29 @@ body {
     text-align: center;
     color: black;
     background-color: white; }
-    /* line 290, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/application.scss */
+    /* line 290, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
     .content .work-with-us h2 {
       width: 150px;
       margin: 0 auto;
       text-transform: uppercase;
       padding: 0 5px 20px 5px;
       border-bottom: 2px grey solid; }
-    /* line 297, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/application.scss */
+    /* line 297, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
     .content .work-with-us a {
       text-decoration: none;
       color: inherit; }
-    /* line 301, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/application.scss */
+    /* line 301, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
     .content .work-with-us p {
       margin-top: 20px;
       font-style: italic; }
 
-/* line 312, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/application.scss */
+/* line 312, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
 .portfolio-text-insert {
   margin: 0 auto;
   width: 500px;
   text-align: center;
   max-width: 85%; }
-  /* line 317, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/application.scss */
+  /* line 317, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
   .portfolio-text-insert h1 {
     font-size: 30px;
     margin-bottom: 55px;
@@ -453,13 +453,13 @@ body {
     font-family: 'Gotham A', 'Gotham B';
     text-transform: uppercase;
     letter-spacing: 9px; }
-  /* line 325, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/application.scss */
+  /* line 325, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
   .portfolio-text-insert p {
     font-size: 14px;
     font-family: 'Georgia';
     line-height: 18px;
     letter-spacing: 1px; }
-  /* line 331, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/application.scss */
+  /* line 331, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
   .portfolio-text-insert div {
     display: inline-block;
     margin: 45px auto 0 auto;
@@ -467,20 +467,20 @@ body {
     height: 30px;
     border-bottom: 2px #cccccc solid; }
 
-/* line 342, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/application.scss */
+/* line 342, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
 .site-page {
   margin: 40px auto;
   width: 80%; }
-  /* line 345, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/application.scss */
+  /* line 345, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
   .site-page img {
     max-width: 100%;
     max-height: 100%; }
 
-/* line 353, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/application.scss */
+/* line 353, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
 .heading-section {
   z-index: 2;
   position: absolute; }
-  /* line 356, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/application.scss */
+  /* line 356, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
   .heading-section h1 {
     font-family: 'DidotLTStd-Italic';
     font-size: 30px;
@@ -493,153 +493,153 @@ body {
     transition: all 200ms ease-in;
     width: 275px; }
     @media only screen and (max-width: 640px) {
-      /* line 356, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/application.scss */
+      /* line 356, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
       .heading-section h1 {
         font-size: 20px;
         width: 175px;
         padding-left: 25px; } }
-/* line 7, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/_scroller.scss */
+/* line 7, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/_scroller.scss */
 .scroll-fast, .scroll-fast-left, .scroll-fast-right {
   transition: transform 200ms !important; }
 
-/* line 11, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/_scroller.scss */
+/* line 11, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/_scroller.scss */
 .scroll-medium, .scroll-medium-left, .scroll-medium-right {
   transition: transform 400ms !important; }
 
-/* line 15, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/_scroller.scss */
+/* line 15, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/_scroller.scss */
 .scroll-slow, .scroll-slow-left, .scroll-slow-right {
   transition: transform 600ms !important; }
 
-/* line 21, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/_scroller.scss */
+/* line 21, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/_scroller.scss */
 .move-up {
   opacity: 0;
   transform: translate(0px, -200px); }
 
-/* line 26, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/_scroller.scss */
+/* line 26, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/_scroller.scss */
 .move-down {
   opacity: 0;
   transform: translate(0px, 200px); }
 
-/* line 31, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/_scroller.scss */
+/* line 31, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/_scroller.scss */
 .move-left {
   opacity: 0;
   transform: translate(-1500px, 0px); }
 
-/* line 36, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/_scroller.scss */
+/* line 36, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/_scroller.scss */
 .move-right {
   opacity: 0;
   transform: translate(1500px, 0px); }
-/* line 1, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/case_studies/_AVF.scss */
+/* line 1, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_AVF.scss */
 body.AVF {
   background-color: white;
   text-align: center; }
-  /* line 4, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/case_studies/_AVF.scss */
+  /* line 4, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_AVF.scss */
   body.AVF .top-background {
     background-image: url("/images/page_AVF/top_background.jpg"); }
-  /* line 7, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/case_studies/_AVF.scss */
+  /* line 7, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_AVF.scss */
   body.AVF .parallax-background {
     background-image: url("/images/page_AVF/pink_thing.jpg"); }
-  /* line 10, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/case_studies/_AVF.scss */
+  /* line 10, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_AVF.scss */
   body.AVF .content {
     background-color: transparent; }
-    /* line 12, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/case_studies/_AVF.scss */
+    /* line 12, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_AVF.scss */
     body.AVF .content .image-container {
       position: relative;
       padding-top: 260%;
       margin-top: 100px; }
-      /* line 16, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/case_studies/_AVF.scss */
+      /* line 16, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_AVF.scss */
       body.AVF .content .image-container img {
         position: absolute; }
-      /* line 19, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/case_studies/_AVF.scss */
+      /* line 19, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_AVF.scss */
       body.AVF .content .image-container #white-bags {
         width: 40%;
         top: 0;
         right: 0; }
-      /* line 24, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/case_studies/_AVF.scss */
+      /* line 24, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_AVF.scss */
       body.AVF .content .image-container #white-boxes {
         width: 45%;
         top: 6%;
         left: 7%; }
-      /* line 29, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/case_studies/_AVF.scss */
+      /* line 29, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_AVF.scss */
       body.AVF .content .image-container #colored-squares {
         width: 25%;
         top: 22%;
         right: 20%; }
-      /* line 34, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/case_studies/_AVF.scss */
+      /* line 34, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_AVF.scss */
       body.AVF .content .image-container #backgammon-closed {
         width: 31%;
         top: 27%;
         left: 2%; }
-      /* line 39, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/case_studies/_AVF.scss */
+      /* line 39, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_AVF.scss */
       body.AVF .content .image-container #backgammon-open {
         width: 33%;
         top: 36%;
         left: 20%;
         z-index: 1; }
-      /* line 45, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/case_studies/_AVF.scss */
+      /* line 45, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_AVF.scss */
       body.AVF .content .image-container #blue-glass {
         width: 41%;
         top: 41%;
         left: 0%; }
-      /* line 50, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/case_studies/_AVF.scss */
+      /* line 50, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_AVF.scss */
       body.AVF .content .image-container #green-glass {
         width: 50%;
         top: 33%;
         right: -5; }
-      /* line 55, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/case_studies/_AVF.scss */
+      /* line 55, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_AVF.scss */
       body.AVF .content .image-container #pink-table {
         width: 24%;
         top: 56%;
         left: 10%; }
-      /* line 60, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/case_studies/_AVF.scss */
+      /* line 60, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_AVF.scss */
       body.AVF .content .image-container #green-square {
         width: 55%;
         top: 63%;
         left: 35%; }
-      /* line 65, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/case_studies/_AVF.scss */
+      /* line 65, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_AVF.scss */
       body.AVF .content .image-container #flower {
         width: 25%;
         top: 80%;
         left: 8%; }
-      /* line 70, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/case_studies/_AVF.scss */
+      /* line 70, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_AVF.scss */
       body.AVF .content .image-container #brown-bowl {
         width: 55%;
         top: 80%;
         left: 35%; }
-/* line 3, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
+/* line 3, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
 body.kavaldon {
   background-color: white;
   text-align: center; }
-  /* line 6, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
+  /* line 6, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
   body.kavaldon .top-background {
     background-image: url("/images/page_kavaldon/top_background.png"); }
-  /* line 9, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
+  /* line 9, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
   body.kavaldon .parallax-background {
     background-image: url("/images/page_kavaldon/eyes.jpg"); }
-  /* line 12, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
+  /* line 12, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
   body.kavaldon .content {
     background-color: transparent; }
-    /* line 14, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
+    /* line 14, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
     body.kavaldon .content #candles {
       display: block;
       width: 50%;
       margin: 100px auto 150px auto;
       transition: all 200ms ease-out; }
       @media only screen and (max-width: 640px) {
-        /* line 14, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
+        /* line 14, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
         body.kavaldon .content #candles {
           width: 70%; } }
-    /* line 23, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
+    /* line 23, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
     body.kavaldon .content .image-container {
       position: relative;
       padding-top: 110%;
       width: 80%;
       margin: 0 auto; }
       @media only screen and (max-width: 640px) {
-        /* line 23, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
+        /* line 23, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
         body.kavaldon .content .image-container {
           padding-top: 138%; } }
-      /* line 31, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
+      /* line 31, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
       body.kavaldon .content .image-container #scent {
         position: absolute;
         top: 0;
@@ -657,11 +657,11 @@ body.kavaldon {
         z-index: 2;
         transition: all 200ms ease-out; }
         @media only screen and (max-width: 640px) {
-          /* line 31, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
+          /* line 31, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
           body.kavaldon .content .image-container #scent {
             top: 71%;
             padding-left: 0; } }
-      /* line 52, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
+      /* line 52, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
       body.kavaldon .content .image-container #right-container {
         position: absolute;
         top: 0;
@@ -670,24 +670,24 @@ body.kavaldon {
         height: 100%;
         transition: all 200ms ease-out; }
         @media only screen and (max-width: 640px) {
-          /* line 52, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
+          /* line 52, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
           body.kavaldon .content .image-container #right-container {
             width: 90%; } }
-        /* line 62, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
+        /* line 62, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
         body.kavaldon .content .image-container #right-container #sexy-couple {
           width: 100%;
           z-index: 2; }
-        /* line 66, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
+        /* line 66, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
         body.kavaldon .content .image-container #right-container #inspired-with-squares {
           float: right;
           width: 85%;
           transition: all 200ms ease-out; }
           @media only screen and (max-width: 640px) {
-            /* line 66, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
+            /* line 66, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
             body.kavaldon .content .image-container #right-container #inspired-with-squares {
               margin-right: -12%;
               width: 98%; } }
-          /* line 74, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
+          /* line 74, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
           body.kavaldon .content .image-container #right-container #inspired-with-squares #inspired {
             padding: 30px 0;
             font-size: 16px;
@@ -695,26 +695,26 @@ body.kavaldon {
             line-height: 26px;
             transition: all 200ms ease-out; }
             @media only screen and (max-width: 640px) {
-              /* line 74, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
+              /* line 74, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
               body.kavaldon .content .image-container #right-container #inspired-with-squares #inspired {
                 padding: 12% 0;
                 font-size: 14px;
                 line-height: 22px; } }
             @media only screen and (max-width: 450px) {
-              /* line 74, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
+              /* line 74, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
               body.kavaldon .content .image-container #right-container #inspired-with-squares #inspired {
                 padding: 12% 0;
                 font-size: 11px;
                 line-height: 18px; } }
-          /* line 91, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
+          /* line 91, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
           body.kavaldon .content .image-container #right-container #inspired-with-squares #bw-squares {
             width: 100%;
             transition: all 200ms ease-out; }
             @media only screen and (max-width: 640px) {
-              /* line 91, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
+              /* line 91, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
               body.kavaldon .content .image-container #right-container #inspired-with-squares #bw-squares {
                 display: none; } }
-      /* line 100, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
+      /* line 100, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
       body.kavaldon .content .image-container #plant-apple {
         position: absolute;
         top: 42.5%;
@@ -722,17 +722,17 @@ body.kavaldon {
         width: 52.5%;
         transition: all 200ms ease-out; }
         @media only screen and (max-width: 640px) {
-          /* line 100, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
+          /* line 100, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
           body.kavaldon .content .image-container #plant-apple {
             top: 47.5%;
             left: -20%;
             width: 37.5%; } }
-        /* line 111, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
+        /* line 111, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
         body.kavaldon .content .image-container #plant-apple #plant {
           width: 100%;
           float: right;
           opacity: 0.775; }
-        /* line 116, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
+        /* line 116, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
         body.kavaldon .content .image-container #plant-apple #apple {
           width: 100%;
           margin-top: 31%;
@@ -740,129 +740,129 @@ body.kavaldon {
           float: left;
           transition: all 200ms ease-out; }
           @media only screen and (max-width: 640px) {
-            /* line 116, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
+            /* line 116, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
             body.kavaldon .content .image-container #plant-apple #apple {
               margin-left: 130%;
               width: 115%;
               margin-top: 60%; } }
-    /* line 131, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
+    /* line 131, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
     body.kavaldon .content .site-page:not(#computer) img {
       border: 4px lightgray solid; }
-/* line 1, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/case_studies/_selvarey.scss */
+/* line 1, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_selvarey.scss */
 body.selvarey {
   background-color: white;
   text-align: center; }
-  /* line 4, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/case_studies/_selvarey.scss */
+  /* line 4, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_selvarey.scss */
   body.selvarey .top-background {
     background-image: url("/images/page_selvarey/top_background.jpg"); }
-  /* line 7, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/case_studies/_selvarey.scss */
+  /* line 7, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_selvarey.scss */
   body.selvarey .parallax-background {
     background-image: url("/images/page_selvarey/gold_tree.jpg"); }
-  /* line 10, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/case_studies/_selvarey.scss */
+  /* line 10, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_selvarey.scss */
   body.selvarey .content {
     background-color: transparent; }
-    /* line 12, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/case_studies/_selvarey.scss */
+    /* line 12, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_selvarey.scss */
     body.selvarey .content .image-container {
       position: relative;
       padding-top: 140%;
       margin-top: 100px; }
-      /* line 16, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/case_studies/_selvarey.scss */
+      /* line 16, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_selvarey.scss */
       body.selvarey .content .image-container img {
         position: absolute; }
-      /* line 19, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/case_studies/_selvarey.scss */
+      /* line 19, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_selvarey.scss */
       body.selvarey .content .image-container #logo-text {
         width: 50%;
         top: 0%;
         right: 10%; }
-      /* line 24, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/case_studies/_selvarey.scss */
+      /* line 24, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_selvarey.scss */
       body.selvarey .content .image-container #bottle {
         width: 45%;
         top: 15%;
         left: 5%; }
-      /* line 29, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/case_studies/_selvarey.scss */
+      /* line 29, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_selvarey.scss */
       body.selvarey .content .image-container #tshirt {
         width: 32%;
         top: 6%;
         left: 42%;
         z-index: 1; }
-      /* line 35, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/case_studies/_selvarey.scss */
+      /* line 35, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_selvarey.scss */
       body.selvarey .content .image-container #booth-design {
         width: 39%;
         top: 28%;
         right: 5%; }
-      /* line 40, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/case_studies/_selvarey.scss */
+      /* line 40, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_selvarey.scss */
       body.selvarey .content .image-container #bag {
         width: 38%;
         top: 47%;
         right: 0%; }
-      /* line 45, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/case_studies/_selvarey.scss */
+      /* line 45, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_selvarey.scss */
       body.selvarey .content .image-container #cacao-rocks {
         width: 45%;
         top: 70%;
         left: 5%;
         z-index: 1; }
-      /* line 51, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/case_studies/_selvarey.scss */
+      /* line 51, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_selvarey.scss */
       body.selvarey .content .image-container #rey-rocks {
         width: 45%;
         top: 79%;
         left: 35%; }
-/* line 1, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/case_studies/_velvet.scss */
+/* line 1, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_velvet.scss */
 body.velvet {
   background-color: white;
   text-align: center; }
-  /* line 4, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/case_studies/_velvet.scss */
+  /* line 4, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_velvet.scss */
   body.velvet .top-background {
     background-image: url("/images/page_velvet/top_background.png"); }
-  /* line 7, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/case_studies/_velvet.scss */
+  /* line 7, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_velvet.scss */
   body.velvet .parallax-background {
     background-image: url("/images/page_velvet/white_shirt.png"); }
-  /* line 10, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/case_studies/_velvet.scss */
+  /* line 10, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_velvet.scss */
   body.velvet .content {
     background-color: transparent; }
-    /* line 12, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/case_studies/_velvet.scss */
+    /* line 12, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_velvet.scss */
     body.velvet .content .image-container {
       position: relative;
       padding-top: 125%; }
-      /* line 15, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/case_studies/_velvet.scss */
+      /* line 15, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_velvet.scss */
       body.velvet .content .image-container img {
         position: absolute; }
-      /* line 18, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/case_studies/_velvet.scss */
+      /* line 18, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_velvet.scss */
       body.velvet .content .image-container #white-outfit {
         width: 33%;
         top: 0;
         left: 15%; }
-      /* line 23, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/case_studies/_velvet.scss */
+      /* line 23, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_velvet.scss */
       body.velvet .content .image-container #three-ladies {
         width: 20%;
         top: 6%;
         left: 52%; }
-      /* line 28, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/case_studies/_velvet.scss */
+      /* line 28, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_velvet.scss */
       body.velvet .content .image-container #blue-jacket {
         width: 50%;
         top: 35%;
         right: 10%;
         z-index: 1; }
-      /* line 34, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/case_studies/_velvet.scss */
+      /* line 34, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_velvet.scss */
       body.velvet .content .image-container #computer {
         width: 32%;
         top: 60%;
         left: 20%; }
-      /* line 39, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/case_studies/_velvet.scss */
+      /* line 39, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_velvet.scss */
       body.velvet .content .image-container #eight-ladies {
         width: 60%;
         top: 88%;
         left: 22%; }
-    /* line 46, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/case_studies/_velvet.scss */
+    /* line 46, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_velvet.scss */
     body.velvet .content .site-page:not(#computers) img {
       border: 4px lightgray solid; }
-/* line 3, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_about.scss */
+/* line 3, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_about.scss */
 body.about {
   background-color: white;
   font-family: 'Knockout 48 A', 'Knockout 48 B'; }
-  /* line 6, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_about.scss */
+  /* line 6, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_about.scss */
   body.about .top-background {
     background-image: url("/images/page_about/top_background.jpg"); }
-  /* line 10, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_about.scss */
+  /* line 10, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_about.scss */
   body.about .content #capabilities {
     width: 255px;
     height: 463px;
@@ -874,28 +874,28 @@ body.about {
     text-align: center;
     font-family: 'Gotham A', 'Gotham B'; }
     @media only screen and (max-width: 640px) {
-      /* line 10, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_about.scss */
+      /* line 10, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_about.scss */
       body.about .content #capabilities {
         top: -100px;
         width: 390px;
         height: 730px;
         left: 50%;
         margin-left: -195px; } }
-    /* line 27, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_about.scss */
+    /* line 27, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_about.scss */
     body.about .content #capabilities h1 {
       text-transform: uppercase;
       font-weight: bold;
       font-size: 0.6em;
       margin-top: 50px; }
       @media only screen and (max-width: 640px) {
-        /* line 27, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_about.scss */
+        /* line 27, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_about.scss */
         body.about .content #capabilities h1 {
           margin-top: 75px;
           font-size: 0.7em; } }
-    /* line 37, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_about.scss */
+    /* line 37, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_about.scss */
     body.about .content #capabilities ul {
       list-style: none; }
-      /* line 39, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_about.scss */
+      /* line 39, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_about.scss */
       body.about .content #capabilities ul h2 {
         text-transform: uppercase;
         font-weight: bold;
@@ -903,32 +903,32 @@ body.about {
         margin: 40px 0 20px 0;
         letter-spacing: 1.0px; }
         @media only screen and (max-width: 640px) {
-          /* line 39, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_about.scss */
+          /* line 39, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_about.scss */
           body.about .content #capabilities ul h2 {
             margin: 70px 0 30px 0;
             font-size: 0.9em; } }
-      /* line 50, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_about.scss */
+      /* line 50, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_about.scss */
       body.about .content #capabilities ul p {
         font-size: 0.4em;
         letter-spacing: 0.2px; }
         @media only screen and (max-width: 640px) {
-          /* line 50, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_about.scss */
+          /* line 50, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_about.scss */
           body.about .content #capabilities ul p {
             font-size: 0.7em;
             letter-spacing: 0.4px;
             line-height: 14px; } }
-  /* line 61, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_about.scss */
+  /* line 61, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_about.scss */
   body.about .content .middle-container {
     position: relative;
     height: 1620px; }
     @media only screen and (max-width: 640px) {
-      /* line 61, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_about.scss */
+      /* line 61, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_about.scss */
       body.about .content .middle-container {
         height: 2520px; } }
-    /* line 67, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_about.scss */
+    /* line 67, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_about.scss */
     body.about .content .middle-container div {
       position: absolute; }
-    /* line 70, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_about.scss */
+    /* line 70, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_about.scss */
     body.about .content .middle-container .top-drops {
       top: 140px;
       right: 10%;
@@ -939,11 +939,11 @@ body.about {
       background-position: left top;
       background-size: contain; }
       @media only screen and (max-width: 640px) {
-        /* line 70, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_about.scss */
+        /* line 70, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_about.scss */
         body.about .content .middle-container .top-drops {
           top: 167px;
           left: 2%; } }
-    /* line 84, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_about.scss */
+    /* line 84, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_about.scss */
     body.about .content .middle-container .middle-insert {
       top: 200px;
       left: 8.33%;
@@ -959,13 +959,13 @@ body.about {
       line-height: 40px;
       color: white; }
       @media only screen and (max-width: 640px) {
-        /* line 84, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_about.scss */
+        /* line 84, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_about.scss */
         body.about .content .middle-container .middle-insert {
           top: 800px;
           left: 50%;
           margin-left: -204px; } }
       @media only screen and (max-width: 450px) {
-        /* line 84, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_about.scss */
+        /* line 84, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_about.scss */
         body.about .content .middle-container .middle-insert {
           width: 320px;
           height: 573px;
@@ -974,7 +974,7 @@ body.about {
           background-size: cover;
           font-size: 0.9em;
           line-height: 30px; } }
-    /* line 113, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_about.scss */
+    /* line 113, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_about.scss */
     body.about .content .middle-container .fancy-text {
       top: 500px;
       right: 5%;
@@ -985,12 +985,12 @@ body.about {
       background-position: left top;
       background-size: contain; }
       @media only screen and (max-width: 640px) {
-        /* line 113, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_about.scss */
+        /* line 113, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_about.scss */
         body.about .content .middle-container .fancy-text {
           top: 1640px;
           width: 150px;
           opacity: 0.2; } }
-    /* line 128, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_about.scss */
+    /* line 128, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_about.scss */
     body.about .content .middle-container .lower-insert {
       top: 845px;
       left: 15%;
@@ -1000,43 +1000,43 @@ body.about {
       text-align: left;
       color: black; }
       @media only screen and (max-width: 640px) {
-        /* line 128, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_about.scss */
+        /* line 128, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_about.scss */
         body.about .content .middle-container .lower-insert {
           top: 1575px;
           left: 23%; } }
       @media only screen and (max-width: 450px) {
-        /* line 128, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_about.scss */
+        /* line 128, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_about.scss */
         body.about .content .middle-container .lower-insert {
           left: 5%; } }
-      /* line 143, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_about.scss */
+      /* line 143, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_about.scss */
       body.about .content .middle-container .lower-insert ul {
         list-style: none; }
-      /* line 146, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_about.scss */
+      /* line 146, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_about.scss */
       body.about .content .middle-container .lower-insert h1 {
         font-weight: bold;
         text-transform: uppercase;
         font-size: 0.6em; }
-      /* line 151, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_about.scss */
+      /* line 151, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_about.scss */
       body.about .content .middle-container .lower-insert h2 {
         font-weight: bold;
         text-transform: uppercase;
         font-size: 0.9em;
         margin: 50px 0 5px 0;
         letter-spacing: 1.2px; }
-      /* line 158, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_about.scss */
+      /* line 158, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_about.scss */
       body.about .content .middle-container .lower-insert h3 {
         font-family: 'Georgia';
         font-style: italic;
         font-size: 0.8em;
         font-weight: 100;
         letter-spacing: 0.8px; }
-      /* line 165, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_about.scss */
+      /* line 165, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_about.scss */
       body.about .content .middle-container .lower-insert p {
         font-size: 0.7em;
         line-height: 15px;
         margin: 30px 0;
         letter-spacing: 0.3px; }
-    /* line 172, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_about.scss */
+    /* line 172, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_about.scss */
     body.about .content .middle-container .lower-drops {
       top: 1270px;
       right: 28.4%;
@@ -1047,7 +1047,7 @@ body.about {
       background-position: left top;
       background-size: contain; }
       @media only screen and (max-width: 640px) {
-        /* line 172, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_about.scss */
+        /* line 172, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_about.scss */
         body.about .content .middle-container .lower-drops {
           top: 2130px;
           left: 12%;
@@ -1055,22 +1055,22 @@ body.about {
           -o-transform: scaleX(-1);
           -webkit-transform: scaleX(-1);
           transform: scaleX(-1); } }
-/* line 4, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_contact.scss */
+/* line 4, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_contact.scss */
 body.contact {
   background-color: white; }
-  /* line 6, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_contact.scss */
+  /* line 6, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_contact.scss */
   body.contact .top-background {
     background-image: url("/images/page_contact/top_background.jpg"); }
-  /* line 9, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_contact.scss */
+  /* line 9, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_contact.scss */
   body.contact .content {
     min-height: 2200px; }
-  /* line 12, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_contact.scss */
+  /* line 12, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_contact.scss */
   body.contact .address-block, body.contact .parking-block {
     position: absolute;
     width: 312px;
     left: 10%;
     z-index: 2; }
-    /* line 17, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_contact.scss */
+    /* line 17, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_contact.scss */
     body.contact .address-block p, body.contact .parking-block p {
       color: black;
       font-size: 0.875em;
@@ -1079,16 +1079,16 @@ body.contact {
       line-height: 17px;
       font-weight: 500;
       margin-bottom: 1em; }
-    /* line 26, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_contact.scss */
+    /* line 26, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_contact.scss */
     body.contact .address-block p:first-child, body.contact .parking-block p:first-child {
       font-weight: 900; }
-  /* line 30, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_contact.scss */
+  /* line 30, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_contact.scss */
   body.contact .parking-block {
     top: 400px; }
-    /* line 32, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_contact.scss */
+    /* line 32, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_contact.scss */
     body.contact .parking-block p {
       color: #b3b3b3; }
-  /* line 36, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_contact.scss */
+  /* line 36, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_contact.scss */
   body.contact .map-graphic {
     width: 764px;
     height: 810px;
@@ -1101,16 +1101,16 @@ body.contact {
     background-position: right top;
     transition: all 200ms ease-out; }
     @media only screen and (max-width: 1475px) {
-      /* line 36, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_contact.scss */
+      /* line 36, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_contact.scss */
       body.contact .map-graphic {
         width: 634px;
         height: 630px; } }
     @media only screen and (max-width: 730px) {
-      /* line 36, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_contact.scss */
+      /* line 36, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_contact.scss */
       body.contact .map-graphic {
         width: 384px;
         height: 420px; } }
-  /* line 56, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_contact.scss */
+  /* line 56, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_contact.scss */
   body.contact .f-graphic {
     width: 564px;
     height: 740px;
@@ -1123,12 +1123,12 @@ body.contact {
     background-position: right top;
     transition: all 200ms ease-out; }
     @media only screen and (max-width: 905px) {
-      /* line 56, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_contact.scss */
+      /* line 56, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_contact.scss */
       body.contact .f-graphic {
         width: 484px;
         height: 640px;
         opacity: 0.2; } }
-  /* line 73, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_contact.scss */
+  /* line 73, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_contact.scss */
   body.contact .form {
     width: 100%;
     color: black;
@@ -1137,20 +1137,20 @@ body.contact {
     float: right;
     font-family: 'Gotham A', 'Gotham B';
     text-transform: uppercase; }
-    /* line 81, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_contact.scss */
+    /* line 81, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_contact.scss */
     body.contact .form .form-div {
       width: 500px;
       float: right;
       transition: all 200ms ease-out; }
       @media only screen and (max-width: 860px) {
-        /* line 81, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_contact.scss */
+        /* line 81, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_contact.scss */
         body.contact .form .form-div {
           max-width: 95%; } }
-    /* line 89, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_contact.scss */
+    /* line 89, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_contact.scss */
     body.contact .form h1 {
       margin-bottom: 60px;
       color: #cccccc; }
-    /* line 93, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_contact.scss */
+    /* line 93, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_contact.scss */
     body.contact .form input, body.contact .form textarea {
       display: block;
       margin-bottom: 20px;
@@ -1160,22 +1160,22 @@ body.contact {
       border: none;
       box-sizing: border-box;
       -webkit-appearance: none; }
-    /* line 103, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_contact.scss */
+    /* line 103, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_contact.scss */
     body.contact .form input:focus, body.contact .form textarea:focus {
       outline: 1px solid;
       outline-color: #ff0cdb;
       outline-offset: 0;
       outline-style: dotted; }
-    /* line 109, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_contact.scss */
+    /* line 109, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_contact.scss */
     body.contact .form input[type="text"] {
       padding-left: 10px; }
-    /* line 112, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_contact.scss */
+    /* line 112, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_contact.scss */
     body.contact .form textarea {
       padding-top: 10px;
       padding-left: 10px;
       height: 200px;
       resize: none; }
-    /* line 118, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_contact.scss */
+    /* line 118, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_contact.scss */
     body.contact .form input[type="submit"] {
       width: 131px;
       height: 33px;
@@ -1184,7 +1184,7 @@ body.contact {
       margin-top: 160px;
       text-transform: uppercase;
       -webkit-appearance: none; }
-    /* line 127, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_contact.scss */
+    /* line 127, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_contact.scss */
     body.contact .form select {
       width: 500px;
       height: 36px;
@@ -1195,44 +1195,44 @@ body.contact {
       background-color: #e6e6e6;
       position: absolute; }
       @media only screen and (min-width: 1155px) {
-        /* line 127, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_contact.scss */
+        /* line 127, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_contact.scss */
         body.contact .form select {
           right: 0;
           left: none; } }
-    /* line 141, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_contact.scss */
+    /* line 141, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_contact.scss */
     body.contact .form select:focus {
       outline: 1px solid;
       outline-color: #ff0cdb;
       outline-offset: 0;
       outline-style: dotted; }
-    /* line 147, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_contact.scss */
+    /* line 147, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_contact.scss */
     body.contact .form label {
       display: block;
       margin-bottom: -12px; }
-    /* line 151, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_contact.scss */
+    /* line 151, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_contact.scss */
     body.contact .form fieldset {
       position: absolute;
       left: 0;
       transition: all 200ms ease-out; }
       @media only screen and (min-width: 1155px) {
-        /* line 151, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_contact.scss */
+        /* line 151, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_contact.scss */
         body.contact .form fieldset {
           right: 0;
           left: none; } }
       @media only screen and (max-width: 860px) {
-        /* line 151, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_contact.scss */
+        /* line 151, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_contact.scss */
         body.contact .form fieldset {
           position: static; } }
-      /* line 162, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_contact.scss */
+      /* line 162, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_contact.scss */
       body.contact .form fieldset label {
         text-align: right;
         margin-bottom: 5px;
         transition: all 200ms ease-out; }
         @media only screen and (max-width: 860px) {
-          /* line 162, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_contact.scss */
+          /* line 162, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_contact.scss */
           body.contact .form fieldset label {
             text-align: left; } }
-    /* line 171, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_contact.scss */
+    /* line 171, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_contact.scss */
     body.contact .form #server-response {
       width: 300px;
       height: 31px;
@@ -1240,35 +1240,35 @@ body.contact {
       top: -52px;
       left: 148px;
       padding-top: 8px; }
-/* line 3, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_index.scss */
+/* line 3, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
 body.index {
   font-family: sans-serif;
   color: white;
   background-color: black;
   -webkit-font-smoothing: antialiased; }
-  /* line 8, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_index.scss */
+  /* line 8, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
   body.index .hide-mobile {
     display: block; }
     @media only screen and (max-width: 785px) {
-      /* line 8, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_index.scss */
+      /* line 8, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
       body.index .hide-mobile {
         display: none; } }
-  /* line 14, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_index.scss */
+  /* line 14, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
   body.index .show-mobile {
     display: none; }
     @media only screen and (max-width: 785px) {
-      /* line 14, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_index.scss */
+      /* line 14, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
       body.index .show-mobile {
         display: block; } }
-  /* line 20, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_index.scss */
+  /* line 20, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
   body.index #top {
     position: relative;
     padding-top: 37.4%; }
     @media only screen and (max-width: 785px) {
-      /* line 20, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_index.scss */
+      /* line 20, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
       body.index #top {
         padding-top: 56%; } }
-    /* line 29, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_index.scss */
+    /* line 29, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
     body.index #top #video {
       position: absolute;
       top: 0;
@@ -1279,16 +1279,16 @@ body.index {
           display:none !important;
         }*/ }
       @media only screen and (max-width: 785px) {
-        /* line 29, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_index.scss */
+        /* line 29, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
         body.index #top #video {
           width: 100%; } }
-      /* line 38, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_index.scss */
+      /* line 38, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
       body.index #top #video video {
         width: 100%;
         background-image: url("/images/page_index/single_frame.jpg");
         background-repeat: no-repeat;
         background-size: cover; }
-    /* line 48, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_index.scss */
+    /* line 48, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
     body.index #top .feature-image {
       position: absolute;
       top: 0;
@@ -1299,20 +1299,20 @@ body.index {
       background-repeat: no-repeat;
       background-size: contain;
       background-color: white; }
-  /* line 60, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_index.scss */
+  /* line 60, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
   body.index .candle-smoke {
     background-image: url("/images/page_index/candle_smoke.gif"); }
-  /* line 63, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_index.scss */
+  /* line 63, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
   body.index .candle-flame {
     background-image: url("/images/page_index/candle_flame.gif"); }
-  /* line 66, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_index.scss */
+  /* line 66, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
   body.index #services .hover, body.index #social .hover {
     float: left;
     display: inline-block;
     text-align: center;
     position: relative;
     color: white; }
-    /* line 72, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_index.scss */
+    /* line 72, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
     body.index #services .hover .image, body.index #social .hover .image {
       width: 100%;
       height: 100%;
@@ -1322,16 +1322,16 @@ body.index {
       z-index: 1;
       position: absolute;
       top: 0; }
-  /* line 84, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_index.scss */
+  /* line 84, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
   body.index #services .hover {
     width: 33.3333333%;
     height: 520px; }
     @media only screen and (max-width: 785px) {
-      /* line 84, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_index.scss */
+      /* line 84, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
       body.index #services .hover {
         width: 50%;
         height: 390px; } }
-    /* line 91, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_index.scss */
+    /* line 91, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
     body.index #services .hover a {
       display: inline-block;
       color: white;
@@ -1346,24 +1346,24 @@ body.index {
       font-family: 'Gotham A', 'Gotham B';
       transition: all 300ms ease-out; }
       @media only screen and (max-width: 785px) {
-        /* line 91, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_index.scss */
+        /* line 91, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
         body.index #services .hover a {
           margin-top: 42px; } }
-    /* line 108, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_index.scss */
+    /* line 108, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
     body.index #services .hover a:hover {
       border-bottom-color: transparent; }
-    /* line 111, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_index.scss */
+    /* line 111, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
     body.index #services .hover ol, body.index #services .hover ul {
       list-style: none;
       line-height: 1.7em;
       font-family: 'Georgia';
       font-style: italic; }
       @media only screen and (max-width: 785px) {
-        /* line 111, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_index.scss */
+        /* line 111, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
         body.index #services .hover ol, body.index #services .hover ul {
           line-height: 1.5em;
           font-size: 0.8em; } }
-    /* line 121, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_index.scss */
+    /* line 121, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
     body.index #services .hover .department {
       text-align: center;
       text-transform: uppercase;
@@ -1379,26 +1379,26 @@ body.index {
       z-index: 2;
       transition: all 200ms ease-in-out; }
       @media only screen and (max-width: 1060px) {
-        /* line 121, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_index.scss */
+        /* line 121, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
         body.index #services .hover .department {
           font-size: 3em; } }
       @media only screen and (max-width: 785px) {
-        /* line 121, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_index.scss */
+        /* line 121, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
         body.index #services .hover .department {
           font-size: 2.4em; } }
-  /* line 143, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_index.scss */
+  /* line 143, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
   body.index #services .hover:nth-of-type(1) .image {
     background-image: url("/images/page_index/hover_red.jpg"); }
-  /* line 146, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_index.scss */
+  /* line 146, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
   body.index #services .hover:nth-of-type(2) .image {
     background-image: url("/images/page_index/hover_green.jpg"); }
-  /* line 149, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_index.scss */
+  /* line 149, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
   body.index #services .hover:nth-of-type(3) .image {
     background-image: url("/images/page_index/hover_orange.jpg"); }
-  /* line 152, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_index.scss */
+  /* line 152, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
   body.index #services .hover:nth-of-type(4) .image {
     background-image: url("/images/page_index/hover_blue.jpg"); }
-  /* line 155, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_index.scss */
+  /* line 155, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
   body.index #services .feature-image {
     position: static;
     height: 340px;
@@ -1408,7 +1408,7 @@ body.index {
     background-repeat: no-repeat;
     background-size: contain;
     background-color: white; }
-  /* line 165, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_index.scss */
+  /* line 165, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
   body.index #services #about-blurb {
     width: 66.66666666%;
     height: 520px;
@@ -1421,59 +1421,59 @@ body.index {
     transition: all 200ms ease-in;
     position: relative; }
     @media only screen and (max-width: 1100px) {
-      /* line 165, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_index.scss */
+      /* line 165, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
       body.index #services #about-blurb {
         line-height: 60px; } }
     @media only screen and (max-width: 785px) {
-      /* line 165, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_index.scss */
+      /* line 165, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
       body.index #services #about-blurb {
         width: 100%;
         height: 300px;
         font-size: 1.1em;
         line-height: 1.6em;
         font-weight: 100; } }
-    /* line 186, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_index.scss */
+    /* line 186, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
     body.index #services #about-blurb #slider-container {
       position: absolute;
       top: 0;
       bottom: 12%;
       width: 100%;
       overflow: hidden; }
-    /* line 193, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_index.scss */
+    /* line 193, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
     body.index #services #about-blurb .slider {
       list-style: none; }
-      /* line 195, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_index.scss */
+      /* line 195, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
       body.index #services #about-blurb .slider .slide {
         display: none;
         position: absolute;
         top: 0;
         left: 0;
         padding: 5%; }
-    /* line 203, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_index.scss */
+    /* line 203, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
     body.index #services #about-blurb #slider-buttons {
       position: absolute;
       bottom: 0;
       height: 12%;
       width: 100%;
       padding: 0 5%; }
-    /* line 210, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_index.scss */
+    /* line 210, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
     body.index #services #about-blurb #left-button, body.index #services #about-blurb #right-button {
       display: inline-block;
       cursor: pointer;
       width: 30px;
       height: 50px;
       margin-top: -30px; }
-    /* line 217, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_index.scss */
+    /* line 217, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
     body.index #services #about-blurb #left-button {
       float: left; }
-    /* line 220, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_index.scss */
+    /* line 220, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
     body.index #services #about-blurb #right-button {
       float: right; }
-  /* line 225, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_index.scss */
+  /* line 225, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
   body.index #social {
     position: relative;
     padding-top: 30%; }
-    /* line 228, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_index.scss */
+    /* line 228, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
     body.index #social .hover {
       position: absolute;
       top: 0;
@@ -1482,129 +1482,129 @@ body.index {
       padding-top: 15%;
       text-transform: uppercase;
       font-size: 1.0em; }
-      /* line 236, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_index.scss */
+      /* line 236, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
       body.index #social .hover a {
         text-decoration: none;
         color: white; }
       @media only screen and (max-width: 785px) {
-        /* line 228, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_index.scss */
+        /* line 228, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
         body.index #social .hover {
           height: 230px;
           font-size: 0.7em; } }
-    /* line 245, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_index.scss */
+    /* line 245, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
     body.index #social .hover:nth-of-type(1) {
       left: 0; }
-    /* line 248, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_index.scss */
+    /* line 248, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
     body.index #social .hover:nth-of-type(2) {
       left: 33.333333%; }
-    /* line 251, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_index.scss */
+    /* line 251, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
     body.index #social .hover:nth-of-type(3) {
       left: 66.666666%; }
-    /* line 254, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_index.scss */
+    /* line 254, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
     body.index #social .hover:nth-of-type(1) .image {
       background-image: url("/images/page_index/social_chair.jpg"); }
-    /* line 257, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_index.scss */
+    /* line 257, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
     body.index #social .hover:nth-of-type(2) .image {
       background-image: url("/images/page_index/social_room.jpg"); }
-    /* line 260, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/main_sections/_index.scss */
+    /* line 260, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
     body.index #social .hover:nth-of-type(3) .image {
       background-image: url("/images/page_index/social_face.jpg"); }
-/* line 1, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_environment.scss */
+/* line 1, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_environment.scss */
 body.environment {
   background-color: white;
   text-align: center; }
-  /* line 4, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_environment.scss */
+  /* line 4, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_environment.scss */
   body.environment .top-background {
     background-image: url("/images/page_environment/top_background.png"); }
-  /* line 8, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_environment.scss */
+  /* line 8, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_environment.scss */
   body.environment .content .image-container {
     position: relative;
     padding-top: 253.125%; }
-    /* line 11, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_environment.scss */
+    /* line 11, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_environment.scss */
     body.environment .content .image-container img {
       position: absolute; }
-    /* line 14, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_environment.scss */
+    /* line 14, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_environment.scss */
     body.environment .content .image-container #makeup-station {
       width: 33.33333%;
       top: 4.94%;
       left: 0%;
       z-index: 1; }
-    /* line 20, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_environment.scss */
+    /* line 20, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_environment.scss */
     body.environment .content .image-container #books {
       width: 49.48%;
       top: 0%;
       right: 6.04%; }
-    /* line 25, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_environment.scss */
+    /* line 25, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_environment.scss */
     body.environment .content .image-container #spatz {
       width: 60.1%;
       top: 17.28%;
       left: 14.06%; }
-    /* line 30, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_environment.scss */
+    /* line 30, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_environment.scss */
     body.environment .content .image-container #three-pics {
       width: 70.21%;
       top: 45.56%;
       left: 20.83%;
       z-index: 1; }
-    /* line 36, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_environment.scss */
+    /* line 36, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_environment.scss */
     body.environment .content .image-container #four-women {
       width: 60%;
       top: 49.38%;
       left: 6.35%; }
-    /* line 41, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_environment.scss */
+    /* line 41, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_environment.scss */
     body.environment .content .image-container #selvarey-pic {
       width: 23.96%;
       top: 63.87%;
       right: 13.75%;
       z-index: 1; }
-    /* line 47, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_environment.scss */
+    /* line 47, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_environment.scss */
     body.environment .content .image-container #onsen-left {
       width: 59.9%;
       top: 71.11%;
       left: 0%; }
-    /* line 52, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_environment.scss */
+    /* line 52, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_environment.scss */
     body.environment .content .image-container #onsen-right {
       width: 32.08%;
       top: 76.75%;
       right: 1.46%; }
-    /* line 57, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_environment.scss */
+    /* line 57, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_environment.scss */
     body.environment .content .image-container .heading-section {
       top: 16.38%;
       right: 0; }
-/* line 3, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_identity.scss */
+/* line 3, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
 body.identity {
   background-color: white;
   text-align: center; }
-  /* line 6, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_identity.scss */
+  /* line 6, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
   body.identity .top-background {
     background-image: url("/images/page_identity/top_background.png");
     background-size: contain; }
-  /* line 11, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_identity.scss */
+  /* line 11, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
   body.identity .content .logo-image {
     display: block;
     margin: 500px auto;
     max-width: 100%;
     transition: all 200ms ease-in; }
-  /* line 17, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_identity.scss */
+  /* line 17, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
   body.identity .content .text {
     max-width: 90%;
     float: right;
     clear: both; }
-  /* line 22, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_identity.scss */
+  /* line 22, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
   body.identity .content #block-01 {
     width: 541px;
     text-align: left;
     margin: 50px 10px 40px 10px; }
-    /* line 26, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_identity.scss */
+    /* line 26, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
     body.identity .content #block-01 p {
       font-family: 'Gotham A';
       font-weight: 100;
       font-size: 13px;
       line-height: 25px; }
-  /* line 33, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_identity.scss */
+  /* line 33, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
   body.identity .content #block-02, body.identity .content #block-03 {
     width: 541px;
     margin: 0px 5px 30px 5px; }
-    /* line 36, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_identity.scss */
+    /* line 36, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
     body.identity .content #block-02 ul, body.identity .content #block-03 ul {
       display: block;
       float: left;
@@ -1614,10 +1614,10 @@ body.identity {
       margin-left: 0;
       transition: all 200ms ease-in; }
       @media only screen and (max-width: 640px) {
-        /* line 36, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_identity.scss */
+        /* line 36, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
         body.identity .content #block-02 ul, body.identity .content #block-03 ul {
           margin-right: 10px; } }
-      /* line 47, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_identity.scss */
+      /* line 47, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
       body.identity .content #block-02 ul li, body.identity .content #block-03 ul li {
         font-family: 'Gotham A';
         font-weight: 100;
@@ -1625,45 +1625,45 @@ body.identity {
         line-height: 25px;
         transition: all 200ms ease-in; }
         @media only screen and (max-width: 640px) {
-          /* line 47, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_identity.scss */
+          /* line 47, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
           body.identity .content #block-02 ul li, body.identity .content #block-03 ul li {
             font-size: 11.1px; } }
-    /* line 58, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_identity.scss */
+    /* line 58, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
     body.identity .content #block-02 ul:nth-child(2), body.identity .content #block-03 ul:nth-child(2) {
       margin-right: 60px;
       transition: all 200ms ease-in; }
       @media only screen and (max-width: 640px) {
-        /* line 58, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_identity.scss */
+        /* line 58, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
         body.identity .content #block-02 ul:nth-child(2), body.identity .content #block-03 ul:nth-child(2) {
           margin-right: 5px; } }
-  /* line 67, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_identity.scss */
+  /* line 67, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
   body.identity .content #block-03 ul {
     text-transform: uppercase; }
-  /* line 71, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_identity.scss */
+  /* line 71, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
   body.identity .content .heading-section h1 {
     font-size: 60px;
     padding: 9px 10px 5px 84px;
     width: 430px; }
     @media only screen and (max-width: 640px) {
-      /* line 71, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_identity.scss */
+      /* line 71, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
       body.identity .content .heading-section h1 {
         font-size: 36px;
         width: 340px; } }
-  /* line 80, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_identity.scss */
+  /* line 80, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
   body.identity .content #block-04 {
     position: relative;
     float: left; }
-  /* line 84, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_identity.scss */
+  /* line 84, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
   body.identity .content #block-05 {
     float: left;
     padding-left: 211px;
     margin-top: 80px;
     transition: all 200ms ease-in; }
     @media only screen and (max-width: 640px) {
-      /* line 84, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_identity.scss */
+      /* line 84, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
       body.identity .content #block-05 {
         padding-left: 5%; } }
-    /* line 92, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_identity.scss */
+    /* line 92, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
     body.identity .content #block-05 h2 {
       font-family: 'Gotham A';
       font-size: 28px;
@@ -1671,7 +1671,7 @@ body.identity {
       text-transform: uppercase;
       letter-spacing: 3px;
       text-align: left; }
-    /* line 100, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_identity.scss */
+    /* line 100, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
     body.identity .content #block-05 h5 {
       font-family: 'Gotham A';
       font-weight: 200;
@@ -1679,7 +1679,7 @@ body.identity {
       text-align: left;
       margin-top: 40px;
       line-height: 18px; }
-  /* line 109, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_identity.scss */
+  /* line 109, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
   body.identity .content #block-06 {
     text-align: left;
     box-sizing: content-box;
@@ -1689,19 +1689,19 @@ body.identity {
     top: 70px;
     right: 4%; }
     @media only screen and (max-width: 640px) {
-      /* line 109, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_identity.scss */
+      /* line 109, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
       body.identity .content #block-06 {
         float: left;
         margin-top: 110px;
         right: 0; } }
-    /* line 122, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_identity.scss */
+    /* line 122, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
     body.identity .content #block-06 #box {
       width: 475px;
       max-width: 100%;
       border: 7px solid black;
       background-color: white;
       padding: 30px; }
-    /* line 129, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_identity.scss */
+    /* line 129, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
     body.identity .content #block-06 h1 {
       font-family: 'DidotLtStd-Italic';
       font-size: 85px;
@@ -1711,10 +1711,10 @@ body.identity {
       text-align: left;
       transition: all 200ms ease-in; }
       @media only screen and (max-width: 640px) {
-        /* line 129, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_identity.scss */
+        /* line 129, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
         body.identity .content #block-06 h1 {
           font-size: 63px; } }
-    /* line 141, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_identity.scss */
+    /* line 141, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
     body.identity .content #block-06 p {
       font-family: 'Gotham A';
       font-size: 14px;
@@ -1722,7 +1722,7 @@ body.identity {
       width: 90%;
       margin-bottom: 20px;
       line-height: 21px; }
-  /* line 150, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_identity.scss */
+  /* line 150, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
   body.identity .content #black-band {
     width: 100%;
     height: 500px;
@@ -1730,7 +1730,7 @@ body.identity {
     padding-top: 90px;
     min-width: 1200px;
     clear: both; }
-    /* line 157, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_identity.scss */
+    /* line 157, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
     body.identity .content #black-band ul {
       color: white;
       display: block;
@@ -1742,225 +1742,225 @@ body.identity {
       margin-left: 0;
       transition: all 200ms ease-in; }
       @media only screen and (max-width: 640px) {
-        /* line 157, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_identity.scss */
+        /* line 157, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
         body.identity .content #black-band ul {
           float: left; } }
-      /* line 170, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_identity.scss */
+      /* line 170, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
       body.identity .content #black-band ul li {
         font-family: 'Gotham A';
         font-weight: 100;
         font-size: 10px;
         line-height: 22px;
         transition: all 200ms ease-in; }
-      /* line 177, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_identity.scss */
+      /* line 177, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
       body.identity .content #black-band ul li:first-child {
         text-transform: uppercase; }
     @media only screen and (max-width: 640px) {
-      /* line 181, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_identity.scss */
+      /* line 181, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
       body.identity .content #black-band ul:nth-child(2), body.identity .content #black-band ul:nth-child(5), body.identity .content #black-band ul:nth-child(6), body.identity .content #black-band ul:nth-child(7) {
         display: none; } }
-  /* line 187, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_identity.scss */
+  /* line 187, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
   body.identity .content #block-07 {
     position: relative;
     float: right;
     margin-top: 210px; }
-  /* line 192, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_identity.scss */
+  /* line 192, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
   body.identity .content #logo-container {
     max-width: 100%;
     width: 730px;
     margin: 500px auto 0px; }
-    /* line 196, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_identity.scss */
+    /* line 196, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
     body.identity .content #logo-container .row {
       width: 100%; }
-      /* line 198, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_identity.scss */
+      /* line 198, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
       body.identity .content #logo-container .row .logo {
         width: 240px;
         height: 190px;
         display: inline-block;
         background-image: url("/images/page_identity/logos.png");
         background-repeat: no-repeat; }
-      /* line 205, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_identity.scss */
+      /* line 205, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
       body.identity .content #logo-container .row #logo-01 {
         background-position: 54px 29px; }
-      /* line 208, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_identity.scss */
+      /* line 208, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
       body.identity .content #logo-container .row #logo-02 {
         background-position: -204px 45px; }
-      /* line 211, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_identity.scss */
+      /* line 211, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
       body.identity .content #logo-container .row #logo-03 {
         background-position: -480px 19px; }
-      /* line 214, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_identity.scss */
+      /* line 214, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
       body.identity .content #logo-container .row #logo-04 {
         background-position: 53px -214px; }
-      /* line 217, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_identity.scss */
+      /* line 217, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
       body.identity .content #logo-container .row #logo-05 {
         background-position: -204px -214px; }
-      /* line 220, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_identity.scss */
+      /* line 220, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
       body.identity .content #logo-container .row #logo-06 {
         background-position: -477px -221px; }
-      /* line 223, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_identity.scss */
+      /* line 223, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
       body.identity .content #logo-container .row #logo-07 {
         background-position: 53px -457px; }
-      /* line 226, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_identity.scss */
+      /* line 226, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
       body.identity .content #logo-container .row #logo-08 {
         background-position: -207px -466px; }
-      /* line 229, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_identity.scss */
+      /* line 229, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
       body.identity .content #logo-container .row #logo-09 {
         background-position: -483px -474px; }
-      /* line 232, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_identity.scss */
+      /* line 232, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
       body.identity .content #logo-container .row #logo-10 {
         background-position: 63px -734px; }
-      /* line 235, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_identity.scss */
+      /* line 235, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
       body.identity .content #logo-container .row #logo-11 {
         background-position: -208px -726px; }
-      /* line 238, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_identity.scss */
+      /* line 238, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
       body.identity .content #logo-container .row #logo-12 {
         background-position: -473px -732px; }
-      /* line 241, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_identity.scss */
+      /* line 241, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
       body.identity .content #logo-container .row #logo-13 {
         background-position: 63px -1006px; }
-      /* line 244, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_identity.scss */
+      /* line 244, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
       body.identity .content #logo-container .row #logo-14 {
         background-position: -204px -999px; }
-      /* line 247, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_identity.scss */
+      /* line 247, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
       body.identity .content #logo-container .row #logo-15 {
         background-position: -475px -1003px; }
-      /* line 250, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_identity.scss */
+      /* line 250, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
       body.identity .content #logo-container .row #logo-16 {
         background-position: 62px -1255px; }
-      /* line 253, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_identity.scss */
+      /* line 253, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
       body.identity .content #logo-container .row #logo-17 {
         background-position: -213px -1265px; }
-      /* line 256, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_identity.scss */
+      /* line 256, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
       body.identity .content #logo-container .row #logo-18 {
         background-position: -473px -1250px; }
-  /* line 262, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_identity.scss */
+  /* line 262, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
   body.identity .work-with-us {
     clear: both; }
-/* line 1, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_imagery.scss */
+/* line 1, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_imagery.scss */
 body.imagery {
   background-color: white;
   text-align: center; }
-  /* line 4, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_imagery.scss */
+  /* line 4, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_imagery.scss */
   body.imagery .top-background {
     background-image: url("/images/page_imagery/top_background.png"); }
-  /* line 8, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_imagery.scss */
+  /* line 8, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_imagery.scss */
   body.imagery .content .image-container {
     position: relative;
     padding-top: 286.45%; }
-    /* line 11, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_imagery.scss */
+    /* line 11, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_imagery.scss */
     body.imagery .content .image-container img {
       position: absolute; }
-    /* line 14, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_imagery.scss */
+    /* line 14, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_imagery.scss */
     body.imagery .content .image-container #twelve-pics {
       width: 12.19%;
       top: 5.53%;
       left: 8.125%; }
-    /* line 19, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_imagery.scss */
+    /* line 19, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_imagery.scss */
     body.imagery .content .image-container #mustache {
       width: 42.71%;
       top: 3.2%;
       left: 27.81%; }
-    /* line 24, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_imagery.scss */
+    /* line 24, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_imagery.scss */
     body.imagery .content .image-container #babies {
       width: 15.625%;
       top: 0;
       right: 9.375%; }
-    /* line 29, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_imagery.scss */
+    /* line 29, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_imagery.scss */
     body.imagery .content .image-container #makeup {
       width: 53.85%;
       top: 26.11%;
       left: 0; }
-    /* line 34, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_imagery.scss */
+    /* line 34, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_imagery.scss */
     body.imagery .content .image-container #four-pics {
       width: 31.875%;
       top: 20.87%;
       right: 0; }
-    /* line 39, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_imagery.scss */
+    /* line 39, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_imagery.scss */
     body.imagery .content .image-container #three-pics {
       width: 13.96%;
       top: 40.87%;
       left: 10%; }
-    /* line 44, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_imagery.scss */
+    /* line 44, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_imagery.scss */
     body.imagery .content .image-container #flying {
       width: 51.67%;
       top: 40.15%;
       right: 2.81%; }
-    /* line 49, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_imagery.scss */
+    /* line 49, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_imagery.scss */
     body.imagery .content .image-container #blue-shirt {
       width: 49.17%;
       top: 53.05%;
       left: 31.25%; }
-    /* line 54, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_imagery.scss */
+    /* line 54, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_imagery.scss */
     body.imagery .content .image-container #jewelry {
       width: 75.42%;
       top: 67.2%;
       left: 0%; }
-    /* line 59, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_imagery.scss */
+    /* line 59, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_imagery.scss */
     body.imagery .content .image-container #green-stick {
       width: 19.7%;
       top: 67.2%;
       right: 1.5%; }
-    /* line 64, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_imagery.scss */
+    /* line 64, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_imagery.scss */
     body.imagery .content .image-container #glass-stuff {
       width: 44.17%;
       top: 84.07%;
       left: 7.81%; }
-    /* line 69, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_imagery.scss */
+    /* line 69, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_imagery.scss */
     body.imagery .content .image-container #nine-foods {
       width: 35.94%;
       top: 84.07%;
       right: 0%; }
-/* line 3, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_interactive.scss */
+/* line 3, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_interactive.scss */
 body.interactive {
   background-color: white;
   text-align: center;
   overflow-x: hidden; }
-  /* line 7, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_interactive.scss */
+  /* line 7, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_interactive.scss */
   body.interactive .top-background {
     background-image: url("/images/page_interactive/top_background.png");
     background-size: contain; }
-  /* line 12, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_interactive.scss */
+  /* line 12, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_interactive.scss */
   body.interactive .content .container {
     position: relative;
     padding-top: 273.96%; }
     @media only screen and (max-width: 500px) {
-      /* line 12, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_interactive.scss */
+      /* line 12, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_interactive.scss */
       body.interactive .content .container {
         padding-top: 450%; } }
-    /* line 18, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_interactive.scss */
+    /* line 18, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_interactive.scss */
     body.interactive .content .container img {
       position: absolute; }
-    /* line 21, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_interactive.scss */
+    /* line 21, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_interactive.scss */
     body.interactive .content .container #chic-party {
       width: 46.875%;
       top: 0;
       right: 0; }
-    /* line 26, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_interactive.scss */
+    /* line 26, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_interactive.scss */
     body.interactive .content .container #colored-squares {
       width: 39.48%;
       top: 12.05%;
       left: 5.94%; }
-    /* line 31, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_interactive.scss */
+    /* line 31, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_interactive.scss */
     body.interactive .content .container #computers {
       width: 42.81%;
       top: 19.77%;
       left: 5.73%; }
-    /* line 36, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_interactive.scss */
+    /* line 36, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_interactive.scss */
     body.interactive .content .container #colored-words {
       width: 23.125%;
       top: 29.66%;
       right: 5.52%; }
-    /* line 41, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_interactive.scss */
+    /* line 41, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_interactive.scss */
     body.interactive .content .container #font {
       width: 40.31%;
       top: 31.75%;
       left: 1.98%; }
-    /* line 46, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_interactive.scss */
+    /* line 46, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_interactive.scss */
     body.interactive .content .container #six-pics {
       width: 14.375%;
       top: 30.57%;
       left: 52.08%; }
-    /* line 51, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_interactive.scss */
+    /* line 51, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_interactive.scss */
     body.interactive .content .container #red-text {
       position: absolute;
       width: 214px;
@@ -1976,166 +1976,166 @@ body.interactive {
       font-size: 11px;
       line-height: 14px;
       letter-spacing: 1px; }
-    /* line 67, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_interactive.scss */
+    /* line 67, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_interactive.scss */
     body.interactive .content .container #computer-with-circles {
       width: 80.83%;
       top: 62.02%;
       left: 7.8125%; }
       @media only screen and (max-width: 500px) {
-        /* line 67, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_interactive.scss */
+        /* line 67, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_interactive.scss */
         body.interactive .content .container #computer-with-circles {
           top: 66%; } }
-    /* line 75, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_interactive.scss */
+    /* line 75, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_interactive.scss */
     body.interactive .content .container #site-pages {
       width: 70.31%;
       top: 78.21%;
       left: 19.58%; }
       @media only screen and (max-width: 500px) {
-        /* line 75, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_interactive.scss */
+        /* line 75, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_interactive.scss */
         body.interactive .content .container #site-pages {
           top: 83%; } }
-    /* line 83, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_interactive.scss */
+    /* line 83, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_interactive.scss */
     body.interactive .content .container #heading-section-1 {
       top: 1.67%;
       left: 0; }
-    /* line 87, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_interactive.scss */
+    /* line 87, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_interactive.scss */
     body.interactive .content .container #heading-section-2 {
       top: 23.57%;
       right: 0; }
-    /* line 91, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_interactive.scss */
+    /* line 91, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_interactive.scss */
     body.interactive .content .container #heading-section-3 {
       top: 53.95%;
       right: 0; }
       @media only screen and (max-width: 500px) {
-        /* line 91, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_interactive.scss */
+        /* line 91, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_interactive.scss */
         body.interactive .content .container #heading-section-3 {
           top: 57%; } }
-    /* line 98, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_interactive.scss */
+    /* line 98, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_interactive.scss */
     body.interactive .content .container #heading-section-4 {
       top: 73.31%;
       left: 0; }
-/* line 1, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_packaging.scss */
+/* line 1, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_packaging.scss */
 body.packaging {
   background-color: white;
   text-align: center;
   overflow-x: hidden; }
-  /* line 5, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_packaging.scss */
+  /* line 5, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_packaging.scss */
   body.packaging .top-background {
     background-image: url("/images/page_packaging/top_background.png"); }
-  /* line 9, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_packaging.scss */
+  /* line 9, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_packaging.scss */
   body.packaging .content .container {
     position: relative;
     padding-top: 431.25%;
     margin-top: -180px; }
-    /* line 13, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_packaging.scss */
+    /* line 13, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_packaging.scss */
     body.packaging .content .container img {
       position: absolute; }
-    /* line 16, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_packaging.scss */
+    /* line 16, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_packaging.scss */
     body.packaging .content .container #luterra {
       width: 23.125%;
       top: 0;
       right: 4.58%; }
-    /* line 21, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_packaging.scss */
+    /* line 21, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_packaging.scss */
     body.packaging .content .container #food-bags {
       width: 53.33%;
       top: 2.15%;
       left: 0; }
-    /* line 26, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_packaging.scss */
+    /* line 26, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_packaging.scss */
     body.packaging .content .container #makeup {
       width: 21.56%;
       top: 10.89%;
       left: 46.875%; }
-    /* line 31, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_packaging.scss */
+    /* line 31, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_packaging.scss */
     body.packaging .content .container #how-to {
       width: 54.79%;
       top: 21.28%;
       left: 0; }
-    /* line 36, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_packaging.scss */
+    /* line 36, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_packaging.scss */
     body.packaging .content .container #well-red {
       width: 47.60%;
       top: 15.36%;
       right: 5.625%; }
-    /* line 41, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_packaging.scss */
+    /* line 41, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_packaging.scss */
     body.packaging .content .container #chic-pencils {
       width: 20.42%;
       top: 26.26%;
       right: 11.77%;
       z-index: 1; }
-    /* line 47, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_packaging.scss */
+    /* line 47, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_packaging.scss */
     body.packaging .content .container #mcqueen {
       width: 26.77%;
       top: 32.83%;
       left: 3.33%; }
-    /* line 52, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_packaging.scss */
+    /* line 52, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_packaging.scss */
     body.packaging .content .container #b-makeup {
       width: 65.1%;
       top: 30.75%;
       right: 0; }
-    /* line 57, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_packaging.scss */
+    /* line 57, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_packaging.scss */
     body.packaging .content .container #red-box {
       width: 36.04%;
       top: 41.30%;
       right: 18.44%; }
-    /* line 62, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_packaging.scss */
+    /* line 62, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_packaging.scss */
     body.packaging .content .container #candles {
       width: 44.79%;
       top: 47.68%;
       left: 4.9%; }
-    /* line 67, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_packaging.scss */
+    /* line 67, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_packaging.scss */
     body.packaging .content .container #golden-hour {
       width: 61.56%;
       top: 58.96%;
       left: 0; }
-    /* line 72, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_packaging.scss */
+    /* line 72, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_packaging.scss */
     body.packaging .content .container #orange-bag {
       width: 29.17%;
       top: 55.31%;
       right: 0; }
-    /* line 77, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_packaging.scss */
+    /* line 77, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_packaging.scss */
     body.packaging .content .container #white-boxes {
       width: 40.83%;
       top: 68.14%;
       left: 9.375%; }
-    /* line 82, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_packaging.scss */
+    /* line 82, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_packaging.scss */
     body.packaging .content .container #white-bags {
       width: 44.48%;
       top: 63.6%;
       right: 5.26%; }
-    /* line 87, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_packaging.scss */
+    /* line 87, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_packaging.scss */
     body.packaging .content .container #business-cards {
       width: 35.73%;
       top: 80.36%;
       left: 5.21%; }
-    /* line 92, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_packaging.scss */
+    /* line 92, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_packaging.scss */
     body.packaging .content .container #folding-things {
       width: 58.33%;
       top: 76.21%;
       right: 0; }
-    /* line 97, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_packaging.scss */
+    /* line 97, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_packaging.scss */
     body.packaging .content .container #white-ribbon {
       width: 71.25%;
       top: 88.09%;
       left: 15.83%; }
-    /* line 102, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_packaging.scss */
+    /* line 102, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_packaging.scss */
     body.packaging .content .container #heading-section-1 {
       top: 12.08%;
       left: 0; }
-    /* line 106, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_packaging.scss */
+    /* line 106, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_packaging.scss */
     body.packaging .content .container #heading-section-2 {
       top: 48.31%;
       right: 0; }
-/* line 4, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_strategy.scss */
+/* line 4, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_strategy.scss */
 body.strategy {
   background-color: white; }
-  /* line 6, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_strategy.scss */
+  /* line 6, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_strategy.scss */
   body.strategy .work-with-us {
     padding-top: 200px;
     padding-bottom: 200px; }
-  /* line 10, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_strategy.scss */
+  /* line 10, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_strategy.scss */
   body.strategy .top-background {
     background-image: url("/images/page_strategy/top_background.png");
     background-size: contain; }
-  /* line 15, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_strategy.scss */
+  /* line 15, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_strategy.scss */
   body.strategy .content .section-heading {
     display: inline-block;
     background-color: black;
@@ -2147,16 +2147,16 @@ body.strategy {
     font-size: 1.4em;
     padding: 15px 40px 15px 65px; }
     @media only screen and (max-width: 585px) {
-      /* line 15, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_strategy.scss */
+      /* line 15, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_strategy.scss */
       body.strategy .content .section-heading {
         font-size: 1.1em;
         padding: 15px 20px 15px 20px; } }
-  /* line 30, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_strategy.scss */
+  /* line 30, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_strategy.scss */
   body.strategy .content #discovery {
     position: relative;
     height: 350px;
     margin-top: 100px; }
-    /* line 34, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_strategy.scss */
+    /* line 34, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_strategy.scss */
     body.strategy .content #discovery #stroke-blue {
       position: absolute;
       right: -1%;
@@ -2168,11 +2168,11 @@ body.strategy {
       background-position: 60px 0;
       background-size: contain; }
       @media only screen and (max-width: 905px) {
-        /* line 34, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_strategy.scss */
+        /* line 34, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_strategy.scss */
         body.strategy .content #discovery #stroke-blue {
           width: 25%;
           padding-top: 16%; } }
-    /* line 49, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_strategy.scss */
+    /* line 49, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_strategy.scss */
     body.strategy .content #discovery #spatz-text {
       position: absolute;
       top: 18px;
@@ -2180,15 +2180,15 @@ body.strategy {
       width: 288px;
       height: 333px; }
       @media only screen and (max-width: 585px) {
-        /* line 49, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_strategy.scss */
+        /* line 49, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_strategy.scss */
         body.strategy .content #discovery #spatz-text {
           left: 29%; } }
       @media only screen and (max-width: 450px) {
-        /* line 49, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_strategy.scss */
+        /* line 49, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_strategy.scss */
         body.strategy .content #discovery #spatz-text {
           left: 6%;
           top: 50px; } }
-      /* line 62, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_strategy.scss */
+      /* line 62, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_strategy.scss */
       body.strategy .content #discovery #spatz-text #amp {
         float: left;
         line-height: 190px;
@@ -2197,7 +2197,7 @@ body.strategy {
         font-size: 11em;
         font-weight: 400;
         font-family: 'DidotLTStd-Bold'; }
-      /* line 71, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_strategy.scss */
+      /* line 71, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_strategy.scss */
       body.strategy .content #discovery #spatz-text #right-col {
         float: right;
         width: 160px;
@@ -2207,86 +2207,86 @@ body.strategy {
         font-weight: 400;
         line-height: 16px;
         text-transform: uppercase; }
-        /* line 80, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_strategy.scss */
+        /* line 80, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_strategy.scss */
         body.strategy .content #discovery #spatz-text #right-col p {
           margin: 10px; }
-        /* line 83, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_strategy.scss */
+        /* line 83, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_strategy.scss */
         body.strategy .content #discovery #spatz-text #right-col p:first-child {
           margin-bottom: 32px;
           font-style: italic;
           font-weight: normal; }
-  /* line 91, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_strategy.scss */
+  /* line 91, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_strategy.scss */
   body.strategy .content .image-container {
     position: relative;
     padding-top: 60%;
     transition: all 200ms ease-out; }
     @media only screen and (max-width: 905px) {
-      /* line 91, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_strategy.scss */
+      /* line 91, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_strategy.scss */
       body.strategy .content .image-container {
         padding-top: 97.22%;
         margin-top: 100px; } }
-    /* line 99, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_strategy.scss */
+    /* line 99, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_strategy.scss */
     body.strategy .content .image-container img {
       position: absolute; }
-    /* line 102, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_strategy.scss */
+    /* line 102, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_strategy.scss */
     body.strategy .content .image-container #lipstick {
       width: 21.46%;
       top: 12.5%;
       left: 0;
       transition: all 200ms ease-out; }
       @media only screen and (max-width: 905px) {
-        /* line 102, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_strategy.scss */
+        /* line 102, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_strategy.scss */
         body.strategy .content .image-container #lipstick {
           width: 29.44%;
           top: 56.14%;
           left: 0; } }
-    /* line 113, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_strategy.scss */
+    /* line 113, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_strategy.scss */
     body.strategy .content .image-container #flower {
       width: 8.44%;
       top: 0;
       left: 23.125%;
       transition: all 200ms ease-out; }
       @media only screen and (max-width: 905px) {
-        /* line 113, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_strategy.scss */
+        /* line 113, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_strategy.scss */
         body.strategy .content .image-container #flower {
           display: none; } }
-    /* line 122, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_strategy.scss */
+    /* line 122, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_strategy.scss */
     body.strategy .content .image-container #colors {
       width: 19.69%;
       top: 31.42%;
       left: 32.5%;
       transition: all 200ms ease-out; }
       @media only screen and (max-width: 905px) {
-        /* line 122, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_strategy.scss */
+        /* line 122, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_strategy.scss */
         body.strategy .content .image-container #colors {
           width: 29.44%;
           top: 14.29%;
           left: 0; } }
-    /* line 133, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_strategy.scss */
+    /* line 133, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_strategy.scss */
     body.strategy .content .image-container #student {
       width: 12.81%;
       top: 15.625%;
       left: 53.5%;
       transition: all 200ms ease-out; }
       @media only screen and (max-width: 905px) {
-        /* line 133, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_strategy.scss */
+        /* line 133, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_strategy.scss */
         body.strategy .content .image-container #student {
           width: 20%;
           top: 0;
           left: 31.25%; } }
-    /* line 144, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_strategy.scss */
+    /* line 144, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_strategy.scss */
     body.strategy .content .image-container #spatz {
       width: 46.5%;
       top: 40.45%;
       left: 53.5%;
       transition: all 200ms ease-out; }
       @media only screen and (max-width: 905px) {
-        /* line 144, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_strategy.scss */
+        /* line 144, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_strategy.scss */
         body.strategy .content .image-container #spatz {
           width: 68.75%;
           top: 23%;
           left: 31.25%; } }
-    /* line 155, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_strategy.scss */
+    /* line 155, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_strategy.scss */
     body.strategy .content .image-container #stroke-orange {
       position: absolute;
       width: 150px;
@@ -2298,29 +2298,29 @@ body.strategy {
       background-position: 0 0;
       transition: all 200ms ease-out; }
       @media only screen and (max-width: 905px) {
-        /* line 155, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_strategy.scss */
+        /* line 155, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_strategy.scss */
         body.strategy .content .image-container #stroke-orange {
           top: -26%; } }
-  /* line 170, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_strategy.scss */
+  /* line 170, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_strategy.scss */
   body.strategy .content #the-result {
     position: relative;
     margin-top: 200px;
     height: 1300px;
     transition: all 200ms ease-out; }
     @media only screen and (min-width: 905px) and (max-width: 1155px) {
-      /* line 170, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_strategy.scss */
+      /* line 170, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_strategy.scss */
       body.strategy .content #the-result {
         height: 1000px; } }
-    /* line 178, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_strategy.scss */
+    /* line 178, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_strategy.scss */
     body.strategy .content #the-result .section-heading {
       position: absolute;
       top: -30px;
       left: 0; }
-    /* line 183, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_strategy.scss */
+    /* line 183, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_strategy.scss */
     body.strategy .content #the-result .text-section {
       position: relative;
       width: 400px; }
-    /* line 187, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_strategy.scss */
+    /* line 187, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_strategy.scss */
     body.strategy .content #the-result #who-we-are {
       position: relative;
       top: 145px;
@@ -2328,10 +2328,10 @@ body.strategy {
       z-index: 2;
       transition: all 200ms ease-out; }
       @media only screen and (max-width: 905px) {
-        /* line 187, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_strategy.scss */
+        /* line 187, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_strategy.scss */
         body.strategy .content #the-result #who-we-are {
           top: 255px; } }
-    /* line 197, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_strategy.scss */
+    /* line 197, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_strategy.scss */
     body.strategy .content #the-result #how-we-do-it {
       position: relative;
       top: 400px;
@@ -2339,10 +2339,10 @@ body.strategy {
       z-index: 2;
       transition: all 200ms ease-out; }
       @media only screen and (max-width: 905px) {
-        /* line 197, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_strategy.scss */
+        /* line 197, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_strategy.scss */
         body.strategy .content #the-result #how-we-do-it {
           top: 660px; } }
-    /* line 207, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_strategy.scss */
+    /* line 207, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_strategy.scss */
     body.strategy .content #the-result #our-story {
       position: relative;
       top: -70%;
@@ -2350,19 +2350,19 @@ body.strategy {
       z-index: 2;
       transition: all 200ms ease-out; }
       @media only screen and (max-width: 1155px) {
-        /* line 207, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_strategy.scss */
+        /* line 207, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_strategy.scss */
         body.strategy .content #the-result #our-story {
           top: -660px; } }
       @media only screen and (max-width: 905px) {
-        /* line 207, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_strategy.scss */
+        /* line 207, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_strategy.scss */
         body.strategy .content #the-result #our-story {
           top: -610px;
           left: 22%; } }
       @media only screen and (max-width: 450px) {
-        /* line 207, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_strategy.scss */
+        /* line 207, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_strategy.scss */
         body.strategy .content #the-result #our-story {
           left: 10%; } }
-    /* line 224, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_strategy.scss */
+    /* line 224, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_strategy.scss */
     body.strategy .content #the-result #what-we-do {
       position: relative;
       top: -50%;
@@ -2370,19 +2370,19 @@ body.strategy {
       z-index: 2;
       transition: all 200ms ease-out; }
       @media only screen and (max-width: 1155px) {
-        /* line 224, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_strategy.scss */
+        /* line 224, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_strategy.scss */
         body.strategy .content #the-result #what-we-do {
           top: -370px; } }
       @media only screen and (max-width: 905px) {
-        /* line 224, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_strategy.scss */
+        /* line 224, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_strategy.scss */
         body.strategy .content #the-result #what-we-do {
           top: -190px;
           left: 22%; } }
       @media only screen and (max-width: 450px) {
-        /* line 224, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_strategy.scss */
+        /* line 224, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_strategy.scss */
         body.strategy .content #the-result #what-we-do {
           left: 10%; } }
-    /* line 241, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_strategy.scss */
+    /* line 241, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_strategy.scss */
     body.strategy .content #the-result h2 {
       font-weight: 600;
       letter-spacing: 1px;
@@ -2390,11 +2390,11 @@ body.strategy {
       text-transform: uppercase;
       font-family: 'Gotham A', 'Gotham B'; }
       @media only screen and (min-width: 1155px) {
-        /* line 241, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_strategy.scss */
+        /* line 241, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_strategy.scss */
         body.strategy .content #the-result h2 {
           font-size: 21px;
           margin-bottom: 20px; } }
-    /* line 252, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_strategy.scss */
+    /* line 252, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_strategy.scss */
     body.strategy .content #the-result h3 {
       margin-top: 13px;
       font-weight: 400;
@@ -2404,17 +2404,17 @@ body.strategy {
       letter-spacing: 1px;
       text-transform: uppercase;
       font-family: 'Gotham A', 'Gotham B'; }
-    /* line 262, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_strategy.scss */
+    /* line 262, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_strategy.scss */
     body.strategy .content #the-result p {
       font-size: 11px;
       letter-spacing: 1px;
       font-family: 'Gotham A', 'Gotham B';
       width: 292px; }
       @media only screen and (min-width: 1155px) {
-        /* line 262, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_strategy.scss */
+        /* line 262, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_strategy.scss */
         body.strategy .content #the-result p {
           font-size: 14px; } }
-    /* line 271, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_strategy.scss */
+    /* line 271, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_strategy.scss */
     body.strategy .content #the-result #stroke-yellow {
       position: absolute;
       top: 425px;
@@ -2424,7 +2424,7 @@ body.strategy {
       background-image: url("/images/page_strategy/stroke_yellow.png");
       background-repeat: no-repeat;
       background-position: 0 0; }
-    /* line 281, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_strategy.scss */
+    /* line 281, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_strategy.scss */
     body.strategy .content #the-result #stroke-red {
       position: absolute;
       top: 550px;
@@ -2435,7 +2435,7 @@ body.strategy {
       background-repeat: no-repeat;
       transition: all 200ms ease-out; }
       @media only screen and (max-width: 905px) {
-        /* line 281, /Users/davidjohnson/Sites/z_old/DFM_static/source/stylesheets/our_work/_strategy.scss */
+        /* line 281, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_strategy.scss */
         body.strategy .content #the-result #stroke-red {
           top: -140px;
           left: 83%; } }
