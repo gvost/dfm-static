@@ -159,6 +159,7 @@ if ( is_network_admin() )
 $admin_body_class .= ' no-customize-support no-svg';
 
 ?>
+<link href="http://50.87.248.116/~drawini3/favicon.png" rel="icon">
 </head>
 <?php
 /**
