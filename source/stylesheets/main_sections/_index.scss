@@ -28,7 +28,7 @@ body.index {
 
     #video {
       position: absolute;
-      top: 0;
+      top: -3px;
       left: 0;
       width: 66.6666666%;
       transition: all 200ms ease-in;
@@ -167,8 +167,8 @@ body.index {
       height: 520px;
       display: inline-block;
       color: rgb(255,255,255);
-      font-size: 30px;
-      line-height: 80px;
+      font-size: 27px;
+      line-height: 60px;
       overflow: hidden;
       font-family: 'Georgia';
       transition: all 200ms ease-in;
