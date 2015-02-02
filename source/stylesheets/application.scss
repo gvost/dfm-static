@@ -141,14 +141,29 @@ body {
     font-family: 'Georgia';
     font-style: italic;
     letter-spacing: .5px;
-
-
+    & a {
+      &.page-links {
+        padding-bottom: 1px;
+        border-bottom: 2px solid rgba(255, 255, 255, 0);
+          -webkit-transition: border 500ms ease;
+          -moz-transition: border 500ms ease;
+          -ms-transition: border 500ms ease;
+          -o-transition: border 500ms ease;
+          transition: border 500ms ease; 
+        &:hover {
+          border-bottom: 2px solid rgba(255, 255, 255, 1);
+        }
+      }
+    }
   }
+
   a {
     text-decoration: none;
     color: rgb(255,255,255);
     font-size: 1em;
+    
   }
+  
   .social-links {
     margin: 110px 0px;
     text-align: center;
