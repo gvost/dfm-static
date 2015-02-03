@@ -5,14 +5,20 @@
 
 
 .scroll-fast, .scroll-fast-left, .scroll-fast-right {
+  -webkit-transition: -webkit-transform 200ms !important;
+  -moz-transition: transform 200ms !important;
   transition: transform 200ms !important;
 }
 
 .scroll-medium, .scroll-medium-left, .scroll-medium-right {
+  -webkit-transition: -webkit-transform 400ms !important;
+  -moz-transition: transform 400ms !important;
   transition: transform 400ms !important;
 }
 
 .scroll-slow, .scroll-slow-left, .scroll-slow-right {
+  -webkit-transition: -webkit-transform 600ms !important;
+  -moz-transition: transform 600ms !important;
   transition: transform 600ms !important;
 }
 
@@ -20,20 +26,28 @@
 
 .move-up {
   opacity: 0;
+  -webkit-transform:translateY(-200px);
+  -moz-transform: translate(0px, -200px);
   transform: translate(0px, -200px);
 }
 
 .move-down {
   opacity: 0;
+  -webkit-transform:translateY(200px);
+  -moz-transform: translate(0px, 200px);
   transform: translate(0px, 200px);
 }
 
 .move-left {
   opacity: 0;
-  transform: translate(-1500px, 0px);  
+  -webkit-transform:translateX(-1500px); 
+  -moz-transform: translate(-1500px, 0px);  
+  transform: translate(-1500px, 0px); 
 }
 
 .move-right {
   opacity: 0;
+  -webkit-transform:translateX(1500px);
+  -moz-transform: translate(1500px, 0px);
   transform: translate(1500px, 0px);
 }

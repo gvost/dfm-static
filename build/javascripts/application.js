@@ -298,10 +298,10 @@ $(document).ready(function() {
 
   function initAutoClick() {
     // auto-switch slides every 6 seconds
-    clearInterval(blurbTimer);
+    /*clearInterval(blurbTimer);
     blurbTimer = setInterval(function() {
       $('#right-button').trigger('click');
-    }, 6000);
+    }, 6000);*/
   }
 
   // stop the timer whenever a link is clicked
