@@ -7,7 +7,7 @@ body.contact {
 		background-image: image-url("page_contact/top_background.jpg");
 	}
 	.content{
-		min-height: 2200px;
+		min-height: 1550px;
 	}
 	.address-block, .parking-block {
 		position: absolute;
@@ -56,7 +56,7 @@ body.contact {
 	.f-graphic {
 			width: 564px;
 			height: 740px;
-			top: 1010px;
+			top: 640px;
 			left: -80px;
 			position: relative;
 			background-image: image-url("page_contact/fancy_f.png");
@@ -74,7 +74,7 @@ body.contact {
 		width: 100%;
 		color: black;
 		position: relative;
-		top: 370px;
+		top: 0;
 		float: right;
 		font-family: 'Gotham A', 'Gotham B';
 		text-transform: uppercase;
@@ -120,9 +120,13 @@ body.contact {
 			height: 33px;
 			background-color: black;
 			color: white;
-			margin-top: 160px;
+			margin-top: 30px;
 			text-transform: uppercase;
 			-webkit-appearance: none;
+			&:hover {
+				background: #474747;
+				-webkit-transition-duration: .5s;
+			}
 		}
 		select {
 			width: 500px;

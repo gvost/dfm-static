@@ -55,6 +55,22 @@ body.index {
       background-repeat: no-repeat;
       background-size: contain;
       background-color: rgb(255,255,255);
+
+      #kavaldon-link {
+        display: inline-block;
+        position: absolute;
+        margin: 0 auto;
+        left: 28%;
+        top: 25%;
+        background-color: gray;
+        width: 45%;
+        height: 66%;
+        opacity: 0;
+        a:hover {
+          cursor: pointer;
+        }
+        
+      }
     }
   }
   .candle-smoke {
@@ -167,7 +183,7 @@ body.index {
       height: 520px;
       display: inline-block;
       color: rgb(255,255,255);
-      font-size: 27px;
+      font-size: 18px;
       line-height: 60px;
       overflow: hidden;
       font-family: 'Georgia';
@@ -237,6 +253,15 @@ body.index {
         text-decoration: none;
         color: rgb(255,255,255);
         font-weight: bold;
+        border-bottom: 2px solid rgba(255, 255, 255, 0);
+        -webkit-transition: border 500ms ease;
+        -moz-transition: border 500ms ease;
+        -ms-transition: border 500ms ease;
+        -o-transition: border 500ms ease;
+        transition: border 500ms ease;
+        &:hover {
+          border-bottom: 2px solid rgba(255, 255, 255, 1);
+        }
       }
       @media only screen and (max-width: $layout-change-width) {
         height: 230px;

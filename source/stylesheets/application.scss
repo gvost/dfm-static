@@ -129,12 +129,27 @@ body {
     text-transform: uppercase;
     text-decoration: none;
     display: inline-block;
-    border-bottom: 3px white solid;
     padding-bottom: 5px;
     line-height: 20px;
     letter-spacing: 2px;
-
   }
+
+  li.nav-heading {
+    & a {
+      border-bottom: 3px white solid;
+
+      -webkit-transition: border 300ms ease;
+      -moz-transition: border 300ms ease;
+      -ms-transition: border 300ms ease;
+      -o-transition: border 300ms ease;
+      transition: all 300ms ease-out;
+      &:hover {
+        border-bottom-color: transparent;
+      }
+    }
+  }
+
+
   li:not(.nav-heading) {
     line-height: 1.8em;
     font-size: .9em;
@@ -161,6 +176,7 @@ body {
     text-decoration: none;
     color: rgb(255,255,255);
     font-size: 1em;
+    transition: all 300ms ease-out;
     
   }
   
@@ -173,6 +189,16 @@ body {
     text-transform: uppercase;
     margin: 15px;
     font-size: .65em;
+    padding-bottom: 1px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0);
+    -webkit-transition: border 500ms ease;
+    -moz-transition: border 500ms ease;
+    -ms-transition: border 500ms ease;
+    -o-transition: border 500ms ease;
+    transition: border 500ms ease;
+    &:hover {
+      border-bottom: 2px solid rgba(255, 255, 255, 1);
+    } 
   }
 }
 

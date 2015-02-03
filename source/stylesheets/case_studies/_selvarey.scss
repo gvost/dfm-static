@@ -55,4 +55,27 @@ body.selvarey {
       }
     }
   }
+
+  .bottom-container {
+
+    a {
+      text-decoration: none;
+      font-family: 'Gotham A', 'Gotham B';
+      font-size: 1.2em;
+      border-bottom: 2px solid rgba(255, 255, 255, 0);
+          -webkit-transition: border 500ms ease;
+          -moz-transition: border 500ms ease;
+          -ms-transition: border 500ms ease;
+          -o-transition: border 500ms ease;
+          transition: border 500ms ease; 
+      &:visited {
+        color: black;
+      }
+      &:hover {
+        border-bottom: 2px solid rgba(0, 0, 0, 1);
+      }
+
+
+    }
+  }
 } 
