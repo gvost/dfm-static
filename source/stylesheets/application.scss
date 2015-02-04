@@ -280,6 +280,9 @@ body {
   .top-container {
     background-color: white;
     padding-bottom: 200px;
+    @media only screen and (max-width: $mobile-width) {
+      margin-top: -200px;
+    }
   }
   .top-insert-outline {
     width: 580px;
@@ -350,6 +353,15 @@ body {
     a {
       text-decoration: none;
       color: inherit;
+      border-bottom: 2px solid rgba(0, 0, 0, 0);
+        -webkit-transition: border 500ms ease;
+        -moz-transition: border 500ms ease;
+        -ms-transition: border 500ms ease;
+        -o-transition: border 500ms ease;
+        transition: border 500ms ease; 
+      &:hover {
+        border-bottom: 2px solid rgba(0, 0, 0, 1);
+      }
     }
     p {
       margin-top: 20px;
