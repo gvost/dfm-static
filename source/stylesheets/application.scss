@@ -36,6 +36,7 @@ $mobile-width: 640px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; 
+  -webkit-overflow-scrolling: touch; // for momentum scrolling on mobile
 }
 
 ::selection {
@@ -271,6 +272,7 @@ body {
 }
 .content{
   position: relative;
+  -webkit-transform: translate3d(0, 0, 0);  // fixes momentum scrolling issue on mobile
   background-color: white;
   width: 100%;
   top: 800px;

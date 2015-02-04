@@ -179,18 +179,19 @@ includes below.
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  -webkit-overflow-scrolling: touch; }
 
-/* line 41, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+/* line 42, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
 ::selection {
   color: #ff0cdb; }
 
-/* line 45, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+/* line 46, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
 html, body {
   height: 100%;
   overflow: auto; }
 
-/* line 50, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+/* line 51, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
 body {
   position: absolute;
   min-height: 100%;
@@ -200,7 +201,7 @@ body {
   z-index: 1;
   -webkit-font-smoothing: antialiased; }
 
-/* line 62, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+/* line 63, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
 #loading-page {
   position: fixed;
   top: 0;
@@ -215,7 +216,7 @@ body {
   background-size: 45%;
   background-repeat: no-repeat; }
 
-/* line 79, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+/* line 80, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
 #header {
   position: fixed;
   top: 25px;
@@ -224,10 +225,10 @@ body {
   z-index: 1000;
   background-color: white;
   padding: 6px 40px 0px 40px; }
-  /* line 87, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+  /* line 88, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
   #header #logo {
     float: left; }
-  /* line 90, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+  /* line 91, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
   #header #nav-toggle {
     float: right;
     cursor: pointer;
@@ -241,7 +242,7 @@ body {
     margin-top: -3px;
     -webkit-font-smoothing: antialiased; }
 
-/* line 107, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+/* line 108, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
 #nav-page {
   height: 100%;
   z-index: 500;
@@ -256,14 +257,14 @@ body {
   color: white;
   overflow-y: scroll;
   font-family: 'Gotham A', 'Gotham B'; }
-  /* line 121, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+  /* line 122, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
   #nav-page ul {
     list-style: none;
     margin-bottom: 40px; }
-  /* line 125, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+  /* line 126, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
   #nav-page ul:first-child {
     margin-top: 40px; }
-  /* line 128, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+  /* line 129, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
   #nav-page .nav-heading {
     font-size: 1.2em;
     margin-top: 1.6em;
@@ -274,7 +275,7 @@ body {
     padding-bottom: 5px;
     line-height: 20px;
     letter-spacing: 2px; }
-  /* line 141, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+  /* line 142, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
   #nav-page li.nav-heading a {
     border-bottom: 3px white solid;
     -webkit-transition: border 300ms ease;
@@ -282,17 +283,17 @@ body {
     -ms-transition: border 300ms ease;
     -o-transition: border 300ms ease;
     transition: all 300ms ease-out; }
-    /* line 149, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+    /* line 150, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
     #nav-page li.nav-heading a:hover {
       border-bottom-color: transparent; }
-  /* line 156, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+  /* line 157, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
   #nav-page li:not(.nav-heading) {
     line-height: 1.8em;
     font-size: .9em;
     font-family: 'Georgia';
     font-style: italic;
     letter-spacing: .5px; }
-    /* line 163, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+    /* line 164, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
     #nav-page li:not(.nav-heading) a.page-links {
       padding-bottom: 1px;
       border-bottom: 2px solid rgba(255, 255, 255, 0);
@@ -301,10 +302,10 @@ body {
       -ms-transition: border 500ms ease;
       -o-transition: border 500ms ease;
       transition: border 500ms ease; }
-      /* line 171, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+      /* line 172, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
       #nav-page li:not(.nav-heading) a.page-links:hover {
         border-bottom: 2px solid white; }
-  /* line 178, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+  /* line 179, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
   #nav-page a {
     text-decoration: none;
     color: white;
@@ -312,12 +313,12 @@ body {
     -webkit-transition: all 300ms ease-out;
     -moz-transition: all 300ms ease-out;
     transition: all 300ms ease-out; }
-  /* line 187, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+  /* line 188, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
   #nav-page .social-links {
     margin: 110px 0px;
     text-align: center;
     font-weight: bold; }
-  /* line 192, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+  /* line 193, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
   #nav-page .social-links a {
     text-transform: uppercase;
     margin: 15px;
@@ -329,7 +330,7 @@ body {
     -ms-transition: border 500ms ease;
     -o-transition: border 500ms ease;
     transition: border 500ms ease; }
-    /* line 203, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+    /* line 204, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
     #nav-page .social-links a:hover {
       border-bottom: 2px solid white; }
 
@@ -363,7 +364,7 @@ body {
   </div>
 </div>
 */
-/* line 247, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+/* line 248, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
 .top-background {
   width: 100%;
   height: 800px;
@@ -376,11 +377,11 @@ body {
   background-size: cover;
   z-index: -1; }
   @media only screen and (max-width: 640px) {
-    /* line 247, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+    /* line 248, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
     .top-background {
       height: 600px; } }
 
-/* line 262, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+/* line 263, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
 .parallax-background {
   height: 100%;
   width: 100%;
@@ -391,26 +392,27 @@ body {
   background-position: center;
   background-size: cover; }
 
-/* line 272, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+/* line 273, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
 .content {
   position: relative;
+  -webkit-transform: translate3d(0, 0, 0);
   background-color: white;
   width: 100%;
   top: 800px;
   left: 0; }
   @media only screen and (max-width: 640px) {
-    /* line 272, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+    /* line 273, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
     .content {
       top: 600px; } }
-  /* line 281, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+  /* line 283, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
   .content .top-container {
     background-color: white;
     padding-bottom: 200px; }
     @media only screen and (max-width: 640px) {
-      /* line 281, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+      /* line 283, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
       .content .top-container {
         margin-top: -200px; } }
-  /* line 288, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+  /* line 290, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
   .content .top-insert-outline {
     width: 580px;
     max-width: 95%;
@@ -419,14 +421,14 @@ body {
     margin: 0 auto -50px auto;
     top: -100px;
     border: 1px solid white; }
-  /* line 297, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+  /* line 299, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
   .content .top-insert {
     background-color: white;
     position: relative;
     text-align: center;
     padding: 10% 15%;
     box-sizing: border-box; }
-    /* line 303, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+    /* line 305, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
     .content .top-insert h1 {
       color: black;
       font-family: 'Gotham A', 'Gotham B';
@@ -438,11 +440,11 @@ body {
       max-width: 400px;
       margin: 0 auto 10px auto; }
       @media only screen and (max-width: 640px) {
-        /* line 303, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+        /* line 305, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
         .content .top-insert h1 {
           font-size: 1.2em;
           letter-spacing: 1.7px; } }
-    /* line 318, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+    /* line 320, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
     .content .top-insert h2 {
       font-weight: 100;
       font-family: 'Georgia';
@@ -450,24 +452,24 @@ body {
       letter-spacing: 1px;
       font-size: 13px;
       line-height: 18px; }
-      /* line 325, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+      /* line 327, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
       .content .top-insert h2#velvet-subtitle {
         padding-bottom: 10px;
         font-family: 'Gotham A', 'Gotham B'; }
-    /* line 331, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+    /* line 333, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
     .content .top-insert h3 {
       font-style: italic;
       font-weight: 100; }
-  /* line 336, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+  /* line 338, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
   .content .parallax {
     width: 100%;
     height: 300px;
     background: none; }
-  /* line 341, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+  /* line 343, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
   .content .bottom-container {
     background-color: white;
     padding: 200px 0; }
-  /* line 345, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+  /* line 347, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
   .content .work-with-us {
     width: 100%;
     height: 250px;
@@ -475,14 +477,14 @@ body {
     text-align: center;
     color: black;
     background-color: white; }
-    /* line 352, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+    /* line 354, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
     .content .work-with-us h2 {
       width: 170px;
       margin: 0 auto;
       text-transform: uppercase;
       padding: 0 5px 20px 5px;
       border-bottom: 2px grey solid; }
-    /* line 359, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+    /* line 361, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
     .content .work-with-us a {
       text-decoration: none;
       color: inherit;
@@ -492,21 +494,21 @@ body {
       -ms-transition: border 500ms ease;
       -o-transition: border 500ms ease;
       transition: border 500ms ease; }
-      /* line 368, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+      /* line 370, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
       .content .work-with-us a:hover {
         border-bottom: 2px solid black; }
-    /* line 372, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+    /* line 374, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
     .content .work-with-us p {
       margin-top: 20px;
       font-style: italic; }
 
-/* line 383, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+/* line 385, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
 .portfolio-text-insert {
   margin: 0 auto;
   width: 500px;
   text-align: center;
   max-width: 85%; }
-  /* line 388, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+  /* line 390, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
   .portfolio-text-insert h1 {
     font-size: 30px;
     margin-bottom: 55px;
@@ -514,13 +516,13 @@ body {
     font-family: 'Gotham A', 'Gotham B';
     text-transform: uppercase;
     letter-spacing: 9px; }
-  /* line 396, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+  /* line 398, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
   .portfolio-text-insert p {
     font-size: 14px;
     font-family: 'Georgia';
     line-height: 18px;
     letter-spacing: 1px; }
-  /* line 402, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+  /* line 404, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
   .portfolio-text-insert div {
     display: inline-block;
     margin: 45px auto 0 auto;
@@ -528,20 +530,20 @@ body {
     height: 30px;
     border-bottom: 2px #cccccc solid; }
 
-/* line 413, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+/* line 415, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
 .site-page {
   margin: 40px auto;
   width: 80%; }
-  /* line 416, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+  /* line 418, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
   .site-page img {
     max-width: 100%;
     max-height: 100%; }
 
-/* line 424, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+/* line 426, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
 .heading-section {
   z-index: 2;
   position: absolute; }
-  /* line 427, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+  /* line 429, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
   .heading-section h1 {
     font-family: 'DidotLTStd-Italic';
     font-size: 30px;
@@ -556,56 +558,56 @@ body {
     transition: all 200ms ease-in;
     width: 275px; }
     @media only screen and (max-width: 640px) {
-      /* line 427, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+      /* line 429, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
       .heading-section h1 {
         font-size: 20px;
         width: 175px;
         padding-left: 25px; } }
-/* line 7, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/_scroller.scss */
+/* line 6, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/_scroller.scss */
 .scroll-fast, .scroll-fast-left, .scroll-fast-right {
   -webkit-transition: -webkit-transform 200ms !important;
   -moz-transition: transform 200ms !important;
   transition: transform 200ms !important; }
 
-/* line 13, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/_scroller.scss */
+/* line 12, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/_scroller.scss */
 .scroll-medium, .scroll-medium-left, .scroll-medium-right {
   -webkit-transition: -webkit-transform 400ms !important;
   -moz-transition: transform 400ms !important;
   transition: transform 400ms !important; }
 
-/* line 19, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/_scroller.scss */
+/* line 18, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/_scroller.scss */
 .scroll-slow, .scroll-slow-left, .scroll-slow-right {
   -webkit-transition: -webkit-transform 600ms !important;
   -moz-transition: transform 600ms !important;
   transition: transform 600ms !important; }
 
-/* line 27, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/_scroller.scss */
+/* line 25, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/_scroller.scss */
 .move-up {
   opacity: 0;
   -webkit-transform: translateY(-200px);
-  -moz-transform: translate(0px, -200px);
-  transform: translate(0px, -200px); }
+  -moz-transform: translateY(-200px);
+  transform: translateY(-200px); }
 
-/* line 34, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/_scroller.scss */
+/* line 32, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/_scroller.scss */
 .move-down {
   opacity: 0;
   -webkit-transform: translateY(200px);
-  -moz-transform: translate(0px, 200px);
-  transform: translate(0px, 200px); }
+  -moz-transform: translateY(200px);
+  transform: translateY(200px); }
 
-/* line 41, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/_scroller.scss */
+/* line 39, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/_scroller.scss */
 .move-left {
   opacity: 0;
   -webkit-transform: translateX(-1500px);
-  -moz-transform: translate(-1500px, 0px);
-  transform: translate(-1500px, 0px); }
+  -moz-transform: translateX(-1500px);
+  transform: translateX(-1500px); }
 
-/* line 48, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/_scroller.scss */
+/* line 46, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/_scroller.scss */
 .move-right {
   opacity: 0;
   -webkit-transform: translateX(1500px);
-  -moz-transform: translate(1500px, 0px);
-  transform: translate(1500px, 0px); }
+  -moz-transform: translateX(1500px);
+  transform: translateX(1500px); }
 /* line 1, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_AVF.scss */
 body.AVF {
   background-color: white;
@@ -829,7 +831,7 @@ body.kavaldon {
   body.kavaldon a {
     text-decoration: none;
     color: black;
-    font-family: 'Gotham A', 'Gotham B';
+    /*font-family: 'Gotham A', 'Gotham B'; */
     font-size: 1.2em;
     border-bottom: 2px solid rgba(255, 255, 255, 0);
     -webkit-transition: border 500ms ease;
@@ -1367,16 +1369,20 @@ body.contact {
           /* line 166, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_contact.scss */
           body.contact .form fieldset label {
             text-align: left; } }
-    /* line 175, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_contact.scss */
+    /* line 176, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_contact.scss */
+    body.contact .form .form-error {
+      border: 2px red solid; }
+    /* line 179, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_contact.scss */
     body.contact .form #server-response {
-      width: 300px;
+      width: 335px;
       height: 31px;
       position: relative;
       top: -52px;
       left: 148px;
-      padding-top: 8px; }
+      padding-top: 8px;
+      text-transform: none; }
       @media only screen and (max-width: 860px) {
-        /* line 175, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_contact.scss */
+        /* line 179, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_contact.scss */
         body.contact .form #server-response {
           top: -11px;
           left: 0; } }
@@ -2009,7 +2015,7 @@ body.imagery {
   text-align: center; }
   /* line 4, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_imagery.scss */
   body.imagery .top-background {
-    background-image: url("/images/page_imagery/top_background.png"); }
+    background-image: url("/images/page_imagery/top_background.jpg"); }
   /* line 8, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_imagery.scss */
   body.imagery .content .image-container {
     position: relative;

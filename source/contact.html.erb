@@ -41,15 +41,17 @@
 			<div class="form-div">
 				<h1 class="form-required">Required<span class="super-script">*</span></h1>
 				<label>First Name <span class="super-script">*</span></label><br>
-				<input id="contact-first-name" type="text"><br>
+				<input id="contact-first-name" class="required" type="text"><br>
 				<label>Last Name <span class="super-script">*</span></label><br>
-				<input id="contact-last-name" type="text"><br>
+				<input id="contact-last-name" class="required" type="text"><br>
 				<label>Email <span class="super-script">*</span></label><br>
-				<input id="contact-email" type="text"><br>
+				<input id="contact-email" class="required" type="text"><br>
 				<label>Phone <span class="super-script">*</span></label><br>
-				<input id="contact-phone" type="text"><br>
+				<input id="contact-phone" class="required" type="text"><br>
 				<label>Tell us about your project </label><br>
 				<textarea id="contact-project"></textarea> <br>
+				<label>No Robots - Please type in "norobot" <span class="super-script">*</span></label><br>
+				<input id="nr" class="required" type="text"><br>
 				
 				<input id="contact-submit" type="submit" value="submit">
 				<div id="server-response"></div>

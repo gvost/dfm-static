@@ -171,14 +171,19 @@ body.contact {
 					text-align: left;			
 				}
 			}
+
+		}
+		.form-error {
+			border: 2px red solid;
 		}
 		#server-response {
-			width: 300px;
+			width: 335px;
 			height: 31px;
 			position: relative;
 			top: -52px;
 			left: 148px;
 			padding-top: 8px;
+			text-transform: none;
 			@media only screen and (max-width: $narrow-form-width) {
 				top: -11px;
 				left: 0;
