@@ -10,9 +10,14 @@
   $phone = $_GET['phone'];
   $project = $_GET['project'];
   $find = $_GET['find']; 
-
+  $headers = 'From: info@drawingfrommemory.com' . "\r\n" .
+    'Reply-To: ' . $_GET['email'] . "\r\n" .
+    'X-Mailer: PHP/' . phpversion();
+  //ini_set('display_errors', 1);
+  error_reporting(E_ALL);
   // construct email
-  $recipient = "jen@drawingfrommemory.com, sharon@drawingfrommemory.com";
+  //$recipient = "jordan@drawingfrommemory.com, rebecca@drawingfrommemory.com, jake.mensch@gmail.com";
+  $recipient = "jordan@drawingfrommemory.com, rebecca@drawingfrommemory.com, jen@drawingfrommemory.com, sharon@drawingfrommemory.com";
   $subject = "DFM site contact";
   $body = <<<MESSAGE
 
@@ -26,14 +31,19 @@ Find: $find
 MESSAGE;
   
   // send email
-  mail(
+  if(mail(
     $recipient, 
     $subject, 
-    wordwrap($body, 70, "\r\n")
-  );
+    wordwrap($body, 70, "\r\n"),
+    $headers
+  )){
 
   // for testing only
- // file_put_contents("email.txt", $subject . "\n" . $body); 
+  file_put_contents("email.txt", $subject . "\n" . $body . $headers); 
 
   echo "Thanks, we'll be in touch.";
+  }else
+  {
+    echo "Sorry, we were unable to send your email.";
+  }
 ?>
