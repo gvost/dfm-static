@@ -283,7 +283,7 @@ $(document).ready(function() {
       email:       $("#contact-email").val(), 
       phone:       $("#contact-phone").val(),
       project:     $("#contact-project").val(),
-      find:        $("#contact-find-us").val(),
+      //find:        $("#contact-find-us").val(),
       nr:          $("#nr").val(),
     };
 
