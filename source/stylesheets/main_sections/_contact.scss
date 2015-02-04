@@ -171,9 +171,13 @@ body.contact {
 					text-align: left;			
 				}
 			}
+
+		}
+		.form-error {
+			border: 2px red solid;
 		}
 		#server-response {
-			width: 300px;
+			width: 335px;
 			height: 31px;
 			position: relative;
 			top: -52px;
