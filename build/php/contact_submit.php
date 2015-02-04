@@ -12,7 +12,7 @@
   $find = $_GET['find']; 
 
   // construct email
-  $recipient = "jen@drawingfrommemory.com, sharon@drawingfrommemory.com";
+  $recipient = "jordan@drawingfrommemory.com, rebecca@drawingfrommemory.com, jake.mensch@gmail.com";
   $subject = "DFM site contact";
   $body = <<<MESSAGE
 
@@ -33,7 +33,7 @@ MESSAGE;
   );
 
   // for testing only
- // file_put_contents("email.txt", $subject . "\n" . $body); 
+  file_put_contents("email.txt", $subject . "\n" . $body); 
 
   echo "Thanks, we'll be in touch.";
 ?>
