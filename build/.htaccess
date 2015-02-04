@@ -1,0 +1,6 @@
+Options +FollowSymlinks
+RewriteEngine on
+RewriteRule female-web-designers http://50.87.248.116/~drawini3/about/ [L,R=301]
+RewriteRule los-angeles-design-studio http://50.87.248.116/~drawini3/contact/ [L,R=301]
+RewriteRule los-angeles-web-design-portfolio http://50.87.248.116/~drawini3/ [L,R=301]
+

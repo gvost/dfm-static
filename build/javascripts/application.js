@@ -382,16 +382,36 @@ $(document).ready(function() {
 
   $("#contact-submit").click(function() {
 
-    $("#server-response").text("Sending message...");
+    // clear any previous error messages
+    $(".form-error").removeClass("form-error");
+    $("#server-response").text("");
 
+    // check each required field for blankness
+    var formGood = true;
+    $(".required").each(function() {
+      if ($(this).val() == "") {
+        $(this).addClass("form-error");
+        formGood = false;
+      }
+    });
+
+    // if any are blank, start over
+    if (!formGood) {
+      $("#server-response").text("Please fill in all required fields.");
+      return false;
+    }
+
+    // otherwise, send the form info to the server
     var info = { 
-        firstname:   $("#contact-first-name").val(),
-        lastname:    $("#contact-last-name").val(),
-        email:       $("#contact-email").val(), 
-        phone:       $("#contact-phone").val(),
-        project:     $("#contact-project").val(),
-        find:        $("#contact-find-us").val()
+      firstname:   $("#contact-first-name").val(),
+      lastname:    $("#contact-last-name").val(),
+      email:       $("#contact-email").val(), 
+      phone:       $("#contact-phone").val(),
+      project:     $("#contact-project").val(),
+      find:        $("#contact-find-us").val()
     };
+
+    $("#server-response").text("Sending message...");
 
     $.ajax({
       type:  'get',

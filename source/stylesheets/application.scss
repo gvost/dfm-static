@@ -55,6 +55,7 @@ body {
   width: 100%;
   overflow-x: hidden;
   z-index: 1;
+  -webkit-font-smoothing: antialiased;
 }
 
 ////////////// LOADING PAGE ///////////////
@@ -281,6 +282,9 @@ body {
   .top-container {
     background-color: white;
     padding-bottom: 200px;
+    @media only screen and (max-width: $mobile-width) {
+      margin-top: -200px;
+    }
   }
   .top-insert-outline {
     width: 580px;
@@ -306,7 +310,7 @@ body {
       letter-spacing: 8.4px;
       line-height: 40px;
       max-width: 400px;
-      margin: 0 auto 25px auto;
+      margin: 0 auto 10px auto;
       @media only screen and (max-width: $mobile-width) {
         font-size: 1.2em;
         letter-spacing: 1.7px;
@@ -319,6 +323,11 @@ body {
       letter-spacing: 1px;
       font-size: 13px;
       line-height: 18px;
+      &#velvet-subtitle {
+        padding-bottom: 10px;
+        font-family: 'Gotham A', 'Gotham B';
+      }
+
     }
     h3 {
       font-style: italic;
@@ -342,7 +351,7 @@ body {
     color: black; 
     background-color: white;
     h2 {
-      width: 150px;
+      width: 170px;
       margin: 0 auto;
       text-transform: uppercase;
       padding: 0 5px 20px 5px;
@@ -351,6 +360,15 @@ body {
     a {
       text-decoration: none;
       color: inherit;
+      border-bottom: 2px solid rgba(0, 0, 0, 0);
+        -webkit-transition: border 500ms ease;
+        -moz-transition: border 500ms ease;
+        -ms-transition: border 500ms ease;
+        -o-transition: border 500ms ease;
+        transition: border 500ms ease; 
+      &:hover {
+        border-bottom: 2px solid rgba(0, 0, 0, 1);
+      }
     }
     p {
       margin-top: 20px;

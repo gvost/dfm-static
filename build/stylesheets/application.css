@@ -198,9 +198,10 @@ body {
   min-width: 100%;
   width: 100%;
   overflow-x: hidden;
-  z-index: 1; }
+  z-index: 1;
+  -webkit-font-smoothing: antialiased; }
 
-/* line 62, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
+/* line 63, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
 #loading-page {
   position: fixed;
   top: 0;
@@ -215,7 +216,7 @@ body {
   background-size: 45%;
   background-repeat: no-repeat; }
 
-/* line 79, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
+/* line 80, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
 #header {
   position: fixed;
   top: 25px;
@@ -224,10 +225,10 @@ body {
   z-index: 1000;
   background-color: white;
   padding: 6px 40px 0px 40px; }
-  /* line 87, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
+  /* line 88, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
   #header #logo {
     float: left; }
-  /* line 90, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
+  /* line 91, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
   #header #nav-toggle {
     float: right;
     cursor: pointer;
@@ -241,7 +242,7 @@ body {
     margin-top: -3px;
     -webkit-font-smoothing: antialiased; }
 
-/* line 107, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
+/* line 108, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
 #nav-page {
   height: 100%;
   z-index: 500;
@@ -256,14 +257,14 @@ body {
   color: white;
   overflow-y: scroll;
   font-family: 'Gotham A', 'Gotham B'; }
-  /* line 121, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
+  /* line 122, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
   #nav-page ul {
     list-style: none;
     margin-bottom: 40px; }
-  /* line 125, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
+  /* line 126, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
   #nav-page ul:first-child {
     margin-top: 40px; }
-  /* line 128, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
+  /* line 129, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
   #nav-page .nav-heading {
     font-size: 1.2em;
     margin-top: 1.6em;
@@ -274,7 +275,7 @@ body {
     padding-bottom: 5px;
     line-height: 20px;
     letter-spacing: 2px; }
-  /* line 141, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
+  /* line 142, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
   #nav-page li.nav-heading a {
     border-bottom: 3px white solid;
     -webkit-transition: border 300ms ease;
@@ -282,17 +283,17 @@ body {
     -ms-transition: border 300ms ease;
     -o-transition: border 300ms ease;
     transition: all 300ms ease-out; }
-    /* line 149, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
+    /* line 150, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
     #nav-page li.nav-heading a:hover {
       border-bottom-color: transparent; }
-  /* line 156, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
+  /* line 157, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
   #nav-page li:not(.nav-heading) {
     line-height: 1.8em;
     font-size: .9em;
     font-family: 'Georgia';
     font-style: italic;
     letter-spacing: .5px; }
-    /* line 163, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
+    /* line 164, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
     #nav-page li:not(.nav-heading) a.page-links {
       padding-bottom: 1px;
       border-bottom: 2px solid rgba(255, 255, 255, 0);
@@ -301,10 +302,10 @@ body {
       -ms-transition: border 500ms ease;
       -o-transition: border 500ms ease;
       transition: border 500ms ease; }
-      /* line 171, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
+      /* line 172, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
       #nav-page li:not(.nav-heading) a.page-links:hover {
         border-bottom: 2px solid white; }
-  /* line 178, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
+  /* line 179, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
   #nav-page a {
     text-decoration: none;
     color: white;
@@ -312,12 +313,12 @@ body {
     -webkit-transition: all 300ms ease-out;
     -moz-transition: all 300ms ease-out;
     transition: all 300ms ease-out; }
-  /* line 187, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
+  /* line 188, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
   #nav-page .social-links {
     margin: 110px 0px;
     text-align: center;
     font-weight: bold; }
-  /* line 192, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
+  /* line 193, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
   #nav-page .social-links a {
     text-transform: uppercase;
     margin: 15px;
@@ -329,7 +330,7 @@ body {
     -ms-transition: border 500ms ease;
     -o-transition: border 500ms ease;
     transition: border 500ms ease; }
-    /* line 203, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
+    /* line 204, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
     #nav-page .social-links a:hover {
       border-bottom: 2px solid white; }
 
@@ -363,7 +364,7 @@ body {
   </div>
 </div>
 */
-/* line 247, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
+/* line 248, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
 .top-background {
   width: 100%;
   height: 800px;
@@ -376,11 +377,11 @@ body {
   background-size: cover;
   z-index: -1; }
   @media only screen and (max-width: 640px) {
-    /* line 247, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
+    /* line 248, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
     .top-background {
       height: 600px; } }
 
-/* line 262, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
+/* line 263, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
 .parallax-background {
   height: 100%;
   width: 100%;
@@ -391,7 +392,7 @@ body {
   background-position: center;
   background-size: cover; }
 
-/* line 272, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
+/* line 273, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
 .content {
   position: relative;
   background-color: white;
@@ -399,14 +400,18 @@ body {
   top: 800px;
   left: 0; }
   @media only screen and (max-width: 640px) {
-    /* line 272, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
+    /* line 273, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
     .content {
       top: 600px; } }
-  /* line 281, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
+  /* line 282, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
   .content .top-container {
     background-color: white;
     padding-bottom: 200px; }
-  /* line 285, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
+    @media only screen and (max-width: 640px) {
+      /* line 282, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
+      .content .top-container {
+        margin-top: -200px; } }
+  /* line 289, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
   .content .top-insert-outline {
     width: 580px;
     max-width: 95%;
@@ -415,14 +420,14 @@ body {
     margin: 0 auto -50px auto;
     top: -100px;
     border: 1px solid white; }
-  /* line 294, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
+  /* line 298, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
   .content .top-insert {
     background-color: white;
     position: relative;
     text-align: center;
     padding: 10% 15%;
     box-sizing: border-box; }
-    /* line 300, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
+    /* line 304, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
     .content .top-insert h1 {
       color: black;
       font-family: 'Gotham A', 'Gotham B';
@@ -432,13 +437,13 @@ body {
       letter-spacing: 8.4px;
       line-height: 40px;
       max-width: 400px;
-      margin: 0 auto 25px auto; }
+      margin: 0 auto 10px auto; }
       @media only screen and (max-width: 640px) {
-        /* line 300, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
+        /* line 304, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
         .content .top-insert h1 {
           font-size: 1.2em;
           letter-spacing: 1.7px; } }
-    /* line 315, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
+    /* line 319, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
     .content .top-insert h2 {
       font-weight: 100;
       font-family: 'Georgia';
@@ -446,20 +451,24 @@ body {
       letter-spacing: 1px;
       font-size: 13px;
       line-height: 18px; }
-    /* line 323, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
+      /* line 326, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
+      .content .top-insert h2#velvet-subtitle {
+        padding-bottom: 10px;
+        font-family: 'Gotham A', 'Gotham B'; }
+    /* line 332, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
     .content .top-insert h3 {
       font-style: italic;
       font-weight: 100; }
-  /* line 328, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
+  /* line 337, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
   .content .parallax {
     width: 100%;
     height: 300px;
     background: none; }
-  /* line 333, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
+  /* line 342, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
   .content .bottom-container {
     background-color: white;
     padding: 200px 0; }
-  /* line 337, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
+  /* line 346, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
   .content .work-with-us {
     width: 100%;
     height: 250px;
@@ -467,29 +476,38 @@ body {
     text-align: center;
     color: black;
     background-color: white; }
-    /* line 344, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
+    /* line 353, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
     .content .work-with-us h2 {
-      width: 150px;
+      width: 170px;
       margin: 0 auto;
       text-transform: uppercase;
       padding: 0 5px 20px 5px;
       border-bottom: 2px grey solid; }
-    /* line 351, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
+    /* line 360, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
     .content .work-with-us a {
       text-decoration: none;
-      color: inherit; }
-    /* line 355, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
+      color: inherit;
+      border-bottom: 2px solid transparent;
+      -webkit-transition: border 500ms ease;
+      -moz-transition: border 500ms ease;
+      -ms-transition: border 500ms ease;
+      -o-transition: border 500ms ease;
+      transition: border 500ms ease; }
+      /* line 369, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
+      .content .work-with-us a:hover {
+        border-bottom: 2px solid black; }
+    /* line 373, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
     .content .work-with-us p {
       margin-top: 20px;
       font-style: italic; }
 
-/* line 366, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
+/* line 384, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
 .portfolio-text-insert {
   margin: 0 auto;
   width: 500px;
   text-align: center;
   max-width: 85%; }
-  /* line 371, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
+  /* line 389, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
   .portfolio-text-insert h1 {
     font-size: 30px;
     margin-bottom: 55px;
@@ -497,13 +515,13 @@ body {
     font-family: 'Gotham A', 'Gotham B';
     text-transform: uppercase;
     letter-spacing: 9px; }
-  /* line 379, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
+  /* line 397, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
   .portfolio-text-insert p {
     font-size: 14px;
     font-family: 'Georgia';
     line-height: 18px;
     letter-spacing: 1px; }
-  /* line 385, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
+  /* line 403, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
   .portfolio-text-insert div {
     display: inline-block;
     margin: 45px auto 0 auto;
@@ -511,20 +529,20 @@ body {
     height: 30px;
     border-bottom: 2px #cccccc solid; }
 
-/* line 396, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
+/* line 414, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
 .site-page {
   margin: 40px auto;
   width: 80%; }
-  /* line 399, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
+  /* line 417, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
   .site-page img {
     max-width: 100%;
     max-height: 100%; }
 
-/* line 407, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
+/* line 425, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
 .heading-section {
   z-index: 2;
   position: absolute; }
-  /* line 410, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
+  /* line 428, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
   .heading-section h1 {
     font-family: 'DidotLTStd-Italic';
     font-size: 30px;
@@ -539,7 +557,7 @@ body {
     transition: all 200ms ease-in;
     width: 275px; }
     @media only screen and (max-width: 640px) {
-      /* line 410, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
+      /* line 428, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/application.scss */
       .heading-section h1 {
         font-size: 20px;
         width: 175px;
@@ -670,36 +688,36 @@ body.AVF {
 body.kavaldon {
   background-color: white;
   text-align: center; }
-  /* line 6, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
+  /* line 7, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
   body.kavaldon .top-background {
     background-image: url("/images/page_kavaldon/top_background.png"); }
-  /* line 9, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
+  /* line 10, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
   body.kavaldon .parallax-background {
     background-image: url("/images/page_kavaldon/eyes.jpg"); }
-  /* line 12, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
+  /* line 13, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
   body.kavaldon .content {
     background-color: transparent; }
-    /* line 14, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
+    /* line 15, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
     body.kavaldon .content #candles {
       display: block;
       width: 50%;
       margin: 100px auto 150px auto;
       transition: all 200ms ease-out; }
       @media only screen and (max-width: 640px) {
-        /* line 14, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
+        /* line 15, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
         body.kavaldon .content #candles {
           width: 70%; } }
-    /* line 23, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
+    /* line 24, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
     body.kavaldon .content .image-container {
       position: relative;
       padding-top: 110%;
       width: 80%;
       margin: 0 auto; }
       @media only screen and (max-width: 640px) {
-        /* line 23, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
+        /* line 24, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
         body.kavaldon .content .image-container {
           padding-top: 138%; } }
-      /* line 31, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
+      /* line 32, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
       body.kavaldon .content .image-container #scent {
         position: absolute;
         top: 0;
@@ -717,11 +735,11 @@ body.kavaldon {
         z-index: 2;
         transition: all 200ms ease-out; }
         @media only screen and (max-width: 640px) {
-          /* line 31, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
+          /* line 32, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
           body.kavaldon .content .image-container #scent {
             top: 71%;
             padding-left: 0; } }
-      /* line 52, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
+      /* line 53, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
       body.kavaldon .content .image-container #right-container {
         position: absolute;
         top: 0;
@@ -730,24 +748,24 @@ body.kavaldon {
         height: 100%;
         transition: all 200ms ease-out; }
         @media only screen and (max-width: 640px) {
-          /* line 52, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
+          /* line 53, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
           body.kavaldon .content .image-container #right-container {
             width: 90%; } }
-        /* line 62, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
+        /* line 63, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
         body.kavaldon .content .image-container #right-container #sexy-couple {
           width: 100%;
           z-index: 2; }
-        /* line 66, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
+        /* line 67, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
         body.kavaldon .content .image-container #right-container #inspired-with-squares {
           float: right;
           width: 85%;
           transition: all 200ms ease-out; }
           @media only screen and (max-width: 640px) {
-            /* line 66, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
+            /* line 67, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
             body.kavaldon .content .image-container #right-container #inspired-with-squares {
               margin-right: -12%;
               width: 98%; } }
-          /* line 74, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
+          /* line 75, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
           body.kavaldon .content .image-container #right-container #inspired-with-squares #inspired {
             padding: 30px 0;
             font-size: 16px;
@@ -755,26 +773,26 @@ body.kavaldon {
             line-height: 26px;
             transition: all 200ms ease-out; }
             @media only screen and (max-width: 640px) {
-              /* line 74, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
+              /* line 75, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
               body.kavaldon .content .image-container #right-container #inspired-with-squares #inspired {
                 padding: 12% 0;
                 font-size: 14px;
                 line-height: 22px; } }
             @media only screen and (max-width: 450px) {
-              /* line 74, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
+              /* line 75, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
               body.kavaldon .content .image-container #right-container #inspired-with-squares #inspired {
                 padding: 12% 0;
                 font-size: 11px;
                 line-height: 18px; } }
-          /* line 91, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
+          /* line 92, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
           body.kavaldon .content .image-container #right-container #inspired-with-squares #bw-squares {
             width: 100%;
             transition: all 200ms ease-out; }
             @media only screen and (max-width: 640px) {
-              /* line 91, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
+              /* line 92, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
               body.kavaldon .content .image-container #right-container #inspired-with-squares #bw-squares {
                 display: none; } }
-      /* line 100, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
+      /* line 101, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
       body.kavaldon .content .image-container #plant-apple {
         position: absolute;
         top: 42.5%;
@@ -782,17 +800,17 @@ body.kavaldon {
         width: 52.5%;
         transition: all 200ms ease-out; }
         @media only screen and (max-width: 640px) {
-          /* line 100, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
+          /* line 101, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
           body.kavaldon .content .image-container #plant-apple {
             top: 47.5%;
             left: -20%;
             width: 37.5%; } }
-        /* line 111, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
+        /* line 112, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
         body.kavaldon .content .image-container #plant-apple #plant {
           width: 100%;
           float: right;
           opacity: 0.775; }
-        /* line 116, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
+        /* line 117, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
         body.kavaldon .content .image-container #plant-apple #apple {
           width: 100%;
           margin-top: 31%;
@@ -800,14 +818,32 @@ body.kavaldon {
           float: left;
           transition: all 200ms ease-out; }
           @media only screen and (max-width: 640px) {
-            /* line 116, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
+            /* line 117, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
             body.kavaldon .content .image-container #plant-apple #apple {
               margin-left: 130%;
               width: 115%;
               margin-top: 60%; } }
-    /* line 131, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
+    /* line 132, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
     body.kavaldon .content .site-page:not(#computer) img {
       border: 4px lightgray solid; }
+  /* line 138, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
+  body.kavaldon a {
+    text-decoration: none;
+    color: black;
+    /*font-family: 'Gotham A', 'Gotham B'; */
+    font-size: 1.2em;
+    border-bottom: 2px solid rgba(255, 255, 255, 0);
+    -webkit-transition: border 500ms ease;
+    -moz-transition: border 500ms ease;
+    -ms-transition: border 500ms ease;
+    -o-transition: border 500ms ease;
+    transition: border 500ms ease; }
+    /* line 149, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
+    body.kavaldon a:visited {
+      color: black; }
+    /* line 152, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
+    body.kavaldon a:hover {
+      border-bottom: 2px solid black; }
 /* line 1, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/case_studies/_selvarey.scss */
 body.selvarey {
   background-color: white;
@@ -869,6 +905,7 @@ body.selvarey {
   /* line 61, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/case_studies/_selvarey.scss */
   body.selvarey .bottom-container a {
     text-decoration: none;
+    color: black;
     font-family: 'Gotham A', 'Gotham B';
     font-size: 1.2em;
     border-bottom: 2px solid rgba(255, 255, 255, 0);
@@ -877,10 +914,10 @@ body.selvarey {
     -ms-transition: border 500ms ease;
     -o-transition: border 500ms ease;
     transition: border 500ms ease; }
-    /* line 71, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/case_studies/_selvarey.scss */
+    /* line 72, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/case_studies/_selvarey.scss */
     body.selvarey .bottom-container a:visited {
       color: black; }
-    /* line 74, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/case_studies/_selvarey.scss */
+    /* line 75, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/case_studies/_selvarey.scss */
     body.selvarey .bottom-container a:hover {
       border-bottom: 2px solid black; }
 /* line 1, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/case_studies/_velvet.scss */
@@ -932,6 +969,24 @@ body.velvet {
     /* line 46, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/case_studies/_velvet.scss */
     body.velvet .content .site-page:not(#computers) img {
       border: 4px lightgray solid; }
+    /* line 51, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/case_studies/_velvet.scss */
+    body.velvet .content a {
+      text-decoration: none;
+      color: black;
+      font-family: 'Gotham A', 'Gotham B';
+      font-size: 1.2em;
+      border-bottom: 2px solid rgba(255, 255, 255, 0);
+      -webkit-transition: border 500ms ease;
+      -moz-transition: border 500ms ease;
+      -ms-transition: border 500ms ease;
+      -o-transition: border 500ms ease;
+      transition: border 500ms ease; }
+      /* line 62, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/case_studies/_velvet.scss */
+      body.velvet .content a:visited {
+        color: black; }
+      /* line 65, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/case_studies/_velvet.scss */
+      body.velvet .content a:hover {
+        border-bottom: 2px solid black; }
 /* line 3, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_about.scss */
 body.about {
   background-color: white;
@@ -1313,14 +1368,22 @@ body.contact {
           /* line 166, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_contact.scss */
           body.contact .form fieldset label {
             text-align: left; } }
-    /* line 175, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_contact.scss */
+    /* line 176, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_contact.scss */
+    body.contact .form .form-error {
+      border: 2px red solid; }
+    /* line 179, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_contact.scss */
     body.contact .form #server-response {
-      width: 300px;
+      width: 335px;
       height: 31px;
       position: relative;
       top: -52px;
       left: 148px;
       padding-top: 8px; }
+      @media only screen and (max-width: 860px) {
+        /* line 179, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_contact.scss */
+        body.contact .form #server-response {
+          top: -11px;
+          left: 0; } }
 /* line 3, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
 body.index {
   font-family: sans-serif;
@@ -1344,15 +1407,16 @@ body.index {
   /* line 20, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
   body.index #top {
     position: relative;
-    padding-top: 37.4%; }
+    padding-top: 37.4%;
+    overflow: hidden; }
     @media only screen and (max-width: 785px) {
       /* line 20, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
       body.index #top {
         padding-top: 56%; } }
-    /* line 29, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
+    /* line 30, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
     body.index #top #video {
       position: absolute;
-      top: -3px;
+      top: 0;
       left: 0;
       width: 66.6666666%;
       transition: all 200ms ease-in;
@@ -1360,16 +1424,17 @@ body.index {
           display:none !important;
         }*/ }
       @media only screen and (max-width: 785px) {
-        /* line 29, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
+        /* line 30, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
         body.index #top #video {
           width: 100%; } }
-      /* line 38, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
+      /* line 39, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
       body.index #top #video video {
         width: 100%;
+        z-index: 0;
         background-image: url("/images/page_index/single_frame.jpg");
         background-repeat: no-repeat;
         background-size: cover; }
-    /* line 48, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
+    /* line 50, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
     body.index #top .feature-image {
       position: absolute;
       top: 0;
@@ -1380,7 +1445,7 @@ body.index {
       background-repeat: no-repeat;
       background-size: contain;
       background-color: white; }
-      /* line 59, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
+      /* line 61, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
       body.index #top .feature-image #kavaldon-link {
         display: inline-block;
         position: absolute;
@@ -1391,23 +1456,23 @@ body.index {
         width: 45%;
         height: 66%;
         opacity: 0; }
-        /* line 69, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
+        /* line 71, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
         body.index #top .feature-image #kavaldon-link a:hover {
           cursor: pointer; }
-  /* line 76, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
+  /* line 78, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
   body.index .candle-smoke {
     background-image: url("/images/page_index/candle_smoke.gif"); }
-  /* line 79, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
+  /* line 81, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
   body.index .candle-flame {
     background-image: url("/images/page_index/candle_flame.gif"); }
-  /* line 82, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
+  /* line 84, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
   body.index #services .hover, body.index #social .hover {
     float: left;
     display: inline-block;
     text-align: center;
     position: relative;
     color: white; }
-    /* line 88, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
+    /* line 90, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
     body.index #services .hover .image, body.index #social .hover .image {
       width: 100%;
       height: 100%;
@@ -1417,16 +1482,16 @@ body.index {
       z-index: 1;
       position: absolute;
       top: 0; }
-  /* line 100, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
+  /* line 103, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
   body.index #services .hover {
     width: 33.3333333%;
     height: 520px; }
     @media only screen and (max-width: 785px) {
-      /* line 100, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
+      /* line 103, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
       body.index #services .hover {
         width: 50%;
         height: 390px; } }
-    /* line 107, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
+    /* line 110, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
     body.index #services .hover a {
       display: inline-block;
       color: white;
@@ -1441,24 +1506,24 @@ body.index {
       font-family: 'Gotham A', 'Gotham B';
       transition: all 300ms ease-out; }
       @media only screen and (max-width: 785px) {
-        /* line 107, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
+        /* line 110, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
         body.index #services .hover a {
           margin-top: 42px; } }
-    /* line 124, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
+    /* line 127, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
     body.index #services .hover a:hover {
       border-bottom-color: transparent; }
-    /* line 127, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
+    /* line 130, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
     body.index #services .hover ol, body.index #services .hover ul {
       list-style: none;
       line-height: 1.7em;
       font-family: 'Georgia';
       font-style: italic; }
       @media only screen and (max-width: 785px) {
-        /* line 127, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
+        /* line 130, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
         body.index #services .hover ol, body.index #services .hover ul {
           line-height: 1.5em;
           font-size: 0.8em; } }
-    /* line 137, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
+    /* line 140, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
     body.index #services .hover .department {
       text-align: center;
       text-transform: uppercase;
@@ -1474,26 +1539,26 @@ body.index {
       z-index: 2;
       transition: all 200ms ease-in-out; }
       @media only screen and (max-width: 1060px) {
-        /* line 137, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
+        /* line 140, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
         body.index #services .hover .department {
           font-size: 3em; } }
       @media only screen and (max-width: 785px) {
-        /* line 137, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
+        /* line 140, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
         body.index #services .hover .department {
           font-size: 2.4em; } }
-  /* line 159, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
+  /* line 162, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
   body.index #services .hover:nth-of-type(1) .image {
     background-image: url("/images/page_index/hover_red.jpg"); }
-  /* line 162, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
+  /* line 165, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
   body.index #services .hover:nth-of-type(2) .image {
     background-image: url("/images/page_index/hover_green.jpg"); }
-  /* line 165, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
+  /* line 168, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
   body.index #services .hover:nth-of-type(3) .image {
     background-image: url("/images/page_index/hover_orange.jpg"); }
-  /* line 168, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
+  /* line 171, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
   body.index #services .hover:nth-of-type(4) .image {
     background-image: url("/images/page_index/hover_blue.jpg"); }
-  /* line 171, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
+  /* line 174, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
   body.index #services .feature-image {
     position: static;
     height: 340px;
@@ -1503,7 +1568,7 @@ body.index {
     background-repeat: no-repeat;
     background-size: contain;
     background-color: white; }
-  /* line 181, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
+  /* line 184, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
   body.index #services #about-blurb {
     width: 66.66666666%;
     height: 520px;
@@ -1516,59 +1581,59 @@ body.index {
     transition: all 200ms ease-in;
     position: relative; }
     @media only screen and (max-width: 1100px) {
-      /* line 181, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
+      /* line 184, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
       body.index #services #about-blurb {
         line-height: 60px; } }
     @media only screen and (max-width: 785px) {
-      /* line 181, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
+      /* line 184, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
       body.index #services #about-blurb {
         width: 100%;
         height: 300px;
-        font-size: 1.1em;
-        line-height: 1.6em;
+        font-size: 1.0em;
+        line-height: 1.3em;
         font-weight: 100; } }
-    /* line 202, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
+    /* line 205, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
     body.index #services #about-blurb #slider-container {
       position: absolute;
       top: 0;
       bottom: 12%;
       width: 100%;
       overflow: hidden; }
-    /* line 209, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
+    /* line 212, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
     body.index #services #about-blurb .slider {
       list-style: none; }
-      /* line 211, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
+      /* line 214, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
       body.index #services #about-blurb .slider .slide {
         display: none;
         position: absolute;
         top: 0;
         left: 0;
         padding: 5%; }
-    /* line 219, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
+    /* line 222, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
     body.index #services #about-blurb #slider-buttons {
       position: absolute;
       bottom: 0;
       height: 12%;
       width: 100%;
       padding: 0 5%; }
-    /* line 226, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
+    /* line 229, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
     body.index #services #about-blurb #left-button, body.index #services #about-blurb #right-button {
       display: inline-block;
       cursor: pointer;
       width: 30px;
       height: 50px;
       margin-top: -30px; }
-    /* line 233, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
+    /* line 236, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
     body.index #services #about-blurb #left-button {
       float: left; }
-    /* line 236, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
+    /* line 239, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
     body.index #services #about-blurb #right-button {
       float: right; }
-  /* line 241, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
+  /* line 244, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
   body.index #social {
     position: relative;
     padding-top: 30%; }
-    /* line 244, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
+    /* line 247, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
     body.index #social .hover {
       position: absolute;
       top: 0;
@@ -1577,41 +1642,42 @@ body.index {
       padding-top: 15%;
       text-transform: uppercase;
       font-size: 1.0em; }
-      /* line 252, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
+      /* line 255, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
       body.index #social .hover a {
         text-decoration: none;
         color: white;
         font-weight: bold;
-        border-bottom: 2px solid rgba(255, 255, 255, 0);
+        border-bottom: 1px solid rgba(255, 255, 255, 0);
+        line-height: 15px;
         -webkit-transition: border 500ms ease;
         -moz-transition: border 500ms ease;
         -ms-transition: border 500ms ease;
         -o-transition: border 500ms ease;
         transition: border 500ms ease; }
-        /* line 262, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
+        /* line 266, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
         body.index #social .hover a:hover {
-          border-bottom: 2px solid white; }
+          border-bottom: 1px solid white; }
       @media only screen and (max-width: 785px) {
-        /* line 244, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
+        /* line 247, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
         body.index #social .hover {
-          height: 230px;
+          height: 100%;
           font-size: 0.7em; } }
-    /* line 271, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
+    /* line 275, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
     body.index #social .hover:nth-of-type(1) {
       left: 0; }
-    /* line 274, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
+    /* line 278, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
     body.index #social .hover:nth-of-type(2) {
       left: 33.333333%; }
-    /* line 277, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
+    /* line 281, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
     body.index #social .hover:nth-of-type(3) {
       left: 66.666666%; }
-    /* line 280, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
+    /* line 284, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
     body.index #social .hover:nth-of-type(1) .image {
       background-image: url("/images/page_index/social_chair.jpg"); }
-    /* line 283, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
+    /* line 287, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
     body.index #social .hover:nth-of-type(2) .image {
       background-image: url("/images/page_index/social_room.jpg"); }
-    /* line 286, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
+    /* line 290, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/main_sections/_index.scss */
     body.index #social .hover:nth-of-type(3) .image {
       background-image: url("/images/page_index/social_face.jpg"); }
 /* line 1, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/our_work/_environment.scss */
@@ -1797,7 +1863,7 @@ body.identity {
       /* line 109, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/our_work/_identity.scss */
       body.identity .content #block-06 {
         float: left;
-        margin-top: 110px;
+        /*margin-top: 110px;*/
         right: 0; } }
     /* line 122, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/our_work/_identity.scss */
     body.identity .content #block-06 #box {
@@ -1947,7 +2013,7 @@ body.imagery {
   text-align: center; }
   /* line 4, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/our_work/_imagery.scss */
   body.imagery .top-background {
-    background-image: url("/images/page_imagery/top_background.png"); }
+    background-image: url("/images/page_imagery/top_background.jpg"); }
   /* line 8, /Users/jacobmensch/src/DFM/DFM_static/source/stylesheets/our_work/_imagery.scss */
   body.imagery .content .image-container {
     position: relative;
