@@ -3,7 +3,7 @@ $mobile-width: 640px;
 body.kavaldon {
   background-color: white;
   text-align: center;
-  
+
   .top-background {
     background-image: image-url("page_kavaldon/top_background.png");
   }
@@ -138,7 +138,7 @@ body.kavaldon {
   a {
     text-decoration: none;
     color: black;
-    font-family: 'Gotham A', 'Gotham B';
+    /*font-family: 'Gotham A', 'Gotham B'; */
     font-size: 1.2em;
     border-bottom: 2px solid rgba(255, 255, 255, 0);
         -webkit-transition: border 500ms ease;
