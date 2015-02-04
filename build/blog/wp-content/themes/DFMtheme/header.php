@@ -43,7 +43,7 @@
 		  </ul>
 		  <ul>
 		    <li class="nav-heading">
-		      <a class="page-links no-prevent" href="http://104.236.5.92:3001/" target="_blank">Blog</a>
+		      <a class="page-links no-prevent" href="/blog" target="_blank">Blog</a>
 		    </li>
 		  </ul>
 		  <ul>
