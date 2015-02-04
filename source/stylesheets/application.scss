@@ -350,7 +350,7 @@ body {
     color: black; 
     background-color: white;
     h2 {
-      width: 170px;
+      width: 180px;
       margin: 0 auto;
       text-transform: uppercase;
       padding: 0 5px 20px 5px;
@@ -398,6 +398,10 @@ body {
     font-family: 'Georgia';
     line-height: 18px;
     letter-spacing: 1px;
+  }
+  a {
+    font-family: 'Gotham A', 'Gotham B';
+    
   }
   div {
     display: inline-block;
