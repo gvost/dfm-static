@@ -17,12 +17,11 @@ copyright: 2015
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
-    
-    <title>
-      <%
+<%
       case page_classes.split(" ").first
         when "index"
-          title = "Los Angeles Graphic Design | Los Angeles Web Design | Los Angeles Branding Agency"
+          title = "DFM | Los Angeles Graphic Design | Los Angeles Web Design | Los Angeles Branding Agency"
+          description = "DFM is a boutique branding and web design agency located in downtown Los Angeles"
         when "about"
           title = "Downtown Los Angeles Graphic Design Agency"
         when "blog"
@@ -55,11 +54,11 @@ copyright: 2015
           title = "Los Angeles Graphic Design | Los Angeles Web Design | Los Angeles Branding Agency"
         end
       %>
-      <%= title %>
+      
+    <meta description="<%= description %>">
+    <title><%= title %></title>
 
-    </title>
-
-    <link href="http://50.87.248.116/~drawini3/favicon.png" rel="icon" type="image/png">
+    <link href="http://www.drawingfrommemory.com/favicon.png" rel="icon" type="image/png">
     <%= stylesheet_link_tag "application" %>
   </head>
 

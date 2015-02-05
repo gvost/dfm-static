@@ -8,7 +8,7 @@
     <meta name="author" content="upstartBureau -- Jake &amp; David">
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
 		<title>DFM | <?php wp_title( ' | ', true, 'right' ); ?></title>
-		<link href="http://50.87.248.116/~drawini3/favicon.png" rel="icon" />
+		<link href="http://www.drawingfrommemory.com/favicon.png" rel="icon" />
 		<link rel="stylesheet" type="text/css" href="/stylesheets/application.css">
 		<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>" />
 		<?php wp_head(); ?>
