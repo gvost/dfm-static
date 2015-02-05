@@ -53,14 +53,14 @@ $(document).ready(function() {
 
   ///////////// ANIMATE LOADING BAR ///////////////
 
-  // collect the background images
+  // collect the background images (except the loading page background)
   var back_images = $('*').filter(function() {
-    return $(this).css("background-image") != "none";
+    return $(this).css("background-image") != "none" && $(this)[0].id != "loading-page";
   });
 
   // add all of them to hidden divs
   back_images.each(function() {
-    var url = $(this).css("background-image").replace("url(", "").replace(")", "");
+    var url = $(this).css("background-image").match(/^url\((.*)\)$/)[1];
     $("body").append('<img class="temp-image" src="' + url + '" style="display:none;">');
   });
 
@@ -80,11 +80,11 @@ $(document).ready(function() {
   $("#header").append($cover).css("background-color", "black").css("opacity", "0.5");
 
   // remove the cover as images are loaded
-  var new_width, c_width = $cover.width();
-  images.each(function(index) {
+  var new_width, c_width = $cover.width(), images_loaded = 0;
+  images.each(function() {
     $(this).load(function() {
-      new_width = ((index + 1) * (c_width / image_count));
-
+      images_loaded++;
+      new_width = c_width * images_loaded / image_count;
       $cover.animate({
         "left": new_width + 'px'
       }, 500);
