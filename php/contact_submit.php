@@ -9,7 +9,19 @@
   $email = $_GET['email'];
   $phone = $_GET['phone'];
   $project = $_GET['project'];
-  $find = $_GET['find']; 
+  //$find = $_GET['find']; 
+  $norobot = $_GET['nr'];
+  if(strtolower(trim($norobot)) != 'norobot')
+  {
+    echo "PLEASE ENTER IN 'NOROBOT'";
+    die();
+  }
+
+  if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+    echo "Invalid email address. Please try again.";
+    die();
+  }
+
   $headers = 'From: info@drawingfrommemory.com' . "\r\n" .
     'Reply-To: ' . $_GET['email'] . "\r\n" .
     'X-Mailer: PHP/' . phpversion();
@@ -19,6 +31,7 @@
   //$recipient = "jordan@drawingfrommemory.com, rebecca@drawingfrommemory.com, jake.mensch@gmail.com";
   $recipient = "jordan@drawingfrommemory.com, rebecca@drawingfrommemory.com, jen@drawingfrommemory.com, sharon@drawingfrommemory.com";
   $subject = "DFM site contact";
+  //Find: $find   
   $body = <<<MESSAGE
 
 Name: $name
@@ -26,7 +39,7 @@ Email: $email
 Phone: $phone
 
 Project: $project
-Find: $find   
+
 
 MESSAGE;
   
@@ -37,7 +50,6 @@ MESSAGE;
     wordwrap($body, 70, "\r\n"),
     $headers
   )){
-
   // for testing only
   file_put_contents("email.txt", $subject . "\n" . $body . $headers); 
 

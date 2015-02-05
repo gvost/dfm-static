@@ -71,7 +71,6 @@ body.index {
         a:hover {
           cursor: pointer;
         }
-        
       }
     }
   }
@@ -127,6 +126,86 @@ body.index {
       a:hover {
         border-bottom-color: transparent;
       }
+
+      /****** hit states for menus (refactor this, it's too much duplication) ******/
+
+      #branding-link {
+        display: inline-block;
+        position: absolute;
+        margin: 0 auto;
+        left: 28%;
+        top: 5%;
+        background-color: gray;
+        width: 45%;
+        height: 50%;
+        opacity: 0;
+        a:hover {
+          cursor: pointer;
+        }
+      }
+
+      #graphic-link {
+        display: inline-block;
+        position: absolute;
+        margin: 0 auto;
+        left: 45px;
+        top: 30px;
+        background-color: gray;
+        width: 70%;
+        height: 30%;
+        opacity: .0;
+        a:hover {
+          cursor: pointer;
+        }
+      }
+
+      #imagery-link {
+        display: inline-block;
+        position: absolute;
+        margin: 0 auto;
+        left: 45px;
+        top: 42%;
+        background-color: gray;
+        width: 70%;
+        height: 30%;
+        opacity: 0;
+        a:hover {
+          cursor: pointer;
+        }
+      }
+
+      #website-link {
+        display: inline-block;
+        position: absolute;
+        margin: 0 auto;
+        left: 25%;
+        top: 5%;
+        background-color: gray;
+        width: 45%;
+        height: 50%;
+        opacity: 0;
+        a:hover {
+          cursor: pointer;
+        }
+      }
+
+      #retail-link {
+        display: inline-block;
+        position: absolute;
+        margin: 0 auto;
+        left: 25%;
+        top: 5%;
+        background-color: gray;
+        width: 45%;
+        height: 60%;
+        opacity: 0;
+        a:hover {
+          cursor: pointer;
+        }
+      }
+
+      /***** end hit states *******/
+
       ol, ul {
         list-style: none;
         line-height: 1.7em;
