@@ -15,6 +15,19 @@ body.index {
     display: none;
     @media only screen and (max-width: $layout-change-width) {
       display: block;
+      #kavaldon-link-mobile {
+        display: inline-block;
+        position: absolute;
+        margin: 0 auto;
+        left: 28%;
+        background-color: yellow;
+        width: 45%;
+        height: 325px;
+        opacity: 0;
+        a:hover {
+          cursor: pointer;
+        }
+      }
     }
   }
   #top {

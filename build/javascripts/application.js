@@ -178,14 +178,14 @@ $(document).ready(function() {
 
   ///////////// ANIMATE LOADING BAR ///////////////
 
-  // collect the background images
+  // collect the background images (except the loading page background)
   var back_images = $('*').filter(function() {
-    return $(this).css("background-image") != "none";
+    return $(this).css("background-image") != "none" && $(this)[0].id != "loading-page";
   });
 
   // add all of them to hidden divs
   back_images.each(function() {
-    var url = $(this).css("background-image").replace("url(", "").replace(")", "");
+    var url = $(this).css("background-image").match(/^url\((.*)\)$/)[1];
     $("body").append('<img class="temp-image" src="' + url + '" style="display:none;">');
   });
 
@@ -205,11 +205,11 @@ $(document).ready(function() {
   $("#header").append($cover).css("background-color", "black").css("opacity", "0.5");
 
   // remove the cover as images are loaded
-  var new_width, c_width = $cover.width();
-  images.each(function(index) {
+  var new_width, c_width = $cover.width(), images_loaded = 0;
+  images.each(function() {
     $(this).load(function() {
-      new_width = ((index + 1) * (c_width / image_count));
-
+      images_loaded++;
+      new_width = c_width * images_loaded / image_count;
       $cover.animate({
         "left": new_width + 'px'
       }, 500);
@@ -357,23 +357,30 @@ $(document).ready(function() {
     // if the current page has a content section...
     if ($content.length) {
 
+      var $top = $('.top-background');
+      var $par = $('.parallax-background');
+
       // move the top-background and insert outline
       // 0.1 and 0.3 control the relative speeds of the background and insert-outline
       // -100 is the initial 'top' of the insert-outline
       var scrolled = $content.offset().top;
-      var initHeight = $(".top-background").height();
-      $('.top-background').css('top', ((scrolled - initHeight) * 0.1) + 'px');
+      var initHeight = $top.height();
+      $top.css('top', ((scrolled - initHeight) * 0.1) + 'px');
       $('.top-insert-outline').css('top', (-100 + ((scrolled - initHeight) * 0.3)) + 'px');
       
-      // display / hide the top-background image 
+      // display / hide the top-background image and parallax image
       // depending on how far we've scrolled
-      if (scrolled < 0) {
-        $('.top-background').css('display', 'none');
-        $('.parallax-background').css('display', 'block');
+      // the conditional in line A prevents the parallax image from being visible when
+      // the the window opens up a bit at the bottom of the page due to a hard scroll
+      if (scrolled < 0 && 
+        (!$par.length || $('.bottom-container').offset().top > 0)) { // line A
+        $top.css('display', 'none');
+        $par.css('display', 'block');
       } else {
-        $('.top-background').css('display', 'block');
-        $('.parallax-background').css('display', 'none');
+        $top.css('display', 'block');
+        $par.css('display', 'none');
       }
+
     }
     
   });
