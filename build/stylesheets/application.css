@@ -1642,6 +1642,7 @@ body.index {
     line-height: 60px;
     overflow: hidden;
     font-family: 'Georgia';
+    text-align: center;
     transition: all 200ms ease-in;
     position: relative; }
     @media only screen and (max-width: 1100px) {
@@ -1656,48 +1657,48 @@ body.index {
         font-size: 1.0em;
         line-height: 1.3em;
         font-weight: 100; } }
-    /* line 270, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
+    /* line 271, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
     body.index #services #about-blurb #slider-container {
       position: absolute;
       top: 0;
       bottom: 12%;
       width: 100%;
       overflow: hidden; }
-    /* line 277, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
+    /* line 278, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
     body.index #services #about-blurb .slider {
       list-style: none; }
-      /* line 279, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
+      /* line 280, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
       body.index #services #about-blurb .slider .slide {
         display: none;
         position: absolute;
         top: 0;
         left: 0;
         padding: 5%; }
-    /* line 287, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
+    /* line 288, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
     body.index #services #about-blurb #slider-buttons {
       position: absolute;
       bottom: 0;
       height: 12%;
       width: 100%;
       padding: 0 5%; }
-    /* line 294, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
+    /* line 295, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
     body.index #services #about-blurb #left-button, body.index #services #about-blurb #right-button {
       display: inline-block;
       cursor: pointer;
       width: 30px;
       height: 50px;
       margin-top: -30px; }
-    /* line 301, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
+    /* line 302, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
     body.index #services #about-blurb #left-button {
       float: left; }
-    /* line 304, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
+    /* line 305, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
     body.index #services #about-blurb #right-button {
       float: right; }
-  /* line 309, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
+  /* line 310, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
   body.index #social {
     position: relative;
     padding-top: 30%; }
-    /* line 312, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
+    /* line 313, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
     body.index #social .hover {
       position: absolute;
       top: 0;
@@ -1706,7 +1707,7 @@ body.index {
       padding-top: 15%;
       text-transform: uppercase;
       font-size: 1.0em; }
-      /* line 320, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
+      /* line 321, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
       body.index #social .hover a {
         text-decoration: none;
         color: white;
@@ -1718,30 +1719,30 @@ body.index {
         -ms-transition: border 500ms ease;
         -o-transition: border 500ms ease;
         transition: border 500ms ease; }
-        /* line 331, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
+        /* line 332, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
         body.index #social .hover a:hover {
           border-bottom: 1px solid white; }
       @media only screen and (max-width: 785px) {
-        /* line 312, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
+        /* line 313, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
         body.index #social .hover {
           height: 100%;
           font-size: 0.7em; } }
-    /* line 340, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
+    /* line 341, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
     body.index #social .hover:nth-of-type(1) {
       left: 0; }
-    /* line 343, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
+    /* line 344, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
     body.index #social .hover:nth-of-type(2) {
       left: 33.333333%; }
-    /* line 346, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
+    /* line 347, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
     body.index #social .hover:nth-of-type(3) {
       left: 66.666666%; }
-    /* line 349, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
+    /* line 350, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
     body.index #social .hover:nth-of-type(1) .image {
       background-image: url("/images/page_index/social_chair.jpg"); }
-    /* line 352, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
+    /* line 353, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
     body.index #social .hover:nth-of-type(2) .image {
       background-image: url("/images/page_index/social_room.jpg"); }
-    /* line 355, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
+    /* line 356, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
     body.index #social .hover:nth-of-type(3) .image {
       background-image: url("/images/page_index/social_face.jpg"); }
 /* line 1, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_environment.scss */
@@ -2368,7 +2369,7 @@ body.strategy {
     padding-bottom: 200px; }
   /* line 10, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_strategy.scss */
   body.strategy .top-background {
-    background-image: url("/images/page_strategy/top_background.png");
+    background-image: url("/images/page_strategy/top_background_new.png");
     background-size: contain; }
   /* line 15, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_strategy.scss */
   body.strategy .content .section-heading {
