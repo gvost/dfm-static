@@ -85,6 +85,75 @@ body.about {
 					left: 2%;
 				}
 			}
+			#mentioned {
+				height: 360px;
+				width: 400px;
+				left: 42.5%;
+				top: 340px;
+				text-align: center;
+				//background: yellow;
+				@media only screen and (max-width: 1100px) {
+					display: none;
+				}
+				@media only screen and (max-width: $mobile-width) {
+					display: block;
+					margin: 0 auto;
+					position: relative;
+					width: 90%;
+					left: auto;
+					top: 648px;
+				}
+			}
+
+			#recentlyfeatured {
+				width: 155px;
+				position: static;
+				height: 75px;	
+				display: block;
+				margin: 0 auto;
+				//border: 2px solid black;
+				background-image: image-url("page_about/recentlyfeatured.png");
+				background-repeat: no-repeat;
+				background-position: left top;
+				background-size: contain;	
+				@media only screen and (max-width: $mobile-width) {
+					top: 167px;
+					height: 40px;
+				}
+			}
+
+			#refinery29 {
+				width: 155px;
+				position: static;
+				height: 215px;	
+				display: block;
+				margin: 0 auto;
+				//border: 2px solid black;
+				background-image: image-url("page_about/refinery29.png");
+				background-repeat: no-repeat;
+				background-position: left top;
+				background-size: contain;	
+				@media only screen and (max-width: $mobile-width) {
+					top: 167px;
+					height: 144px;
+				}
+			}
+			#designsponge {
+
+				width: 280px;
+				display: block;
+				margin: 0 auto;
+				//border: 2px solid black;
+				height: 215px;	
+				position: static;
+				background-image: image-url("page_about/designsponge.jpg");
+				background-repeat: no-repeat;
+				background-position: left top;
+				background-size: contain;	
+				@media only screen and (max-width: $mobile-width) {
+					height: 135px;
+				}	
+			}
 			.middle-insert {
 				top: 200px;
 				left: 8.33%;
@@ -100,7 +169,7 @@ body.about {
 				line-height: 40px;
 				color: white;
 				@media only screen and (max-width: $mobile-width) {
-					top: 800px;
+					top: 970px;
 					left: 50%;
 					margin-left: -204px;
 				}

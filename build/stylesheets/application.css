@@ -1082,6 +1082,73 @@ body.about {
           top: 167px;
           left: 2%; } }
     /* line 88, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_about.scss */
+    body.about .content .middle-container #mentioned {
+      height: 360px;
+      width: 400px;
+      left: 42.5%;
+      top: 340px;
+      text-align: center; }
+      @media only screen and (max-width: 1100px) {
+        /* line 88, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_about.scss */
+        body.about .content .middle-container #mentioned {
+          display: none; } }
+      @media only screen and (max-width: 640px) {
+        /* line 88, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_about.scss */
+        body.about .content .middle-container #mentioned {
+          display: block;
+          margin: 0 auto;
+          position: relative;
+          width: 90%;
+          left: auto;
+          top: 648px; } }
+    /* line 108, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_about.scss */
+    body.about .content .middle-container #recentlyfeatured {
+      width: 155px;
+      position: static;
+      height: 75px;
+      display: block;
+      margin: 0 auto;
+      background-image: url("/images/page_about/recentlyfeatured.png");
+      background-repeat: no-repeat;
+      background-position: left top;
+      background-size: contain; }
+      @media only screen and (max-width: 640px) {
+        /* line 108, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_about.scss */
+        body.about .content .middle-container #recentlyfeatured {
+          top: 167px;
+          height: 40px; } }
+    /* line 125, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_about.scss */
+    body.about .content .middle-container #refinery29 {
+      width: 155px;
+      position: static;
+      height: 215px;
+      display: block;
+      margin: 0 auto;
+      background-image: url("/images/page_about/refinery29.png");
+      background-repeat: no-repeat;
+      background-position: left top;
+      background-size: contain; }
+      @media only screen and (max-width: 640px) {
+        /* line 125, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_about.scss */
+        body.about .content .middle-container #refinery29 {
+          top: 167px;
+          height: 144px; } }
+    /* line 141, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_about.scss */
+    body.about .content .middle-container #designsponge {
+      width: 280px;
+      display: block;
+      margin: 0 auto;
+      height: 215px;
+      position: static;
+      background-image: url("/images/page_about/designsponge.jpg");
+      background-repeat: no-repeat;
+      background-position: left top;
+      background-size: contain; }
+      @media only screen and (max-width: 640px) {
+        /* line 141, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_about.scss */
+        body.about .content .middle-container #designsponge {
+          height: 135px; } }
+    /* line 157, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_about.scss */
     body.about .content .middle-container .middle-insert {
       top: 200px;
       left: 8.33%;
@@ -1097,13 +1164,13 @@ body.about {
       line-height: 40px;
       color: white; }
       @media only screen and (max-width: 640px) {
-        /* line 88, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_about.scss */
+        /* line 157, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_about.scss */
         body.about .content .middle-container .middle-insert {
-          top: 800px;
+          top: 970px;
           left: 50%;
           margin-left: -204px; } }
       @media only screen and (max-width: 450px) {
-        /* line 88, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_about.scss */
+        /* line 157, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_about.scss */
         body.about .content .middle-container .middle-insert {
           width: 320px;
           height: 573px;
@@ -1112,7 +1179,7 @@ body.about {
           background-size: cover;
           font-size: 0.9em;
           line-height: 30px; } }
-    /* line 117, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_about.scss */
+    /* line 186, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_about.scss */
     body.about .content .middle-container .fancy-text {
       top: 500px;
       right: 5%;
@@ -1123,12 +1190,12 @@ body.about {
       background-position: left top;
       background-size: contain; }
       @media only screen and (max-width: 640px) {
-        /* line 117, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_about.scss */
+        /* line 186, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_about.scss */
         body.about .content .middle-container .fancy-text {
           top: 1640px;
           width: 150px;
           opacity: 0.2; } }
-    /* line 132, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_about.scss */
+    /* line 201, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_about.scss */
     body.about .content .middle-container .lower-insert {
       top: 845px;
       left: 15%;
@@ -1138,43 +1205,43 @@ body.about {
       text-align: left;
       color: black; }
       @media only screen and (max-width: 640px) {
-        /* line 132, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_about.scss */
+        /* line 201, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_about.scss */
         body.about .content .middle-container .lower-insert {
           top: 1575px;
           left: 23%; } }
       @media only screen and (max-width: 450px) {
-        /* line 132, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_about.scss */
+        /* line 201, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_about.scss */
         body.about .content .middle-container .lower-insert {
           left: 5%; } }
-      /* line 147, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_about.scss */
+      /* line 216, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_about.scss */
       body.about .content .middle-container .lower-insert ul {
         list-style: none; }
-      /* line 150, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_about.scss */
+      /* line 219, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_about.scss */
       body.about .content .middle-container .lower-insert h1 {
         font-weight: bold;
         text-transform: uppercase;
         font-size: 0.6em; }
-      /* line 155, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_about.scss */
+      /* line 224, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_about.scss */
       body.about .content .middle-container .lower-insert h2 {
         font-weight: bold;
         text-transform: uppercase;
         font-size: 0.9em;
         margin: 50px 0 5px 0;
         letter-spacing: 1.2px; }
-      /* line 162, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_about.scss */
+      /* line 231, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_about.scss */
       body.about .content .middle-container .lower-insert h3 {
         font-family: 'Georgia';
         font-style: italic;
         font-size: 0.8em;
         font-weight: 100;
         letter-spacing: 0.8px; }
-      /* line 169, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_about.scss */
+      /* line 238, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_about.scss */
       body.about .content .middle-container .lower-insert p {
         font-size: 0.7em;
         line-height: 15px;
         margin: 30px 0;
         letter-spacing: 0.3px; }
-    /* line 176, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_about.scss */
+    /* line 245, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_about.scss */
     body.about .content .middle-container .lower-drops {
       top: 1270px;
       right: 28.4%;
@@ -1185,7 +1252,7 @@ body.about {
       background-position: left top;
       background-size: contain; }
       @media only screen and (max-width: 640px) {
-        /* line 176, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_about.scss */
+        /* line 245, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_about.scss */
         body.about .content .middle-container .lower-drops {
           top: 2130px;
           left: 12%;
