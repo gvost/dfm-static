@@ -21,6 +21,7 @@ body.kavaldon {
         width: 70%
       }
     }
+    
     .image-container {
       position: relative;
       padding-top: 110%;
@@ -29,15 +30,15 @@ body.kavaldon {
       @media only screen and (max-width: $mobile-width) {
         padding-top: 138%;
       }
-      #scent {
+      #foursquare {
+        background-image: image-url("page_kavaldon/4square.png");
+        background-repeat: no-repeat;
+        background-size: contain;
         position: absolute;
         top: 0;
-        left: 0;
-        width: 155px;
-        font-size: 3.5em; // IE8 fallback
-        font-size: 7.2vw;
-        font-weight: 100;
-        text-align: left;
+        left: -10%;
+        width: 53%;
+        height: 40%;
         padding-top: 5%;
         padding-left: 4%;
         letter-spacing: 2.5px;
@@ -50,6 +51,7 @@ body.kavaldon {
           padding-left: 0; 
         } 
       }
+      
       #right-container {
         position: absolute;
         top: 0;
@@ -59,10 +61,34 @@ body.kavaldon {
         transition: all 200ms ease-out; 
         @media only screen and (max-width: $mobile-width) {
           width: 90%;
+        }
+        #scent {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        font-size: 4.5em; // IE8 fallback
+        font-weight: 100;
+        text-align: center;
+        padding-left: 4%;
+        letter-spacing: 2.5px;
+        line-height: 1.17em;
+        font-family: 'DidotLTStd';
+        z-index: 2;
+        transition: all 200ms ease-out;
+        #italics {
+          font-family: 'DidotLTStd-Italic';
+        }
+        @media only screen and (max-width: $mobile-width) {
+          top: 71%;
+          padding-left: 0; 
         } 
+      }
         #sexy-couple {
           width: 100%;
-          z-index: 2;    
+          z-index: 2;   
+          width: 132%;
+          margin-left: 40px;
+          margin-top: 216px; 
         }
         #inspired-with-squares {
           float: right;
@@ -138,7 +164,7 @@ body.kavaldon {
   a {
     text-decoration: none;
     color: black;
-    font-size: 1.2em;
+    font-size: 100%;
     border-bottom: 2px solid rgba(255, 255, 255, 0);
         -webkit-transition: border 500ms ease;
         -moz-transition: border 500ms ease;

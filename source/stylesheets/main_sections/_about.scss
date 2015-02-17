@@ -111,8 +111,11 @@ body.about {
 				height: 75px;	
 				display: block;
 				margin: 0 auto;
+				font-family: 'Gotham A', 'Gotham B';
+				font-weight: bold;
+				font-size: 0.6em;
 				//border: 2px solid black;
-				background-image: image-url("page_about/recentlyfeatured.png");
+				//background-image: image-url("page_about/recentlyfeatured.png");
 				background-repeat: no-repeat;
 				background-position: left top;
 				background-size: contain;	
