@@ -5,7 +5,7 @@ body.kavaldon {
   text-align: center;
 
   .top-background {
-    background-image: image-url("page_kavaldon/top_background.png");
+    background-image: image-url("page_kavaldon/top_background_new.png");
   }
   .parallax-background {
     background-image: image-url("page_kavaldon/eyes.jpg");
@@ -29,6 +29,7 @@ body.kavaldon {
       margin: 0 auto;
       @media only screen and (max-width: $mobile-width) {
         padding-top: 138%;
+        width: 100%;
       }
       #foursquare {
         background-image: image-url("page_kavaldon/4square.png");
@@ -47,8 +48,12 @@ body.kavaldon {
         z-index: 2;
         transition: all 200ms ease-out;
         @media only screen and (max-width: $mobile-width) {
-          top: 71%;
+          top: 48%;
           padding-left: 0; 
+          opacity: .775;
+          left: 3%;
+          width: 33%;
+          height: 25%;
         } 
       }
       
@@ -61,12 +66,13 @@ body.kavaldon {
         transition: all 200ms ease-out; 
         @media only screen and (max-width: $mobile-width) {
           width: 90%;
+          right: 19%;
         }
         #scent {
         position: absolute;
         top: 0;
         left: 50%;
-        font-size: 4.5em; // IE8 fallback
+        font-size: 4.5vw; // IE8 fallback
         font-weight: 100;
         text-align: center;
         padding-left: 4%;
@@ -78,17 +84,27 @@ body.kavaldon {
         #italics {
           font-family: 'DidotLTStd-Italic';
         }
+        @media only screen and (max-width: 961px) {
+          letter-spacing: 1.5px;
+        }
         @media only screen and (max-width: $mobile-width) {
-          top: 71%;
+          top: 83%;
           padding-left: 0; 
+          width: 30%;
+          font-size: 7.5vw;
+          left: 20%;
+          line-height: 69px;
         } 
       }
         #sexy-couple {
-          width: 100%;
           z-index: 2;   
           width: 132%;
           margin-left: 40px;
-          margin-top: 216px; 
+          margin-top: 216px;
+          @media only screen and (max-width: $mobile-width) {
+            margin-left: auto;
+            margin-top: auto;
+          }
         }
         #inspired-with-squares {
           float: right;
@@ -104,6 +120,12 @@ body.kavaldon {
             font-family: 'Georgia';
             line-height: 26px;
             transition: all 200ms ease-out; 
+            position: absolute;
+            right: 0;
+            @media only screen and (max-width: 840px) {
+              font-size: 14px;
+              margin-right: -40px;
+            }
             @media only screen and (max-width: $mobile-width) {
               padding: 12% 0;
               font-size: 14px;
@@ -115,48 +137,44 @@ body.kavaldon {
               line-height: 18px;
             }
           }
-          #bw-squares {
-            width: 100%;
-            transition: all 200ms ease-out; 
-            @media only screen and (max-width: $mobile-width) {
-              display: none;
-            }
+        }
+        #bw-squares {
+          margin-top: 49%;
+          width: 55%;
+          margin-left: 60%;
+          transition: all 200ms ease-out; 
+          @media only screen and (max-width: $mobile-width) {
+            display: none;
           }
         }
       }
-      #plant-apple {
+      #rose-parent {
         position: absolute;
-        top: 42.5%;
-        left: -41%;
-        width: 52.5%;
+        top: 54%;
+        left: -54%;
+        width: 86.5%;
         transition: all 200ms ease-out; 
         @media only screen and (max-width: $mobile-width) {
-          top: 47.5%;
-          left: -20%;
-          width: 37.5%;
+          top: 85.5%;
+          left: 50%;
+          width: 57.5%;
+          //display: none;
         }
-        #plant {   
+        #rose {   
           width: 100%;
           float: right;
-          opacity: 0.775;
+          opacity: 1;
         }
-        #apple {
-          width: 100%; 
-          margin-top: 31%;
-          margin-left: -11%;   
-          float: left;
-          transition: all 200ms ease-out; 
-          @media only screen and (max-width: $mobile-width) {
-            margin-left: 130%;
-            width: 115%;
-            margin-top: 60%;
-          }
-        }  
       }
     }
     .site-page:not(#computer) {
       img {
         border: 4px lightgray solid;
+      }
+    }
+    .site-page#computer {
+      img {
+        margin-top: 3%;
       }
     }
   }
@@ -177,6 +195,40 @@ body.kavaldon {
     &:hover {
       border-bottom: 2px solid rgba(0, 0, 0, 1);
     }
+  }
+
+  #kslash {
+    height: 100%;
+    background-size: 100% auto;
+    background-position: top right;
+    margin: 0 auto;
+    margin-top: -200px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: image-url('page_kavaldon/kslash.png');
+    #apple {
+      margin-left: -73%;   
+      transition: all 200ms ease-out; 
+      margin-top: -5%;
+      @media only screen and (max-width: $mobile-width) {
+        margin-left: 130%;
+        width: 115%;
+        margin-top: 60%;
+      }
+    }
+    #paragraph2 {
+      margin-top: -10%;
+      color: #fff;
+      padding-top: 4%;
+    }
+    #kavaldon-page {
+      a {
+        color: #fff;
+        &:hover {
+          border-bottom: 2px solid white;
+        }
+      }
+    }  
   }
 }
 
