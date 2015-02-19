@@ -211,9 +211,9 @@ body.kavaldon {
       transition: all 200ms ease-out; 
       margin-top: -5%;
       @media only screen and (max-width: $mobile-width) {
-        margin-left: 130%;
-        width: 115%;
-        margin-top: 60%;
+        margin-left: -5%;
+        width: 45%;
+        margin-top: 0;
       }
     }
     #paragraph2 {
