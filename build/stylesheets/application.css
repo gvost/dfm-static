@@ -498,7 +498,6 @@ body {
         border-bottom: 2px solid black; }
     /* line 375, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
     .content .work-with-us p {
-      margin-top: 20px;
       font-style: italic; }
 
 /* line 386, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
@@ -789,7 +788,7 @@ body.kavaldon {
               width: 30%;
               font-size: 7.5vw;
               left: 20%;
-              line-height: 69px; } }
+              line-height: 35px; } }
         /* line 99, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
         body.kavaldon .content .image-container #right-container #sexy-couple {
           z-index: 2;
@@ -834,20 +833,21 @@ body.kavaldon {
             @media only screen and (max-width: 450px) {
               /* line 117, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
               body.kavaldon .content .image-container #right-container #inspired-with-squares #inspired {
-                padding: 12% 0;
-                font-size: 11px;
-                line-height: 18px; } }
-        /* line 141, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
+                padding: 0 0;
+                font-size: 9.4px;
+                line-height: 18px;
+                left: 50%; } }
+        /* line 142, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
         body.kavaldon .content .image-container #right-container #bw-squares {
           margin-top: 49%;
           width: 55%;
           margin-left: 60%;
           transition: all 200ms ease-out; }
           @media only screen and (max-width: 640px) {
-            /* line 141, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
+            /* line 142, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
             body.kavaldon .content .image-container #right-container #bw-squares {
               display: none; } }
-      /* line 151, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
+      /* line 152, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
       body.kavaldon .content .image-container #rose-parent {
         position: absolute;
         top: 54%;
@@ -855,23 +855,23 @@ body.kavaldon {
         width: 86.5%;
         transition: all 200ms ease-out; }
         @media only screen and (max-width: 640px) {
-          /* line 151, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
+          /* line 152, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
           body.kavaldon .content .image-container #rose-parent {
             top: 85.5%;
             left: 50%;
             width: 57.5%; } }
-        /* line 163, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
+        /* line 164, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
         body.kavaldon .content .image-container #rose-parent #rose {
           width: 100%;
           float: right;
           opacity: 1; }
-    /* line 171, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
+    /* line 172, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
     body.kavaldon .content .site-page:not(#computer) img {
       border: 4px lightgray solid; }
-    /* line 176, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
+    /* line 177, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
     body.kavaldon .content .site-page#computer img {
       margin-top: 3%; }
-  /* line 182, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
+  /* line 183, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
   body.kavaldon a {
     text-decoration: none;
     color: black;
@@ -882,13 +882,13 @@ body.kavaldon {
     -ms-transition: border 500ms ease;
     -o-transition: border 500ms ease;
     transition: border 500ms ease; }
-    /* line 192, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
+    /* line 193, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
     body.kavaldon a:visited {
       color: black; }
-    /* line 195, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
+    /* line 196, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
     body.kavaldon a:hover {
       border-bottom: 2px solid black; }
-  /* line 200, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
+  /* line 201, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
   body.kavaldon #kslash {
     height: 100%;
     background-size: 100% auto;
@@ -898,26 +898,51 @@ body.kavaldon {
     width: 100%;
     background-repeat: no-repeat;
     background-image: url("/images/page_kavaldon/kslash.png"); }
-    /* line 209, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
+    /* line 210, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
+    body.kavaldon #kslash .hide-mobile {
+      display: none; }
+    @media only screen and (max-width: 640px) {
+      /* line 201, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
+      body.kavaldon #kslash {
+        margin-top: -240px; }
+        /* line 215, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
+        body.kavaldon #kslash .hide-desktop {
+          display: none; }
+        /* line 218, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
+        body.kavaldon #kslash .hide-mobile {
+          display: block; }
+        /* line 221, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
+        body.kavaldon #kslash .hide-mobile#computer img {
+          margin-top: 75px;
+          margin-bottom: 25px; } }
+    /* line 226, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
     body.kavaldon #kslash #apple {
       margin-left: -73%;
       transition: all 200ms ease-out;
       margin-top: -5%; }
       @media only screen and (max-width: 640px) {
-        /* line 209, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
+        /* line 226, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
         body.kavaldon #kslash #apple {
           margin-left: -5%;
           width: 45%;
           margin-top: 0; } }
-    /* line 219, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
+    /* line 236, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
     body.kavaldon #kslash #paragraph2 {
       margin-top: -10%;
       color: #fff;
       padding-top: 4%; }
-    /* line 225, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
+      @media only screen and (max-width: 640px) {
+        /* line 236, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
+        body.kavaldon #kslash #paragraph2 {
+          color: #000; }
+          /* line 242, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
+          body.kavaldon #kslash #paragraph2 h1 {
+            line-height: 45px;
+            letter-spacing: 7px; } }
+    /* line 249, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
     body.kavaldon #kslash #kavaldon-page a {
       color: #fff; }
-      /* line 227, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
+      /* line 251, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_kavaldon.scss */
       body.kavaldon #kslash #kavaldon-page a:hover {
         border-bottom: 2px solid white; }
 /* line 1, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_selvarey.scss */
