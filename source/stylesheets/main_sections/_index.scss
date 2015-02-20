@@ -284,6 +284,13 @@ body.index {
           left: 0;
           padding: 5%;
         }
+        #long-slide {
+          line-height: 3.7vw;
+          @media only screen and (max-width: $layout-change-width) {
+            line-height: auto;
+            font-size: 14px;
+          }
+        }
       }
       #slider-buttons {
         position: absolute;

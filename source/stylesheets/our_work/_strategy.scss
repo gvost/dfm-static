@@ -1,5 +1,6 @@
 $font-change-width: 1155px;
 $layout-change-width: 905px;
+$mobile-width: 640px;
 
 body.strategy {
   background-color: white;
@@ -16,16 +17,15 @@ body.strategy {
       display: inline-block;
       background-color: black;
       color: white;
-      text-transform: uppercase;
-      font-family: 'Gotham A', 'Gotham B';
+      font-family: 'DidotLtStd-Italic';
       letter-spacing: 3px;
       font-weight: normal;
-      font-size: 1.4em;
+      font-size: 60px;
       padding: 15px 40px 15px 65px;
-      @media only screen and (max-width: 585px) {
-        font-size: 1.1em;
-        padding: 15px 20px 15px 20px;
       }
+    #strategy-case-study {
+      position: absolute;
+      right: 0;
     }
     #discovery {
       position: relative;
