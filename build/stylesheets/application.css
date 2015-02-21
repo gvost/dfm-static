@@ -1841,31 +1841,43 @@ body.index {
         top: 0;
         left: 0;
         padding: 5%; }
-    /* line 288, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
+      /* line 287, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
+      body.index #services #about-blurb .slider #slide-2 {
+        line-height: 3.7vw; }
+        @media only screen and (max-width: 785px) {
+          /* line 287, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
+          body.index #services #about-blurb .slider #slide-2 {
+            line-height: 14px;
+            font-size: 14px; } }
+      @media only screen and (max-width: 785px) {
+        /* line 294, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
+        body.index #services #about-blurb .slider #slide-3 {
+          font-size: 14px; } }
+    /* line 300, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
     body.index #services #about-blurb #slider-buttons {
       position: absolute;
       bottom: 0;
       height: 12%;
       width: 100%;
       padding: 0 5%; }
-    /* line 295, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
+    /* line 307, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
     body.index #services #about-blurb #left-button, body.index #services #about-blurb #right-button {
       display: inline-block;
       cursor: pointer;
       width: 30px;
       height: 50px;
       margin-top: -30px; }
-    /* line 302, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
+    /* line 314, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
     body.index #services #about-blurb #left-button {
       float: left; }
-    /* line 305, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
+    /* line 317, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
     body.index #services #about-blurb #right-button {
       float: right; }
-  /* line 310, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
+  /* line 322, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
   body.index #social {
     position: relative;
     padding-top: 30%; }
-    /* line 313, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
+    /* line 325, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
     body.index #social .hover {
       position: absolute;
       top: 0;
@@ -1874,7 +1886,7 @@ body.index {
       padding-top: 15%;
       text-transform: uppercase;
       font-size: 1.0em; }
-      /* line 321, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
+      /* line 333, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
       body.index #social .hover a {
         text-decoration: none;
         color: white;
@@ -1886,30 +1898,30 @@ body.index {
         -ms-transition: border 500ms ease;
         -o-transition: border 500ms ease;
         transition: border 500ms ease; }
-        /* line 332, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
+        /* line 344, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
         body.index #social .hover a:hover {
           border-bottom: 1px solid white; }
       @media only screen and (max-width: 785px) {
-        /* line 313, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
+        /* line 325, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
         body.index #social .hover {
           height: 100%;
           font-size: 0.7em; } }
-    /* line 341, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
+    /* line 353, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
     body.index #social .hover:nth-of-type(1) {
       left: 0; }
-    /* line 344, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
+    /* line 356, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
     body.index #social .hover:nth-of-type(2) {
       left: 33.333333%; }
-    /* line 347, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
+    /* line 359, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
     body.index #social .hover:nth-of-type(3) {
       left: 66.666666%; }
-    /* line 350, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
+    /* line 362, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
     body.index #social .hover:nth-of-type(1) .image {
       background-image: url("/images/page_index/social_chair.jpg"); }
-    /* line 353, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
+    /* line 365, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
     body.index #social .hover:nth-of-type(2) .image {
       background-image: url("/images/page_index/social_room.jpg"); }
-    /* line 356, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
+    /* line 368, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
     body.index #social .hover:nth-of-type(3) .image {
       background-image: url("/images/page_index/social_face.jpg"); }
 /* line 1, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_environment.scss */
@@ -1993,21 +2005,25 @@ body.identity {
     float: right;
     clear: both; }
   /* line 22, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
+  body.identity .content #identity-case-study {
+    position: relative;
+    float: right; }
+  /* line 26, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
   body.identity .content #block-01 {
     width: 541px;
     text-align: left;
     margin: 50px 10px 40px 10px; }
-    /* line 26, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
+    /* line 30, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
     body.identity .content #block-01 p {
       font-family: 'Gotham A';
       font-weight: 100;
       font-size: 13px;
       line-height: 25px; }
-  /* line 33, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
+  /* line 37, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
   body.identity .content #block-02, body.identity .content #block-03 {
     width: 541px;
     margin: 0px 5px 30px 5px; }
-    /* line 36, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
+    /* line 40, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
     body.identity .content #block-02 ul, body.identity .content #block-03 ul {
       display: block;
       float: left;
@@ -2017,10 +2033,10 @@ body.identity {
       margin-left: 0;
       transition: all 200ms ease-in; }
       @media only screen and (max-width: 640px) {
-        /* line 36, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
+        /* line 40, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
         body.identity .content #block-02 ul, body.identity .content #block-03 ul {
           margin-right: 10px; } }
-      /* line 47, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
+      /* line 51, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
       body.identity .content #block-02 ul li, body.identity .content #block-03 ul li {
         font-family: 'Gotham A';
         font-weight: 100;
@@ -2028,45 +2044,45 @@ body.identity {
         line-height: 25px;
         transition: all 200ms ease-in; }
         @media only screen and (max-width: 640px) {
-          /* line 47, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
+          /* line 51, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
           body.identity .content #block-02 ul li, body.identity .content #block-03 ul li {
             font-size: 11.1px; } }
-    /* line 58, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
+    /* line 62, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
     body.identity .content #block-02 ul:nth-child(2), body.identity .content #block-03 ul:nth-child(2) {
       margin-right: 60px;
       transition: all 200ms ease-in; }
       @media only screen and (max-width: 640px) {
-        /* line 58, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
+        /* line 62, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
         body.identity .content #block-02 ul:nth-child(2), body.identity .content #block-03 ul:nth-child(2) {
           margin-right: 5px; } }
-  /* line 67, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
+  /* line 71, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
   body.identity .content #block-03 ul {
     text-transform: uppercase; }
-  /* line 71, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
+  /* line 75, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
   body.identity .content .heading-section h1 {
     font-size: 60px;
     padding: 9px 10px 5px 84px;
     width: 430px; }
     @media only screen and (max-width: 640px) {
-      /* line 71, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
+      /* line 75, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
       body.identity .content .heading-section h1 {
         font-size: 36px;
         width: 340px; } }
-  /* line 80, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
+  /* line 84, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
   body.identity .content #block-04 {
     position: relative;
     float: left; }
-  /* line 84, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
+  /* line 88, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
   body.identity .content #block-05 {
     float: left;
     padding-left: 211px;
     margin-top: 80px;
     transition: all 200ms ease-in; }
     @media only screen and (max-width: 640px) {
-      /* line 84, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
+      /* line 88, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
       body.identity .content #block-05 {
         padding-left: 5%; } }
-    /* line 92, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
+    /* line 96, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
     body.identity .content #block-05 h2 {
       font-family: 'Gotham A';
       font-size: 28px;
@@ -2074,7 +2090,7 @@ body.identity {
       text-transform: uppercase;
       letter-spacing: 3px;
       text-align: left; }
-    /* line 100, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
+    /* line 104, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
     body.identity .content #block-05 h5 {
       font-family: 'Gotham A';
       font-weight: 200;
@@ -2082,7 +2098,7 @@ body.identity {
       text-align: left;
       margin-top: 40px;
       line-height: 18px; }
-  /* line 109, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
+  /* line 113, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
   body.identity .content #block-06 {
     text-align: left;
     box-sizing: content-box;
@@ -2092,19 +2108,19 @@ body.identity {
     top: 70px;
     right: 4%; }
     @media only screen and (max-width: 640px) {
-      /* line 109, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
+      /* line 113, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
       body.identity .content #block-06 {
         float: left;
         /*margin-top: 110px;*/
         right: 0; } }
-    /* line 122, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
+    /* line 126, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
     body.identity .content #block-06 #box {
       width: 475px;
       max-width: 100%;
       border: 7px solid black;
       background-color: white;
       padding: 30px; }
-    /* line 129, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
+    /* line 133, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
     body.identity .content #block-06 h1 {
       font-family: 'DidotLtStd-Italic';
       font-size: 85px;
@@ -2114,10 +2130,10 @@ body.identity {
       text-align: left;
       transition: all 200ms ease-in; }
       @media only screen and (max-width: 640px) {
-        /* line 129, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
+        /* line 133, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
         body.identity .content #block-06 h1 {
           font-size: 63px; } }
-    /* line 141, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
+    /* line 145, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
     body.identity .content #block-06 p {
       font-family: 'Gotham A';
       font-size: 14px;
@@ -2125,7 +2141,7 @@ body.identity {
       width: 90%;
       margin-bottom: 20px;
       line-height: 21px; }
-  /* line 150, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
+  /* line 154, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
   body.identity .content #black-band {
     width: 100%;
     height: 500px;
@@ -2133,7 +2149,7 @@ body.identity {
     padding-top: 90px;
     min-width: 1200px;
     clear: both; }
-    /* line 157, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
+    /* line 161, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
     body.identity .content #black-band ul {
       color: white;
       display: block;
@@ -2145,98 +2161,98 @@ body.identity {
       margin-left: 0;
       transition: all 200ms ease-in; }
       @media only screen and (max-width: 640px) {
-        /* line 157, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
+        /* line 161, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
         body.identity .content #black-band ul {
           float: left; } }
-      /* line 170, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
+      /* line 174, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
       body.identity .content #black-band ul li {
         font-family: 'Gotham A';
         font-weight: 100;
         font-size: 10px;
         line-height: 22px;
         transition: all 200ms ease-in; }
-      /* line 177, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
+      /* line 181, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
       body.identity .content #black-band ul li:first-child {
         text-transform: uppercase; }
     @media only screen and (max-width: 640px) {
-      /* line 181, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
+      /* line 185, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
       body.identity .content #black-band ul:nth-child(2), body.identity .content #black-band ul:nth-child(5), body.identity .content #black-band ul:nth-child(6), body.identity .content #black-band ul:nth-child(7) {
         display: none; } }
-  /* line 187, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
+  /* line 191, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
   body.identity .content #block-07 {
     position: relative;
     float: right;
     margin-top: 210px; }
-  /* line 192, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
+  /* line 196, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
   body.identity .content #logo-container {
     max-width: 100%;
     width: 730px;
     margin: 500px auto 0px; }
-    /* line 196, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
+    /* line 200, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
     body.identity .content #logo-container .row {
       width: 100%; }
-      /* line 198, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
+      /* line 202, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
       body.identity .content #logo-container .row .logo {
         width: 240px;
         height: 190px;
         display: inline-block;
         background-image: url("/images/page_identity/logos.png");
         background-repeat: no-repeat; }
-      /* line 205, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
+      /* line 209, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
       body.identity .content #logo-container .row #logo-01 {
         background-position: 54px 29px; }
-      /* line 208, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
+      /* line 212, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
       body.identity .content #logo-container .row #logo-02 {
         background-position: -204px 45px; }
-      /* line 211, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
+      /* line 215, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
       body.identity .content #logo-container .row #logo-03 {
         background-position: -480px 19px; }
-      /* line 214, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
+      /* line 218, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
       body.identity .content #logo-container .row #logo-04 {
         background-position: 53px -214px; }
-      /* line 217, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
+      /* line 221, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
       body.identity .content #logo-container .row #logo-05 {
         background-position: -204px -214px; }
-      /* line 220, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
+      /* line 224, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
       body.identity .content #logo-container .row #logo-06 {
         background-position: -477px -221px; }
-      /* line 223, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
+      /* line 227, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
       body.identity .content #logo-container .row #logo-07 {
         background-position: 53px -457px; }
-      /* line 226, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
+      /* line 230, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
       body.identity .content #logo-container .row #logo-08 {
         background-position: -207px -466px; }
-      /* line 229, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
+      /* line 233, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
       body.identity .content #logo-container .row #logo-09 {
         background-position: -483px -474px; }
-      /* line 232, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
+      /* line 236, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
       body.identity .content #logo-container .row #logo-10 {
         background-position: 63px -734px; }
-      /* line 235, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
+      /* line 239, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
       body.identity .content #logo-container .row #logo-11 {
         background-position: -208px -726px; }
-      /* line 238, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
+      /* line 242, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
       body.identity .content #logo-container .row #logo-12 {
         background-position: -473px -732px; }
-      /* line 241, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
+      /* line 245, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
       body.identity .content #logo-container .row #logo-13 {
         background-position: 63px -1006px; }
-      /* line 244, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
+      /* line 248, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
       body.identity .content #logo-container .row #logo-14 {
         background-position: -204px -999px; }
-      /* line 247, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
+      /* line 251, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
       body.identity .content #logo-container .row #logo-15 {
         background-position: -475px -1003px; }
-      /* line 250, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
+      /* line 254, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
       body.identity .content #logo-container .row #logo-16 {
         background-position: 62px -1255px; }
-      /* line 253, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
+      /* line 257, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
       body.identity .content #logo-container .row #logo-17 {
         background-position: -213px -1265px; }
-      /* line 256, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
+      /* line 260, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
       body.identity .content #logo-container .row #logo-18 {
         background-position: -473px -1250px; }
-  /* line 262, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
+  /* line 266, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_identity.scss */
   body.identity .work-with-us {
     clear: both; }
 /* line 1, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_imagery.scss */
@@ -2527,38 +2543,36 @@ body.packaging {
     body.packaging .content .container #heading-section-2 {
       top: 48.31%;
       right: 0; }
-/* line 4, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_strategy.scss */
+/* line 5, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_strategy.scss */
 body.strategy {
   background-color: white; }
-  /* line 6, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_strategy.scss */
+  /* line 7, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_strategy.scss */
   body.strategy .work-with-us {
     padding-top: 200px;
     padding-bottom: 200px; }
-  /* line 10, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_strategy.scss */
+  /* line 11, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_strategy.scss */
   body.strategy .top-background {
     background-image: url("/images/page_strategy/top_background_new.png");
     background-size: contain; }
-  /* line 15, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_strategy.scss */
+  /* line 16, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_strategy.scss */
   body.strategy .content .section-heading {
     display: inline-block;
     background-color: black;
     color: white;
-    text-transform: uppercase;
-    font-family: 'Gotham A', 'Gotham B';
+    font-family: 'DidotLtStd-Italic';
     letter-spacing: 3px;
     font-weight: normal;
-    font-size: 1.4em;
+    font-size: 60px;
     padding: 15px 40px 15px 65px; }
-    @media only screen and (max-width: 585px) {
-      /* line 15, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_strategy.scss */
-      body.strategy .content .section-heading {
-        font-size: 1.1em;
-        padding: 15px 20px 15px 20px; } }
+  /* line 26, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_strategy.scss */
+  body.strategy .content #strategy-case-study {
+    position: absolute;
+    right: 0; }
   /* line 30, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_strategy.scss */
   body.strategy .content #discovery {
     position: relative;
     height: 350px;
-    margin-top: 100px; }
+    margin-top: 210px; }
     /* line 34, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/our_work/_strategy.scss */
     body.strategy .content #discovery #stroke-blue {
       position: absolute;
