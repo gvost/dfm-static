@@ -3,148 +3,223 @@ $mobile-width: 640px;
 body.skinlaundry {
     background-color: white;
     .top-background {
-        background-image: image-url("page_skinlaundry/graybackground.jpg");
+        background-image: image-url("page_skinlaundry/graybackground2.jpg");
     }
     .parallax-background {
         background-image: image-url("page_skinlaundry/water_surface.jpg");
     } 
-    .content{
+    .content {
         background-color: transparent;
-        #candles {
-            display: block;
-            width: 50%;
-            margin: 100px auto 150px auto;
-            transition: all 200ms ease-out; 
-            @media only screen and (max-width: $mobile-width) {
-                width: 70%
-            }
-        }
-        
-        .image-container {
-        	font-size: 0;
-      		position: relative;
-      		padding-top: 10%;
-      		width: 80%;
-      		margin: 0 auto;
-      		
-      		@media only screen and (max-width: $mobile-width) {
-      			padding-top: 138%;
-      			width: 100%;
-      		}
-      		.block {
-      			display: inline-block;
-      		}
-      		p {
-      	    	font-size: 12px;
-              line-height: 25px;
-      	    }
-            h1 {
-        		font-size: 35px;
-        	}
-        	h2 {
-        		font-size: 25px;
-        	}
-      	    #sl-row01 {
-                width: 100%;      	
-                #sl-container01 {
-                    width: 45%;
-                    transition: all 200ms ease-out;
-                    img {
-      	        	    width: 100%;
+        .top-container {
+            background-image: image-url("page_skinlaundry/watersplash_rotate.png");
+            background-repeat: no-repeat;
+            background-size: 50% auto;
+            width: 100%;
+            height: 100%;
+            background-position: 100% 100px;
+            .image-container {
+            	font-size: 0;
+          		position: relative;
+          		padding-top: 10%;
+          		width: 80%;
+          		margin: 0 auto;
+          		
+          		@media only screen and (max-width: $mobile-width) {
+          			padding-top: 138%;
+          			width: 100%;
+          		}
+          		.block {
+          			display: inline-block;
+          		}
+          		p {
+          	    	font-size: 12px;
+                  line-height: 25px;
+          	    }
+                h1 {
+            		font-size: 35px;
+            	}
+            	h2 {
+            		font-size: 25px;
+            	}
+          	    #sl-row01 {
+                    width: 100%;      	
+                    #sl-container01 {
+                        width: 45%;
+                        transition: all 200ms ease-out;
+                        img {
+          	        	    width: 100%;
+                        }
+                        @media only screen and (max-width: $mobile-width) {
+                            top: 48%;
+                            padding-left: 0; 
+                            opacity: .775;
+                            left: 3%;
+                            width: 33%;
+                            height: 25%;
+                        }
                     }
-                    @media only screen and (max-width: $mobile-width) {
-                        top: 48%;
-                        padding-left: 0; 
-                        opacity: .775;
-                        left: 3%;
-                        width: 33%;
-                        height: 25%;
+                    #sl-container02 {
+                        width: 35%;
+                        vertical-align: top;
+                        margin-top: 50px;
+                        h2 {
+                            text-align: center;
+                            font-family: 'Archer-LightItalic';
+                            font-weight: normal;
+                        }
+                        p {
+                            padding-top: 30px;
+                            padding-left: 50px;
+                            padding-right: 50px;
+                            font-family: 'DIN';
+                        }
                     }
                 }
-                #sl-container02 {
-                    width: 35%;
+                #sl-row02 {
+                    width: 100%;
+                    #sl-container03 {
+                        width: 45%;
+                        transition: all 200ms ease-out;
+                        vertical-align: top;
+              		    p {
+                  			padding-top: 50px;
+                            padding-right: 50px;
+                            padding-left: 50px;
+                            font-family: 'DIN';
+                  		}
+                    }
+                    #sl-container04 {
+              		    width: 35%;
+              		    img {
+              			   width: 100%;
+              		    }
+                    }
+                }
+                #sl-row03 {
+                    width: 100%;
+                  	#sl-container05 {
+                  		width: 45%;
+                  		transition: all 200ms ease-out;
+                  		img {
+                  			width: 100%;
+                  		}
+                  	}
+                  	#sl-container06 {
+                  		width: 55%;
+                  		vertical-align: top;
+                  		h1 {
+                  			padding: 50px;
+                  			text-align: center;
+                  			color: #00b194;
+                            font-family: 'DIN';
+                            line-height: 60px;
+                  		}
+                  	}
+                }
+            }
+
+            a {
+                text-decoration: none;
+                color: black;
+                font-size: 100%;
+                border-bottom: 2px solid rgba(255, 255, 255, 0);
+                -webkit-transition: border 500ms ease;
+                -moz-transition: border 500ms ease;
+                -ms-transition: border 500ms ease;
+                -o-transition: border 500ms ease;
+                transition: border 500ms ease; 
+                &:visited {
+                    color: black;
+                }
+                &:hover {
+                    border-bottom: 2px solid rgba(0, 0, 0, 1);
+                }
+            }
+        }
+        .middle-container {
+            margin: 0 auto;
+            width: 100%;
+            // max-width: 85%;
+            background-image: image-url('page_skinlaundry/waterlevel_bg.jpg');
+            background-size: contain;
+            text-align: center;
+            #sl-list {                
+                margin: 0 auto;
+                width: 400px;
+                margin-top: -200px;
+                display: inline-block;
+                background: white;
+                padding-left: 120px;
+                color: #53534A;
+                ul {
+                    padding: 0;
+                    text-transform: uppercase;
+                }
+                li {
+                    list-style-type: none;
+                    font-family: 'DIN';
+                    line-height: 30px;
+                    text-align: left;
+                    
+                }
+                h1 {
+                    font-size: 30px;
+                    color: #00b194;
+                    font-family: 'Archer-LightItalic';
+                    font-weight: normal;
+                    padding-top: 50px;
+                    padding-bottom: 25px;
+                    text-align: left;
+                }
+                .sl-bold {
+                    color: #000;
+
+                }
+            }
+            #computer {
+                margin: 0 auto;
+                width: 70%;
+                img {
+                    width: 100%;
+                }
+            }
+            #sl-row04 {
+                width: 100%;
+                
+                #sl-container07 {
+                    display: inline-block;
+                    width: 64%;
                     vertical-align: top;
-                    margin-top: 50px;
-                    h2 {
-                        text-align: center;
+                    
+                    h1 {
+                        font-size: 80px;
+                        color: #00b194;
                         font-family: 'Archer-LightItalic';
                         font-weight: normal;
-                    }
-                    p {
-                        padding-top: 30px;
-                        padding-left: 50px;
-                        padding-right: 50px;
-                        font-family: 'DIN';
+                        margin-top: 60px;
+                        margin-left: 30px;
                     }
                 }
-            }
-            #sl-row02 {
-                width: 100%;
-                #sl-container03 {
-                    width: 45%;
-                    transition: all 200ms ease-out;
-                    vertical-align: top;
-          		    p {
-              			padding-top: 50px;
-                        padding-right: 50px;
-                        padding-left: 50px;
-                        font-family: 'DIN';
-              		}
-                }
-                #sl-container04 {
-          		    width: 35%;
-          		    img {
-          			   width: 100%;
-          		    }
+                #sl-container08 {
+                    width: 35%;
+                    display: inline-block;
+                    img {
+                        width: 100%;
+                    }
                 }
             }
-            #sl-row03 {
-                width: 100%;
-              	#sl-container05 {
-              		width: 45%;
-              		transition: all 200ms ease-out;
-              		img {
-              			width: 100%;
-              		}
-              	}
-              	#sl-container06 {
-              		width: 55%;
-              		vertical-align: top;
-              		h1 {
-              			padding: 50px;
-              			text-align: center;
-              			color: #00b194;
-                        font-family: 'DIN';
-                        line-height: 60px;
-              		}
-              	}
+            #sl-row05 {
+                #sl-container09 {
+                    width: 100%;
+                    img {
+                        width: 100%;
+                    }
+                }
             }
         }
-        .site-page:not(#computer) {
-            img {
-                border: 4px lightgray solid;
-            }
+        .bottom-container {
+            text-align: center;
         }
-    
-  
-
-    a {
-        text-decoration: none;
-        color: black;
-        font-size: 100%;
-        border-bottom: 2px solid rgba(255, 255, 255, 0);
-        -webkit-transition: border 500ms ease;
-        -moz-transition: border 500ms ease;
-        -ms-transition: border 500ms ease;
-        -o-transition: border 500ms ease;
-        transition: border 500ms ease; 
-        &:visited {
-            color: black;
-        }
-        &:hover {
-            border-bottom: 2px solid rgba(0, 0, 0, 1);
-        }
-      }
     }
 }
 
