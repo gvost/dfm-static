@@ -49,12 +49,16 @@ body.skinlaundry {
                         img {
           	        	    width: 100%;
                         }
+                        @media only screen and (max-width: 830px) {
+                            width: 100%;
+
+                        }
                         @media only screen and (max-width: $mobile-width) {
                             top: 48%;
                             padding-left: 0; 
                             opacity: .775;
                             left: 3%;
-                            width: 33%;
+                            width: 90%;
                             height: 25%;
                         }
                     }
@@ -72,6 +76,36 @@ body.skinlaundry {
                             padding-left: 50px;
                             padding-right: 50px;
                             font-family: 'DIN';
+                        }
+                        
+                        @media only screen and (max-width: 1170px) {
+                            margin-top: 0;
+                            
+                            p {
+                                line-height: 20px;
+                                padding-left: 30px;
+                                padding-right: 0;
+                                padding-top: 15px;
+                                
+                            }
+                        }
+                        @media only screen and (max-width: 830px) {
+                            width: 100%;
+                            h2 {
+                                margin-top: 20px;
+                            }
+                            p {
+                                font-size: 15px;
+                                padding-left: 0;
+                                padding-right: 0;
+                                
+                            }
+                        }
+                        @media only screen and (max-width: $mobile-width) {
+                            p {
+                                
+                                width: 50%;
+                            }
                         }
                     }
                 }
