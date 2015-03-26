@@ -3,10 +3,12 @@ $mobile-width: 640px;
 body.skinlaundry {
     background-color: white;
     .top-background {
-        background-image: image-url("page_skinlaundry/graybackground2.jpg");
+        background-image: image-url("page_skinlaundry/palmtree.png");
     }
     .parallax-background {
-        background-image: image-url("page_skinlaundry/water_surface.jpg");
+        background-image: image-url("page_skinlaundry/water_surface.png");
+        background-repeat: no-repeat;
+
     } 
     .content {
         background-color: transparent;
@@ -17,6 +19,9 @@ body.skinlaundry {
             width: 100%;
             height: 100%;
             background-position: 100% 100px;
+            @media only screen and (max-width: $mobile-width) {
+                    padding-bottom: 0;
+                }
             .image-container {
             	font-size: 0;
           		position: relative;
@@ -25,7 +30,6 @@ body.skinlaundry {
           		margin: 0 auto;
           		
           		@media only screen and (max-width: $mobile-width) {
-          			padding-top: 138%;
           			width: 100%;
           		}
           		.block {
@@ -42,7 +46,10 @@ body.skinlaundry {
             		font-size: 25px;
             	}
           	    #sl-row01 {
-                    width: 100%;      	
+                    width: 100%;
+                    @media only screen and (max-width: $mobile-width) {
+                        text-align: center;
+                    }      	
                     #sl-container01 {
                         width: 45%;
                         transition: all 200ms ease-out;
@@ -58,7 +65,7 @@ body.skinlaundry {
                             padding-left: 0; 
                             opacity: .775;
                             left: 3%;
-                            width: 90%;
+                            width: 95%;
                             height: 25%;
                         }
                     }
@@ -77,20 +84,19 @@ body.skinlaundry {
                             padding-right: 50px;
                             font-family: 'DIN';
                         }
-                        
                         @media only screen and (max-width: 1170px) {
                             margin-top: 0;
-                            
                             p {
                                 line-height: 20px;
                                 padding-left: 30px;
                                 padding-right: 0;
                                 padding-top: 15px;
-                                
+                                text-align: left;
                             }
                         }
                         @media only screen and (max-width: 830px) {
                             width: 100%;
+                            margin: 0 auto;
                             h2 {
                                 margin-top: 20px;
                             }
@@ -98,19 +104,18 @@ body.skinlaundry {
                                 font-size: 15px;
                                 padding-left: 0;
                                 padding-right: 0;
-                                
                             }
                         }
                         @media only screen and (max-width: $mobile-width) {
-                            p {
-                                
-                                width: 50%;
-                            }
+                            width: 50%;
                         }
                     }
                 }
                 #sl-row02 {
                     width: 100%;
+                    @media only screen and (max-width: $mobile-width) {
+                        text-align: center;
+                    }
                     #sl-container03 {
                         width: 45%;
                         transition: all 200ms ease-out;
@@ -121,26 +126,71 @@ body.skinlaundry {
                             padding-left: 50px;
                             font-family: 'DIN';
                   		}
+                        @media only screen and (max-width: 1130px) {
+                            p {
+                                padding-top: 0px;
+                            }
+                        }
+                        @media only screen and (max-width: 1024px) {
+                            p {
+                                line-height: 20px;
+                                padding-right: 25px;
+                                padding-left: 25px;
+                            }
+                        }
+                        @media only screen and (max-width: 830px) {
+                            width: 50%;
+                            h2 {
+                                margin-top: 20px;
+                            }
+                            p {
+                                font-size: 15px;
+                                padding: 50px 10px;
+                                text-align: left;
+
+                            }
+                        }
                     }
                     #sl-container04 {
               		    width: 35%;
               		    img {
               			   width: 100%;
               		    }
+                        @media only screen and (max-width: 830px) {
+                            width: 50%;
+                            padding-top: 47px;
+                        }
+                        @media only screen and (max-width: $mobile-width) {
+                            width: 95%;
+                            padding-bottom: 30px;
+                            img {
+                                width: 100%;
+                            }
+                        }
                     }
                 }
                 #sl-row03 {
                     width: 100%;
+                    @media only screen and (max-width: $mobile-width) {
+                        text-align: center;
+                    }
                   	#sl-container05 {
                   		width: 45%;
                   		transition: all 200ms ease-out;
                   		img {
                   			width: 100%;
                   		}
+                        @media only screen and (max-width: $mobile-width) {
+                            width: 95%;
+                            img {
+                                width: 100%;
+                            }
+                        }
                   	}
                   	#sl-container06 {
                   		width: 55%;
                   		vertical-align: top;
+
                   		h1 {
                   			padding: 50px;
                   			text-align: center;
@@ -148,6 +198,19 @@ body.skinlaundry {
                             font-family: 'DIN';
                             line-height: 60px;
                   		}
+
+                        @media only screen and (max-width: 940px) {
+                            h1 {
+                                padding: 20px;
+                                font-size: 25px;
+                            }
+                        }
+                        @media only screen and (max-width: $mobile-width) {
+                            width: 100%;
+                            h1 {
+                                
+                            }
+                        }
                   	}
                 }
             }
@@ -176,7 +239,12 @@ body.skinlaundry {
             // max-width: 85%;
             background-image: image-url('page_skinlaundry/waterlevel_bg.jpg');
             background-size: contain;
+            background-repeat: no-repeat;
             text-align: center;
+            background-position: 0 150px;
+            @media only screen and (max-width: 720px) {
+                background-position: 0 200px;
+            }
             #sl-list {                
                 margin: 0 auto;
                 width: 400px;
@@ -219,7 +287,7 @@ body.skinlaundry {
             }
             #sl-row04 {
                 width: 100%;
-                
+                background: white;
                 #sl-container07 {
                     display: inline-block;
                     width: 64%;
@@ -232,6 +300,16 @@ body.skinlaundry {
                         font-weight: normal;
                         margin-top: 60px;
                         margin-left: 30px;
+                        @media only screen and (max-width: 860px) {
+                            font-size: 40px;
+                            margin-top: 25px;
+                        }
+                        @media only screen and (max-width: $mobile-width) {
+                            margin-left: 0;
+                            margin-top: 0;
+                            padding-top: 20px;
+                            padding-bottom: 20px;
+                        }
                     }
                 }
                 #sl-container08 {
@@ -239,6 +317,9 @@ body.skinlaundry {
                     display: inline-block;
                     img {
                         width: 100%;
+                    }
+                    @media only screen and (max-width: $mobile-width) {
+                        display: none;
                     }
                 }
             }
@@ -253,6 +334,9 @@ body.skinlaundry {
         }
         .bottom-container {
             text-align: center;
+            @media only screen and (max-width: $mobile-width) {
+                padding: 0;
+            }
         }
     }
 }
