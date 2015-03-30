@@ -90,7 +90,7 @@ body.skinlaundry {
                                 line-height: 20px;
                                 padding-left: 30px;
                                 padding-right: 0;
-                                padding-top: 15px;
+                                padding-top: 30px;
                                 text-align: left;
                             }
                         }
@@ -107,7 +107,10 @@ body.skinlaundry {
                             }
                         }
                         @media only screen and (max-width: $mobile-width) {
-                            width: 50%;
+                            width: 80%;
+                            p {
+                                text-align: justify;
+                            }
                         }
                     }
                 }
@@ -139,15 +142,20 @@ body.skinlaundry {
                             }
                         }
                         @media only screen and (max-width: 830px) {
-                            width: 50%;
+                            width: 80%;
                             h2 {
                                 margin-top: 20px;
                             }
                             p {
                                 font-size: 15px;
-                                padding: 50px 10px;
+                                padding: 50px 0px;
                                 text-align: left;
 
+                            }
+                        }
+                        @media only screen and (max-width: $mobile-width) {
+                            p {
+                                text-align: justify;
                             }
                         }
                     }
@@ -326,6 +334,7 @@ body.skinlaundry {
             #sl-row05 {
                 #sl-container09 {
                     width: 100%;
+                    background: #fff;
                     img {
                         width: 100%;
                     }
