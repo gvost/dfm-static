@@ -6,7 +6,7 @@ body.skinlaundry {
         background-image: image-url("page_skinlaundry/palmtree.png");
     }
     .parallax-background {
-        background-image: image-url("page_skinlaundry/water_surface.png");
+        background-image: image-url("page_skinlaundry/SL_watermark.png");
         background-repeat: no-repeat;
 
     } 
@@ -51,7 +51,7 @@ body.skinlaundry {
                         text-align: center;
                     }      	
                     #sl-container01 {
-                        width: 45%;
+                        width: 50%;
                         transition: all 200ms ease-out;
                         img {
           	        	    width: 100%;
@@ -70,20 +70,10 @@ body.skinlaundry {
                         }
                     }
                     #sl-container02 {
-                        width: 35%;
+                        width: 50%;
                         vertical-align: top;
                         margin-top: 50px;
-                        h2 {
-                            text-align: center;
-                            font-family: 'Archer-LightItalic';
-                            font-weight: normal;
-                        }
-                        p {
-                            padding-top: 30px;
-                            padding-left: 50px;
-                            padding-right: 50px;
-                            font-family: 'DIN';
-                        }
+
                         @media only screen and (max-width: 1170px) {
                             margin-top: 0;
                             p {
@@ -120,7 +110,7 @@ body.skinlaundry {
                         text-align: center;
                     }
                     #sl-container03 {
-                        width: 45%;
+                        width: 50%;
                         transition: all 200ms ease-out;
                         vertical-align: top;
               		    p {
@@ -129,6 +119,14 @@ body.skinlaundry {
                             padding-left: 50px;
                             font-family: 'DIN';
                   		}
+                        h2 {
+                            color: #53534a;
+                            font-family: 'Archer-LightItalic';
+                            font-weight: normal;
+                            text-align: center;
+                            margin-top: 60px;
+                            font-size: 30px;
+                        }
                         @media only screen and (max-width: 1130px) {
                             p {
                                 padding-top: 0px;
@@ -160,7 +158,7 @@ body.skinlaundry {
                         }
                     }
                     #sl-container04 {
-              		    width: 35%;
+              		    width: 50%;
               		    img {
               			   width: 100%;
               		    }
@@ -182,8 +180,11 @@ body.skinlaundry {
                     @media only screen and (max-width: $mobile-width) {
                         text-align: center;
                     }
-                  	#sl-container05 {
-                  		width: 45%;
+                    #sl-container05 {
+                        width: 20%;
+                    }
+                  	#sl-container06 {
+                  		width: 30%;
                   		transition: all 200ms ease-out;
                   		img {
                   			width: 100%;
@@ -195,8 +196,8 @@ body.skinlaundry {
                             }
                         }
                   	}
-                  	#sl-container06 {
-                  		width: 55%;
+                  	#sl-container07 {
+                  		width: 50%;
                   		vertical-align: top;
 
                   		h1 {
@@ -220,6 +221,50 @@ body.skinlaundry {
                             }
                         }
                   	}
+                }
+                #sl-row04 {
+                    margin-bottom: 130px;
+                    #sl-container08 {
+                        width: 20%;
+                        vertical-align: top;
+                        img {
+                            width: 100%;
+                        }
+                    }
+                    #sl-container09 {
+                        width: 30%;
+                    }
+                    #sl-container10 {
+                        width: 50%;
+                        img {
+                            width: 100%;
+                        }
+                    }
+                }
+                #sl-row05, #sl-row06 {
+                    width: 100%;
+                    
+                    #sl-container11, #sl-container12 {
+                        width: 100%;
+                        img {
+                            width: 100%;
+                        }
+                    }
+                }
+                #sl-row07 {
+                    width: 100%;
+                    #sl-container13 {
+                        text-align: center;
+                        font-family: 'Archer-LightItalic', serif;
+                        color: #53534a;
+                        margin-top: 40px;
+                        h1 {
+                            font-weight: normal;
+                        }
+                        img {
+                            width: 100%;
+                        }
+                    }
                 }
             }
 
@@ -245,7 +290,7 @@ body.skinlaundry {
             margin: 0 auto;
             width: 100%;
             // max-width: 85%;
-            background-image: image-url('page_skinlaundry/waterlevel_bg.jpg');
+            background-image: image-url('page_skinlaundry/waterlevel_bgwhite.png');
             background-size: contain;
             background-repeat: no-repeat;
             text-align: center;
@@ -296,7 +341,7 @@ body.skinlaundry {
             #sl-row04 {
                 width: 100%;
                 background: white;
-                #sl-container07 {
+                #sl-container09 {
                     display: inline-block;
                     width: 64%;
                     vertical-align: top;
@@ -320,7 +365,7 @@ body.skinlaundry {
                         }
                     }
                 }
-                #sl-container08 {
+                #sl-container10 {
                     width: 35%;
                     display: inline-block;
                     img {
@@ -331,18 +376,10 @@ body.skinlaundry {
                     }
                 }
             }
-            #sl-row05 {
-                #sl-container09 {
-                    width: 100%;
-                    background: #fff;
-                    img {
-                        width: 100%;
-                    }
-                }
-            }
         }
         .bottom-container {
             text-align: center;
+            padding: 10px 0;
             @media only screen and (max-width: $mobile-width) {
                 padding: 0;
             }
