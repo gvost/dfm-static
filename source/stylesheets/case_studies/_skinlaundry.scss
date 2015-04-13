@@ -8,6 +8,9 @@ body.skinlaundry {
     .parallax-background {
         background-image: image-url("page_skinlaundry/SL_watermark.png");
         background-repeat: no-repeat;
+        @media only screen and (max-width: $mobile-width) {
+            background: white;
+        }
 
     } 
     .content {
@@ -20,8 +23,11 @@ body.skinlaundry {
             height: 100%;
             background-position: 100% 100px;
             @media only screen and (max-width: $mobile-width) {
-                    padding-bottom: 0;
+                padding-bottom: 0;
+                h1 {
+                    font-size: 24px;
                 }
+            }
             .image-container {
             	font-size: 0;
           		position: relative;
@@ -224,20 +230,33 @@ body.skinlaundry {
                 }
                 #sl-row04 {
                     margin-bottom: 130px;
+                    @media only screen and (max-width: $mobile-width) {
+                        text-align: center;
+                        margin-bottom: 50px;
+                    }
                     #sl-container08 {
                         width: 20%;
                         vertical-align: top;
                         img {
                             width: 100%;
                         }
+                        @media only screen and (max-width: $mobile-width) {
+                            width: 30%;
+                        }
                     }
                     #sl-container09 {
                         width: 30%;
+                        @media only screen and (max-width: $mobile-width) {
+                            display: none;;
+                        }
                     }
                     #sl-container10 {
                         width: 50%;
                         img {
                             width: 100%;
+                        }
+                        @media only screen and (max-width: $mobile-width) {
+                            width: 64.4%;
                         }
                     }
                 }
@@ -306,6 +325,10 @@ body.skinlaundry {
                 background: white;
                 padding-left: 120px;
                 color: #53534A;
+                @media only screen and (max-width: $mobile-width) {
+                    width: 140px;
+                    padding-left: 0;
+                }
                 ul {
                     padding: 0;
                     text-transform: uppercase;
@@ -315,7 +338,6 @@ body.skinlaundry {
                     font-family: 'DIN';
                     line-height: 30px;
                     text-align: left;
-                    
                 }
                 h1 {
                     font-size: 30px;
@@ -328,7 +350,6 @@ body.skinlaundry {
                 }
                 .sl-bold {
                     color: #000;
-
                 }
             }
             #computer {
@@ -336,44 +357,6 @@ body.skinlaundry {
                 width: 70%;
                 img {
                     width: 100%;
-                }
-            }
-            #sl-row04 {
-                width: 100%;
-                background: white;
-                #sl-container09 {
-                    display: inline-block;
-                    width: 64%;
-                    vertical-align: top;
-                    
-                    h1 {
-                        font-size: 80px;
-                        color: #00b194;
-                        font-family: 'Archer-LightItalic';
-                        font-weight: normal;
-                        margin-top: 60px;
-                        margin-left: 30px;
-                        @media only screen and (max-width: 860px) {
-                            font-size: 40px;
-                            margin-top: 25px;
-                        }
-                        @media only screen and (max-width: $mobile-width) {
-                            margin-left: 0;
-                            margin-top: 0;
-                            padding-top: 20px;
-                            padding-bottom: 20px;
-                        }
-                    }
-                }
-                #sl-container10 {
-                    width: 35%;
-                    display: inline-block;
-                    img {
-                        width: 100%;
-                    }
-                    @media only screen and (max-width: $mobile-width) {
-                        display: none;
-                    }
                 }
             }
         }
