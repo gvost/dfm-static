@@ -1,0 +1,96 @@
+body.fashion {
+  background-color: white;
+  text-align: center;
+  .top-background {
+    background-image: image-url("page_fashion/blue_flower2.jpg");
+  }
+  .content {
+    .image-container {
+      position: relative;
+      padding-top: 386.45%;
+      img {
+        position: absolute;
+      }
+      #lineup {
+        width: 50%;
+        top: 5.23%;
+        left: 0;
+      }
+      #lineup-2 {
+        width: 50%;
+        top: 5.23%;
+        right: 0;
+      }
+      #sl-imac {
+        width: 42.71%;
+        top: 3%;
+        left: 27.81%;
+      }
+      #four-pics {
+        width: 31.875%;
+        top: 12.47%;
+        right: 9%;
+      }
+  		#lineup-3 {
+        width: 46.95%;
+        top: 17.51%;
+  			left: 9%;
+  		}
+      #velvet-computers {
+        width: 64.81%;
+        top: 22.5%;
+        left: 18.31%;
+      }
+  		#black-temp {
+        width: 27.96%;
+        top: 21.57%;
+        left: 10%
+      }
+  		#woman {
+  			width: 43.96%;
+        top: 39.87%;
+        left: 10%
+  		}
+  		#summer {
+        width: 56.67%;
+			  top: 34.15%;
+			  right: 0;
+  		}
+  		#rings {
+        width: 36.17%;
+        top: 41.55%;
+        right: 7%;
+  		}
+      #thing {
+        width: 19.17%;
+        top: 36.55%;
+        right: 13.25%;
+      }
+      #th {
+        width: 100%;
+        top: 60.4%;
+        left: 0%;
+      }
+      #boxset { 
+        width: 43.7%;
+        top: 49.7%;
+        left: 19.5%;
+      }
+      #woman2 { 
+        width: 15.7%;
+        top: 47.4%;
+        right: 8.5%;
+      }
+      #glass-stuff {
+        width: 44.17%;
+        top: 84.07%;
+        left: 7.81%;
+      }
+  		#nine-foods {
+        width: 35.94%;
+        top: 84.07%;
+        right: 0%;
+  		}
+  	}
+  }
+}
