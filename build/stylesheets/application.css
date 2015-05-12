@@ -154,6 +154,31 @@ input, select {
   src: url(data:application/x-font-woff;base64,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);
   font-weight: 400;
   font-style: normal; }
+@font-face {
+  font-family: 'DIN-Medium';
+  src: url("/fonts/DIN-Medium.eot?#iefix") format("embedded-opentype"), url("/fonts/DIN-Medium.woff") format("woff"), url("/fonts/DIN-Medium.ttf") format("truetype"), url("/fonts/DIN-Medium.svg#DIN-Medium") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'DIN';
+  src: url("/fonts/DIN.eot?#iefix") format("embedded-opentype"), url("/fonts/DIN.woff") format("woff"), url("/fonts/DIN.ttf") format("truetype"), url("/fonts/DIN.svg#DIN") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'DINAlternate-Bold';
+  src: url("/fonts/DINAlternate-Bold.eot?#iefix") format("embedded-opentype"), url("/fonts/DINAlternate-Bold.woff") format("woff"), url("/fonts/DINAlternate-Bold.ttf") format("truetype"), url("/fonts/DINAlternate-Bold.svg#DINAlternate-Bold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Archer-BoldItalic';
+  src: url("/fonts/Archer-BoldItalic.eot?#iefix") format("embedded-opentype"), url("/fonts/Archer-BoldItalic.otf") format("opentype"), url("/fonts/Archer-BoldItalic.woff") format("woff"), url("/fonts/Archer-BoldItalic.ttf") format("truetype"), url("/fonts/Archer-BoldItalic.svg#Archer-BoldItalic") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'Archer-LightItalic';
+  src: url("/fonts/Archer-LightItalic.eot?#iefix") format("embedded-opentype"), url("/fonts/Archer-LightItalic.otf") format("opentype"), url("/fonts/Archer-LightItalic.woff") format("woff"), url("/fonts/Archer-LightItalic.ttf") format("truetype"), url("/fonts/Archer-LightItalic.svg#Archer-LightItalic") format("svg");
+  font-weight: normal;
+  font-style: normal; }
 /*
       __         __   ___      
 |  | |__)   +   |  \ |__   |\/| 
@@ -257,14 +282,43 @@ body {
   color: white;
   overflow-y: scroll;
   font-family: 'Gotham A', 'Gotham B'; }
-  /* line 122, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+  /* line 123, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+  #nav-page #nav-row01 {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    top: 150px; }
+    /* line 128, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+    #nav-page #nav-row01 ul {
+      width: 33%;
+      vertical-align: top; }
+      @media only screen and (max-width: 640px) {
+        /* line 128, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+        #nav-page #nav-row01 ul {
+          width: 100%; } }
+  /* line 137, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+  #nav-page #nav-row02 {
+    position: relative;
+    width: 70%;
+    display: inline-block;
+    top: 200px; }
+    /* line 142, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+    #nav-page #nav-row02 ul {
+      width: 25%; }
+      @media only screen and (max-width: 640px) {
+        /* line 142, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+        #nav-page #nav-row02 ul {
+          width: 100%; } }
+  /* line 150, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+  #nav-page #nav-row03 {
+    position: relative;
+    top: 250px; }
+  /* line 155, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
   #nav-page ul {
     list-style: none;
-    margin-bottom: 40px; }
-  /* line 126, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
-  #nav-page ul:first-child {
-    margin-top: 40px; }
-  /* line 129, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+    margin-bottom: 40px;
+    display: inline-block; }
+  /* line 165, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
   #nav-page .nav-heading {
     font-size: 1.2em;
     margin-top: 1.6em;
@@ -275,7 +329,7 @@ body {
     padding-bottom: 5px;
     line-height: 20px;
     letter-spacing: 2px; }
-  /* line 142, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+  /* line 178, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
   #nav-page li.nav-heading a {
     border-bottom: 3px white solid;
     -webkit-transition: border 300ms ease;
@@ -283,17 +337,17 @@ body {
     -ms-transition: border 300ms ease;
     -o-transition: border 300ms ease;
     transition: all 300ms ease-out; }
-    /* line 150, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+    /* line 186, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
     #nav-page li.nav-heading a:hover {
       border-bottom-color: transparent; }
-  /* line 157, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+  /* line 193, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
   #nav-page li:not(.nav-heading) {
     line-height: 1.8em;
     font-size: .9em;
     font-family: 'Georgia';
     font-style: italic;
     letter-spacing: .5px; }
-    /* line 164, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+    /* line 200, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
     #nav-page li:not(.nav-heading) a.page-links {
       padding-bottom: 1px;
       border-bottom: 2px solid rgba(255, 255, 255, 0);
@@ -302,10 +356,10 @@ body {
       -ms-transition: border 500ms ease;
       -o-transition: border 500ms ease;
       transition: border 500ms ease; }
-      /* line 172, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+      /* line 208, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
       #nav-page li:not(.nav-heading) a.page-links:hover {
         border-bottom: 2px solid white; }
-  /* line 179, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+  /* line 215, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
   #nav-page a {
     text-decoration: none;
     color: white;
@@ -313,12 +367,12 @@ body {
     -webkit-transition: all 300ms ease-out;
     -moz-transition: all 300ms ease-out;
     transition: all 300ms ease-out; }
-  /* line 188, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+  /* line 224, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
   #nav-page .social-links {
     margin: 110px 0px;
     text-align: center;
     font-weight: bold; }
-  /* line 193, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+  /* line 229, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
   #nav-page .social-links a {
     text-transform: uppercase;
     margin: 15px;
@@ -330,7 +384,7 @@ body {
     -ms-transition: border 500ms ease;
     -o-transition: border 500ms ease;
     transition: border 500ms ease; }
-    /* line 204, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+    /* line 240, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
     #nav-page .social-links a:hover {
       border-bottom: 2px solid white; }
 
@@ -364,7 +418,7 @@ body {
   </div>
 </div>
 */
-/* line 248, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+/* line 284, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
 .top-background {
   width: 100%;
   height: 800px;
@@ -377,11 +431,11 @@ body {
   background-size: cover;
   z-index: -1; }
   @media only screen and (max-width: 640px) {
-    /* line 248, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+    /* line 284, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
     .top-background {
       height: 600px; } }
 
-/* line 263, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+/* line 299, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
 .parallax-background {
   height: 100%;
   width: 100%;
@@ -392,7 +446,7 @@ body {
   background-position: center;
   background-size: cover; }
 
-/* line 273, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+/* line 309, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
 .content {
   position: relative;
   -webkit-transform: translate3d(0, 0, 0);
@@ -401,18 +455,18 @@ body {
   top: 800px;
   left: 0; }
   @media only screen and (max-width: 640px) {
-    /* line 273, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+    /* line 309, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
     .content {
       top: 600px; } }
-  /* line 283, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+  /* line 319, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
   .content .top-container {
     background-color: white;
     padding-bottom: 200px; }
     @media only screen and (max-width: 640px) {
-      /* line 283, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+      /* line 319, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
       .content .top-container {
         margin-top: -200px; } }
-  /* line 290, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+  /* line 326, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
   .content .top-insert-outline {
     width: 580px;
     max-width: 95%;
@@ -421,14 +475,14 @@ body {
     margin: 0 auto -50px auto;
     top: -100px;
     border: 1px solid white; }
-  /* line 299, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+  /* line 335, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
   .content .top-insert {
     background-color: white;
     position: relative;
     text-align: center;
     padding: 10% 15%;
     box-sizing: border-box; }
-    /* line 305, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+    /* line 341, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
     .content .top-insert h1 {
       color: black;
       font-family: 'Gotham A', 'Gotham B';
@@ -440,11 +494,11 @@ body {
       max-width: 400px;
       margin: 0 auto 10px auto; }
       @media only screen and (max-width: 640px) {
-        /* line 305, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+        /* line 341, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
         .content .top-insert h1 {
           font-size: 1.2em;
           letter-spacing: 1.7px; } }
-    /* line 320, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+    /* line 356, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
     .content .top-insert h2 {
       font-weight: 100;
       font-family: 'Georgia';
@@ -452,24 +506,24 @@ body {
       letter-spacing: 1px;
       font-size: 13px;
       line-height: 18px; }
-      /* line 327, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+      /* line 363, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
       .content .top-insert h2#velvet-subtitle {
         padding-bottom: 10px;
         font-family: 'Gotham A', 'Gotham B'; }
-    /* line 333, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+    /* line 369, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
     .content .top-insert h3 {
       font-style: italic;
       font-weight: 100; }
-  /* line 338, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+  /* line 374, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
   .content .parallax {
     width: 100%;
     height: 300px;
     background: none; }
-  /* line 343, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+  /* line 379, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
   .content .bottom-container {
     background-color: white;
     padding: 200px 0; }
-  /* line 347, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+  /* line 383, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
   .content .work-with-us {
     width: 100%;
     height: 250px;
@@ -477,13 +531,13 @@ body {
     text-align: center;
     color: black;
     background-color: white; }
-    /* line 355, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+    /* line 391, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
     .content .work-with-us h2 {
       width: 180px;
       margin: 0 auto;
       text-transform: uppercase;
       padding: 0 5px 20px 5px; }
-    /* line 362, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+    /* line 398, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
     .content .work-with-us a {
       text-decoration: none;
       color: inherit;
@@ -493,20 +547,20 @@ body {
       -ms-transition: border 500ms ease;
       -o-transition: border 500ms ease;
       transition: border 500ms ease; }
-      /* line 371, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+      /* line 407, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
       .content .work-with-us a:hover {
         border-bottom: 2px solid black; }
-    /* line 375, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+    /* line 411, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
     .content .work-with-us p {
       font-style: italic; }
 
-/* line 386, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+/* line 422, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
 .portfolio-text-insert {
   margin: 0 auto;
   width: 500px;
   text-align: center;
   max-width: 85%; }
-  /* line 391, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+  /* line 427, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
   .portfolio-text-insert h1 {
     font-size: 30px;
     margin-bottom: 55px;
@@ -514,16 +568,16 @@ body {
     font-family: 'Gotham A', 'Gotham B';
     text-transform: uppercase;
     letter-spacing: 9px; }
-  /* line 399, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+  /* line 435, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
   .portfolio-text-insert p {
     font-size: 14px;
     font-family: 'Georgia';
     line-height: 18px;
     letter-spacing: 1px; }
-  /* line 405, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+  /* line 441, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
   .portfolio-text-insert a {
     font-family: 'Gotham A', 'Gotham B'; }
-  /* line 409, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+  /* line 445, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
   .portfolio-text-insert div {
     display: inline-block;
     margin: 45px auto 0 auto;
@@ -531,20 +585,20 @@ body {
     height: 30px;
     border-bottom: 2px #cccccc solid; }
 
-/* line 420, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+/* line 456, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
 .site-page {
   margin: 40px auto;
   width: 80%; }
-  /* line 423, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+  /* line 459, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
   .site-page img {
     max-width: 100%;
     max-height: 100%; }
 
-/* line 431, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+/* line 467, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
 .heading-section {
   z-index: 2;
   position: absolute; }
-  /* line 434, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+  /* line 470, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
   .heading-section h1 {
     font-family: 'DidotLTStd-Italic';
     font-size: 30px;
@@ -559,7 +613,7 @@ body {
     transition: all 200ms ease-in;
     width: 275px; }
     @media only screen and (max-width: 640px) {
-      /* line 434, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
+      /* line 470, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/application.scss */
       .heading-section h1 {
         font-size: 20px;
         width: 175px;
@@ -1021,6 +1075,380 @@ body.selvarey {
     /* line 75, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_selvarey.scss */
     body.selvarey .bottom-container a:hover {
       border-bottom: 2px solid black; }
+/* line 3, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+body.skinlaundry {
+  background-color: white; }
+  /* line 5, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+  body.skinlaundry .top-background {
+    background-image: url("/images/page_skinlaundry/palmtree.png"); }
+  /* line 8, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+  body.skinlaundry .parallax-background {
+    background-image: url("/images/page_skinlaundry/SL_watermark.png");
+    background-repeat: no-repeat; }
+    @media only screen and (max-width: 640px) {
+      /* line 8, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+      body.skinlaundry .parallax-background {
+        background: white; } }
+  /* line 16, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+  body.skinlaundry .content {
+    background-color: transparent; }
+    /* line 18, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+    body.skinlaundry .content .top-container {
+      background-repeat: no-repeat;
+      background-size: 50% auto;
+      width: 100%;
+      height: 100%;
+      background-position: 100% 100px; }
+      @media only screen and (max-width: 640px) {
+        /* line 18, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+        body.skinlaundry .content .top-container {
+          padding-bottom: 0; }
+          /* line 27, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+          body.skinlaundry .content .top-container h1 {
+            font-size: 24px; } }
+      /* line 31, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+      body.skinlaundry .content .top-container .image-container {
+        font-size: 0;
+        position: relative;
+        padding-top: 10%;
+        width: 80%;
+        margin: 0 auto; }
+        @media only screen and (max-width: 640px) {
+          /* line 31, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+          body.skinlaundry .content .top-container .image-container {
+            width: 100%; } }
+        /* line 41, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+        body.skinlaundry .content .top-container .image-container .block {
+          display: inline-block; }
+        /* line 44, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+        body.skinlaundry .content .top-container .image-container p {
+          font-size: 12px;
+          line-height: 25px; }
+        /* line 48, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+        body.skinlaundry .content .top-container .image-container h1 {
+          font-size: 35px; }
+        /* line 51, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+        body.skinlaundry .content .top-container .image-container h2 {
+          font-size: 25px; }
+        /* line 54, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+        body.skinlaundry .content .top-container .image-container #sl-row01 {
+          width: 100%; }
+          @media only screen and (max-width: 640px) {
+            /* line 54, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+            body.skinlaundry .content .top-container .image-container #sl-row01 {
+              text-align: center; } }
+          /* line 59, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+          body.skinlaundry .content .top-container .image-container #sl-row01 #sl-container01 {
+            width: 50%;
+            transition: all 200ms ease-out; }
+            /* line 62, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+            body.skinlaundry .content .top-container .image-container #sl-row01 #sl-container01 img {
+              width: 100%; }
+            @media only screen and (max-width: 830px) {
+              /* line 59, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+              body.skinlaundry .content .top-container .image-container #sl-row01 #sl-container01 {
+                width: 100%; } }
+            @media only screen and (max-width: 640px) {
+              /* line 59, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+              body.skinlaundry .content .top-container .image-container #sl-row01 #sl-container01 {
+                top: 48%;
+                padding-left: 0;
+                opacity: .775;
+                left: 3%;
+                width: 95%;
+                height: 25%; } }
+          /* line 78, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+          body.skinlaundry .content .top-container .image-container #sl-row01 #sl-container02 {
+            width: 50%;
+            vertical-align: top;
+            margin-top: 50px; }
+            @media only screen and (max-width: 1170px) {
+              /* line 78, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+              body.skinlaundry .content .top-container .image-container #sl-row01 #sl-container02 {
+                margin-top: 0; }
+                /* line 85, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+                body.skinlaundry .content .top-container .image-container #sl-row01 #sl-container02 p {
+                  line-height: 20px;
+                  padding-left: 30px;
+                  padding-right: 0;
+                  padding-top: 30px;
+                  text-align: left; } }
+            @media only screen and (max-width: 830px) {
+              /* line 78, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+              body.skinlaundry .content .top-container .image-container #sl-row01 #sl-container02 {
+                width: 100%;
+                margin: 0 auto; }
+                /* line 96, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+                body.skinlaundry .content .top-container .image-container #sl-row01 #sl-container02 h2 {
+                  margin-top: 20px; }
+                /* line 99, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+                body.skinlaundry .content .top-container .image-container #sl-row01 #sl-container02 p {
+                  font-size: 15px;
+                  padding-left: 0;
+                  padding-right: 0; } }
+            @media only screen and (max-width: 640px) {
+              /* line 78, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+              body.skinlaundry .content .top-container .image-container #sl-row01 #sl-container02 {
+                width: 80%; }
+                /* line 107, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+                body.skinlaundry .content .top-container .image-container #sl-row01 #sl-container02 p {
+                  text-align: justify; } }
+        /* line 113, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+        body.skinlaundry .content .top-container .image-container #sl-row02 {
+          width: 100%; }
+          @media only screen and (max-width: 640px) {
+            /* line 113, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+            body.skinlaundry .content .top-container .image-container #sl-row02 {
+              text-align: center; } }
+          /* line 118, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+          body.skinlaundry .content .top-container .image-container #sl-row02 #sl-container03 {
+            width: 50%;
+            transition: all 200ms ease-out;
+            vertical-align: top; }
+            /* line 122, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+            body.skinlaundry .content .top-container .image-container #sl-row02 #sl-container03 p {
+              padding-top: 50px;
+              padding-right: 50px;
+              padding-left: 50px;
+              font-family: 'DIN'; }
+            /* line 128, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+            body.skinlaundry .content .top-container .image-container #sl-row02 #sl-container03 h2 {
+              color: #53534a;
+              font-family: 'Archer-LightItalic';
+              font-weight: normal;
+              text-align: center;
+              margin-top: 60px;
+              font-size: 30px; }
+            @media only screen and (max-width: 1130px) {
+              /* line 137, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+              body.skinlaundry .content .top-container .image-container #sl-row02 #sl-container03 p {
+                padding-top: 0px; } }
+            @media only screen and (max-width: 1024px) {
+              /* line 142, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+              body.skinlaundry .content .top-container .image-container #sl-row02 #sl-container03 p {
+                line-height: 20px;
+                padding-right: 25px;
+                padding-left: 25px; } }
+            @media only screen and (max-width: 830px) {
+              /* line 118, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+              body.skinlaundry .content .top-container .image-container #sl-row02 #sl-container03 {
+                width: 80%; }
+                /* line 150, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+                body.skinlaundry .content .top-container .image-container #sl-row02 #sl-container03 h2 {
+                  margin-top: 20px; }
+                /* line 153, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+                body.skinlaundry .content .top-container .image-container #sl-row02 #sl-container03 p {
+                  font-size: 15px;
+                  padding: 50px 0px;
+                  text-align: left; } }
+            @media only screen and (max-width: 640px) {
+              /* line 161, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+              body.skinlaundry .content .top-container .image-container #sl-row02 #sl-container03 p {
+                text-align: justify; } }
+          /* line 166, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+          body.skinlaundry .content .top-container .image-container #sl-row02 #sl-container04 {
+            width: 50%; }
+            /* line 168, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+            body.skinlaundry .content .top-container .image-container #sl-row02 #sl-container04 img {
+              width: 100%; }
+            @media only screen and (max-width: 830px) {
+              /* line 166, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+              body.skinlaundry .content .top-container .image-container #sl-row02 #sl-container04 {
+                width: 50%;
+                padding-top: 47px; } }
+            @media only screen and (max-width: 640px) {
+              /* line 166, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+              body.skinlaundry .content .top-container .image-container #sl-row02 #sl-container04 {
+                width: 95%;
+                padding-bottom: 30px; }
+                /* line 178, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+                body.skinlaundry .content .top-container .image-container #sl-row02 #sl-container04 img {
+                  width: 100%; } }
+        /* line 184, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+        body.skinlaundry .content .top-container .image-container #sl-row03 {
+          width: 100%; }
+          @media only screen and (max-width: 640px) {
+            /* line 184, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+            body.skinlaundry .content .top-container .image-container #sl-row03 {
+              text-align: center; } }
+          /* line 189, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+          body.skinlaundry .content .top-container .image-container #sl-row03 #sl-container05 {
+            width: 20%; }
+          /* line 192, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+          body.skinlaundry .content .top-container .image-container #sl-row03 #sl-container06 {
+            width: 30%;
+            transition: all 200ms ease-out; }
+            /* line 195, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+            body.skinlaundry .content .top-container .image-container #sl-row03 #sl-container06 img {
+              width: 100%; }
+            @media only screen and (max-width: 640px) {
+              /* line 192, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+              body.skinlaundry .content .top-container .image-container #sl-row03 #sl-container06 {
+                width: 95%; }
+                /* line 200, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+                body.skinlaundry .content .top-container .image-container #sl-row03 #sl-container06 img {
+                  width: 100%; } }
+          /* line 205, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+          body.skinlaundry .content .top-container .image-container #sl-row03 #sl-container07 {
+            width: 50%;
+            vertical-align: top; }
+            /* line 209, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+            body.skinlaundry .content .top-container .image-container #sl-row03 #sl-container07 h1 {
+              padding: 50px;
+              text-align: center;
+              color: #00b194;
+              font-family: 'DIN';
+              line-height: 60px; }
+            @media only screen and (max-width: 940px) {
+              /* line 218, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+              body.skinlaundry .content .top-container .image-container #sl-row03 #sl-container07 h1 {
+                padding: 20px;
+                font-size: 25px; } }
+            @media only screen and (max-width: 640px) {
+              /* line 205, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+              body.skinlaundry .content .top-container .image-container #sl-row03 #sl-container07 {
+                width: 100%; } }
+        /* line 231, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+        body.skinlaundry .content .top-container .image-container #sl-row04 {
+          margin-bottom: 130px; }
+          @media only screen and (max-width: 640px) {
+            /* line 231, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+            body.skinlaundry .content .top-container .image-container #sl-row04 {
+              text-align: center;
+              margin-bottom: 50px; } }
+          /* line 237, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+          body.skinlaundry .content .top-container .image-container #sl-row04 #sl-container08 {
+            width: 20%;
+            vertical-align: top; }
+            /* line 240, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+            body.skinlaundry .content .top-container .image-container #sl-row04 #sl-container08 img {
+              width: 100%; }
+            @media only screen and (max-width: 640px) {
+              /* line 237, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+              body.skinlaundry .content .top-container .image-container #sl-row04 #sl-container08 {
+                width: 30%; } }
+          /* line 247, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+          body.skinlaundry .content .top-container .image-container #sl-row04 #sl-container09 {
+            width: 30%; }
+            @media only screen and (max-width: 640px) {
+              /* line 247, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+              body.skinlaundry .content .top-container .image-container #sl-row04 #sl-container09 {
+                display: none; } }
+          /* line 253, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+          body.skinlaundry .content .top-container .image-container #sl-row04 #sl-container10 {
+            width: 50%; }
+            /* line 255, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+            body.skinlaundry .content .top-container .image-container #sl-row04 #sl-container10 img {
+              width: 100%; }
+            @media only screen and (max-width: 640px) {
+              /* line 253, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+              body.skinlaundry .content .top-container .image-container #sl-row04 #sl-container10 {
+                width: 64.4%; } }
+        /* line 263, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+        body.skinlaundry .content .top-container .image-container #sl-row05, body.skinlaundry .content .top-container .image-container #sl-row06 {
+          width: 100%; }
+          /* line 266, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+          body.skinlaundry .content .top-container .image-container #sl-row05 #sl-container11, body.skinlaundry .content .top-container .image-container #sl-row05 #sl-container12, body.skinlaundry .content .top-container .image-container #sl-row06 #sl-container11, body.skinlaundry .content .top-container .image-container #sl-row06 #sl-container12 {
+            width: 100%; }
+            /* line 268, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+            body.skinlaundry .content .top-container .image-container #sl-row05 #sl-container11 img, body.skinlaundry .content .top-container .image-container #sl-row05 #sl-container12 img, body.skinlaundry .content .top-container .image-container #sl-row06 #sl-container11 img, body.skinlaundry .content .top-container .image-container #sl-row06 #sl-container12 img {
+              width: 100%; }
+        /* line 273, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+        body.skinlaundry .content .top-container .image-container #sl-row07 {
+          width: 100%; }
+          /* line 275, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+          body.skinlaundry .content .top-container .image-container #sl-row07 #sl-container13 {
+            text-align: center;
+            font-family: 'Archer-LightItalic', serif;
+            color: #53534a;
+            margin-top: 40px; }
+            /* line 280, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+            body.skinlaundry .content .top-container .image-container #sl-row07 #sl-container13 h1 {
+              font-weight: normal; }
+            /* line 283, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+            body.skinlaundry .content .top-container .image-container #sl-row07 #sl-container13 img {
+              width: 100%; }
+      /* line 290, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+      body.skinlaundry .content .top-container a {
+        text-decoration: none;
+        color: black;
+        font-size: 100%;
+        border-bottom: 2px solid rgba(255, 255, 255, 0);
+        -webkit-transition: border 500ms ease;
+        -moz-transition: border 500ms ease;
+        -ms-transition: border 500ms ease;
+        -o-transition: border 500ms ease;
+        transition: border 500ms ease; }
+        /* line 300, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+        body.skinlaundry .content .top-container a:visited {
+          color: black; }
+        /* line 303, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+        body.skinlaundry .content .top-container a:hover {
+          border-bottom: 2px solid black; }
+    /* line 308, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+    body.skinlaundry .content .middle-container {
+      margin: 0 auto;
+      width: 100%;
+      background-image: url("/images/page_skinlaundry/waterlevel_bgwhite.png");
+      background-size: contain;
+      background-repeat: no-repeat;
+      text-align: center;
+      background-position: 0 150px; }
+      @media only screen and (max-width: 720px) {
+        /* line 308, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+        body.skinlaundry .content .middle-container {
+          background-position: 0 200px; } }
+      /* line 320, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+      body.skinlaundry .content .middle-container #sl-list {
+        margin: 0 auto;
+        width: 400px;
+        margin-top: -200px;
+        display: inline-block;
+        background: white;
+        padding-left: 120px;
+        color: #53534A; }
+        @media only screen and (max-width: 640px) {
+          /* line 320, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+          body.skinlaundry .content .middle-container #sl-list {
+            width: 140px;
+            padding-left: 0; } }
+        /* line 332, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+        body.skinlaundry .content .middle-container #sl-list ul {
+          padding: 0;
+          text-transform: uppercase; }
+        /* line 336, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+        body.skinlaundry .content .middle-container #sl-list li {
+          list-style-type: none;
+          font-family: 'DIN';
+          line-height: 30px;
+          text-align: left; }
+        /* line 342, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+        body.skinlaundry .content .middle-container #sl-list h1 {
+          font-size: 30px;
+          color: #00b194;
+          font-family: 'Archer-LightItalic';
+          font-weight: normal;
+          padding-top: 50px;
+          padding-bottom: 25px;
+          text-align: left; }
+        /* line 351, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+        body.skinlaundry .content .middle-container #sl-list .sl-bold {
+          color: #000; }
+      /* line 355, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+      body.skinlaundry .content .middle-container #computer {
+        margin: 0 auto;
+        width: 70%; }
+        /* line 358, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+        body.skinlaundry .content .middle-container #computer img {
+          width: 100%; }
+    /* line 363, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+    body.skinlaundry .content .bottom-container {
+      text-align: center;
+      padding: 10px 0; }
+      @media only screen and (max-width: 640px) {
+        /* line 363, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_skinlaundry.scss */
+        body.skinlaundry .content .bottom-container {
+          padding: 0; } }
 /* line 1, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/case_studies/_velvet.scss */
 body.velvet {
   background-color: white;
