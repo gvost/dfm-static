@@ -1,0 +1,176 @@
+body.beauty {
+  background-color: white;
+  text-align: center;
+  .top-background {
+    background-image: image-url("page_beauty/beauty_seedpattern.png");
+  }
+  .portfolio-text-insert {
+    color: #76787a;
+    h2 {
+      font-family: 'Gotham A', 'Gotham B';
+      text-transform: uppercase;
+      margin-top: 50px;
+      margin-bottom: 25px;
+      font-size: 20px;
+      letter-spacing: 5px;
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+  .content {
+    .image-container-colourpop {
+      position: relative;
+      padding-top: 74.44%;
+      img {
+        position: absolute;
+      }
+      #coming-soon {
+        width: 15.8%;
+        top: 0;
+        left: 7.3%;
+      }
+       #boxes {
+        width: 15.71%;
+        top: -24.7%;
+        right: 7.81%;
+      }
+      #colourpop_imac {
+        width: 46%;
+        top: 1.53%;
+        left: 27%;
+      }
+      #tiedye {
+        width: 28.875%;
+        top: 28.47%;
+        right: 9%;
+      }
+  		#markers {
+        width: 40.96%;
+        top: 45.47%;
+        left: 5.3%
+      }
+    }
+
+    .image-container-spatz {
+      position: relative;
+      padding-top: 144.44%;
+      img {
+        position: absolute;
+      }
+  		#spatz1 {
+  			width: 84%;
+        top: 1.67%;
+        left: 7.7%;
+  		}
+  		#eyeshadow {
+        width: 35.47%;
+			  top: 18.05%;
+			  left: 7%;
+  		}
+      #makeup {
+        width: 52.4%;
+        top: 24.9%;
+        right: 6%;
+      }
+      #onsen { 
+        width: 100%;
+        top: 55.2%;
+        right: 0%;
+      }
+    }
+    .image-container-onsen {
+      position: relative;
+      padding-top: 74.44%;
+      margin-bottom: 150px;
+      img {
+        position: absolute;
+      }
+      #diving {
+        width: 15.17%;
+        top: -5.73%;
+        left: 7.81%;
+      }
+  		#onsen-products {
+        width: 53.54%;
+        top: 1.57%;
+        right: 3%;
+  		}
+      #onsen-imac {
+        width: 62.04%;
+        top: 38.47%;
+        left: 18.9%;
+      }
+      #cards {
+        width: 24.64%;
+        top: 83.47%;
+        right: 4.2%;
+      }
+      #brochure {
+        width: 42.94%;
+        top: 66.57%;
+        left: 7.3%;
+      }
+    }
+    .image-container-skinlaundry {
+      position: relative;
+      padding-top: 74.44%;
+      margin-bottom: 180px;
+      img {
+        position: absolute;
+      }
+      #skinlaundry1 {
+        width: 52.94%;
+        top: 5.27%;
+        right: 8%;
+      }
+      #skinlaundry2 {
+        width: 52.94%;
+        top: 27.47%;
+        right: 8%;
+      }
+      #skinlaundry3 {
+        width: 26%;
+        top: 20.07%;
+        left: 7.1%;
+      }
+      #skinlaundry-imac {
+        width: 62.04%;
+        top: 44.07%;
+        left: 18.9%;
+      }
+  	}
+    .image-container-bskincare {
+      position: relative;
+      padding-top: 84.44%;
+      img {
+        position: absolute;
+      }
+      #foursquare {
+        width: 27.17%;
+        top: 6.27%;
+        left: 7.81%;
+      }
+      #bbox {
+        width: 33.94%;
+        top: 7.57%;
+        right: 2.2%;
+      }
+      #bags {
+        width: 13.14%;
+        top: 32.17%;
+        right: 36%;
+      }
+      #b-candle {
+        width: 13.94%;
+        top: 32.17%;
+        right: 18%;
+      }
+      #store {
+        width: 47.94%;
+        top: 49.87%;
+        right: 0%;
+      }
+    }
+  }
+}
