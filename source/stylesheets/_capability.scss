@@ -1,0 +1,253 @@
+body.capability {
+  background-color: white;
+  text-align: center;
+  .top-background {
+    background-image: image-url("page_lifestyle/LC0A52071.jpg");
+  }
+  .portfolio-text-insert {
+    color: #76787a;
+    h2 {
+      font-family: 'Gotham A', 'Gotham B';
+      text-transform: uppercase;
+      margin-top: 50px;
+      margin-bottom: 25px;
+      font-size: 20px;
+      letter-spacing: 5px;
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+  .content {
+    .image-container-thespot {
+      position: relative;
+      padding-top: 104.44%;
+      img {
+        position: absolute;
+      }
+      #spot-left {
+        width: 25.8%;
+        top: 14%;
+        left: 6.4%;
+      }
+       #spot-right {
+        width: 25.8%;
+        top: 14%;
+        right: 5.4%;
+      }
+      #spot_imac {
+        width: 46%;
+        top: 5.53%;
+        left: 27%;
+      }
+      #about {
+        width: 18.575%;
+        top: 47%;
+        right: 12.1%;
+      }
+      #grid {
+        width: 50.96%;
+        top: 47%;
+        left: 5.3%
+      }
+    }
+
+    .image-container-luterra {
+      position: relative;
+      padding-top: 85.44%;
+      img {
+        position: absolute;
+      }
+      #logo {
+        width: 14%;
+        top: 0.57%;
+        left: 7.7%;
+      }
+      #luterra2 {
+        width: 27.47%;
+        top: 20.05%;
+        left: 7%;
+      }
+      #luterra3 {
+        width: 45.47%;
+        top: 53.05%;
+        left: 0;
+      }
+      #luterra-letterhead {
+        width: 56.4%;
+        top: 3.9%;
+        right: 6%;
+      }
+      #luterra4 { 
+        width: 56.4%;
+        top: 41.2%;
+        right: 6%;
+      }
+      #nature { 
+        width: 43%;
+        top: 70.2%;
+        right: 0;
+      }
+    }
+    .image-container-thechic {
+      position: relative;
+      padding-top: 74.44%;
+      margin-bottom: 150px;
+      img {
+        position: absolute;
+      }
+      #logo {
+        width: 25%;
+        top: 5.73%;
+        left: 38%;
+      }
+      #left-bc-1 {
+        width: 18%;
+        top: 27%;
+        left: 10%; 
+      }
+      #right-party {
+        width: 42%;
+        top: 8%;
+        right: 0;
+      }
+      #left-bc-2 {
+        width: 18%;
+        top: 56%;
+        left: 10%;
+      }
+      #icons {
+        width: 6%;
+        top: 78%;
+        left: 16%;
+      }
+      #chic-imac {
+        width: 52%;
+        top: 62%;
+        left: 26%;
+      }
+      #blocks {
+        width: 30%;
+        top: 102%;
+        right: 8%;
+      }
+    }
+    .image-container-tanya {
+      position: relative;
+      padding-top: 110.44%;
+      margin-bottom: 180px;
+      img {
+        position: absolute;
+      }
+      #photo1 {
+        width: 20.54%;
+        top: 2.27%;
+        left: 0;
+      }
+      #photo2 {
+        width: 20.34%;
+        top: 2.27%;
+        left: 21.1%;
+      }
+      #photo3 {
+        width: 20.04%;
+        top: 2.27%;
+        left: 42%;
+      }
+      #bcard {
+        width: 26.04%;
+        top: 13.37%;
+        right: 8.5%;
+      }
+      #collateral {
+        width: 44.04%;
+        top: 27.07%;
+        left: 5.2%;
+      }
+      #portrait {
+        width: 33.44%;
+        top: 38.77%;
+        right: 5.3%;
+      }
+      #selvarey-banner {
+        width: 100%;
+        top: 66.17%;
+        left: 0;
+      }
+    }
+    .image-container-selvarey {
+      position: relative;
+      padding-top: 85.44%;
+      img {
+        position: absolute;
+      }
+      #selvarey-imac {
+        width: 76%;
+        top: 2%;
+        left: 9%;
+      }
+      #bottle {
+        width: 37%;
+        top: 47%;
+        left: 6%;
+      }
+      #shirt {
+        width: 19%;
+        top: 30%;
+        right: 1%;
+      }
+      #coaster {
+        width: 7.5%;
+        top: 46%;
+        right: 23.5%;
+      }
+      #napkin {
+        width: 7.5%;
+        top: 51%;
+        right: 20%;
+      }
+      #gorilla {
+        width: 22%;
+        top: 61%;
+        right: 5.5%;
+      }
+      #selvarey-phones {
+        width: 32%;
+        top: 82%;
+        right: 15%;
+      }
+    }
+    .image-container-challen {
+      position: relative;
+      padding-top: 84.44%;
+      img {
+        position: absolute;
+      }
+      #bottles {
+        width: 63%;
+        top: 4%;
+        left: 17%;
+      }
+      #quote {
+        width: 26%;
+        top: 50%;
+        left: 37%;
+      }
+      #left-inspire {
+        width: 25%;
+        top: 61%;
+        left: 7%;
+      }
+      #right-inspire {
+        width: 25%;
+        top: 61%;
+        right: 7%;
+      }
+      #stamp {
+        width: 9%;
+        top: 67%;
+        left: 18%;
+      }
+    }
+  }
+}
