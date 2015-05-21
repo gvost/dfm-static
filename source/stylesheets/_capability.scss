@@ -2,7 +2,7 @@ body.capability {
   background-color: white;
   text-align: center;
   .top-background {
-    background-image: image-url("page_lifestyle/LC0A52071.jpg");
+    background-image: image-url("page_capability/dfm-capabilities-main.jpg");
   }
   .portfolio-text-insert {
     color: #76787a;
@@ -13,42 +13,58 @@ body.capability {
       margin-bottom: 25px;
       font-size: 20px;
       letter-spacing: 5px;
-      p {
+    }
+    p {
         font-size: 14px;
       }
-    }
+      
   }
+
+    
   .content {
-    .image-container-thespot {
+	 .heading-section h1 {
+	 padding: 9px 10px 5px 80px;
+	 width: 320px;  
+	 }
+     #brand-exploration {
+       position: relative;
+       float: right;
+     }
+     #logo-mark {
+       position: relative;
+       float: left;
+     }
+
+    .image-container-brandstrategy {
       position: relative;
-      padding-top: 104.44%;
+      padding-top: 80.44%;
       img {
         position: absolute;
       }
-      #spot-left {
-        width: 25.8%;
-        top: 14%;
-        left: 6.4%;
+      #infographic {
+        width: 51%;
+        top: 5%;
+        left: 25%; 
       }
-       #spot-right {
-        width: 25.8%;
-        top: 14%;
-        right: 5.4%;
+       #photo1 {
+        width: 20%;
+        top: 70%;
+        left: 10%;
       }
-      #spot_imac {
-        width: 46%;
-        top: 5.53%;
-        left: 27%;
+      #photo2 {
+        top: 70%;
+        left: 30.5%;
+        width: 19.6%;
       }
-      #about {
-        width: 18.575%;
-        top: 47%;
-        right: 12.1%;
+      #photo3 {
+        width: 20.3%;
+        top: 70%;
+        right: 29.3%;
       }
-      #grid {
-        width: 50.96%;
-        top: 47%;
-        left: 5.3%
+      #photo4 {
+        width: 17%;
+        top: 70%;
+        right: 12%;
       }
     }
 
