@@ -18,14 +18,23 @@ body.capability {
     p {
         font-size: 14px;
       }
-      
+    #details{
+     font-size: 18px;
+     line-height: 20px;
+     color: #000;
+     margin-top: 45px;
+    }  
   }
 
     
   .content {
 	 .heading-section h1 {
 	 padding: 9px 10px 5px 80px;
-	 width: 320px;  
+	 width: 320px; 
+	 @media only screen and (max-width: $mobile-width) {
+	   font-size: 36px;
+	   width: 340px;
+	 } 
 	 }
      #brand-exploration {
        position: relative;
@@ -34,11 +43,7 @@ body.capability {
      #logo-mark {
        position: relative;
        float: left;
-       margin-top: 40%;
-       @media only screen and (max-width: $mobile-width) {
-        font-size: 36px;
-        width: 340px;
-      }
+       margin-top: 40%; 
      }
 
     .image-container-brandstrategy {
@@ -73,39 +78,44 @@ body.capability {
         right: 12%;
       }
     }
+    
+    #graphics {
+      position: relative;
+      float: right;
+    }
 
-    .image-container-luterra {
+    .image-container-graphics {
       position: relative;
       padding-top: 85.44%;
       img {
         position: absolute;
       }
-      #logo {
+      #colorpop {
         width: 14%;
         top: 0.57%;
         left: 7.7%;
       }
-      #luterra2 {
+      #avf {
         width: 27.47%;
         top: 20.05%;
         left: 7%;
       }
-      #luterra3 {
+      #bgh {
         width: 45.47%;
         top: 53.05%;
         left: 0;
       }
-      #luterra-letterhead {
+      #selvarey {
         width: 56.4%;
         top: 3.9%;
         right: 6%;
       }
-      #luterra4 { 
+      #tmqth { 
         width: 56.4%;
         top: 41.2%;
         right: 6%;
       }
-      #nature { 
+      #color { 
         width: 43%;
         top: 70.2%;
         right: 0;
