@@ -82,6 +82,7 @@ body.capability {
     #graphics {
       position: relative;
       float: right;
+      margin-top: 18%;
     }
 
     .image-container-graphics {
@@ -90,195 +91,216 @@ body.capability {
       img {
         position: absolute;
       }
-      #colorpop {
-        width: 14%;
-        top: 0.57%;
-        left: 7.7%;
+      #colourpop {
+        width:30%;
+        top: -17%;
+        left: 6%;
       }
       #avf {
-        width: 27.47%;
-        top: 20.05%;
-        left: 7%;
+        width: 40%;
+        top: -8%;
+        right: 0%;
       }
       #bgh {
-        width: 45.47%;
-        top: 53.05%;
-        left: 0;
+        width: 25%;
+        top: 23%;
+        left: 9%;
       }
       #selvarey {
-        width: 56.4%;
-        top: 3.9%;
-        right: 6%;
+        top: 23%;
+        width: 21.5%;
+        left: 34.3%;
       }
       #tmqth { 
-        width: 56.4%;
-        top: 41.2%;
-        right: 6%;
+        left: 9%;
+        width: 46.8%;
+        top: 58.7%;
       }
       #color { 
-        width: 43%;
-        top: 70.2%;
-        right: 0;
+        width: 20%;
+        top: 57%;
+        right: 10%;
       }
     }
-    .image-container-thechic {
+    
+    #imagery {
+      position: relative;
+      float: left;
+    }
+    
+    .image-container-imagery {
       position: relative;
       padding-top: 74.44%;
       margin-bottom: 150px;
       img {
         position: absolute;
       }
-      #logo {
-        width: 25%;
-        top: 5.73%;
-        left: 38%;
-      }
-      #left-bc-1 {
-        width: 18%;
-        top: 27%;
-        left: 10%; 
-      }
-      #right-party {
-        width: 42%;
-        top: 8%;
-        right: 0;
-      }
-      #left-bc-2 {
-        width: 18%;
-        top: 56%;
-        left: 10%;
-      }
-      #icons {
+      #img1 {
         width: 6%;
-        top: 78%;
-        left: 16%;
+        top: 10%;
+        right: 58%;
       }
-      #chic-imac {
-        width: 52%;
-        top: 62%;
-        left: 26%;
+      #img2 {
+        width: 6%;
+        top: 10.8%;
+        right: 52%; 
       }
-      #blocks {
-        width: 30%;
-        top: 102%;
+      #img3 {
+        width: 4.4%;
+        top: 9%;
+        right: 47.4%;
+      }
+      #img4 {
+        width: 5%;
+        top: 10%;
+        right: 42%;
+      }
+      #img5 {
+        width: 6%;
+        top: 10.5%;
+        right: 35%; 
+      }
+      #img6 {
+        width: 6%;
+        top: 11%;
+        right: 29%;
+      }
+      #img7 {
+        width: 6%;
+        top: 10.5%;
+        right: 22.5%;
+      }
+      #img8 {
+        width: 5.5%;
+        top: 11%;
+        right: 17.5%;
+      }
+      #img9 {
+        width: 5%;
+        top: 11%;
+        right: 11.6%;
+      }
+      #img10 {
+        width: 4%;
+        top: 10.5%;
+        right: 6.5%;
+      }
+      #left-model {
+        width: 26.1%;
+        top: 27%;
+        left: 8%;
+      }
+      #mid-model {
+      	width: 8.34%;
+        top: 27%;
+        left: 34.5%;
+      }
+      #jewel1 {
+        width: 23%;
+        top: 27%;
+        left: 43.2%;
+      }
+      #jewel2 {
+        width: 23%;
+        left: 43.2%;
+        top: 55.5%;
+      }
+      #avf1 {
+        width: 31%;
+        top: 68%;
+        right: 0%;
+      }
+      #avf2 {
+        width: 35%;
+        top: 79%;
         right: 8%;
       }
     }
-    .image-container-tanya {
+    
+    #interactive {
       position: relative;
-      padding-top: 110.44%;
-      margin-bottom: 180px;
-      img {
-        position: absolute;
-      }
-      #photo1 {
-        width: 20.54%;
-        top: 2.27%;
-        left: 0;
-      }
-      #photo2 {
-        width: 20.34%;
-        top: 2.27%;
-        left: 21.1%;
-      }
-      #photo3 {
-        width: 20.04%;
-        top: 2.27%;
-        left: 42%;
-      }
-      #bcard {
-        width: 26.04%;
-        top: 13.37%;
-        right: 8.5%;
-      }
-      #collateral {
-        width: 44.04%;
-        top: 27.07%;
-        left: 5.2%;
-      }
-      #portrait {
-        width: 33.44%;
-        top: 38.77%;
-        right: 5.3%;
-      }
-      #selvarey-banner {
-        width: 100%;
-        top: 66.17%;
-        left: 0;
-      }
+      float: left;
     }
-    .image-container-selvarey {
+    
+    #responsive {
       position: relative;
-      padding-top: 85.44%;
-      img {
-        position: absolute;
-      }
-      #selvarey-imac {
-        width: 76%;
-        top: 2%;
-        left: 9%;
-      }
-      #bottle {
-        width: 37%;
-        top: 47%;
-        left: 6%;
-      }
-      #shirt {
-        width: 19%;
-        top: 30%;
-        right: 1%;
-      }
-      #coaster {
-        width: 7.5%;
-        top: 46%;
-        right: 23.5%;
-      }
-      #napkin {
-        width: 7.5%;
-        top: 51%;
-        right: 20%;
-      }
-      #gorilla {
-        width: 22%;
-        top: 61%;
-        right: 5.5%;
-      }
-      #selvarey-phones {
-        width: 32%;
-        top: 82%;
-        right: 15%;
-      }
+      float: right;
+      margin-top: 32.2%;
     }
-    .image-container-challen {
+    
+    .image-container-interactive {
       position: relative;
-      padding-top: 84.44%;
+      padding-top: 80.44%;
       img {
         position: absolute;
       }
-      #bottles {
-        width: 63%;
-        top: 4%;
-        left: 17%;
+      #display {
+        width: 50%;
+        top: 2.5%;
+        left: 22.5%;
       }
-      #quote {
-        width: 26%;
+      #chic-blocks{
+        width: 23%;
+        top: 40%;
+        left: 10%;
+      }
+      #chic-daily {
+        width: 23%;
         top: 50%;
-        left: 37%;
+        left: 10%;
       }
-      #left-inspire {
-        width: 25%;
-        top: 61%;
-        left: 7%;
+      #chic-flags {
+        width: 20%;
+        top: 60%;
+        left: 10%;
       }
-      #right-inspire {
-        width: 25%;
-        top: 61%;
-        right: 7%;
+      #chic-links {
+        width: 30%;
+        top: 70%;
+        left: 10%;
       }
-      #stamp {
-        width: 9%;
-        top: 67%;
-        left: 18%;
+      #style {
+        width: 30%;
+        top: 40%;
+        right: 24%;
+      }
+    }
+    
+    #retail {
+      position: relative;
+      float: right;
+    }
+    
+    .image-container-retail {
+      position: relative;
+      padding-top: 75.44%;
+      img {
+        position: absolute;
+      }
+      #inspire {
+        width: 50%;
+        top: 5%;
+        left: 0;
+      }
+      #onsen1 {
+        width: 40%;
+        top: 25%;
+        left: 9.8%;
+      }
+      #onsen2 {
+        width: 40%;
+        top: 24.5%;
+        right: 9.8%;
+      }
+      #spatz {
+        width: 40%;
+        left: 9.8%;
+        top: 57.8%;
+      }
+      #bi {
+        width: 40%;
+        top: 57.8%;
+        right: 9.8%;
       }
     }
   }
