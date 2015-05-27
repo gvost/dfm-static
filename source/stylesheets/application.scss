@@ -126,7 +126,7 @@ body {
     position: relative;
     top: 150px;
     ul {
-      width: 33%;
+      width: 100%;
       vertical-align: top;
       @media only screen and (max-width: $mobile-width) {
         width: 100%;
@@ -134,18 +134,18 @@ body {
     }
   }
 
-  #nav-row02 {
-    position: relative;
-    width: 70%;
-    display: inline-block;
-    top: 200px;
-    ul {
-      width: 25%;
-      @media only screen and (max-width: $mobile-width) {
-        width: 100%;
-      }
-    }
-  }
+  // #nav-row02 {
+  //   position: relative;
+  //   width: 70%;
+  //   display: inline-block;
+  //   top: 200px;
+  //   ul {
+  //     width: 25%;
+  //     @media only screen and (max-width: $mobile-width) {
+  //       width: 100%;
+  //     }
+  //   }
+  // }
 
   #nav-row03 {
     position: relative;
@@ -222,7 +222,7 @@ body {
   }
   
   .social-links {
-    margin: 110px 0px;
+    // margin: 110px 0px;
     text-align: center;
     font-weight: bold;
   }
