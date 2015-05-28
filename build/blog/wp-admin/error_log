@@ -1,0 +1,2 @@
+[03-Feb-2015 18:31:50] PHP Parse error:  syntax error, unexpected $end in /home1/drawini3/public_html/blog/wp-includes/pomo/mo.php on line 159
+[03-Feb-2015 18:32:05] PHP Fatal error:  fatal flex scanner internal error--end of buffer missed in /home1/drawini3/public_html/blog/wp-includes/rewrite.php on line 550

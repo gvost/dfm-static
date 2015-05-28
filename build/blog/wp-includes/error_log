@@ -1,0 +1,14 @@
+[13-Feb-2015 19:31:45] PHP Fatal error:  Class 'Walker' not found in /home1/drawini3/public_html/blog/wp-includes/nav-menu-template.php on line 16
+[13-Feb-2015 19:32:23] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/class.wp-dependencies.php' (include_path='.:/usr/lib64/php:/usr/share/pear') in /home1/drawini3/public_html/blog/wp-includes/script-loader.php on line 25
+[13-Feb-2015 19:34:36] PHP Fatal error:  Call to undefined function  _deprecated_file() in /home1/drawini3/public_html/blog/wp-includes/rss.php on line 19
+[13-Feb-2015 19:35:17] PHP Fatal error:  Call to undefined function  add_action() in /home1/drawini3/public_html/blog/wp-includes/general-template.php on line 1760
+[13-Feb-2015 19:36:54] PHP Fatal error:  Call to undefined function  add_action() in /home1/drawini3/public_html/blog/wp-includes/author-template.php on line 454
+[13-Feb-2015 19:37:05] PHP Fatal error:  Call to undefined function  add_action() in /home1/drawini3/public_html/blog/wp-includes/taxonomy.php on line 130
+[13-Feb-2015 19:37:59] PHP Fatal error:  Call to undefined function  add_action() in /home1/drawini3/public_html/blog/wp-includes/canonical.php on line 556
+[13-Feb-2015 19:38:50] PHP Fatal error:  Call to undefined function  add_filter() in /home1/drawini3/public_html/blog/wp-includes/shortcodes.php on line 403
+[13-Feb-2015 19:38:52] PHP Fatal error:  Class 'WP_Widget' not found in /home1/drawini3/public_html/blog/wp-includes/default-widgets.php on line 14
+[13-Feb-2015 19:38:55] PHP Fatal error:  Call to undefined function  add_filter() in /home1/drawini3/public_html/blog/wp-includes/default-filters.php on line 17
+[13-Feb-2015 19:38:57] PHP Fatal error:  Call to undefined function  is_admin() in /home1/drawini3/public_html/blog/wp-includes/vars.php on line 23
+[13-Feb-2015 19:39:03] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/usr/lib64/php:/usr/share/pear') in /home1/drawini3/public_html/blog/wp-includes/functions.php on line 8
+[13-Feb-2015 19:39:16] PHP Fatal error:  Call to undefined function  add_action() in /home1/drawini3/public_html/blog/wp-includes/kses.php on line 1455
+[13-Feb-2015 19:39:22] PHP Fatal error:  Call to undefined function  add_action() in /home1/drawini3/public_html/blog/wp-includes/theme.php on line 678

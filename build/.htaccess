@@ -1,6 +1,0 @@
-Options +FollowSymlinks
-RewriteEngine on
-RewriteRule female-web-designers http://www.drawingfrommemory.com/about/ [L,R=301]
-RewriteRule los-angeles-design-studio http://www.drawingfrommemory.com/contact/ [L,R=301]
-RewriteRule los-angeles-web-design-portfolio http://www.drawingfrommemory.com [L,R=301]
-RewriteRule skincare-packaging-design-onsen http://www.drawingfrommemory.com/about [L,R=301]
