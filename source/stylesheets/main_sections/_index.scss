@@ -247,19 +247,24 @@ body.index {
       background-color: rgb(255,255,255);
     }
     #about-blurb {
-      width: 66.66666666%;
-      height: 520px;
+      color: white;
       display: inline-block;
-      color: rgb(255,255,255);
-      font-size: 18px;
-      line-height: 60px;
+      font-family: 'Gotham A', 'Gotham B';
+      font-size: 14px;
+      height: 520px;
+      line-height: 40px;
       overflow: hidden;
-      font-family: 'Georgia';
-      text-align: center;
-      transition: all 200ms ease-in;
       position: relative;
+      text-align: left;
+      transition: all 200ms ease-in 0s;
+      width: 66.6667%;
+      padding: 50px 70px 50px 100px;
+      text-transform: uppercase;
+      background: url(/images/page_index/dfm-logo-blurb.png) 0 385px no-repeat #000;
+      background-size: 100%;
+      
       @media only screen and (max-width: 1100px)  {
-        line-height: 60px;
+        line-height: 40px;
       }   
       @media only screen and (max-width: $layout-change-width)  {
         width: 100%;
@@ -268,6 +273,9 @@ body.index {
         line-height: 1.3em;
         font-weight: 100;
       }
+      .home-work{
+      color: #fd8ec8;font-family:Georgia;text-transform:none;font-style:italic;}
+      
       #slider-container {
         position: absolute;
         top: 0;
@@ -360,13 +368,13 @@ body.index {
       left: 66.666666%;
     }
     .hover:nth-of-type(1) .image {
-      background-image: image-url("page_index/social_chair.jpg");
+      background-image: image-url("page_index/dfm-social-ig.jpg");
     }
     .hover:nth-of-type(2) .image {
-      background-image: image-url("page_index/social_room.jpg");
+      background-image: image-url("page_index/dfm-social-blog.jpg");
     }
     .hover:nth-of-type(3) .image {
-      background-image: image-url("page_index/social_face.jpg");
+      background-image: image-url("page_index/dfm-social-pinterest.jpg");
     }
   }
 }

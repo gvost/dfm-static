@@ -11,6 +11,32 @@ body.about {
 	}
 
 	.content{
+		background: url(/images/page_about/top-stroke.jpg) 0 -175px no-repeat #fff;
+		background-size: 100% 18%;
+			
+		.top-insert-outline {
+			  border: 1px solid black; }
+			  
+		.top-insert {
+			  background-color: black;}
+			  
+		.top-insert h1 {
+			   color: white;}
+			   
+		.top-insert h2 { 
+			   color: white;
+			 }
+		.portfolio-text-insert h2 {
+		  	color: #000;
+		    font-family: 'Didot';
+		    font-size: 34px;
+		    font-weight: 500;
+		    letter-spacing: 5px;
+		    line-height: 60px;
+		    margin-bottom: 25px;
+		    margin-top: 50px;
+		    text-transform: uppercase; }	 
+	
 		#capabilities {
 			width: 255px;
 			height: 463px;
@@ -64,9 +90,9 @@ body.about {
 		}
 		.middle-container {
 			position: relative;
-			height: 1620px;
+			height: 1750px;
 			@media only screen and (max-width: $mobile-width) {
-				height: 2520px;
+				height: 1800px;
 			}
 			div {
 				position: absolute;
@@ -172,7 +198,6 @@ body.about {
 				line-height: 40px;
 				color: white;
 				@media only screen and (max-width: $mobile-width) {
-					top: 970px;
 					left: 50%;
 					margin-left: -204px;
 				}
@@ -196,7 +221,7 @@ body.about {
 				background-position: left top;	
 				background-size: contain;
 				@media only screen and (max-width: $mobile-width) {
-					top: 1640px;
+					top: 850px;
 					width: 150px;
 					opacity: 0.2;
 				}		
@@ -210,7 +235,6 @@ body.about {
 				text-align: left;
 				color: black;
 				@media only screen and (max-width: $mobile-width) {
-					top: 1575px;
 					left: 23%;
 				}	
 				@media only screen and (max-width: 450px) {
@@ -246,7 +270,7 @@ body.about {
 				}
 			}
 			.lower-drops {
-				top: 1270px;
+				top: 1400px;
 				right: 28.4%;
 				width: 100px;
 				height: 215px;	
@@ -255,8 +279,8 @@ body.about {
 				background-position: left top;
 				background-size: contain;	
 				@media only screen and (max-width: $mobile-width) {
-					top: 2130px;
-					left: 12%;
+					top: 1675px;
+					right: 5%;
 					-moz-transform: scaleX(-1);
 	        -o-transform: scaleX(-1);
 	        -webkit-transform: scaleX(-1);

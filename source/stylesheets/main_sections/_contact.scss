@@ -9,6 +9,32 @@ body.contact {
 	.content{
 		min-height: 1550px;
 	}
+	.portfolio-text-insert {
+	  color: #76787a;
+	  h2 {
+	    font-family: 'Gotham A', 'Gotham B';
+	    text-transform: uppercase;
+	    margin-top: 50px;
+	    margin-bottom: 25px;
+	    font-size: 30px;
+	    letter-spacing: 5px;
+	    font-weight: 500;
+	    color: #000;
+	    }
+	    p {
+	      color: black;
+	      font-size: 16px;
+	      line-height: 22px;
+	      }
+	}
+	.top-insert-outline {
+	  border: 1px solid black; }
+	.top-insert {
+	  background-color: black; }
+	.top-insert h1 {
+	  color: white; }
+	.top-insert h2 {
+	  color: white; }
 	.address-block, .parking-block {
 		position: absolute;
 		width: 312px;
@@ -37,7 +63,7 @@ body.contact {
 			width: 764px;
 			height: 810px;
 			float: right;
-			top: -50px;
+			top: 20px;
 			position: relative;
 			background-image: image-url("page_contact/map.png");
 			background-repeat: no-repeat;
