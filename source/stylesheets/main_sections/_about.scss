@@ -26,6 +26,9 @@ body.about {
 		.top-insert h2 { 
 			   color: white;
 			 }
+		.portfolio-text-insert {
+			width: 510px;
+		}	 
 		.portfolio-text-insert h2 {
 		  	color: #000;
 		    font-family: 'Didot';
@@ -35,7 +38,11 @@ body.about {
 		    line-height: 70px;
 		    margin-bottom: 25px;
 		    margin-top: 50px;
-		    text-transform: uppercase; }	 
+		    text-transform: uppercase; 
+			@media only screen and (max-width: $mobile-width) {
+				font-size: 22px;
+				}
+			}	 
 	
 		#capabilities {
 			width: 255px;
@@ -200,6 +207,7 @@ body.about {
 				@media only screen and (max-width: $mobile-width) {
 					left: 50%;
 					margin-left: -204px;
+					top: 70px;
 				}
 				@media only screen and (max-width: 450px) {
 					width: 320px;

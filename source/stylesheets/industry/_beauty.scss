@@ -1,3 +1,5 @@
+$mobile-width: 640px;
+
 body.beauty {
   background-color: white;
   text-align: center;
@@ -25,7 +27,20 @@ body.beauty {
       font-family: 'Gotham A', 'Gotham B';
       font-weight: 100;
     }
+
   }
+  .skincare-text {
+      width: 510px;
+      @media only screen and (max-width: $mobile-width) {
+        width: auto;
+      }
+    }
+    .colourpop-text {
+      width: 525px;
+      @media only screen and (max-width: $mobile-width) {
+        width: auto;
+      }
+    }
   .content {
     .image-container-colourpop {
       position: relative;

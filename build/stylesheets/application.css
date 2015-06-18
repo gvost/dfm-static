@@ -3187,13 +3187,13 @@ body.index {
       @media only screen and (max-width: 785px) {
         /* line 205, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
         body.index #services .hover .department {
-          font-size: 2.4em; } }
+          font-size: 2.2em; } }
   /* line 227, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
   body.index #services .hover:nth-of-type(1) .image {
     background-image: url("/images/page_index/hover_red.jpg"); }
   /* line 230, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
   body.index #services .hover:nth-of-type(2) .image {
-    background-image: url("/images/page_index/hover_green.jpg"); }
+    background-image: url("/images/page_index/DFM_homepage_CREATIVE.jpg"); }
   /* line 233, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
   body.index #services .hover:nth-of-type(3) .image {
     background-image: url("/images/page_index/hover_orange.jpg"); }

@@ -29,6 +29,10 @@ body.capability {
      line-height: 20px;
      color: #000;
      margin-top: 45px;
+     width: 545px;
+     @media only screen and (max-width: $mobile-width) {
+       width: auto;
+     } 
     }  
   }
 
@@ -53,6 +57,7 @@ body.capability {
 	 @media only screen and (max-width: $mobile-width) {
 	   font-size: 36px;
 	   width: 340px;
+     display: none;
 	 } 
 	 }
      #brand-exploration {

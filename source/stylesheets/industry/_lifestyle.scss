@@ -24,12 +24,23 @@ body.lifestyle {
         font-size: 12px;
         font-family: 'Gotham A', 'Gotham B';
         font-weight: 100;
+
       }
+  }
+  .thespot-text {
+    width: 535px;
+  }
+  .selvarey-text {
+    width: 611px;
+  }
+  .challen-text {
+    width: 545px;
   }
   .content {
     .image-container-thespot {
       position: relative;
       padding-top: 104.44%;
+      margin-bottom: 100px;
       img {
         position: absolute;
       }
@@ -100,7 +111,7 @@ body.lifestyle {
     .image-container-thechic {
       position: relative;
       padding-top: 74.44%;
-      margin-bottom: 150px;
+      margin-bottom: 250px;
       img {
         position: absolute;
       }
