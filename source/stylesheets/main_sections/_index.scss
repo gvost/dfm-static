@@ -304,7 +304,15 @@ body.index {
         font-weight: 100;
       }
       .home-work{
-      color: #fd8ec8;font-family:Georgia;text-transform:none;font-style:italic;}
+        color: #fd8ec8;
+        font-family:Georgia;
+        text-transform:none;
+        font-style:italic;
+        a {
+          text-decoration: none;
+          color: #fd8ec8;
+          }
+        }
       
       #slider-container {
         position: absolute;
