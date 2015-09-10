@@ -1,0 +1,22 @@
+.share-icons {
+	@extend .clearfix;
+	list-style: none;
+	display: inline-block;
+	margin-left: -4px;
+
+	> li {
+		float: left;
+		margin-left: 4px;
+		opacity: 0;
+		transform: translateY(120px);
+
+		a {
+			display: block;
+			padding: 12px !important;
+		}
+
+		span {
+			margin: 0 !important;
+		}
+	}
+}

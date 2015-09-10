@@ -1,0 +1,269 @@
+.pa {
+    position: absolute;
+}
+
+.pr {
+    position: relative;
+}
+
+.stretch {
+    @extend .pa;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.fill {
+    width: 100%;
+    height: 100%;
+}
+
+.cover {
+    @extend .pa;
+    @extend .fill;
+    top: 0;
+    left: 0;
+}
+
+.center {
+    @extend .pa;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.center--vertical {
+    transform: translateY(-50%);
+
+}
+
+.center--horizontal {
+    transform: translateX(-50%);
+}
+
+.text--center {
+    text-align: center;
+}
+
+.text--left {
+    text-align: left;
+}
+
+.text--right {
+    text-align: right;
+}
+
+.text--justify {
+    text-align: justify;
+}
+
+.list--unstyled {
+//    margin-left: 0;
+    list-style: none;
+}
+
+.flexbox{
+	display: table;
+	width: 100%;
+
+	> .flexbox__item{
+		display: table-cell;
+		vertical-align: middle;
+	}
+}
+
+html.flexbox {
+	display: block;
+}
+
+
+
+
+// #WORDPRESS
+
+///*------------------------------------*\
+//    $WORDPRESS CORE ELEMENTS
+//\*------------------------------------*/
+
+.alignleft, .alignright {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    max-width: 40%;
+
+	p + & {
+		@include query-above($lap) {
+			margin-top: 0.5em;
+		}
+	}
+
+    @include query-below(640px) {
+        float: none;
+        max-width: 100%;
+        display: block;
+    }
+}
+
+.alignleft {
+    float: left;
+    margin-right: 3em;
+}
+
+.alignright {
+    float: right;
+    margin-left: 3em;
+}
+
+.aligncenter, .alignnone {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    display: block;
+	width: auto !important;
+//	max-width: 100%;
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+img.aligncenter, img.alignnone {
+	width: 100% !important;
+}
+
+.aligncenter {
+    text-align: center;
+}
+
+@include query-above($desk) {
+
+  .single-post .site-content {
+
+    .alignnone, .aligncenter {
+        margin-left: -5*$u;
+        margin-right: -5*$u;
+    }
+
+    img.alignnone, img.aligncenter {
+        // fallback
+        margin-left: 0;
+        margin-right: 0;
+        max-width: 100%;
+
+        // magic
+        margin-left: calc(-3.75em);
+        margin-right: calc(-3.75em);
+        max-width: calc(100% + 7.5em);
+	    width: calc(100% + 7.5em) !important;
+    }
+
+    .alignleft {
+		margin-left: -5*$u;
+    }
+
+    .alignright {
+		margin-right: -5*$u;
+    }
+  }
+
+	.site-content .widget {
+
+		.alignnone, .aligncenter {
+			margin-left: 0;
+			margin-right: 0;
+		}
+	}
+
+	.site-content .widget {
+
+		.alignnone, .aligncenter {
+			margin-left: 0;
+			margin-right: 0;
+			width: auto !important;
+			max-width: 100%;
+		}
+	}
+}
+
+
+
+///* $THEME SPECIFIC CLASSES */
+
+// Bigger intro text
+.intro {
+	@extend .gamma;
+
+    @include rhythm(margin-bottom, 3, 23/18);
+    -webkit-font-smoothing: auto;
+	color: $dark;
+
+	@include query-below($lap) {
+		font-size: 1em;
+	}
+}
+
+// Split the content into two columns
+.twocolumn {
+	margin-bottom: $u;
+
+	@include query-above($lap) {
+		position: relative;
+		column-count: 2;
+		column-gap: 50px;
+
+		&:before {
+			content: "";
+			position: absolute;
+			left: 50%;
+			top: 0;
+			height: 100%;
+			border-left: 1px solid $borders;
+		}
+	}
+}
+
+//Transform the first letter into a dropcap
+.dropcap {
+    @extend .alpha;
+
+    float: left;
+	@include font-size(82px);
+	line-height: 1;
+	@include rhythm(margin-bottom, -1, 82px);
+	@include rhythm(margin-right, 1, 82px);
+}
+
+//Highlight a selection of text
+.highlight{
+    position: relative;
+    padding: 0 8px;
+    margin: 0 4px;
+
+    &:before{
+        content: "";
+
+        position: absolute;
+        z-index: -1;
+
+        top: -4px; left: 0;
+        bottom: -4px; right: 0;
+
+        background: #ededed;
+    }
+}
+
+.italic{
+	font-style: italic;
+}
+
+.screen-reader-text{
+	display: none;
+}
+
+.tiled-gallery .gallery-row{
+	margin: 0 auto;
+}
+
+.bypostauthor{	//required
+	font-size: inherit;
+}

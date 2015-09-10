@@ -1,0 +1,82 @@
+//*------------------------------------*\
+//   $HEADER
+//*------------------------------------*/
+
+.header-height {
+	height: 200px;
+}
+
+.site-header {
+
+	.flag__body {
+		vertical-align: middle;
+	}
+
+	.background--dark {
+		color: white;
+	}
+
+}
+
+.site-branding {
+	display: inline-block;
+	vertical-align: middle;
+
+	.site-logo-img--dark,
+	.site-logo-img--light {
+		transition: opacity .3s ease-in-out;
+	}
+
+	.site-logo-img--light {
+		opacity: 0;
+	}
+
+	.site-logo-img--light {
+		position: absolute;
+		top: 0; left: 0;
+		width: 100%;
+		height: 100%;
+	}
+
+	&.background--dark {
+
+		.site-logo-img--dark {
+			opacity: 0;
+		}
+
+		.site-logo-img--light {
+			opacity: 1;
+		}
+	}
+
+	body &.background--light-menu,
+	body &.background--light-scroll,
+	body .site-header--show & {
+
+		.site-logo-img--dark {
+			opacity: 1;
+		}
+
+		.site-logo-img--light {
+			opacity: 0;
+		}
+	}
+}
+
+.site-logo {
+	display: block;
+	position: relative;
+
+	img {
+		display: block;
+	}
+}
+
+.site-title {
+	display: block;
+	margin: 0;
+
+	.background--dark & {
+		color: white;
+	}
+}

@@ -1,0 +1,239 @@
+.pile-item--product{
+    .pile-item-content{
+        padding: $u/4;
+    }
+
+    .cart{
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+
+        transform: translateX(-50%);
+
+        text-align: center;
+    }
+
+    .add-to-cart{
+        @extend .beta;
+
+        position: absolute;
+        left: $u;
+        right: 0;
+        bottom: 2*$u;
+        z-index: 150;
+
+        opacity: 0;
+
+        span{
+            position: absolute;
+            left: 50%;
+            bottom: 100%;
+
+            transform: translateX(-50%);
+            transition: opacity .2s linear;
+
+            color: $dark;
+            line-height: 13px;
+        }
+
+        span:first-child{
+            font-size: 23px;
+            opacity: 1;
+        }
+
+        span:last-child{
+            font-size: 13px;
+            text-transform: uppercase;
+            font-weight: bold;
+
+            opacity: 0;
+        }
+
+        &:hover{
+            span:first-child{
+                opacity: 0;
+            }
+
+            span:last-child{
+                opacity: 1;
+            }
+        }
+
+        &.added {
+            opacity: 0 !important;
+        }
+    }
+
+    &:hover .add-to-cart{
+        opacity: 1;
+    }
+
+    .add_to_cart_button + .added_to_cart{
+        position: absolute;
+        left: $u;
+        bottom: 44px;
+        z-index: 150;
+
+        width: 97%;
+        width: calc(100% - #{$u});
+
+        color: $dark;
+        font-size: 13px;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: center;
+
+        opacity: 0;
+        transition: opacity .2s linear;
+
+        &:after{
+            content: none;
+        }
+    }
+
+    &:hover .added_to_cart{
+        opacity: 1;
+    }
+
+    @include query-below($lap){
+        .add_to_cart_button{
+            display: none;
+        }
+
+        .pile-item-content{
+            position: static;
+            opacity: 1;
+
+            .pile-item-title{
+                font-size: 20px;
+            }
+
+            .pile-item-meta{
+                font-size: 16px;
+            }
+
+            hr{
+                display: none;
+            }
+        }
+    }
+} // .pile-item--product
+
+.woocommerce div.product span.price{
+    @extend .gamma;
+    font-size: 15px;
+    color: $dark;
+    font-style: italic;
+
+    ins{
+        border-bottom: none;
+    }
+
+    del{
+        display: inline-block;
+        font-size: 13px;
+        color: $dark;
+    }
+}
+
+.shop-categories{
+    @extend .gamma;
+    margin: 2*$u;
+
+    font-size: 16px;
+    font-style: italic;
+    text-transform: none;
+    text-align: center;
+    letter-spacing: 0;
+
+    a.active{
+        color: $dark;
+    }
+}
+
+.product__badge{
+    @extend .alpha;
+
+    position: absolute;
+    top: -1px;
+    left: -1px;
+
+    width: 130px;
+    height: 65px;
+
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: white;
+
+    z-index: 200;
+
+    transform: rotate(-45deg)  translateY(-25px);
+    transform-origin: bottom center;
+    transition: all .2s cubic-bezier(0.250, 0.460, 0.450, 0.940);
+
+    &.is--out-of-stock {
+        font-size: 12px;
+    }
+
+    &:before{
+        position: absolute;
+        left: 0;
+        top: 0;
+
+        content: "";
+
+        width: 0;
+        height: 0;
+        border-left: 65px solid transparent;
+        border-right: 65px solid transparent;
+
+        border-bottom: 65px solid $gray;
+    }
+
+    &:after{
+        content: attr(data-content);
+
+        position: absolute;
+        bottom: $u/4;
+        left: 50%;
+        z-index: 250;
+
+        transform: translateX(-50%);
+
+        text-align: center;
+    }
+
+    .pile-item--product:hover &{
+        transform: rotate(-45deg) translateY(0);
+    }
+}
+
+.product-archive-pagination ul{
+    @extend .gamma;
+
+    margin: 2*$u 0;
+    display: block;
+
+    font-size: 0;
+    font-style: italic;
+    text-transform: none;
+    text-align: center;
+    list-style-type: none;
+
+    li{
+        font-size: 16px;
+        display: inline-block;
+
+        border: 1px solid $borders;
+        border-right: 0;
+    }
+
+    li:last-child{
+        border-right: 1px solid $borders;
+    }
+
+    a,span{
+        padding: $u/2;
+    }
+}

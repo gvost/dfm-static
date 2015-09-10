@@ -1,0 +1,47 @@
+.panel {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 990;
+	width: 100%;
+
+
+	.site-header--static &,
+	&.site-header--static {
+		position: absolute;
+	}
+}
+
+.panel--logo {
+	z-index: 999;
+
+	.flag {
+		float: left;
+		width: auto;
+	}
+}
+
+.panel--logo,
+.panel--hamburger {
+	pointer-events: none;
+
+	a {
+		pointer-events: auto;
+	}
+
+	@include query-below($lap) {
+
+		.header-height {
+			height: 100px !important;
+		}
+	}
+}
+
+.panel--hamburger {
+	text-align: right;
+}
+
+//Admin Bar Active
+.admin-bar .panel {
+	margin-top: 32px;
+}

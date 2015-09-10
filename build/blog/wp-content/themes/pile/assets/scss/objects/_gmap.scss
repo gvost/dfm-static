@@ -1,0 +1,52 @@
+#gmap{
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 15;
+
+	img{
+		max-width: none;
+	}
+}
+
+.map__marker {
+	position: relative;
+	bottom: 100%;
+	left: -50%;
+	top: -12px;
+	background: black;
+	color: white;
+	padding: $u;
+	border-radius: $u/4 / 2;
+
+	&:after {
+		content: "";
+		display: block;
+		position: absolute;
+		top: 100%;
+		left: 50%;
+		border: $u/2 solid transparent;
+		border-top-color: black;
+		margin-left: - $u/2;
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+		margin: $u/4 0;
+		color: white;
+	}
+
+	img{
+		width: auto !important;
+		max-width: none;
+		margin: 0 auto;
+	}
+}
+
+.map__marker-wrap {
+	position: absolute;
+	bottom: 0; left: 0;
+
+	min-width: 50px;
+}

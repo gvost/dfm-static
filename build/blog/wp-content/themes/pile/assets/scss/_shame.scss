@@ -1,0 +1,116 @@
+.container {
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0 48px;
+
+	@include query-below($desk) {
+		padding: 0 24px;
+	}
+
+	@include query-below($lap) {
+		padding: 0 12px;
+	}
+}
+
+.panel--logo .container,
+.panel--hamburger .container {
+	max-width: none;
+}
+
+.site-content,
+.site-footer {
+	word-wrap: break-word;
+	hyphens: auto;
+}
+
+.title-wrapper {
+	opacity: 0;
+}
+
+.site-content {
+	transform: translateZ(0);
+	padding: 48px 0;
+	overflow: hidden;
+	background: white;
+
+	@include query-below($desk) {
+		padding: 24px 0;
+	}
+
+	@include query-below($lap) {
+		padding-top: 12px;
+		padding-bottom: 0;
+	}
+}
+
+.site-header--show  + div {
+	.site-content .title-wrapper {
+		margin-top: -40px;
+	}
+}
+
+	.site-content .title-wrapper {
+		margin-top: -72px;
+	}
+
+.scroll-lock {
+	overflow: hidden;
+}
+
+.btn {
+	@extend .alpha;
+	font-size: 16px;
+	font-weight: normal;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+}
+
+.hero-title--map {
+	color: $dark;
+}
+
+.djax--hidden {
+	display: none;
+}
+
+.mt0 {
+	margin-top: 0 !important;
+}
+
+.pt0 {
+	padding-top: 0 !important;
+}
+
+
+// IE shit
+.is--ie {
+	.site-content {
+		transform: none;
+		overflow: hidden;
+		position: relative;
+		z-index: 20;
+	}
+
+	.panel--hamburger {
+		pointer-events: all;
+	}
+
+	&.nav--is-visible .panel--navigation{
+		z-index: 2000;
+	}
+
+}
+
+.lt-ie9 {
+
+	.pile-item {
+		position: relative;
+		z-index: 20;
+		transform: none !important;
+	}
+}
+
+html, body, .wrapper {
+	-ms-overflow-style: scrollbar;
+}

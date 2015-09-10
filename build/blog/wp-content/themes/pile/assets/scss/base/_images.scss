@@ -1,0 +1,147 @@
+/*-----------------------------------------
+Images and image components
+
+
+[Table of contents]
+
+1. $Images
+2. $Figures and captions
+3. $Galleries
+------------------------------------------*/
+
+
+
+
+
+
+
+/*------------------------------------*\
+	1. $Images
+\*------------------------------------*/
+
+/**
+ * 1. Fluid images for responsive purposes.
+ * 2. Offset `alt` text from surrounding copy.
+ */
+img{
+    max-width: 100%; /* [1] */
+    height: auto;
+    font-style: italic; /* [2] */
+}
+
+
+
+
+
+/*------------------------------------*\
+	2. $Figures and captions
+\*------------------------------------*/
+// @todo figure and figcaption
+.wp-caption {
+	width: auto;
+
+	img {
+		display: block;
+	}
+}
+
+.wp-caption-text, .gallery-caption {
+	font-size: 13px;
+	margin-top: $u/4;
+	color: $light;
+}
+
+
+
+
+
+/*------------------------------------*\
+	3. $Galleries
+\*------------------------------------*/
+.gallery {
+	@extend .clearfix;
+
+	@include query-above($lap){
+		@include rhythm(margin-left, -1);
+	}
+
+	@include query-above($desk) {
+		@include rhythm(margin-left, -6);
+		@include rhythm(margin-right, -6);
+
+		.archive &, .home &, .blog & {
+			margin-left: -$u/2;
+			margin-right: -$u/2;
+		}
+	}
+
+	div.pile-item & {
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.gallery-item {
+		display: inline-block;
+		vertical-align: top;
+
+		border: 0 solid transparent;
+
+		border-top-width: $u/2;
+		border-left-width: $u/2;
+
+		text-align: center;
+	}
+}
+
+.gallery-columns-2 {
+	column-count: 2;
+	column-gap: 2*$u;
+
+	@include query-below($desk) {
+		column-gap: $u;
+	}
+
+	@include query-below($lap) {
+		column-gap: $u/2;
+	}
+
+	@include query-above($lap) {
+
+		.archive &, .home &, .blog & {
+			margin-left: -2*$u;
+			margin-right: -2*$u;
+		}
+	}
+
+	.gallery-item {
+		width: 100%;
+		margin-bottom: 2*$u;
+		border: 0;
+
+		img {
+			display: block;
+		}
+
+		@include query-below($desk) {
+			margin-bottom: $u;
+		}
+
+		@include query-below($lap) {
+			margin-bottom: $u/2;
+		}
+	}
+
+	.gallery-item a{
+		display: block;
+	}
+
+	.gallery-item img {
+		width: 100%;
+	}
+}
+
+@for $i from 3 to 10 {
+	.gallery-columns-#{$i} .gallery-item {
+		width: percentage(1/$i);
+	}
+}
