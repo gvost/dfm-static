@@ -250,7 +250,7 @@ body.index {
       color: white;
       display: inline-block;
       font-family: 'Gotham A', 'Gotham B';
-      font-size: 1em;
+      font-size: 15px;
       height: 520px;
       line-height: 40px;
       overflow: hidden;
@@ -264,12 +264,16 @@ body.index {
       background-size: 100%;
       background-position: 0 310px;
       #text {
+      	a {
+      		color: #FD8EC8;
+      		text-decoration: none;
+      	}
         @media only screen and (max-width: 575px) {
 
         }
       }
       @media only screen and (max-width: 1720px)  {
-        background-position: 0 320px;
+        background-position: 0 350px;
       } 
       @media only screen and (max-width: 1250px)  {
         background-position: 0 380px;
@@ -304,7 +308,15 @@ body.index {
         font-weight: 100;
       }
       .home-work{
-      color: #fd8ec8;font-family:Georgia;text-transform:none;font-style:italic;}
+        color: #fd8ec8;
+        font-family:Georgia;
+        text-transform:none;
+        font-style:italic;
+        a {
+          text-decoration: none;
+          color: #fd8ec8;
+          }
+        }
       
       #slider-container {
         position: absolute;
