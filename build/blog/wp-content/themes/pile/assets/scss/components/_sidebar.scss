@@ -1,0 +1,130 @@
+//*------------------------------------*\
+//   $SIDEBAR LAYOUT
+//*------------------------------------*/
+
+.has_sidebar {
+
+	.entry--single{
+		max-width: none;
+	}
+
+	.container {
+		@extend %clearfix;
+		position: relative;
+	}
+
+	.content-area {
+		width: 100%;
+	}
+
+	.sidebar--main {
+		position: relative;
+		padding-top: $u;
+		padding-bottom: 2*$u;
+	}
+
+	@include query-above($lap) {
+
+		.content-area {
+			float: left;
+			margin-right: -30%;
+
+			.rtl & {
+				float: right;
+				margin-right: 0;
+				margin-left: -30%;
+			}
+		}
+
+		.site-main {
+			margin-right: 30%;
+			padding-right: 1.25*$u;
+
+			&:before {
+				content: "";
+
+				position: absolute;
+				top: 0;
+				bottom: 0;
+				right: 30%;
+				border-right: 1px solid $borders;
+			}
+
+			.rtl & {
+				margin-right: 0;
+				margin-left: 30%;
+				padding-right: 0;
+				padding-left: 1.25*$u;
+
+				&:before {
+					right: auto;
+					left: 30%;
+				}
+			}
+		}
+
+		.sidebar--main {
+			z-index: 5;
+			float: right;
+			width: 30%;
+			padding-left: 1.25*$u;
+
+			.rtl & {
+				float: left;
+				padding-left: 0;
+				padding-right: 1.25*$u;
+			}
+		}
+	}
+
+	@include query-above($desk) {
+
+		.content-area {
+			margin-right: -15*$u;
+
+			.rtl & {
+				margin-right: 0;
+			}
+		}
+
+		.site-main {
+			margin-right: 15*$u;
+			padding-right: 2.5*$u;
+
+			&:before {
+				right: 15*$u;
+			}
+
+			.rtl & {
+				margin-right: 0;
+				padding-right: 0;
+				margin-left: 15*$u;
+				padding-left: 2.5*$u;
+
+				&:before {
+					right: auto;
+					left: 15*$u;
+				}
+			}
+		}
+
+		.sidebar--main {
+			width: 15*$u;
+			padding-left: 2.5*$u;
+
+			.rtl & {
+				padding-left: 0;
+				padding-right: 2.5*$u;
+			}
+		}
+	}
+}
+
+
+
+@include query-above($desk) {
+	.has_sidebar .site-main{
+		padding-right: 8*$u;
+		padding-left: 0;
+	}
+}

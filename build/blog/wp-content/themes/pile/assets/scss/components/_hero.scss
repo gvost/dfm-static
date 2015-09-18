@@ -1,0 +1,340 @@
+//*------------------------------------*\
+//   $HERO COMPONENT
+//*------------------------------------*/
+
+html,
+body,
+.wrapper,
+.hero {
+	height: 100%;
+}
+
+.hero {
+	display: table;
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+
+	&.no-image {
+		height: 50%;
+	}
+
+	@include query-below($lap) {
+
+		.hero-content {
+			// bottom: $u;
+		}
+
+		.hero-title {
+			font-size: 24px;
+			margin-bottom: 0;
+			word-break: break-word;
+		}
+
+		.meta-list {
+
+		}
+
+		.separator {
+			margin: 8px auto;
+		}
+	}
+
+	&:after {
+		content: "";
+		position: absolute;
+		top: 0; right: 0; bottom: 0; left: 0;
+		background-image: linear-gradient(rgba(0,0,0,0) 0%, rgba(0,0,0,0) 50%, rgba(0,0,0,0.1) 76%, rgba(0,0,0,0.4) 93%, rgba(0,0,0,0.59) 100%);
+		pointer-events: none;
+	}
+
+	&.hero-container--slider:after {
+		display: none;
+	}
+}
+
+.hero-container {
+	width: 100%;
+	display: table-cell;
+	vertical-align: bottom;
+	text-align: center;
+
+	> picture {
+		position: absolute;
+		top: 0; left: 0;
+		width: 100%;
+		height: 100%;
+	}
+}
+
+.hero-bg {
+	position: fixed;
+	top: 0; right: 0; bottom: 0; left: 0;
+	background-size: 100%;
+	background-size: cover;
+	background-position: center;
+}
+
+.hero-content {
+	position: relative;
+	z-index: 20;
+	// overflow: hidden;
+
+	bottom: $u;
+
+	@include query-above($lap) {
+		bottom: 2 * $u;
+	}
+
+	.entry-meta__list a,
+	.entry-time {
+		color: white;
+	}
+}
+
+.hero-title {
+	color: white;
+	text-transform: uppercase;
+	font-size: 32px;
+	letter-spacing: 3px;
+	margin-bottom: 12px;
+	word-break: break-all;
+}
+
+
+
+
+
+//*------------------------------------*\
+//   $HERO SLIDER
+//*------------------------------------*/
+
+.hero-slider {
+	position: fixed;
+	top: -1px;
+	right: -1px;
+	bottom: -1px;
+	left: -1px;
+//	background: $dark;
+
+	.rsContent {
+		position: static;
+	}
+
+	.hero-bg {
+		position: absolute;
+		transform: none !important;
+	}
+
+	.hero-content {
+		position: absolute;
+		left: 0;
+		width: 100%;
+		z-index: 10;
+		opacity: 0;
+		transition: opacity .3s .3s ease-in-out;
+
+		a {
+			color: white;
+		}
+	}
+
+	.rsImg {
+		display: none;
+	}
+
+	&.slider--loaded .rsImg {
+		display: block;
+	}
+
+	&.slider--loaded {
+		.hero-content {
+			opacity: 1;
+		}
+	}
+
+	.two-thirds-height & {
+		height: 66.6667%;
+	}
+
+	.half-height & {
+		height: 50% !important;
+	}
+
+	.admin-bar & {
+		top: 32px;
+	}
+
+	.rsContent {
+		display: none;
+	}
+
+	&.slider--loaded {
+
+		.rsContent {
+			display: block;
+
+			&:after {
+				content: "";
+				position: absolute;
+				top: 0; right: 0; bottom: 0; left: 0;
+				background-image: linear-gradient(rgba(0,0,0,0) 0%, rgba(0,0,0,0) 50%, rgba(0,0,0,0.1) 76%, rgba(0,0,0,0.4) 93%, rgba(0,0,0,0.59) 100%);
+			}
+		}
+	}
+
+	&:after {
+		display: none;
+	}
+}
+	
+
+	// Hero Height
+	.full-height {
+	height: 100%;
+
+		.hero-slider {
+//			height: 100% !important;
+		}
+	}
+
+	.two-thirds-height {
+		height: 66.667%;
+
+		.hero-slider {
+			height: 66.667% !important;
+		}
+	}
+
+	.half-height {
+		height: 50%;
+
+		.hero-slider {
+			height: 50% !important;
+		}
+	}
+
+	@media only screen and (max-height: 599px) {
+
+		.half-height, .two-thirds-height, .full-height {
+			height: 100%;
+
+			.hero-slider {
+//				height: 100% !important;
+			}
+		}
+	}
+
+
+
+.hero-bg--image, .hero-slider {
+	@include query-below($lap) {
+		.touch & {
+//			transform: none !important;
+//			margin-top: none !important;
+		}
+	}
+
+	.no-parallax &,
+	.no-scroll-fx & {
+		transform: none !important;
+		margin-top: 0 !important;
+	}
+
+	.woocommerce & {
+		max-width: none;
+	}
+}
+
+.hero-bg--image {
+	max-width: none;
+	height: auto;
+	position: fixed;
+	top: 0;
+	left: 0;
+	transform-origin: 0 0;
+	opacity: 0;
+}
+
+.hero-bg--image-picture {
+	position: fixed;
+	top: -1px;
+	right: -1px;
+	bottom: -1px;
+	left: -1px;
+}
+
+
+
+
+
+//*------------------------------------*\
+//   $HERO SCROLL DOWN ARROWS
+//*------------------------------------*/
+.hero-scroll-down {
+	display: block;
+	cursor: pointer;
+
+	margin-bottom: -33px;
+
+	.hero-title + &{
+		margin-bottom: 0;
+
+		.arrows {
+			top: 0;
+		}
+	}
+	
+	.hero-container--slider & {
+		position: absolute;
+		bottom: 30px;
+		left: 50%;
+		transform: translateX(-50%);
+
+		margin-bottom: 0;
+
+		z-index: 10;		
+	}
+
+	.arrows {
+		position: relative;
+		top: -12px;
+
+		width: 16px;
+		height: 24px;
+	
+	  	.cssanimations & {
+	  		opacity: 0.8;
+	  	}
+	}
+}
+
+.arrows path {
+	fill: transparent;
+	stroke: #fff;
+	stroke-width: 1px;
+
+  	.cssanimations & {
+	  	opacity: 0.2;
+		animation: arrow 1.2s infinite;
+  	}
+
+	&.a1 {
+		animation-delay:0s;
+	}
+
+	&.a2 {
+		animation-delay:0.15s;
+	}
+
+	&.a3 {
+		animation-delay:0.3s;
+	}
+}
+
+@keyframes arrow {
+  0% {opacity:0.2;}
+  20% {opacity:1;}
+  40% {opacity:0.2;}
+  100% {opacity:0.2;}
+}

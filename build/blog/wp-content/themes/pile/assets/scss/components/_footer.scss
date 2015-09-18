@@ -1,0 +1,223 @@
+//*------------------------------------*\
+//   $SITE FOOTER
+//*------------------------------------*/
+
+.site-footer {
+	position: relative;
+	z-index: 20;
+	transform: translateZ(0);
+	padding: 4*$u 0;
+	background-color: #f9f9f9;
+	color: $dark;
+	font-size: 14px;
+
+	a {
+		color: $dark;
+
+		&:hover {
+			color: $accent;
+		}
+	}
+
+	@include query-below($lap) {
+		padding: 2*$u 0;
+	}
+}
+
+
+
+
+
+//*------------------------------------*\
+//   $COPYRIGHT AREA
+//*------------------------------------*/
+
+.copyright-area {
+	@extend .clearfix;
+	position: relative;
+	text-align: center;
+}
+
+.copyright-text {
+	@include query-below($lap) {
+		p {
+			margin-bottom: 0;
+		}
+	}
+}
+
+
+
+
+
+//*------------------------------------*\
+//   $FOOTER WIDGETS
+//*------------------------------------*/
+
+.footer-widget-area {
+	@extend .clearfix;
+	font-weight: bold;
+	font-size: 0;
+
+	@include query-above($lap) {
+		margin: 0 -$u/2;
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+
+	@include query-below($lap) {
+		width: 100% !important;
+	}
+
+	.widget {
+		font-size: 14px;
+
+		display: inline-block;
+		vertical-align: top;
+
+		margin-bottom: 4*$u;
+		padding: 0;
+
+		border-style: solid;
+		border-color: transparent;
+		border-left-width: $u/2;
+		border-right-width: $u/2;
+
+		@include query-below($lap) {
+			margin-bottom: 2*$u;
+		}
+
+		p {
+			margin: 0;
+		}
+
+		.widget__title {
+			margin-top: 0;
+		}
+
+		& + .widget {
+			padding-top: 0;
+			border-top: 0;
+		}
+
+
+	}
+
+	ul[class*="menu"] {
+		@extend .nav;
+
+		text-transform: uppercase;
+		font-size: 14px;
+
+		li {
+			&:first-child a {
+				padding-left: 0;
+			}
+		}
+
+		a {
+			padding: 0 18px;
+			display: block;
+		}
+
+		li:last-child {
+			margin-right: 0;
+		}
+	}
+
+	.sub-menu {
+		display: none;
+	}
+
+	&.col-1 .widget {
+		width: 100%;
+		border: 0;
+	}
+
+	&.col-1 {
+		&.one-third, &.one-whole, &.two-thirds {
+			margin: 0 auto;
+		}
+
+		&.one-third {
+			width: 33%;
+		}
+
+		&.two-thirds {
+			width: 66%;
+		}
+	}
+
+	&.col-2 .widget {
+		width: 50%;
+	}
+
+	&.col-3 .widget {
+		width: 33.3333%;
+	}
+
+	&.col-4 .widget {
+		width: 25%;
+	}
+
+	&.col-5 .widget {
+		width: 20%;
+	}
+
+	&.col-6 .widget {
+		width: 16.66666666666667%;
+	}
+
+	@include query-below($lap) {
+		&.col-1, &.col-2, &.col-3 {
+			.widget {
+				width: 100%;
+			}
+		}
+	}
+
+	//Helper Classes
+	@include query-above($lap) {
+		& .widget.one-half {
+			width: 50% !important;
+		}
+
+		& .widget.one-third {
+			width: 33% !important;
+		}
+
+		& .widget.two-thirds {
+			width: 66% !important;
+		}
+	}
+
+	.widget {
+		text-align: center;
+	}
+
+	@include query-above($lap) {
+
+		.align-left {
+			text-align: left;
+		}
+
+		.align-center {
+			text-align: center;
+		}
+
+		.align-right {
+			text-align: right;
+
+			li:last-child a {
+				padding-right: 0;
+			}
+		}
+	}
+}
+
+@for $i from 2 through 6 {
+	.col-#{$i} .widget:nth-child(-n+#{$i}) {
+		border-top: 0;
+		padding-top: 0;
+	}
+}

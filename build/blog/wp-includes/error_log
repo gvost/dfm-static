@@ -12,3 +12,8 @@
 [13-Feb-2015 19:39:03] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/usr/lib64/php:/usr/share/pear') in /home1/drawini3/public_html/blog/wp-includes/functions.php on line 8
 [13-Feb-2015 19:39:16] PHP Fatal error:  Call to undefined function  add_action() in /home1/drawini3/public_html/blog/wp-includes/kses.php on line 1455
 [13-Feb-2015 19:39:22] PHP Fatal error:  Call to undefined function  add_action() in /home1/drawini3/public_html/blog/wp-includes/theme.php on line 678
+[09-Jun-2015 10:06:40] PHP Fatal error:  Class 'Walker' not found in /home1/drawini3/public_html/blog/wp-includes/nav-menu-template.php on line 16
+[09-Jun-2015 10:08:15] PHP Fatal error:  Call to undefined function  add_filter() in /home1/drawini3/public_html/blog/wp-includes/shortcodes.php on line 403
+[09-Jun-2015 10:08:16] PHP Fatal error:  Call to undefined function  add_action() in /home1/drawini3/public_html/blog/wp-includes/general-template.php on line 1760
+[09-Jun-2015 10:09:48] PHP Fatal error:  Call to undefined function  add_action() in /home1/drawini3/public_html/blog/wp-includes/author-template.php on line 454
+[09-Jun-2015 10:13:00] PHP Fatal error:  Class 'WP_Widget' not found in /home1/drawini3/public_html/blog/wp-includes/default-widgets.php on line 14

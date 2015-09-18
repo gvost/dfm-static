@@ -1,0 +1,54 @@
+///*------------------------------------*\
+//    $META LISTS
+//\*------------------------------------*/
+// For tags, categories.
+// List head + list items
+
+//.meta-list{
+	.meta-list__head,
+	.meta-list__item,
+	.meta-list a{
+		display: inline-block;
+		margin-right: 5px;
+	}
+
+	.meta-list__head, .meta-list__item a:hover{
+		color: $dark;
+	}
+
+	.meta-list__item, .meta-list a{
+		color: $light;
+
+		@include query-below($lap){
+			// padding: $u/2;
+		}
+
+		&:after{
+			content: ",";
+		}
+
+		&:last-child{
+			margin-right: 0;
+
+			&:after{
+				content: ".";
+			}
+		}
+
+		a {
+			color: currentcolor;
+		}
+
+		.pile-item & {
+			color: black;
+		}
+
+		.hero & {
+			color: white;
+
+			a:hover {
+				color: white;
+			}
+		}
+	}
+//}

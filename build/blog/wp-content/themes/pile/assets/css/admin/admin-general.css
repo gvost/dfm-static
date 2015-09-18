@@ -1,0 +1,107 @@
+#_project_aside.no-image #pixgallery {
+	min-height: 115px; 
+	margin: 10px 5px;
+}
+#_project_aside.no-image #pixgallery .open_pixgallery {
+	border: 1px dashed #d9d9d9;
+}
+#_project_aside.no-image #pixgallery .open_pixgallery .icon {
+	opacity: 1;
+	color: #262526;
+}
+#_project_aside.no-image #pixgallery .open_pixgallery .icon:before {
+	content: "\f093";
+}
+#_project_aside.no-image #pixgallery .open_pixgallery:hover .icon {
+	color: #0095ea;
+}
+#_project_aside.no-image .clear_gallery {
+	display: none !important;
+}
+#_project_aside.multiple-images #pixgallery > ul {
+	margin: 0;
+}
+#_project_aside.multiple-images #pixgallery > ul li {
+	width: 33%;
+	margin: 0;
+	padding: 5px;
+}
+#_project_aside #pixgallery .open_pixgallery {
+	-webkit-transition: opacity 0.1s ease-in 0; 
+
+	opacity: 1;
+	background: none;
+}
+#_project_aside #pixgallery .open_pixgallery .icon {
+	-webkit-transition: opacity 0.1s ease-in 0, color 0.1s ease-in 0;
+
+	opacity: 0;
+	color: #262526; 
+
+	font-size: 40px;
+}
+#_project_aside #pixgallery .open_pixgallery .icon:before {
+	content: "\f040";
+}
+#_project_aside #pixgallery .open_pixgallery .clear_gallery {
+	display: block;
+
+	margin: 0;
+
+	-webkit-transition: opacity 0.1s ease-in 0, color 0.1s ease-in 0; 
+	text-transform: uppercase;
+
+	opacity: 0;
+	color: #919191;
+	background: none;
+
+	font-size: 11px;
+}
+#_project_aside #pixgallery .open_pixgallery .clear_gallery:hover {
+	color: #0095ea;
+}
+#_project_aside #pixgallery .open_pixgallery:hover .icon,
+#_project_aside #pixgallery .open_pixgallery:hover .clear_gallery {
+	opacity: 1;
+}
+#_project_aside #pixgallery > ul {
+	min-height: 0;
+	padding: 0;
+}
+#_project_aside #pixgallery > ul li {
+	width: 100%;
+
+	text-align: center;
+}
+#_project_aside #pixgallery > ul li img {
+	width: auto;
+	height: auto;
+
+	border-radius: 0;
+}
+#_project_aside table.cmb_metabox td,
+#_project_aside table.cmb_metabox th {
+	padding: 0;
+
+	border-bottom: none;
+}
+
+body:not(.post-type-pile_portfolio) .compat-item {
+	display: none;
+}
+
+#_project_aside #pixgallery .open_pixgallery .icon:before {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+#_project_aside.multiple-images #pixgallery > ul li {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}

@@ -1,0 +1,313 @@
+/*------------------------------------*\
+Typography
+
+[Table of contents]
+
+1. $General
+2. $Headings
+3. $Links
+4. $Lists
+5. $Blockquotes
+6. $Tables
+7. $Code
+------------------------------------------*/
+
+/*------------------------------------*\
+	1. $General
+\*------------------------------------*/
+
+body {
+	@extend .beta;
+	line-height: 1.6;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	color: $gray;
+}
+
+// General Spacing
+h1, h2, h3, h4, h5, h6, hgroup, p, blockquote, pre,
+dl, dd, ol, ul,
+form, fieldset, legend,
+table, th, td, caption,
+hr {
+	margin-bottom: 1.5*$u;
+}
+
+
+
+
+
+/*------------------------------------*\
+	2. $Headings
+\*------------------------------------*/
+
+.alpha {
+	font-family: "Oswald", sans-serif;
+	font-weight: normal;
+	-webkit-font-smoothing: auto;
+	color: $dark;
+}
+
+.beta {
+	font-family: "PT Sans", sans-serif;
+}
+
+.gamma {
+	font-family: "Libre Baskerville", serif;
+	-webkit-font-smoothing: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	@extend .alpha;
+	text-transform: uppercase;
+
+	margin-top: 2.5*$u;
+
+	&:first-child {
+		margin-top: 0;
+	}
+
+	em {
+		@extend .gamma;
+
+		font-style: italic;
+		text-transform: none;
+		letter-spacing: 0;
+
+		color: $accent;
+	}
+}
+
+h1 {
+	font-size: 31px;
+	letter-spacing: 0.15em;
+}
+
+h2 {
+	font-size: 20px;
+	letter-spacing: 0.1em;
+}
+
+h3 {
+	font-size: 16px;
+	letter-spacing: 0.1em;
+}
+
+
+
+
+
+/*------------------------------------*\
+	3. $Links
+\*------------------------------------*/
+
+a {
+	text-decoration: none;
+	color: $light;
+	border-color: $borders;
+
+	transition: all .1s;
+
+	&:hover {
+		color: $dark;
+		border-color: $light;
+	}
+
+	// Links inside content
+	.entry-content & {
+		border-bottom-width: 1px;
+		border-bottom-style: solid;
+
+		&[href$=".jpg"], &[href$=".jpeg"], &[href$=".png"], &[href$=".gif"], &[href$=".bmp"], &[class]:not(.dJAX_internal) {
+			border: 0;
+		}
+	}
+}
+
+
+
+
+
+/*------------------------------------*\
+	4. $Lists
+\*------------------------------------*/
+// @todo style lists here
+// we should style only unclassed tags here
+
+.entry-content, .comment {
+
+	dt {
+		font-weight: bold;
+	}
+
+	dd {
+		padding-left: 3em;
+
+		.rtl & {
+			padding-left: 0;
+			padding-right: 3em;
+		}
+	}
+
+	dd + dt {
+		margin-top: 1.5em;
+	}
+
+	li:not([class]) {
+		> ul:not([class])
+		> ol:not([class]) {
+			padding-left: 3em;
+
+			.rtl & {
+				padding-left: 0;
+				padding-right: 3em;
+			}
+		}
+	}
+
+	ul, ol {
+		margin-left: 1.5em;
+
+		.rtl & {
+			margin-left: 0;
+			margin-right: 1.5em;
+		}
+
+		li {
+			margin-bottom: 0.75em;
+		}
+	}
+}
+
+acronym {
+	border-bottom: 1px dotted $gray;
+}
+
+
+
+
+
+/*------------------------------------*\
+	5. $Blockquotes
+\*------------------------------------*/
+
+blockquote {
+	@extend .gamma;
+
+	position: relative;
+	text-align: center;
+
+	font-size: 20px;
+	color: $dark;
+
+	.single &, .page & {
+		margin-bottom: 2.5*$u;
+	}
+
+	&:before {
+		content: '\201C';
+
+		display: block;
+		text-align: center;
+
+		font-size: 54px;
+		line-height: 1;
+		color: $dark;
+	}
+
+	// @todo come back and check this
+	p {
+		margin-bottom: 0;
+		transform: none;
+	}
+
+	cite {
+		@extend .alpha;
+		display: block;
+		@include rhythm(margin-top, 2, 16px);
+		font-size: 16px;
+		text-transform: uppercase;
+		font-style: normal;
+
+		color: $dark;
+
+		a {
+			color: $dark;
+		}
+	}
+}
+
+
+
+
+
+/*------------------------------------*\
+	6. $Tables
+\*------------------------------------*/
+
+table {
+	@extend .table--fixed;
+	@extend .table--cosy;
+	@include rhythm(margin-bottom, 2);
+	width: 100%;
+	border-top: 0;
+
+	th {
+		text-align: left;
+
+		.rtl & {
+			text-align: right;
+		}
+	}
+
+	tr {
+		// @todo why not use table--rows?
+		border-bottom: 1px solid $lightest;
+	}
+
+	th, td {
+		vertical-align: middle;
+	}
+}
+
+
+
+
+
+/*------------------------------------*\
+	7. $Code
+\*------------------------------------*/
+
+pre {
+	position: relative;
+
+	@include rhythm(padding-left, 3);
+	@include rhythm(padding-right, 3);
+	@include rhythm(padding-top, 2);
+	@include rhythm(padding-bottom, 2);
+
+	@include rhythm(margin-bottom, 2);
+
+	border: 1px solid $lightest;
+
+	&:before {
+		content: "\f121";
+
+		position: absolute;
+		top: 0;
+		left: 0;
+
+		display: block;
+		padding: 3px;
+
+		font-family: FontAwesome;
+		font-size: 14px;
+
+		color: white;
+		background: $lightest;
+	}
+}
+
+
