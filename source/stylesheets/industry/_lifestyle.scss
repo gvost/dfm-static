@@ -73,7 +73,7 @@ body.lifestyle {
 
     .image-container-luterra {
       position: relative;
-      padding-top: 85.44%;
+      padding-top: 116.44%;
       img {
         position: absolute;
       }
@@ -84,12 +84,12 @@ body.lifestyle {
       }
       #luterra2 {
         width: 27.47%;
-        top: 20.05%;
+        top: 11.05%;
         left: 7%;
       }
       #luterra3 {
         width: 45.47%;
-        top: 53.05%;
+        top: 36.05%;
         left: 0;
       }
       #luterra-letterhead {
@@ -99,58 +99,22 @@ body.lifestyle {
       }
       #luterra4 { 
         width: 56.4%;
-        top: 41.2%;
+        top: 31.2%;
         right: 6%;
       }
       #nature { 
         width: 43%;
         top: 70.2%;
         right: 0;
+
+      }
+      #selvarey-banner {
+        width: 100%;
+        top: 66.17%;
+        left: 0;
       }
     }
-    .image-container-thechic {
-      position: relative;
-      padding-top: 74.44%;
-      margin-bottom: 250px;
-      img {
-        position: absolute;
-      }
-      #logo {
-        width: 25%;
-        top: 5.73%;
-        left: 38%;
-      }
-      #left-bc-1 {
-        width: 18%;
-        top: 27%;
-        left: 10%; 
-      }
-      #right-party {
-        width: 42%;
-        top: 8%;
-        right: 0;
-      }
-      #left-bc-2 {
-        width: 18%;
-        top: 56%;
-        left: 10%;
-      }
-      #icons {
-        width: 6%;
-        top: 78%;
-        left: 16%;
-      }
-      #chic-imac {
-        width: 52%;
-        top: 62%;
-        left: 26%;
-      }
-      #blocks {
-        width: 30%;
-        top: 102%;
-        right: 8%;
-      }
-    }
+    .image-container-thechic {}
     .image-container-tanya {
       position: relative;
       padding-top: 110.44%;
@@ -188,11 +152,7 @@ body.lifestyle {
         top: 38.77%;
         right: 5.3%;
       }
-      #selvarey-banner {
-        width: 100%;
-        top: 66.17%;
-        left: 0;
-      }
+      
     }
     .image-container-selvarey {
       position: relative;
@@ -266,6 +226,38 @@ body.lifestyle {
         width: 9%;
         top: 79%;
         left: 18%;
+      }
+    }
+    .image-container-aquiesse {
+      position: relative;
+      padding-top: 98.44%;
+      img {
+        position: absolute;
+      }
+      #aquiesse1 {
+        width: 85%;
+        top: 5%;
+        left: 8.5%;
+      }
+      #aquiesse2 {
+        width: 41%;
+        top: 55%;
+        left: 8.4%;
+      }
+      #aquiesse3 {
+        width: 16%;
+        top: 75.6%;
+        left: 8.5%;
+      }
+      #aquiesse4 {
+        width: 24.3%;
+        top: 75.6%;
+        left: 25%;
+      }
+      #aquiesse5 {
+        width: 35%;
+        top: 66.8%;
+        right: 6.7%;
       }
     }
   }
