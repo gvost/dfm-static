@@ -71,53 +71,57 @@ body.entertainment {
       }
     }
 
-    .image-container-luterra {
+    .image-container-thechic {
       position: relative;
-      padding-top: 116.44%;
+      padding-top: 124.44%;
+      margin-bottom: 250px;
       img {
         position: absolute;
       }
       #logo {
-        width: 14%;
-        top: 0.57%;
-        left: 7.7%;
+        width: 25%;
+        top: 5.73%;
+        left: 38%;
       }
-      #luterra2 {
-        width: 27.47%;
-        top: 11.05%;
-        left: 7%;
+      #left-bc-1 {
+        width: 18%;
+        top: 19%;
+        left: 10%; 
       }
-      #luterra3 {
-        width: 45.47%;
-        top: 36.05%;
-        left: 0;
-      }
-      #luterra-letterhead {
-        width: 56.4%;
-        top: 3.9%;
-        right: 6%;
-      }
-      #luterra4 { 
-        width: 56.4%;
-        top: 31.2%;
-        right: 6%;
-      }
-      #nature { 
-        width: 43%;
-        top: 70.2%;
+      #right-party {
+        width: 42%;
+        top: 8%;
         right: 0;
-
       }
-      #selvarey-banner {
+      #left-bc-2 {
+        width: 18%;
+        top: 35.1%;
+        left: 10%;
+      }
+      #icons {
+        width: 6%;
+        top: 48%;
+        left: 16%;
+      }
+      #chic-imac {
+        width: 52%;
+        top: 42%;
+        left: 26%;
+      }
+      #blocks {
+        width: 30%;
+        top: 66%;
+        right: 8%;
+      }
+      #portraitbig {
         width: 100%;
-        top: 66.17%;
         left: 0;
+        top: 75%;
       }
     }
-    .image-container-thechic {}
     .image-container-tanya {
       position: relative;
-      padding-top: 110.44%;
+      padding-top: 60.44%;
       margin-bottom: 180px;
       img {
         position: absolute;
@@ -139,126 +143,65 @@ body.entertainment {
       }
       #bcard {
         width: 26.04%;
-        top: 13.37%;
+        top: 23.37%;
         right: 8.5%;
       }
       #collateral {
         width: 44.04%;
-        top: 27.07%;
+        top: 47.07%;
         left: 5.2%;
       }
       #portrait {
         width: 33.44%;
-        top: 38.77%;
+        top: 68.77%;
         right: 5.3%;
       }
       
     }
-    .image-container-selvarey {
+    .image-container-whatifwe {
       position: relative;
-      padding-top: 85.44%;
+      padding-top: 115.44%;
+      margin-bottom: 180px;
       img {
         position: absolute;
       }
-      #selvarey-imac {
-        width: 76%;
-        top: 2%;
-        left: 9%;
-      }
-      #bottle {
-        width: 37%;
-        top: 47%;
+      #whatifwe1 {
+        width: 91.54%;
+        top: 4.27%;
         left: 6%;
       }
-      #shirt {
-        width: 19%;
-        top: 30%;
-        right: 1%;
+      #whatifwe2 {
+        width: 26.34%;
+        top: 40.27%;
+        left: 7.1%;
       }
-      #coaster {
-        width: 7.5%;
-        top: 46%;
-        right: 23.5%;
-      }
-      #napkin {
-        width: 7.5%;
-        top: 51%;
-        right: 20%;
-      }
-      #gorilla {
-        width: 22%;
-        top: 61%;
-        right: 5.5%;
-      }
-      #selvarey-phones {
-        width: 32%;
-        top: 82%;
-        right: 15%;
-      }
-    }
-    .image-container-challen {
-      position: relative;
-      padding-top: 70.44%;
-      img {
-        position: absolute;
-      }
-      #bottles {
-        width: 63%;
-        top: 4%;
-        left: 17%;
-      }
-      #quote {
-        width: 26%;
-        top: 60%;
-        left: 37%;
-      }
-      #left-inspire {
-        width: 25%;
-        top: 72%;
+      #whatifwe3 {
+        width: 46.04%;
+        top: 52.27%;
         left: 7%;
       }
-      #right-inspire {
-        width: 25%;
-        top: 72%;
-        right: 7%;
+      #whatifwe4 {
+        width: 27.34%;
+        top: 52.37%;
+        right: 6.1%;
       }
-      #stamp {
-        width: 9%;
-        top: 79%;
-        left: 18%;
+      #whatifwe5 {
+        width: 20.04%;
+        top: 77.37%;
+        left: 7.2%;
       }
+      #whatifwe6 {
+        width: 23.04%;
+        top: 77.07%;
+        left: 30.2%;
+      }
+      #whatifwe7 {
+        width: 43.44%;
+        top: 88.77%;
+        right: 28.3%;
+      }
+      
     }
-    .image-container-aquiesse {
-      position: relative;
-      padding-top: 98.44%;
-      img {
-        position: absolute;
-      }
-      #aquiesse1 {
-        width: 85%;
-        top: 5%;
-        left: 8.5%;
-      }
-      #aquiesse2 {
-        width: 41%;
-        top: 55%;
-        left: 8.4%;
-      }
-      #aquiesse3 {
-        width: 16%;
-        top: 75.6%;
-        left: 8.5%;
-      }
-      #aquiesse4 {
-        width: 24.3%;
-        top: 75.6%;
-        left: 25%;
-      }
-      #aquiesse5 {
-        width: 35%;
-        top: 66.8%;
-        right: 6.7%;
-      }
-    }
+
   }
 }
