@@ -22,6 +22,7 @@ configure :build do
   # activate :minify_javascript
   # activate :minify_html
   # activate :gzip
+  activate :meta_tags
 
   # optimize images
   # activate :imageoptim 

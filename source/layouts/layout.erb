@@ -20,42 +20,55 @@ copyright: 2015
 <%
       case page_classes.split(" ").first
         when "index"
-          title = "DFM | Creative Agency | Brand Strategy | Brand Identity Design | Graphic Design Firm"
-          content = "Drawing From Memory is a boutique branding and web design agency located in downtown Los Angeles"
+          title = "DFM | Creative Agency Los Angeles | Brand Strategy Consulting | Brand Identity Design Firm Los Angeles "
+          description = "Drawing From Memory is a boutique branding and web design agency located in downtown Los Angeles"
+          keywords = "brand identity graphic design creative web design studio agency"
         when "about"
           title = "Downtown Los Angeles Graphic Design Agency"
+        when "beauty"
+          title = "Retail Design Agency | Cosmetics Packaging Design | Skincare Package Design | Turn Key Beauty Package Design"
+          keywords = "retail packaging design services product companies skincare"
         when "blog"
           title = "Drawing From Memory | Design Studio in Downtown Los Angeles | Blog"
         when "contact"
           title = "Downtown Los Angeles Design Studio | Contact & Directions"
-        when "strategy"
-          title = "Los Angeles Branding Agency | Brand Strategy"
-        when "identity"
-          title = "Brand Identity Design | Logo Design | Los Angeles Branding Agency"
-        when "packaging"
-          title = "Packaging Design Agency Los Angeles | Graphic Design Agency Los Angeles"
-        when "imagery"
-          title = "Brand Photography | Product Photography | Los Angeles Branding Agency"
-        when "interactive"
-          title = "E-Commerce Website Design | Interactive Design | Los Angeles Website Design"
-        when "environment"
-          title = "Retail Tradeshow Design Agency | Los Angeles Environmental Design Agency"
-        when "environment"
-          title = "Los Angeles Graphic Design | Los Angeles Web Design | Los Angeles Branding Agency"
+        when "fashion"
+          title = "Los Angeles Fashion | Design Agency | Los Angeles Photography"
+          keywords = "graphic design identity branding"
         when "kavaldon"
           title = "Candle Packaging Design | Luxury E-commerce website | Los Angeles Branding Agency"
-        when "selvarey"
-          title = "Alcohol Packaging Design | Los Angeles Graphic Design | Trade Show Design"
         when "AVF"
           title = "Furniture Website Design | Alexandra Von Furstenberg | Los Angeles Branding Agency"
         when "velvet"
           title = "Apparel Website Design | Magento website design | Velvet by Graham and Spencer"
+        
+        #when "strategy"
+          #title = "Los Angeles Branding Agency | Brand Strategy"
+        #when "identity"
+          #title = "Brand Identity Design | Logo Design | Los Angeles Branding Agency"
+        #when "packaging"
+          #title = "Packaging Design Agency Los Angeles | Graphic Design Agency Los Angeles"
+        #when "imagery"
+          #title = "Brand Photography | Product Photography | Los Angeles Branding Agency"
+        #when "interactive"
+          #title = "E-Commerce Website Design | Interactive Design | Los Angeles Website Design"
+        #when "environment"
+          #title = "Retail Tradeshow Design Agency | Los Angeles Environmental Design Agency"
+        #when "environment"
+          #title = "Los Angeles Graphic Design | Los Angeles Web Design | Los Angeles Branding Agency"
+        
+        #when "selvarey"
+          #title = "Alcohol Packaging Design | Los Angeles Graphic Design | Trade Show Design"
         else
           title = "Los Angeles Graphic Design | Los Angeles Web Design | Los Angeles Branding Agency"
+          description = "Drawing From Memory is a boutique branding and web design agency located in downtown Los Angeles"
+          keywords = "brand identity graphic design creative web design studio agency"
         end
       %>
       
-    <meta name="description" content="Drawing From Memory is a boutique branding and web design agency located in downtown Los Angeles">
+    <meta name="description" content="<%= description %>">
+    <meta name="keywords" content="<%= keywords %>">
+
     <title><%= title %></title>
 
     <link href="http://www.drawingfrommemory.com/favicon.png" rel="icon" type="image/png">

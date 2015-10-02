@@ -17,3 +17,6 @@ gem "tzinfo-data", platforms: [:mswin, :mingw]
 gem 'image_optim'
 gem 'middleman-imageoptim'
 gem "middleman-minify-html"
+
+#meta tags
+gem 'middleman-meta-tags'
