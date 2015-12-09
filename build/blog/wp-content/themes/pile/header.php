@@ -119,40 +119,38 @@ echo ' ' . $data_smoothscrolling . ' ' . $data_parallax_amount . ' ' . $data_aja
   <div id="nav-toggle">Explore</div>
 </div>
 <div id="nav-page">
-  <ul>
-    <li class="nav-heading">Case Studies</li>
-    <li><a class="page-links" href="/kavaldon">Kavaldon</a></li>
-    <li><a class="page-links" href="/selvarey">Selvarey</a></li>
-    <li><a class="page-links" href="/AVF">Alexandra Von Furstenburg</a></li>
-    <li><a class="page-links" href="/velvet">Velvet by Graham and Spencer</a></li>
-  </ul>
-  <ul>
-    <li class="nav-heading">Our Work</li>
-    <li><a class="page-links" href="/strategy">Brand Strategy</a></li>
-    <li><a class="page-links" href="/identity">Identity Design</a></li>
-    <li><a class="page-links" href="/packaging">Packaging and Collateral</a></li>
-    <li><a class="page-links" href="/imagery">Imagery</a></li>
-    <li><a class="page-links" href="/interactive">Interactive</a></li>
-    <li><a class="page-links" href="/environment">Environment</a></li>
-  </ul>
-  <ul>
-    <li class="nav-heading">
-      <a class="page-links" href="/about">About</a>
-    </li>
-  </ul>
-  <ul>
-    <li class="nav-heading">
-      <a class="page-links no-prevent" href="/blog" target="_blank">Blog</a>
-    </li>
-  </ul>
-  <ul>
-    <li class="nav-heading">
-      <a class="page-links" href="/contact">Contact</a>
-    </li>
-  </ul>
-  <div class="social-links">
-    <a class="page-links no-prevent" href="https://www.pinterest.com/dfmla/" target="_blank">Pinterest</a>
-    <a class="page-links no-prevent" href="http://drawingfrommemory.com/we-made-this-instagram" target="_blank">Instagram</a>
+  <div id="nav-row01">
+    <ul>
+      <li class="nav-heading">Case Studies</li>
+      <li><a class="page-links" href="/kavaldon/">Kavaldon</a></li>
+      <!-- <li><a class="page-links" href="/selvarey">Selvarey</a></li> -->
+      <li><a class="page-links" href="/AVF">Alexandra Von Furstenburg</a></li>
+      <li><a class="page-links" href="/velvet">Velvet by Graham and Spencer</a></li>
+      <li><a class="page-links" href="/skinlaundry">Skin Laundry</a></li>
+      
+    </ul>
+    <ul>
+      <li class="nav-heading">Category</li>
+      <li><a class="page-links" href="/fashion">Fashion</a></li>
+      <li><a class="page-links" href="/beauty">Beauty</a></li>
+      <li><a class="page-links" href="/lifestyle">Lifestyle</a></li>
+      <li><a class="page-links" href="/entertainment">Entertainment</a></li>
+    </ul>
+    <ul>
+      <li class="nav-heading">About</li>
+      <li><a class="page-links" href="/about">Our Studio</a></li>
+      <li><a class="page-links" href="/capability">Capabilities</a></li>
+      <li><a class="page-links" href="/blog">Blog</a></li>
+      <li><a class="page-links" href="/contact">Contact</a></li>
+      <!-- <li><a class="page-links" href="">Struture</a></li> -->
+    </ul>
+  </div>
+
+  <div id="nav-row03">
+    <div class="social-links">
+          <a class="page-links no-prevent" target="_blank" href="http://www.instagram.com/drawingfrommemory">Instagram</a>
+      <a class="page-links no-prevent" target="_blank" href="https://www.pinterest.com/dfmla/">Pinterest</a>
+    </div>
   </div>
 </div>
 

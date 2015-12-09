@@ -2191,7 +2191,7 @@ body.beauty {
   text-align: center; }
   /* line 6, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_beauty.scss */
   body.beauty .top-background {
-    background-image: url("/images/page_beauty/beauty_seedpattern.png"); }
+    background-image: url("/images/page_beauty/abstract-design.png"); }
   /* line 9, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_beauty.scss */
   body.beauty .portfolio-text-insert {
     color: #76787a;
@@ -2289,105 +2289,321 @@ body.beauty {
       top: 55.2%;
       right: 0%; }
   /* line 105, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_beauty.scss */
-  body.beauty .content .image-container-onsen {
+  body.beauty .content .image-container-trulyyours {
     position: relative;
-    padding-top: 74.44%;
+    padding-top: 137.44%;
     margin-bottom: 150px; }
     /* line 109, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_beauty.scss */
-    body.beauty .content .image-container-onsen img {
+    body.beauty .content .image-container-trulyyours img {
       position: absolute; }
     /* line 112, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_beauty.scss */
-    body.beauty .content .image-container-onsen #diving {
-      width: 15.17%;
-      top: -5.73%;
-      left: 7.81%; }
+    body.beauty .content .image-container-trulyyours #trulyyours1 {
+      width: 100%;
+      top: 0;
+      left: 0; }
     /* line 117, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_beauty.scss */
-    body.beauty .content .image-container-onsen #onsen-products {
-      width: 53.54%;
-      top: 1.57%;
-      right: 3%; }
+    body.beauty .content .image-container-trulyyours #trulyyours2 {
+      width: 21%;
+      top: 35.07%;
+      left: 8%; }
     /* line 122, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_beauty.scss */
-    body.beauty .content .image-container-onsen #onsen-imac {
-      width: 62.04%;
-      top: 38.47%;
-      left: 18.9%; }
+    body.beauty .content .image-container-trulyyours #trulyyours3 {
+      width: 26.24%;
+      top: 35.07%;
+      left: 33.9%; }
     /* line 127, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_beauty.scss */
-    body.beauty .content .image-container-onsen #cards {
-      width: 24.64%;
-      top: 83.47%;
-      right: 4.2%; }
+    body.beauty .content .image-container-trulyyours #trulyyours4 {
+      width: 46.64%;
+      top: 44.97%;
+      left: 20.6%; }
     /* line 132, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_beauty.scss */
-    body.beauty .content .image-container-onsen #brochure {
-      width: 42.94%;
+    body.beauty .content .image-container-trulyyours #trulyyours5 {
+      width: 19.94%;
+      top: 39.57%;
+      right: 16.3%; }
+    /* line 137, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_beauty.scss */
+    body.beauty .content .image-container-trulyyours #trulyyours6 {
+      width: 27.44%;
+      top: 79.67%;
+      left: 1.5%; }
+    /* line 142, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_beauty.scss */
+    body.beauty .content .image-container-trulyyours #trulyyours7 {
+      width: 29.94%;
       top: 66.57%;
-      left: 7.3%; }
-  /* line 138, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_beauty.scss */
+      right: -5%; }
+    /* line 147, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_beauty.scss */
+    body.beauty .content .image-container-trulyyours #trulyyours8 {
+      width: 30.94%;
+      top: 85.57%;
+      left: 33.3%; }
+  /* line 153, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_beauty.scss */
   body.beauty .content .image-container-skinlaundry {
     position: relative;
     padding-top: 74.44%;
     margin-bottom: 180px; }
-    /* line 142, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_beauty.scss */
+    /* line 157, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_beauty.scss */
     body.beauty .content .image-container-skinlaundry img {
       position: absolute; }
-    /* line 145, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_beauty.scss */
+    /* line 160, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_beauty.scss */
     body.beauty .content .image-container-skinlaundry #skinlaundry1 {
       width: 52.94%;
       top: 5.27%;
       right: 8%; }
-    /* line 150, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_beauty.scss */
+    /* line 165, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_beauty.scss */
     body.beauty .content .image-container-skinlaundry #skinlaundry2 {
       width: 52.94%;
       top: 27.47%;
       right: 8%; }
-    /* line 155, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_beauty.scss */
+    /* line 170, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_beauty.scss */
     body.beauty .content .image-container-skinlaundry #skinlaundry3 {
       width: 26%;
       top: 20.07%;
       left: 7.1%; }
-    /* line 160, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_beauty.scss */
+    /* line 175, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_beauty.scss */
     body.beauty .content .image-container-skinlaundry #skinlaundry-imac {
       width: 62.04%;
       top: 44.07%;
       left: 18.9%; }
-  /* line 166, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_beauty.scss */
+  /* line 181, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_beauty.scss */
   body.beauty .content .image-container-bskincare {
     position: relative;
     padding-top: 84.44%; }
-    /* line 169, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_beauty.scss */
+    /* line 184, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_beauty.scss */
     body.beauty .content .image-container-bskincare img {
       position: absolute; }
-    /* line 172, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_beauty.scss */
+    /* line 187, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_beauty.scss */
     body.beauty .content .image-container-bskincare #foursquare {
       width: 27.17%;
       top: 6.27%;
       left: 7.81%; }
-    /* line 177, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_beauty.scss */
+    /* line 192, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_beauty.scss */
     body.beauty .content .image-container-bskincare #bbox {
       width: 33.94%;
       top: 7.57%;
       right: 2.2%; }
-    /* line 182, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_beauty.scss */
+    /* line 197, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_beauty.scss */
     body.beauty .content .image-container-bskincare #bags {
       width: 13.14%;
       top: 32.17%;
       right: 36%; }
-    /* line 187, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_beauty.scss */
+    /* line 202, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_beauty.scss */
     body.beauty .content .image-container-bskincare #b-candle {
       width: 13.94%;
       top: 32.17%;
       right: 18%; }
-    /* line 192, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_beauty.scss */
+    /* line 207, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_beauty.scss */
     body.beauty .content .image-container-bskincare #store {
       width: 47.94%;
       top: 49.87%;
       right: 0%; }
+/* line 1, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_entertainment.scss */
+body.entertainment {
+  background-color: white;
+  text-align: center; }
+  /* line 4, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_entertainment.scss */
+  body.entertainment .top-background {
+    background-image: url("/images/page_entertainment/abstract-photography-1.jpg"); }
+  /* line 7, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_entertainment.scss */
+  body.entertainment .portfolio-text-insert {
+    color: #76787a;
+    position: relative;
+    z-index: 100; }
+    /* line 10, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_entertainment.scss */
+    body.entertainment .portfolio-text-insert h2 {
+      font-family: 'Gotham A', 'Gotham B';
+      text-transform: uppercase;
+      margin-top: 50px;
+      margin-bottom: 25px;
+      font-size: 30px;
+      letter-spacing: 5px;
+      font-weight: 500;
+      color: #000; }
+    /* line 20, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_entertainment.scss */
+    body.entertainment .portfolio-text-insert p {
+      font-size: 14px; }
+    /* line 23, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_entertainment.scss */
+    body.entertainment .portfolio-text-insert .tagline {
+      font-size: 12px;
+      font-family: 'Gotham A', 'Gotham B';
+      font-weight: 100; }
+  /* line 30, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_entertainment.scss */
+  body.entertainment .whatsupmoms-text {
+    width: 535px; }
+  /* line 33, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_entertainment.scss */
+  body.entertainment .selvarey-text {
+    width: 611px; }
+  /* line 36, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_entertainment.scss */
+  body.entertainment .challen-text {
+    width: 545px; }
+  /* line 40, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_entertainment.scss */
+  body.entertainment .content .image-container-whatsupmoms {
+    position: relative;
+    padding-top: 155.44%;
+    margin-bottom: 100px; }
+    /* line 44, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_entertainment.scss */
+    body.entertainment .content .image-container-whatsupmoms img {
+      position: absolute; }
+    /* line 47, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_entertainment.scss */
+    body.entertainment .content .image-container-whatsupmoms #wums1 {
+      width: 78.8%;
+      top: 3%;
+      left: 10.4%; }
+    /* line 52, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_entertainment.scss */
+    body.entertainment .content .image-container-whatsupmoms #wums2 {
+      width: 17.8%;
+      top: 42%;
+      left: 8.4%; }
+    /* line 57, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_entertainment.scss */
+    body.entertainment .content .image-container-whatsupmoms #wums3 {
+      width: 41%;
+      top: 42.43%;
+      left: 29%; }
+    /* line 62, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_entertainment.scss */
+    body.entertainment .content .image-container-whatsupmoms #wums4 {
+      width: 18.575%;
+      top: 41.4%;
+      right: 9.1%; }
+    /* line 67, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_entertainment.scss */
+    body.entertainment .content .image-container-whatsupmoms #wums5 {
+      width: 50.96%;
+      top: 84%;
+      left: 17.3%; }
+  /* line 74, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_entertainment.scss */
+  body.entertainment .content .image-container-thechic {
+    position: relative;
+    padding-top: 124.44%;
+    margin-bottom: 250px; }
+    /* line 78, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_entertainment.scss */
+    body.entertainment .content .image-container-thechic img {
+      position: absolute; }
+    /* line 81, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_entertainment.scss */
+    body.entertainment .content .image-container-thechic #logo {
+      width: 25%;
+      top: 5.73%;
+      left: 38%; }
+    /* line 86, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_entertainment.scss */
+    body.entertainment .content .image-container-thechic #left-bc-1 {
+      width: 18%;
+      top: 19%;
+      left: 10%; }
+    /* line 91, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_entertainment.scss */
+    body.entertainment .content .image-container-thechic #right-party {
+      width: 42%;
+      top: 8%;
+      right: 0; }
+    /* line 96, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_entertainment.scss */
+    body.entertainment .content .image-container-thechic #left-bc-2 {
+      width: 18%;
+      top: 35.1%;
+      left: 10%; }
+    /* line 101, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_entertainment.scss */
+    body.entertainment .content .image-container-thechic #icons {
+      width: 6%;
+      top: 48%;
+      left: 16%; }
+    /* line 106, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_entertainment.scss */
+    body.entertainment .content .image-container-thechic #chic-imac {
+      width: 52%;
+      top: 42%;
+      left: 26%; }
+    /* line 111, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_entertainment.scss */
+    body.entertainment .content .image-container-thechic #blocks {
+      width: 30%;
+      top: 66%;
+      right: 8%; }
+    /* line 116, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_entertainment.scss */
+    body.entertainment .content .image-container-thechic #portraitbig {
+      width: 100%;
+      left: 0;
+      top: 75%; }
+  /* line 122, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_entertainment.scss */
+  body.entertainment .content .image-container-tanya {
+    position: relative;
+    padding-top: 60.44%;
+    margin-bottom: 180px; }
+    /* line 126, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_entertainment.scss */
+    body.entertainment .content .image-container-tanya img {
+      position: absolute; }
+    /* line 129, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_entertainment.scss */
+    body.entertainment .content .image-container-tanya #photo1 {
+      width: 20.54%;
+      top: 2.27%;
+      left: 0; }
+    /* line 134, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_entertainment.scss */
+    body.entertainment .content .image-container-tanya #photo2 {
+      width: 20.34%;
+      top: 2.27%;
+      left: 21.1%; }
+    /* line 139, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_entertainment.scss */
+    body.entertainment .content .image-container-tanya #photo3 {
+      width: 20.04%;
+      top: 2.27%;
+      left: 42%; }
+    /* line 144, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_entertainment.scss */
+    body.entertainment .content .image-container-tanya #bcard {
+      width: 26.04%;
+      top: 23.37%;
+      right: 8.5%; }
+    /* line 149, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_entertainment.scss */
+    body.entertainment .content .image-container-tanya #collateral {
+      width: 44.04%;
+      top: 47.07%;
+      left: 5.2%; }
+    /* line 154, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_entertainment.scss */
+    body.entertainment .content .image-container-tanya #portrait {
+      width: 33.44%;
+      top: 68.77%;
+      right: 5.3%; }
+  /* line 161, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_entertainment.scss */
+  body.entertainment .content .image-container-whatifwe {
+    position: relative;
+    padding-top: 115.44%;
+    margin-bottom: 250px; }
+    /* line 165, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_entertainment.scss */
+    body.entertainment .content .image-container-whatifwe img {
+      position: absolute; }
+    /* line 168, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_entertainment.scss */
+    body.entertainment .content .image-container-whatifwe #whatifwe1 {
+      width: 91.54%;
+      top: 4.27%;
+      left: 6%; }
+    /* line 173, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_entertainment.scss */
+    body.entertainment .content .image-container-whatifwe #whatifwe2 {
+      width: 26.34%;
+      top: 40.27%;
+      left: 7.1%; }
+    /* line 178, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_entertainment.scss */
+    body.entertainment .content .image-container-whatifwe #whatifwe3 {
+      width: 46.04%;
+      top: 52.27%;
+      left: 7%; }
+    /* line 183, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_entertainment.scss */
+    body.entertainment .content .image-container-whatifwe #whatifwe4 {
+      width: 27.34%;
+      top: 52.37%;
+      right: 6.1%; }
+    /* line 188, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_entertainment.scss */
+    body.entertainment .content .image-container-whatifwe #whatifwe5 {
+      width: 20.04%;
+      top: 77.37%;
+      left: 7.2%; }
+    /* line 193, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_entertainment.scss */
+    body.entertainment .content .image-container-whatifwe #whatifwe6 {
+      width: 23.04%;
+      top: 77.77%;
+      left: 30.2%; }
+    /* line 198, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_entertainment.scss */
+    body.entertainment .content .image-container-whatifwe #whatifwe7 {
+      width: 43.44%;
+      top: 88.77%;
+      right: 28.3%; }
 /* line 1, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_fashion.scss */
 body.fashion {
   background-color: white;
   text-align: center; }
   /* line 4, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_fashion.scss */
   body.fashion .top-background {
-    background-image: url("/images/page_fashion/blue_flower2.jpg"); }
+    background-image: url("/images/page_fashion/graphic-design.jpg"); }
   /* line 7, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_fashion.scss */
   body.fashion .portfolio-text-insert {
     color: #76787a;
@@ -2569,7 +2785,7 @@ body.lifestyle {
   text-align: center; }
   /* line 4, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_lifestyle.scss */
   body.lifestyle .top-background {
-    background-image: url("/images/page_lifestyle/LC0A52071.jpg"); }
+    background-image: url("/images/page_lifestyle/Spot-Product-Photograpy-2.jpg"); }
   /* line 7, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_lifestyle.scss */
   body.lifestyle .portfolio-text-insert {
     color: #76787a;
@@ -2672,166 +2888,155 @@ body.lifestyle {
       width: 43%;
       top: 70.2%;
       right: 0; }
-  /* line 111, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_lifestyle.scss */
-  body.lifestyle .content .image-container-thechic {
-    position: relative;
-    padding-top: 74.44%;
-    margin-bottom: 250px; }
-    /* line 115, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_lifestyle.scss */
-    body.lifestyle .content .image-container-thechic img {
-      position: absolute; }
-    /* line 118, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_lifestyle.scss */
-    body.lifestyle .content .image-container-thechic #logo {
-      width: 25%;
-      top: 5.73%;
-      left: 38%; }
-    /* line 123, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_lifestyle.scss */
-    body.lifestyle .content .image-container-thechic #left-bc-1 {
-      width: 18%;
-      top: 27%;
-      left: 10%; }
-    /* line 128, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_lifestyle.scss */
-    body.lifestyle .content .image-container-thechic #right-party {
-      width: 42%;
-      top: 8%;
-      right: 0; }
-    /* line 133, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_lifestyle.scss */
-    body.lifestyle .content .image-container-thechic #left-bc-2 {
-      width: 18%;
-      top: 56%;
-      left: 10%; }
-    /* line 138, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_lifestyle.scss */
-    body.lifestyle .content .image-container-thechic #icons {
-      width: 6%;
-      top: 78%;
-      left: 16%; }
-    /* line 143, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_lifestyle.scss */
-    body.lifestyle .content .image-container-thechic #chic-imac {
-      width: 52%;
-      top: 62%;
-      left: 26%; }
-    /* line 148, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_lifestyle.scss */
-    body.lifestyle .content .image-container-thechic #blocks {
-      width: 30%;
-      top: 102%;
-      right: 8%; }
-  /* line 154, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_lifestyle.scss */
+    /* line 111, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_lifestyle.scss */
+    body.lifestyle .content .image-container-luterra #selvarey-banner {
+      width: 100%;
+      top: 66.17%;
+      left: 0; }
+  /* line 118, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_lifestyle.scss */
   body.lifestyle .content .image-container-tanya {
     position: relative;
     padding-top: 110.44%;
     margin-bottom: 180px; }
-    /* line 158, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_lifestyle.scss */
+    /* line 122, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_lifestyle.scss */
     body.lifestyle .content .image-container-tanya img {
       position: absolute; }
-    /* line 161, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_lifestyle.scss */
+    /* line 125, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_lifestyle.scss */
     body.lifestyle .content .image-container-tanya #photo1 {
       width: 20.54%;
       top: 2.27%;
       left: 0; }
-    /* line 166, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_lifestyle.scss */
+    /* line 130, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_lifestyle.scss */
     body.lifestyle .content .image-container-tanya #photo2 {
       width: 20.34%;
       top: 2.27%;
       left: 21.1%; }
-    /* line 171, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_lifestyle.scss */
+    /* line 135, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_lifestyle.scss */
     body.lifestyle .content .image-container-tanya #photo3 {
       width: 20.04%;
       top: 2.27%;
       left: 42%; }
-    /* line 176, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_lifestyle.scss */
+    /* line 140, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_lifestyle.scss */
     body.lifestyle .content .image-container-tanya #bcard {
       width: 26.04%;
       top: 13.37%;
       right: 8.5%; }
-    /* line 181, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_lifestyle.scss */
+    /* line 145, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_lifestyle.scss */
     body.lifestyle .content .image-container-tanya #collateral {
       width: 44.04%;
       top: 27.07%;
       left: 5.2%; }
-    /* line 186, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_lifestyle.scss */
+    /* line 150, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_lifestyle.scss */
     body.lifestyle .content .image-container-tanya #portrait {
       width: 33.44%;
       top: 38.77%;
       right: 5.3%; }
-    /* line 191, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_lifestyle.scss */
-    body.lifestyle .content .image-container-tanya #selvarey-banner {
-      width: 100%;
-      top: 66.17%;
-      left: 0; }
-  /* line 197, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_lifestyle.scss */
+  /* line 157, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_lifestyle.scss */
   body.lifestyle .content .image-container-selvarey {
     position: relative;
     padding-top: 85.44%; }
-    /* line 200, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_lifestyle.scss */
+    /* line 160, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_lifestyle.scss */
     body.lifestyle .content .image-container-selvarey img {
       position: absolute; }
-    /* line 203, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_lifestyle.scss */
+    /* line 163, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_lifestyle.scss */
     body.lifestyle .content .image-container-selvarey #selvarey-imac {
       width: 76%;
       top: 2%;
       left: 9%; }
-    /* line 208, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_lifestyle.scss */
+    /* line 168, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_lifestyle.scss */
     body.lifestyle .content .image-container-selvarey #bottle {
       width: 37%;
       top: 47%;
       left: 6%; }
-    /* line 213, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_lifestyle.scss */
+    /* line 173, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_lifestyle.scss */
     body.lifestyle .content .image-container-selvarey #shirt {
       width: 19%;
       top: 30%;
       right: 1%; }
-    /* line 218, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_lifestyle.scss */
+    /* line 178, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_lifestyle.scss */
     body.lifestyle .content .image-container-selvarey #coaster {
       width: 7.5%;
       top: 46%;
       right: 23.5%; }
-    /* line 223, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_lifestyle.scss */
+    /* line 183, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_lifestyle.scss */
     body.lifestyle .content .image-container-selvarey #napkin {
       width: 7.5%;
       top: 51%;
       right: 20%; }
-    /* line 228, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_lifestyle.scss */
+    /* line 188, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_lifestyle.scss */
     body.lifestyle .content .image-container-selvarey #gorilla {
       width: 22%;
       top: 61%;
       right: 5.5%; }
-    /* line 233, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_lifestyle.scss */
+    /* line 193, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_lifestyle.scss */
     body.lifestyle .content .image-container-selvarey #selvarey-phones {
       width: 32%;
       top: 82%;
       right: 15%; }
-  /* line 239, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_lifestyle.scss */
+  /* line 199, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_lifestyle.scss */
   body.lifestyle .content .image-container-challen {
     position: relative;
     padding-top: 70.44%; }
-    /* line 242, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_lifestyle.scss */
+    /* line 202, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_lifestyle.scss */
     body.lifestyle .content .image-container-challen img {
       position: absolute; }
-    /* line 245, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_lifestyle.scss */
+    /* line 205, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_lifestyle.scss */
     body.lifestyle .content .image-container-challen #bottles {
       width: 63%;
       top: 4%;
       left: 17%; }
-    /* line 250, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_lifestyle.scss */
+    /* line 210, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_lifestyle.scss */
     body.lifestyle .content .image-container-challen #quote {
       width: 26%;
       top: 60%;
       left: 37%; }
-    /* line 255, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_lifestyle.scss */
+    /* line 215, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_lifestyle.scss */
     body.lifestyle .content .image-container-challen #left-inspire {
       width: 25%;
       top: 72%;
       left: 7%; }
-    /* line 260, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_lifestyle.scss */
+    /* line 220, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_lifestyle.scss */
     body.lifestyle .content .image-container-challen #right-inspire {
       width: 25%;
       top: 72%;
       right: 7%; }
-    /* line 265, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_lifestyle.scss */
+    /* line 225, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_lifestyle.scss */
     body.lifestyle .content .image-container-challen #stamp {
       width: 9%;
       top: 79%;
       left: 18%; }
+  /* line 231, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_lifestyle.scss */
+  body.lifestyle .content .image-container-aquiesse {
+    position: relative;
+    padding-top: 98.44%; }
+    /* line 234, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_lifestyle.scss */
+    body.lifestyle .content .image-container-aquiesse img {
+      position: absolute; }
+    /* line 237, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_lifestyle.scss */
+    body.lifestyle .content .image-container-aquiesse #aquiesse1 {
+      width: 85%;
+      top: 5%;
+      left: 8.5%; }
+    /* line 242, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_lifestyle.scss */
+    body.lifestyle .content .image-container-aquiesse #aquiesse2 {
+      width: 41%;
+      top: 55%;
+      left: 8.4%; }
+    /* line 247, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_lifestyle.scss */
+    body.lifestyle .content .image-container-aquiesse #aquiesse3 {
+      width: 16%;
+      top: 75.6%;
+      left: 8.5%; }
+    /* line 252, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_lifestyle.scss */
+    body.lifestyle .content .image-container-aquiesse #aquiesse4 {
+      width: 24.3%;
+      top: 75.6%;
+      left: 25%; }
+    /* line 257, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/industry/_lifestyle.scss */
+    body.lifestyle .content .image-container-aquiesse #aquiesse5 {
+      width: 35%;
+      top: 66.8%;
+      right: 6.7%; }
 /* line 3, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_about.scss */
 body.about {
   background-color: white;
@@ -3137,6 +3342,111 @@ body.about {
             -o-transform: scaleX(-1);
             -webkit-transform: scaleX(-1);
             transform: scaleX(-1); } }
+/* line 5, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_blog.scss */
+body.blog #header {
+  position: fixed;
+  top: 25px;
+  height: 30px;
+  width: 100%;
+  z-index: 1000;
+  background-color: white;
+  padding: 6px 40px 0px 40px; }
+  /* line 13, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_blog.scss */
+  body.blog #header #logo {
+    float: left; }
+  /* line 16, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_blog.scss */
+  body.blog #header #nav-toggle {
+    float: right;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Knockout 48 A', 'Knockout 48 B';
+    -webkit-transition: all 100ms ease-in;
+    -moz-transition: all 100ms ease-in;
+    transition: all 100ms ease-in;
+    font-size: 1.5em;
+    margin-top: -3px;
+    -webkit-font-smoothing: antialiased; }
+/* line 31, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_blog.scss */
+body.blog #nav-page {
+  height: 100%;
+  z-index: 500;
+  background-color: rgba(10, 10, 10, 0.85);
+  position: fixed;
+  opacity: 0;
+  top: 0;
+  left: 100%;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+  color: white;
+  overflow-y: scroll;
+  font-family: 'Gotham A', 'Gotham B'; }
+  /* line 46, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_blog.scss */
+  body.blog #nav-page #nav-row01 {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    top: 150px; }
+    /* line 51, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_blog.scss */
+    body.blog #nav-page #nav-row01 ul {
+      width: 100%;
+      vertical-align: top; }
+      @media only screen and (max-width: 640px) {
+        /* line 51, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_blog.scss */
+        body.blog #nav-page #nav-row01 ul {
+          width: 100%; } }
+/* line 74, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_blog.scss */
+body.blog #nav-row03 {
+  position: relative;
+  top: 250px; }
+/* line 79, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_blog.scss */
+body.blog ul {
+  list-style: none;
+  margin-bottom: 40px;
+  display: inline-block;
+  width: 100%; }
+/* line 89, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_blog.scss */
+body.blog .nav-heading {
+  font-size: 1.2em;
+  margin-top: 1.6em;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  padding-bottom: 5px;
+  line-height: 20px;
+  letter-spacing: 2px; }
+/* line 102, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_blog.scss */
+body.blog li.nav-heading a {
+  border-bottom: 3px white solid;
+  -webkit-transition: border 300ms ease;
+  -moz-transition: border 300ms ease;
+  -ms-transition: border 300ms ease;
+  -o-transition: border 300ms ease;
+  transition: all 300ms ease-out; }
+  /* line 110, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_blog.scss */
+  body.blog li.nav-heading a:hover {
+    border-bottom-color: transparent; }
+/* line 117, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_blog.scss */
+body.blog li:not(.nav-heading) {
+  line-height: 1.8em;
+  font-size: .9em;
+  font-family: 'Georgia';
+  font-style: italic;
+  letter-spacing: .5px; }
+  /* line 124, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_blog.scss */
+  body.blog li:not(.nav-heading) a.page-links {
+    padding-bottom: 1px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0);
+    -webkit-transition: border 500ms ease;
+    -moz-transition: border 500ms ease;
+    -ms-transition: border 500ms ease;
+    -o-transition: border 500ms ease;
+    transition: border 500ms ease; }
+    /* line 132, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_blog.scss */
+    body.blog li:not(.nav-heading) a.page-links:hover {
+      border-bottom: 2px solid white; }
 /* line 4, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_contact.scss */
 body.contact {
   background-color: white; }
@@ -3747,7 +4057,7 @@ body.index {
       top: 0;
       width: 33.333333%;
       height: 100%;
-      padding-top: 15%;
+      padding-top: 13%;
       text-transform: uppercase;
       font-size: 1.0em; }
       /* line 389, /Applications/MAMP/htdocs/DFM_static/source/stylesheets/main_sections/_index.scss */
