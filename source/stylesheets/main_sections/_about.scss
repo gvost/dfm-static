@@ -12,7 +12,7 @@ body.about {
 
 	.content{
 		background: url(/images/page_about/top-stroke.jpg) 0 -175px no-repeat #fff;
-		background-size: 100% 18%;
+		background-size: 100% 10%;
 			
 		.top-insert-outline {
 			  border: 1px solid black; }
@@ -95,6 +95,152 @@ body.about {
 				}
 			}
 		}
+		.middle-content {
+			max-width: 1070px;
+			margin: 0 auto;
+			position: relative;
+			img {
+				width: 100%;
+			}
+			p {
+				font-family: 'Gotham A', 'Gotham B';
+			}
+			.row {
+				
+				// border: 1px solid blue;
+				p {
+					line-height: 26px;
+				}
+				.block-half {
+					position: relative;
+					width: 49.9%;
+					display: inline-block;
+					// border: 1px dashed red;
+				}
+				.block1 {
+															
+				}
+				.block2 {
+
+				}
+			}
+			#row1 {
+				height: 390px;
+				position: relative;
+				#black-drip {
+					position: relative;
+					left: 50px;
+				}
+				#dfm-stamp {
+					width: 40%;
+				}
+				.block1 {
+					text-align: right;
+					position: relative;
+					top: 20px;
+				}
+				.block2 {
+					height: 535px;
+					background-image: image-url("page_about/DFM_about_blackbox.png");
+					background-repeat: no-repeat;
+					background-position: left top;
+					background-size: contain;
+					font-family: 'Gotham A', 'Gotham B';
+					font-size: 1.1em;
+					padding: 30px;
+					line-height: 40px;
+					color: white;
+					width: 408px;
+				}
+			}
+			#row2 {
+				#moodboard {
+					width: 95%;
+				}
+				.block2 {
+					width: 355px;
+					vertical-align: top;
+					position: relative;
+					top: 70px;
+					left: 12px;
+					p {
+						margin-bottom: 30px;
+						
+					}
+				}
+			}
+			#row3 {
+				height: 585px;
+				.block1 {
+					vertical-align: top;
+					width: 60%;
+					z-index: 99;
+					p {
+						width: 325px;
+						
+					}
+					.text {
+						position: relative;
+						top: 100px;
+						#quote {
+							top: 100px;
+							position: relative;
+						}
+					}
+				}
+				.block2 {
+					position: absolute;
+					right: 0;
+				}
+			}
+			#row4 {
+				.block2 {
+					width: 475px;
+					vertical-align: top;
+					position: relative;
+					top: 70px;
+					left: 12px;
+					p {
+						margin-bottom: 30px;
+						
+					}
+				}
+			}
+			#row5 {
+				position: relative;
+				.block-full {
+					width: 62%;
+					margin: 0 auto;
+
+				}
+				
+			}
+			#splatter {
+				position: absolute;
+				width: 115px;
+				right: 0;
+				top: 0;
+			}
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 		.middle-container {
 			position: relative;
 			height: 1750px;
@@ -104,19 +250,31 @@ body.about {
 			div {
 				position: absolute;
 			}
-			.top-drops {
-				top: 140px;
-				right: 10%;
-				width: 55px;
-				height: 215px;	
-				background-image: image-url("page_about/top_drops.png");
-				background-repeat: no-repeat;
-				background-position: left top;
-				background-size: contain;	
+			.top-content-insert {
+				top: 0;
+				left: 8.33%;
+				width: 408px;
+				height: 260px;
+				font-family: 'Gotham A', 'Gotham B';
+				font-size: 1.1em;
+				padding: 30px;
+				line-height: 40px;
+				color: white;
 				@media only screen and (max-width: $mobile-width) {
-					top: 167px;
-					left: 2%;
+					left: 50%;
+					margin-left: -204px;
+					top: 70px;
 				}
+				@media only screen and (max-width: 450px) {
+					width: 320px;
+					height: 573px;
+					left: 50%;
+					margin-left: -160px;
+					background-size: cover;
+					font-size: 0.9em;
+					line-height: 30px;
+				}
+					
 			}
 			#mentioned {
 				height: 360px;
@@ -191,11 +349,11 @@ body.about {
 				}	
 			}
 			.middle-insert {
-				top: 200px;
-				left: 8.33%;
+				top: 0;
+				right: 8.33%;
 				width: 408px;
-				height: 750px;
-				background-image: image-url("page_about/textbox_with_drops.png");
+				height: 535px;
+				background-image: image-url("page_about/DFM_about_blackbox.jpg");
 				background-repeat: no-repeat;
 				background-position: left top;
 				background-size: contain;
@@ -235,9 +393,9 @@ body.about {
 				}		
 			}
 			.lower-insert {
-				top: 845px;
+				top: 435px;
 				left: 15%;
-				width: 295px;
+				width: 475px;
 				height: 750px;
 				font-family: 'Gotham A', 'Gotham B';
 				text-align: left;
@@ -275,6 +433,9 @@ body.about {
 					line-height: 15px;
 					margin: 30px 0;
 					letter-spacing: 0.3px;
+				}
+				img {
+					width: 100%;
 				}
 			}
 			.lower-drops {
