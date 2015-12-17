@@ -13,6 +13,7 @@
           <%= image_tag "page_about/DFM_about_DFMmarker.jpg", :id => "dfm-stamp", :class => "scroll-medium" %>
         </div>
         <div class="block2 block-half" id="black-drip">
+          <div id="behind-the-name">BEHIND THE NAME</div>
           Drawing from memory is an advanced artistic skill that only comes with practice and vision. It involves imagining an idea and bringing it to life without a reference point.<br><br>This is what we do everyday.
         </div>
       </div>
@@ -64,9 +65,15 @@
     </div>
     <div class="middle-container">
       <div id="mentioned">
-        <div class="scroll-slow" id="recentlyfeatured">RECENTLY FEATURED IN</div>
-        <div class="scroll-slow" id="refinery29"></div>
-        <div class="scroll-slow" id="designsponge"></div>
+        <div class="scroll-slow" id="recentlyfeatured">OUR WORK HAS RECENTLY BEEN FEATURED IN</div>
+        <div class="featured">
+          <div class="scroll-slow" id="refinery29">
+            <%= image_tag "page_about/refinery29.png", :class => "scroll-medium" %>
+          </div>
+          <div class="scroll-slow" id="designsponge">
+            <%= image_tag "page_about/designsponge.jpg", :class => "scroll-medium" %>
+          </div>
+        </div>
       </div>
     </div>
     <%= partial "layouts/work_with_us" %>
