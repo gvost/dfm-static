@@ -20,7 +20,7 @@ get_header(); ?>
 		<div class="container cf">
 
 			<div class="title-wrapper">
-				<?php pile::the_archive_title(); ?>
+				<h1>Current Events</h1>
 			</div>
 			<div class="pile  pile--blog">
 				<?php //first the sticky posts

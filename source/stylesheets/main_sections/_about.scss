@@ -13,6 +13,9 @@ body.about {
 	.content{
 		background: url(/images/page_about/top-stroke.jpg) 0 -175px no-repeat #fff;
 		background-size: 100% 10%;
+		@media only screen and (max-width: 818px) {
+			background-size: 100% 7%;
+		}
 			
 		.top-insert-outline {
 			  border: 1px solid black; }
@@ -116,6 +119,13 @@ body.about {
 					width: 49.9%;
 					display: inline-block;
 					// border: 1px dashed red;
+					h3 {
+						font-family: 'Gotham A', 'Gotham B';
+						font-weight: normal;
+					}
+					@media only screen and (max-width: 818px) {
+						width: 100%;
+					}
 				}
 				.block1 {
 															
@@ -127,10 +137,21 @@ body.about {
 			#row1 {
 				height: 390px;
 				position: relative;
+				@media only screen and (max-width: 818px) {
+					height: auto;
+					text-align: center;
+				}
 				#black-drip {
 					position: relative;
 					left: 50px;
 					line-height: 38px;
+					@media only screen and (max-width: 818px) {
+						top: 50px;
+						text-align: left;
+						left: 0;
+						width: 100%;
+						line-height: 26px;
+					}
 					#behind-the-name {
 						color: gray;
 						text-align: center;
@@ -143,6 +164,10 @@ body.about {
 					text-align: right;
 					position: relative;
 					top: 20px;
+					@media only screen and (max-width: 818px) {
+						text-align: center;
+
+					}
 				}
 				.block2 {
 					height: 535px;
@@ -159,8 +184,12 @@ body.about {
 				}
 			}
 			#row2 {
+				@media only screen and (max-width: 818px) {
+					text-align: center;
+				}
 				#moodboard {
 					width: 95%;
+
 				}
 				.block2 {
 					width: 355px;
@@ -168,6 +197,15 @@ body.about {
 					position: relative;
 					top: 70px;
 					left: 12px;
+					@media only screen and (max-width: 1014px) {
+						top: 0;
+					}
+					@media only screen and (max-width: 818px) {
+						text-align: left;
+						top: 50px;
+						width: 275px;
+						left: 0;
+					}
 					p {
 						margin-bottom: 30px;
 						
@@ -176,35 +214,72 @@ body.about {
 			}
 			#row3 {
 				height: 585px;
+				@media only screen and (max-width: 818px) {
+					height: auto;
+				}
 				.block1 {
 					vertical-align: top;
 					width: 60%;
 					z-index: 99;
+					@media only screen and (max-width: 1014px) {
+						// text-align: center;
+					}
+					@media only screen and (max-width: 818px) {
+						width: 100%;
+						text-align: center
+					}
 					p {
 						width: 325px;
+						@media only screen and (max-width: 818px) {
+							width: auto;
+							text-align: left;
+						}
 						
 					}
 					.text {
 						position: relative;
 						top: 100px;
+						@media only screen and (max-width: 818px) {
+							width: 275px;
+							display: inline-block;
+						}
 						#quote {
-							top: 100px;
-							position: relative;
+							margin-top: 100px;
+							
 						}
 					}
 				}
 				.block2 {
 					position: absolute;
 					right: 0;
+					@media only screen and (max-width: 818px) {
+						position: relative;
+						margin-top: 220px;
+					}
 				}
 			}
 			#row4 {
+				@media only screen and (max-width: 818px) {
+					text-align: center;
+				}
+				.block1 {
+					@media only screen and (max-width: 818px) {
+						margin-top: 60px;
+					}
+				}
 				.block2 {
 					width: 475px;
 					vertical-align: top;
 					position: relative;
 					top: 70px;
 					left: 12px;
+					@media only screen and (max-width: 818px) {
+						left: 0;
+						text-align: left;
+						width: 275px;
+						top: 0;
+						margin-top: 70px;
+					}
 					p {
 						margin-bottom: 30px;
 						
@@ -216,6 +291,10 @@ body.about {
 				.block-full {
 					width: 62%;
 					margin: 0 auto;
+					@media only screen and (max-width: 818px) {
+						width: 275px;
+						margin-bottom: 50px;
+					}
 
 				}
 				
@@ -225,6 +304,9 @@ body.about {
 				width: 115px;
 				right: 0;
 				top: 0;
+				@media only screen and (max-width: 818px) {
+					display: none;
+				}
 			}
 		}
 
@@ -251,8 +333,8 @@ body.about {
 			height: 530px;
 			width: 90%;
 			margin: 0 auto;
-			@media only screen and (max-width: $mobile-width) {
-				height: 1800px;
+			@media only screen and (max-width: 818px) {
+				height: 500px;
 			}
 			div {
 				position: absolute;
@@ -293,13 +375,13 @@ body.about {
 				@media only screen and (max-width: 1100px) {
 					display: none;
 				}
-				@media only screen and (max-width: $mobile-width) {
+				@media only screen and (max-width: 818px) {
 					display: block;
 					margin: 0 auto;
 					position: relative;
 					width: 90%;
 					left: auto;
-					top: 648px;
+					
 				}
 			}
 
@@ -338,12 +420,14 @@ body.about {
 					// background-repeat: no-repeat;
 					// background-position: left top;
 					// background-size: contain;	
-					@media only screen and (max-width: $mobile-width) {
-						top: 167px;
-						height: 144px;
+					@media only screen and (max-width: 818px) {
+						width: 100%;
+						// top: 167px;
+						// height: 144px;
+						margin-bottom: 100px;
 					}
 					img {
-						width: 30%
+						width: 40%
 					}
 				}
 				#designsponge {
@@ -358,8 +442,13 @@ body.about {
 					// background-repeat: no-repeat;
 					// background-position: left bottom;
 					// background-size: contain;	
-					@media only screen and (max-width: $mobile-width) {
-						height: 135px;
+					@media only screen and (max-width: 818px) {
+						width: 100%;
+						margin-bottom: 100px;
+						img {
+							width: 100%;
+						}
+
 					}	
 				}
 			}
@@ -381,6 +470,7 @@ body.about {
 					left: 50%;
 					margin-left: -204px;
 					top: 70px;
+
 				}
 				@media only screen and (max-width: 450px) {
 					width: 320px;
